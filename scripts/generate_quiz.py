@@ -9,7 +9,7 @@ anything is written, so a failure never leaves a half-built site.
 
 Env:
   GEMINI_API_KEY   required (GitHub repo secret)
-  GEMINI_MODEL     default: gemini-2.0-flash
+  GEMINI_MODEL     default: gemini-2.5-flash
   QUIZZES_PER_DAY  default: 3
   SITE_DOMAIN      default: https://quizpop.pages.dev/
 """
@@ -24,7 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root (quizpop-site contents)
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 PER_DAY = int(os.environ.get("QUIZZES_PER_DAY", "3"))
 DOMAIN = os.environ.get("SITE_DOMAIN", "https://quizpop.pages.dev/").rstrip("/") + "/"
 
