@@ -31,6 +31,50 @@ DOMAIN = os.environ.get("SITE_DOMAIN", "https://quizpop.pages.dev/").rstrip("/")
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
                 "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/"]
 
+# ── SEO keyword targets (research 2026-09-29, quizpop-keyword-research-20260929-1818).
+# Low-competition long-tail keywords for US/UK/CA/AU. Priority order: easiest wins first.
+# The pipeline works through these in order, skipping anything already published.
+KEYWORD_TARGETS = [
+    # priority 1 — easiest wins
+    {"kw": "what is my aesthetic quiz", "cluster": "decade/aesthetic", "angle": "which aesthetic are you (cottagecore, dark academia, Y2K, minimal)?"},
+    {"kw": "short love language quiz no sign up", "cluster": "love", "angle": "5-question version, result shown instantly with no email"},
+    {"kw": "career quiz for teens", "cluster": "career/money", "angle": "fun career matcher for teens — no boring aptitude-test tone"},
+    {"kw": "free career quiz for adults no sign up", "cluster": "career/money", "angle": "quick career-path finder, instant result, no email wall"},
+    {"kw": "money personality quiz", "cluster": "career/money", "angle": "are you a saver, spender, investor or giver?"},
+    {"kw": "which decade do i belong in quiz", "cluster": "decade/aesthetic", "angle": "alternate phrasing of our decade quiz — 60s/70s/80s/90s/2000s"},
+    # priority 2
+    {"kw": "love language quiz for couples", "cluster": "love", "angle": "couples edition — compare your love languages"},
+    {"kw": "what is my love language test", "cluster": "love", "angle": "full 5-love-languages test, instant result"},
+    {"kw": "which disney princess am i quiz", "cluster": "decade/aesthetic", "angle": "original wording — personality-mapped princess results"},
+    {"kw": "what kind of witch am i quiz", "cluster": "decade/aesthetic", "angle": "cottage witch, sea witch, kitchen witch..."},
+    {"kw": "which greek god are you quiz", "cluster": "decade/aesthetic", "angle": "zeus, athena, apollo, artemis..."},
+    {"kw": "what dessert am i quiz", "cluster": "food", "angle": "which dessert matches your personality"},
+    {"kw": "which pizza topping are you quiz", "cluster": "food", "angle": "fun food-personality quiz"},
+    {"kw": "morning person or night owl quiz", "cluster": "decade/aesthetic", "angle": "chronotype quiz with fun results"},
+    # priority 3 — high-volume, medium competition
+    {"kw": "hard trivia questions for adults with answers", "cluster": "trivia", "angle": "50-question listicle-style quiz, hidden answers"},
+    {"kw": "tricky riddles for adults with answers", "cluster": "riddles", "angle": "30-riddle collection, answers revealed as you play"},
+    {"kw": "fun quizzes to take when bored", "cluster": "decade/aesthetic", "angle": "boredom-buster personality quiz"},
+    {"kw": "what should i be for halloween quiz", "cluster": "seasonal", "angle": "costume picker quiz"},
+    {"kw": "am i in love quiz", "cluster": "love", "angle": "signs-you're-in-love checklist quiz"},
+    {"kw": "does he like me quiz", "cluster": "love", "angle": "does-he-like-me signs quiz for teens"},
+]
+
+# Seasonal overrides: if today falls in a window, one quiz MUST target the seasonal keyword.
+# Windows start 6-8 weeks before the holiday so Google can index in time.
+SEASONAL_WINDOWS = [
+    ("08-15", "10-31", {"kw": "halloween personality quiz", "cluster": "seasonal",
+        "angle": "which halloween monster/character are you"}),
+    ("09-15", "11-30", {"kw": "thanksgiving quiz", "cluster": "seasonal",
+        "angle": "which thanksgiving food are you"}),
+    ("10-15", "12-28", {"kw": "christmas personality quiz", "cluster": "seasonal",
+        "angle": "which christmas movie character are you"}),
+    ("11-15", "01-10", {"kw": "new year quiz", "cluster": "seasonal",
+        "angle": "what will the new year bring you"}),
+    ("12-20", "02-14", {"kw": "valentine's day quiz", "cluster": "seasonal",
+        "angle": "what's your valentine's love style"}),
+]
+
 
 # ── Gemini REST call (stdlib only) ──────────────────────────────────────────
 def gemini(prompt, temperature=0.9):
@@ -77,14 +121,16 @@ Score each 1-10 on: us_appeal, click_reveal (urge to see result), video_ability 
 Return a JSON array of the TOP {n} as {{"topic": "...", "format": "personality|trivia|riddle", "quiz_concept": "one-line quiz concept", "total": <sum of the 4 scores>}} sorted by total desc. Return ONLY the JSON array."""
 
 
-def gen_prompt(concept, fmt):
+def gen_prompt(concept, fmt, target_kw=None):
     if fmt == "personality":
         q_spec = '{"q": "...", "options": ["a","b","c","d"], "scores": [0-40, 0-40, 0-40, 0-40]}'
     else:
         q_spec = '{"q": "...", "options": ["a","b","c","d"], "correct": 0-3}'
+    kw_line = (f"TARGET KEYWORD (US search): \"{target_kw}\" — the quiz title, seo_title and meta_description "
+               f"must target this exact phrase; the seo_intro must answer it.\n" if target_kw else "")
     return f"""You write original, family-friendly quizzes for QuizPop (US audience, grade-6 reading level).
 Concept: {concept} | Format: {fmt}
-Return ONLY this JSON object (no markdown, no commentary):
+{kw_line}Return ONLY this JSON object (no markdown, no commentary):
 {{
  "title": "catchy title, max 60 chars",
  "slug": "url-slug-lowercase-hyphens",
@@ -95,9 +141,10 @@ Return ONLY this JSON object (no markdown, no commentary):
  "questions": [ exactly 6 items, each {q_spec} ],
  "results": [ exactly 3 items: {{"title": "...", "description": "40-80 words"}} ],
  "seo_title": "max 60 chars",
- "meta_description": "max 155 chars"
+ "meta_description": "max 155 chars",
+ "faq": [ exactly 3 items: {"q": "a real 'people also ask' style question about this quiz topic", "a": "helpful 1-2 sentence answer, 40-60 words"} ]
 }}
-Rules: 100% original wording (never copy existing quizzes); trivia/riddle answers must be well-established facts with exactly one correct option; personality results are fun, varied descriptions; NO medical/psychological diagnosis claims; NO politics/tragedy/health content."""
+Rules: 100% original wording (never copy existing quizzes); trivia/riddle answers must be well-established facts with exactly one correct option; personality results are fun, varied descriptions; NO medical/psychological diagnosis claims; NO politics/tragedy/health content; seo_title should contain the target keyword phrase naturally; the first FAQ question should directly answer the target keyword query."""
 
 
 # ── Validation & normalization ──────────────────────────────────────────────
@@ -149,6 +196,9 @@ def normalize_quiz(q):
             "seo_intro": q["seo_intro"], "tags": q["tags"][:6],
             "questions": questions, "results": results,
             "seo_title": q["seo_title"][:70], "meta_description": q["meta_description"][:160],
+            "faq": [{"q": str(i.get("q", ""))[:200], "a": str(i.get("a", ""))[:400]}
+                    for i in (q.get("faq") or [])[:3]
+                    if isinstance(i, dict) and i.get("q") and i.get("a")],
         }
     except (KeyError, TypeError, ValueError):
         return None
@@ -170,6 +220,20 @@ def render_page(q, related):
     page = page.replace("__QUIZ_DATA_JSON__",
                         json.dumps({"questions": q["questions"], "results": q["results"]},
                                    ensure_ascii=False))
+    # FAQ: visible PAA answers + FAQPage schema
+    faq_items = q.get("faq") or []
+    if faq_items:
+        faq_html = "".join(
+            f'<p><strong>{html.escape(i["q"])}</strong> {html.escape(i["a"])}</p>'
+            for i in faq_items)
+        schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": i["q"],
+             "acceptedAnswer": {"@type": "Answer", "text": i["a"]}} for i in faq_items]}
+        faq_block = faq_html + ('<script type="application/ld+json">' +
+                                json.dumps(schema, ensure_ascii=False) + '</script>')
+    else:
+        faq_block = ""
+    page = page.replace("__FAQ_BLOCK__", faq_block)
     return page
 
 
@@ -184,29 +248,73 @@ def write_sitemap(quizzes):
         f"{items}\n</urlset>\n")
 
 
+def in_window(start, end, today=None):
+    """MM-DD window check, handles year wraparound (e.g. 12-20 -> 01-10)."""
+    today = today or date.today()
+    mmdd = today.strftime("%m-%d")
+    if start <= end:
+        return start <= mmdd <= end
+    return mmdd >= start or mmdd <= end
+
+
+def pick_concepts(published_slugs, published_titles, n):
+    """Return n quiz concepts: seasonal override first, then keyword targets,
+    then fall back to trend discovery. Each item: (concept, format, target_kw)."""
+    concepts = []
+    covered = " ".join(published_slugs + published_titles).lower()
+
+    # 1. seasonal override
+    for start, end, target in SEASONAL_WINDOWS:
+        if in_window(start, end):
+            if target["kw"].split()[0] not in covered:
+                concepts.append((target["angle"], "personality", target["kw"]))
+                covered += " " + target["kw"]
+            break
+
+    # 2. keyword targets in priority order
+    for target in KEYWORD_TARGETS:
+        if len(concepts) >= n:
+            break
+        key = target["kw"].split()[0]
+        if key in covered:
+            continue
+        fmt = "personality"
+        if target["cluster"] in ("trivia",):
+            fmt = "trivia"
+        elif target["cluster"] in ("riddles",):
+            fmt = "riddle"
+        concepts.append((target["angle"], fmt, target["kw"]))
+        covered += " " + target["kw"]
+
+    # 3. trend discovery fills any remaining slots
+    if len(concepts) < n:
+        print(f"Step 1/3: discovering trends ({n - len(concepts)} slots)…")
+        topics = gemini(trend_prompt())
+        picks = gemini(score_prompt(topics, published_titles, n - len(concepts)))
+        for p in picks:
+            concepts.append((p["quiz_concept"], p.get("format", "personality"), None))
+    else:
+        print("Step 1/3: keyword targets cover all slots — skipping trend discovery.")
+    return concepts
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 def main():
     quizzes_path = ROOT / "quizzes.json"
     quizzes = json.loads(quizzes_path.read_text()) if quizzes_path.exists() else []
     existing_slugs = {z["slug"] for z in quizzes}
     published = [z["title"] for z in quizzes]
+    published_slugs = [z["slug"] for z in quizzes]
 
-    print("Step 1/3: discovering trends…")
-    topics = gemini(trend_prompt())
-    print(f"  got {len(topics)} topics")
+    concepts = pick_concepts(published_slugs, published, PER_DAY)
 
-    print("Step 2/3: scoring topics…")
-    picks = gemini(score_prompt(topics, published, PER_DAY))
-    print("  picks:", [p.get("quiz_concept", "?")[:60] for p in picks])
-
-    print("Step 3/3: generating quizzes…")
+    print("Step 2/3: generating quizzes…")
     new_quizzes = []
-    for p in picks:
-        raw = gemini(gen_prompt(p["quiz_concept"], p.get("format", "personality")),
-                     temperature=1.0)
+    for concept, fmt, target_kw in concepts:
+        raw = gemini(gen_prompt(concept, fmt, target_kw), temperature=1.0)
         q = normalize_quiz(raw)
         if not q:
-            print(f"  SKIP (failed validation): {p.get('quiz_concept', '?')[:60]}")
+            print(f"  SKIP (failed validation): {concept[:60]}")
             continue
         base, i = q["slug"], 2
         while q["slug"] in existing_slugs:
