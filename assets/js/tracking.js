@@ -53,7 +53,7 @@ document.querySelectorAll("a[data-smartlink]").forEach(function (a) {
     bar.innerHTML = '<span>We use cookies for analytics and, in the future, personalized ads. See our <a href="/privacy/" style="color:#ffd166">Privacy Policy</a>.</span>';
     var btn = document.createElement("button");
     btn.textContent = "Got it";
-    btn.style.cssText = "background:#ff5d8f;border:0;color:#fff;font-weight:700;padding:8px 18px;border-radius:999px;cursor:pointer";
+    btn.style.cssText = "background:#4f46e5;border:0;color:#fff;font-weight:700;padding:8px 18px;border-radius:999px;cursor:pointer";
     btn.onclick = function () {
       try { localStorage.setItem("qp_cookie_consent", "1"); } catch (e) {}
       bar.remove();

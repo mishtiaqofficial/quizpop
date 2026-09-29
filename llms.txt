@@ -1,0 +1,45 @@
+# QuizPop
+
+> Free personality quizzes, trivia quizzes and riddles with instant results. No sign-up, no email required. New quizzes published daily.
+
+QuizPop (https://quizpop.pages.dev/) is a mobile-friendly quiz website. Every quiz is free,
+takes about a minute, and shows the result instantly on the page — results are never
+gated behind ads, clicks or sign-ups.
+
+## Start here
+
+- [QuizPop home — fun quizzes, trivia & riddles](https://quizpop.pages.dev/)
+- [Trending quizzes](https://quizpop.pages.dev/trending/)
+- [Search all quizzes](https://quizpop.pages.dev/search/)
+
+## Quiz categories
+
+- [Personality quizzes](https://quizpop.pages.dev/personality/) — career, food, aesthetic, decade, love-language and lifestyle quizzes
+- [Trivia quizzes](https://quizpop.pages.dev/trivia/) — hard trivia questions, general knowledge and themed trivia
+- [Riddles](https://quizpop.pages.dev/riddles/) — tricky riddles with answers for adults and kids
+
+## Popular quizzes
+
+- [What Career Should I Have? Quiz](https://quizpop.pages.dev/quiz/what-career-should-i-have-quiz/)
+- [Money Personality Quiz](https://quizpop.pages.dev/quiz/money-personality-quiz/)
+- [What Food Am I? Quiz](https://quizpop.pages.dev/quiz/what-food-am-i-quiz/)
+- [Which Decade Do You Belong In?](https://quizpop.pages.dev/quiz/which-decade-do-you-belong-in/)
+- [What Is My Aesthetic Quiz](https://quizpop.pages.dev/quiz/what-is-my-aesthetic-quiz/)
+- [7 Tricky Riddles (With Answers)](https://quizpop.pages.dev/quiz/7-tricky-riddles/)
+- [Halloween Costume Quiz](https://quizpop.pages.dev/quiz/halloween-costume-quiz/)
+- [Short Love Language Quiz — No Sign Up](https://quizpop.pages.dev/quiz/short-love-language-quiz-no-sign-up/)
+
+## About and policies
+
+- [About QuizPop](https://quizpop.pages.dev/about/)
+- [Contact](https://quizpop.pages.dev/contact/)
+- [Privacy Policy](https://quizpop.pages.dev/privacy/)
+- [Terms of Use](https://quizpop.pages.dev/terms/)
+- [Affiliate Disclosure](https://quizpop.pages.dev/disclosure/)
+
+## Content notes for agents
+
+- All quiz content is original and written for entertainment only.
+- Quiz pages include FAQPage structured data answering common questions.
+- Contact and newsletter forms are processed via Formspree; the site owner can be reached at teamjaandigital@gmail.com.
+- Sponsored content, where present, is clearly labeled and never required to see a quiz result.
