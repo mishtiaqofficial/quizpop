@@ -50,6 +50,7 @@ main{max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem}
 
 /* Sponsored CTA block */
 .sponsored-block{margin:2rem 0;padding:1.25rem;border:1px dashed #cbd5e1;border-radius:12px;background:var(--soft);text-align:center}
+.sponsored-title{font-size:1.15rem;font-weight:700;margin:.5rem 0 1rem;color:var(--ink)}
 .sponsored-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
 .ftc-note{font-size:.75rem;color:var(--faint);margin:.25rem 0 .75rem}
 .cta-btn{display:inline-block;padding:.9rem 2.2rem;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;min-height:48px}

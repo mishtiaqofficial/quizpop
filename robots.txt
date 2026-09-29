@@ -2,5 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://quizpop.pages.dev/sitemap.xml
-
-Agentmap: /.well-known/ai-catalog.json
