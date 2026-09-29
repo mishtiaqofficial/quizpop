@@ -38,3 +38,27 @@ document.querySelectorAll("a[data-smartlink]").forEach(function (a) {
     a.href = smartlinkURL(src, "quiz_funnel", page + "__" + (a.getAttribute("data-cta") || "cta"));
   });
 });
+
+/* QuizPop cookie consent banner (AdSense readiness).
+   Simple, non-blocking: informs visitors about cookies for analytics and
+   future advertising, links to /privacy/, remembers choice in localStorage. */
+(function () {
+  try {
+    if (localStorage.getItem("qp_cookie_consent")) return;
+    var bar = document.createElement("div");
+    bar.id = "qp-cookie-bar";
+    bar.setAttribute("role", "dialog");
+    bar.setAttribute("aria-label", "Cookie notice");
+    bar.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#1e1b2e;color:#fff;padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;font-size:14px;box-shadow:0 -2px 12px rgba(0,0,0,.25)";
+    bar.innerHTML = '<span>We use cookies for analytics and, in the future, personalized ads. See our <a href="/privacy/" style="color:#ffd166">Privacy Policy</a>.</span>';
+    var btn = document.createElement("button");
+    btn.textContent = "Got it";
+    btn.style.cssText = "background:#ff5d8f;border:0;color:#fff;font-weight:700;padding:8px 18px;border-radius:999px;cursor:pointer";
+    btn.onclick = function () {
+      try { localStorage.setItem("qp_cookie_consent", "1"); } catch (e) {}
+      bar.remove();
+    };
+    bar.appendChild(btn);
+    document.addEventListener("DOMContentLoaded", function () { document.body.appendChild(bar); });
+  } catch (e) {}
+})();

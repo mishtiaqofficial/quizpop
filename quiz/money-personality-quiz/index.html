@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Money Personality Quiz: What's Your Money Style? (Free) — QuizPop</title>
+<meta name="description" content="Money personality quiz: are you a saver, spender, investor or avoider? Free 60-second quiz, no sign-up, instant results.">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="canonical" href="https://quizpop.pages.dev/quiz/money-personality-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Money Personality Quiz: What's Your Money Style? (Free) — QuizPop">
+<meta property="og:description" content="Money personality quiz: are you a saver, spender, investor or avoider? Free 60-second quiz, no sign-up, instant results.">
+<meta property="og:url" content="https://quizpop.pages.dev/quiz/money-personality-quiz/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a money personality?","acceptedAnswer":{"@type":"Answer","text":"Your money personality is the pattern of attitudes and behaviors you have around money — whether you naturally save, spend, invest, or avoid dealing with finances. This free quiz reveals yours in about 60 seconds."}},{"@type":"Question","name":"What are the 4 money personalities?","acceptedAnswer":{"@type":"Answer","text":"The four common money personalities are the Saver (disciplined and prepared), the Spender (generous and spontaneous), the Investor (strategic and forward-thinking), and the Avoider (relaxed about money, sometimes too relaxed)."}},{"@type":"Question","name":"Can a money personality quiz help me save money?","acceptedAnswer":{"@type":"Answer","text":"This quiz is for entertainment only, not financial advice — but knowing your money personality can highlight the habits worth working on, which is a useful first step."}}]}</script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Money Personality Quiz</h1>
+<p>What's your money style — saver, spender, investor or avoider? Free 60-second quiz, no sign-up, instant results.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/what-is-my-aesthetic-quiz/">What Is My Aesthetic Quiz?</a>
+<a href="/quiz/which-decade-do-you-belong-in/">Which Decade Do You Belong In?</a>
+<a href="/quiz/whats-your-love-language/">What's My Love Language?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Do you save every penny, spend on the moment, invest for the future, or avoid thinking about money altogether? Your money personality shapes every financial decision you make — from impulse buys to retirement plans — and understanding it is the first step toward building better money habits.</p>
+<p>This free money personality quiz asks 8 quick questions about your spending, saving, and investing habits, then reveals whether you're a Saver, a Spender, an Investor, or an Avoider. No sign-up, no email — just honest, instant results in about 60 seconds.</p>
+<p>Unlike a boring finance survey, this money personality quiz is built to be fun and surprisingly revealing. Take the quiz below to discover your money style, then share it with friends — you might be surprised how different everyone's money personalities are. Remember: it's for entertainment only, not financial advice.</p>
+<p><strong>What is a money personality?</strong> Your money personality is the pattern of attitudes and behaviors you have around money — whether you naturally save, spend, invest, or avoid dealing with finances. This free quiz reveals yours in about 60 seconds.</p>
+<p><strong>What are the 4 money personalities?</strong> The four common money personalities are the Saver (disciplined and prepared), the Spender (generous and spontaneous), the Investor (strategic and forward-thinking), and the Avoider (relaxed about money, sometimes too relaxed).</p>
+<p><strong>Is it really free?</strong> Yes — completely free, with no sign-up or email required, and your result appears instantly. We're supported by clearly-labeled sponsored links, like the one above.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {
+  questions: [
+    { q: "Payday arrives. Your first move:", o: ["Move a chunk straight to savings", "Treat myself — I earned it", "Put it into stocks or investments", "Leave it in checking and deal with it later"], s: [10, 20, 30, 40] },
+    { q: "Your savings account is:", o: ["Growing every month, untouched", "What's a savings account?", "Part of a diversified portfolio", "I try not to look at it"], s: [10, 20, 30, 40] },
+    { q: "A surprise $500 lands in your lap:", o: ["Bank it, obviously", "Shopping spree time", "Invest it and forget it", "Nice — I'll figure it out later"], s: [10, 20, 30, 40] },
+    { q: "Pick a money motto:", o: ["A penny saved is a penny earned", "You can't take it with you", "Make your money work for you", "Money stresses me out"], s: [10, 20, 30, 40] },
+    { q: "Your biggest money habit:", o: ["Tracking every expense", "Impulse buying", "Researching investments", "Ignoring bank statements"], s: [10, 20, 30, 40] },
+    { q: "Friends ask to split a fancy dinner bill:", o: ["I calculate my share exactly", "Sure — this round's on me!", "I think about the networking ROI", "Ugh, can someone else handle it?"], s: [10, 20, 30, 40] },
+    { q: "Retirement planning is:", o: ["Already underway, thanks", "A future-me problem", "My favorite spreadsheet", "Something I avoid thinking about"], s: [10, 20, 30, 40] },
+    { q: "Your wallet or purse right now:", o: ["Organized, receipts filed", "Full of loyalty cards and loose receipts", "Mostly digital — apps do the work", "No idea what's in there"], s: [10, 20, 30, 40] }
+  ],
+  results: [
+    { min: 0, max: 140, t: "You're a Saver 💰", d: "Steady, disciplined and prepared. You find real joy in watching your savings grow — future you is already thanking you." },
+    { min: 141, max: 200, t: "You're a Spender 🛍️", d: "Generous, spontaneous and fun. You believe money is for living — just make sure the impulse buys don't outrun the paycheck." },
+    { min: 201, max: 260, t: "You're an Investor 📈", d: "Strategic, patient and forward-thinking. You play the long game and let compound interest do the heavy lifting." },
+    { min: 261, max: 99999, t: "You're an Avoider 😌", d: "Relaxed and easygoing about money — sometimes too relaxed. A little structure could turn that calm into real confidence." }
+  ]
+};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S10CQJF8N3');
+</script>
+</body>
+</html>
