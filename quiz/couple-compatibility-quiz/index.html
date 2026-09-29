@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Couple Compatibility Quiz (Just for Fun) — QuizPop</title>
+<meta name="description" content="This couple compatibility quiz is just for fun — 8 playful questions for you and your partner. Free, no sign-up, instant compatibility result.">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="canonical" href="https://quizpop.pages.dev/quiz/couple-compatibility-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Couple Compatibility Quiz (Just for Fun) — QuizPop">
+<meta property="og:description" content="This couple compatibility quiz is just for fun — 8 playful questions for you and your partner. Free, no sign-up, instant compatibility result.">
+<meta property="og:url" content="https://quizpop.pages.dev/quiz/couple-compatibility-quiz/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a couple compatibility quiz for fun?","acceptedAnswer":{"@type":"Answer","text":"A couple compatibility quiz for fun is a lighthearted quiz that playfully scores how well you and your partner click — from cute chaos duo to soulmate-level sync. It's entertainment, not a real relationship test."}},{"@type":"Question","name":"Should I take relationship advice from a quiz?","acceptedAnswer":{"@type":"Answer","text":"No — and this one says so right in the title. A couple compatibility quiz for fun is a conversation starter and a laugh, not relationship advice. For real concerns, talk to each other or a professional."}},{"@type":"Question","name":"How do we take this quiz as a couple?","acceptedAnswer":{"@type":"Answer","text":"Each partner answers the 8 questions about your dynamic, then compare results. It's free with no sign-up, takes two minutes, and works great as a date-night game."}}]}</script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Couple Compatibility Quiz</h1>
+<p>Just for fun! 8 playful questions about your dynamic — get your compatibility result instantly. Free, no sign-up.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/love-language-quiz-for-couples/">Love Language Quiz for Couples: Take It Together</a>
+<a href="/quiz/am-i-in-love-quiz/">Am I In Love? Quiz: 8 Telling Signs</a>
+<a href="/quiz/whats-your-love-language/">What's My Love Language?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>This couple compatibility quiz for fun does exactly what the title promises: it's fun. Answer 8 playful questions about how you and your partner actually operate — who apologizes first, who picks the restaurant, who falls asleep during the movie — and get a lighthearted compatibility result. No psychology degree required, no serious verdicts delivered.</p>
+<p>The best way to play? Both of you take it. Answer about your real dynamic, compare results, and argue lovingly about the ones you disagree on. Couples who've played tell us the debate afterward is the real prize. It's free, takes two minutes, needs no sign-up — the perfect low-effort date-night game.</p>
+<p>One honest note: a couple compatibility quiz for fun is not relationship advice and never pretends to be. Real compatibility is built over years, not eight questions. But a shared laugh over your result? That genuinely counts for something. Take the quiz below and enjoy.</p>
+<p><strong>What is a couple compatibility quiz for fun?</strong> A couple compatibility quiz for fun is a lighthearted quiz that playfully scores how well you and your partner click — from cute chaos duo to soulmate-level sync. It's entertainment, not a real relationship test.</p>
+<p><strong>Should I take relationship advice from a quiz?</strong> No — and this one says so right in the title. A couple compatibility quiz for fun is a conversation starter and a laugh, not relationship advice. For real concerns, talk to each other or a professional.</p>
+<p><strong>How do we take this quiz as a couple?</strong> Each partner answers the 8 questions about your dynamic, then compare results. It's free with no sign-up, takes two minutes, and works great as a date-night game.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {
+  questions: [
+    { q: "Who apologizes first after a fight?", o: ["Me, always — I hate tension", "Them — I'm stubborn", "Whoever realizes first, honestly", "We just pretend it never happened"], s: [10, 20, 30, 40] },
+    { q: "Picking a restaurant goes like:", o: ["We instantly agree — same taste", "A fun debate, then a great pick", "I choose, they happily follow", "Thirty minutes of you pick, no you pick"], s: [10, 20, 30, 40] },
+    { q: "Your texting dynamic is:", o: ["Constant, all day, every day", "Good morning and goodnight, solid", "Memes mostly, and that's perfect", "We call — we're old souls"], s: [10, 20, 30, 40] },
+    { q: "Movie night: who picks?", o: ["We have a perfect rotation system", "Rock-paper-scissors decides", "Whoever cares more that night", "We watch the same comfort show again"], s: [10, 20, 30, 40] },
+    { q: "Your biggest shared trait:", o: ["Same humor — we laugh at everything", "Same values, different vibes", "We're opposites and it works", "Competitive about literally everything"], s: [10, 20, 30, 40] },
+    { q: "Road trip roles:", o: ["I'm the DJ, they're the navigator", "They drive, I snack-supply", "We switch — total teamwork", "We'd get lost and love it"], s: [10, 20, 30, 40] },
+    { q: "How do you handle stress as a pair?", o: ["Talk it out immediately", "Space first, then reconvene", "Laughter — always laughter", "Snacks. Snacks fix everything"], s: [10, 20, 30, 40] },
+    { q: "Your couple superpower is:", o: ["Finishing each other's sentences", "Making anything fun", "Calming each other down", "Being gloriously weird together"], s: [10, 20, 30, 40] }
+  ],
+  results: [
+    { min: 0, max: 140, t: "Cute Chaos Duo", d: "You're gloriously all over the place — and it works. Nobody understands your dynamic, but nobody needs to. Your compatibility runs on laughter, spontaneity, and the shared belief that rules are suggestions." },
+    { min: 141, max: 200, t: "The Fun Complement", d: "You're different in the best ways. Where one of you is chaos, the other is calm; where one plans, the other improvises. You balance each other out like a perfectly mixed playlist." },
+    { min: 201, max: 260, t: "Strong Match Energy", d: "You just click. Same humor, same values, same answer to where should we eat. Couples like you make it look easy — because for you, it mostly is. (Just for fun, but still — nice.)" },
+    { min: 261, max: 99999, t: "Soulmate-Level Sync", d: "Finish-each-other's-sentences, same-brain-cell, scary-in-sync energy. You're the couple people point at and whisper about. Remember: this quiz is just for fun — but your connection clearly isn't." }
+  ]
+};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S10CQJF8N3');
+</script>
+</body>
+</html>

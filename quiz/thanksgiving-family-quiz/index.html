@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanksgiving Quiz for the Whole Family — QuizPop</title>
+<meta name="description" content="A fun Thanksgiving quiz for family game night. Find out your dinner-table role — Head Chef, Storyteller, Game Captain or Dessert Hero. Free, no sign-up.">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="canonical" href="https://quizpop.pages.dev/quiz/thanksgiving-family-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Thanksgiving Quiz for the Whole Family — QuizPop">
+<meta property="og:description" content="A fun Thanksgiving quiz for family game night. Find out your dinner-table role — Head Chef, Storyteller, Game Captain or Dessert Hero. Free, no sign-up.">
+<meta property="og:url" content="https://quizpop.pages.dev/quiz/thanksgiving-family-quiz/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a good Thanksgiving quiz for family game night?","acceptedAnswer":{"@type":"Answer","text":"A good thanksgiving quiz for family keeps everyone involved — kids, grandparents, and cousins. This free quiz asks 8 fun questions about your Thanksgiving habits and reveals your dinner-table role, like Head Chef or Game Captain. No sign-up needed."}},{"@type":"Question","name":"Is this Thanksgiving quiz for family free?","acceptedAnswer":{"@type":"Answer","text":"Yes — completely free, with no sign-up or email required, and your result appears instantly. It is for entertainment only."}},{"@type":"Question","name":"Can kids play this Thanksgiving quiz?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every question is family-friendly and written at an easy reading level, so kids, teens, and grandparents can all play together around the table."}}]}</script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Thanksgiving Quiz for the Whole Family</h1>
+<p>Discover your dinner-table role — Head Chef, Storyteller, Game Captain or Dessert Hero. Free, instant results, no sign-up.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/christmas-character-quiz/">Which Christmas Character Are You?</a>
+<a href="/quiz/what-is-my-aesthetic-quiz/">What Is My Aesthetic?</a>
+<a href="/quiz/whats-your-love-language/">What's My Love Language?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Thanksgiving is about togetherness — and nothing brings a family together like a little friendly competition. This thanksgiving quiz for family is built for game night: pass a phone around the table, let everyone answer, and find out each person's dinner-table role. It is the perfect icebreaker before the turkey is served, and it works for kids, teens, parents, and grandparents alike.</p>
+<p>Answer 8 quick questions about your Thanksgiving habits — how you arrive, what you bring, what you do after dinner — and we will match you to one of four roles: the Head Chef who runs the kitchen, the Storyteller who keeps everyone laughing, the Game Captain who organizes the fun, or the Dessert Hero who saves the best for last. The quiz takes about 60 seconds per person, it is completely free, and there is no sign-up.</p>
+<p>Every family has its characters. Take the quiz, share your results in the family group chat, and see who got matched perfectly — and who is in denial.</p>
+<p><strong>What is a good Thanksgiving quiz for family game night?</strong> A good thanksgiving quiz for family keeps everyone involved — kids, grandparents, and cousins. This free quiz asks 8 fun questions about your Thanksgiving habits and reveals your dinner-table role, like Head Chef or Game Captain. No sign-up needed.</p>
+<p><strong>Is this Thanksgiving quiz for family free?</strong> Yes — completely free, with no sign-up or email required, and your result appears instantly. We are supported by clearly-labeled sponsored links, like the one above. It is for entertainment only.</p>
+<p><strong>Can kids play this Thanksgiving quiz?</strong> Yes. Every question is family-friendly and written at an easy reading level, so kids, teens, and grandparents can all play together around the table.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {
+  questions: [
+    { q: "You arrive at Thanksgiving dinner. First thing you do?", o: ["Head straight to the kitchen to help", "Hug everyone and start chatting", "Suggest a game to play", "Check what desserts are on the counter"], s: [10, 20, 30, 40] },
+    { q: "What do you bring to the table?", o: ["My famous side dish", "Stories from the past year", "A brand-new party game", "A pie I 'definitely made myself'"], s: [10, 20, 30, 40] },
+    { q: "During dinner, you are the one who:", o: ["Makes sure everything is perfect", "Keeps the conversation going", "Starts the toast or a fun debate", "Saves room for seconds of dessert"], s: [10, 20, 30, 40] },
+    { q: "After the meal, you:", o: ["Help clean up the kitchen", "Settle in for stories on the couch", "Round everyone up for games", "Brew coffee to go with pie"], s: [10, 20, 30, 40] },
+    { q: "Pick a Thanksgiving smell:", o: ["Roasting turkey and herbs", "Fresh coffee and conversation", "Popcorn and board games", "Warm pie and cinnamon"], s: [10, 20, 30, 40] },
+    { q: "Your family would say you are:", o: ["Reliable", "Funny", "Energetic", "Sweet"], s: [10, 20, 30, 40] },
+    { q: "The best part of Thanksgiving is:", o: ["The cooking", "The togetherness", "The games", "The desserts"], s: [10, 20, 30, 40] },
+    { q: "Your Thanksgiving superpower:", o: ["Perfect timing on every dish", "A story for every moment", "Getting everyone to play along", "Always knowing where the pie is"], s: [10, 20, 30, 40] }
+  ],
+  results: [
+    { min: 0, max: 140, t: "You're the Head Chef 🍳", d: "The kitchen is your kingdom. You plan the menu weeks ahead, and Thanksgiving simply does not happen without you. Everyone is grateful — especially when the gravy is perfect." },
+    { min: 141, max: 200, t: "You're the Storyteller 📖", d: "You turn dinner into an event. Old family tales, hilarious mishaps, heartfelt toasts — you keep everyone at the table long after the plates are cleared." },
+    { min: 201, max: 260, t: "You're the Game Captain 🎲", d: "Boredom doesn't stand a chance around you. Charades, trivia, backyard football — you make sure Thanksgiving is as fun as it is delicious." },
+    { min: 261, max: 99999, t: "You're the Dessert Hero 🥧", d: "Dinner is just the warm-up act. You arrive with pie, you leave with an empty dish, and everyone agrees: you saved the best for last." }
+  ]
+};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S10CQJF8N3');
+</script>
+</body>
+</html>

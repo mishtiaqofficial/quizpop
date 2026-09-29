@@ -1,0 +1,79 @@
+{
+  "quizzes": [
+    {
+      "category": "personality",
+      "description": "Match your personality quirks to pizza, taco, sushi or burger in this playful food quiz.",
+      "questions_count": 8,
+      "slug": "what-food-am-i-quiz",
+      "tags": [
+        "food",
+        "personality",
+        "fun"
+      ],
+      "title": "What Food Am I? Quiz",
+      "url": "/quiz/what-food-am-i-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "Discover your dessert twin — chocolate cake, ice cream sundae, cupcake or donut — in this sweet personality quiz.",
+      "questions_count": 8,
+      "slug": "what-dessert-are-you-quiz",
+      "tags": [
+        "food",
+        "dessert",
+        "personality",
+        "fun"
+      ],
+      "title": "What Dessert Are You? Quiz",
+      "url": "/quiz/what-dessert-are-you-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "Crown your pizza topping personality — pepperoni, mushroom, extra cheese or pineapple — in this playful quiz.",
+      "questions_count": 8,
+      "slug": "pizza-topping-quiz",
+      "tags": [
+        "food",
+        "pizza",
+        "personality",
+        "fun"
+      ],
+      "title": "Which Pizza Topping Are You? Quiz",
+      "url": "/quiz/pizza-topping-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "Your coffee order reveals your personality — espresso, latte, cold brew or cappuccino — in this fun quiz.",
+      "questions_count": 8,
+      "slug": "coffee-personality-quiz",
+      "tags": [
+        "food",
+        "coffee",
+        "personality"
+      ],
+      "title": "What Type of Coffee Are You? Quiz",
+      "url": "/quiz/coffee-personality-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "Crunch-based self-discovery: match your soul to a tortilla, potato, pita or kettle chip in this silly quiz.",
+      "questions_count": 8,
+      "slug": "chip-personality-quiz",
+      "tags": [
+        "food",
+        "funny",
+        "personality",
+        "fun"
+      ],
+      "title": "What Kind of Chip Are You? Quiz",
+      "url": "/quiz/chip-personality-quiz/"
+    }
+  ],
+  "sitemap_urls": [
+    "https://quizpop.pages.dev/quiz/what-food-am-i-quiz/",
+    "https://quizpop.pages.dev/quiz/what-dessert-are-you-quiz/",
+    "https://quizpop.pages.dev/quiz/pizza-topping-quiz/",
+    "https://quizpop.pages.dev/quiz/coffee-personality-quiz/",
+    "https://quizpop.pages.dev/quiz/chip-personality-quiz/"
+  ]
+}

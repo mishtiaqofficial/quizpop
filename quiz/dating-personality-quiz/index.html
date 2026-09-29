@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dating Personality Quiz: Your Dating Style — QuizPop</title>
+<meta name="description" content="What's your dating personality? This dating personality quiz reveals your dating style in 8 questions — free, no sign-up, instant results.">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="canonical" href="https://quizpop.pages.dev/quiz/dating-personality-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Dating Personality Quiz: Your Dating Style — QuizPop">
+<meta property="og:description" content="What's your dating personality? This dating personality quiz reveals your dating style in 8 questions — free, no sign-up, instant results.">
+<meta property="og:url" content="https://quizpop.pages.dev/quiz/dating-personality-quiz/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a dating personality quiz?","acceptedAnswer":{"@type":"Answer","text":"A dating personality quiz reveals your dating style — how you approach romance, from hopeless romantic to straight shooter. This one asks 8 quick questions and matches you to a dating personality type."}},{"@type":"Question","name":"What are the main dating personality types?","acceptedAnswer":{"@type":"Answer","text":"Common dating personalities include the Romantic (grand gestures), the Adventurer (experience-driven dates), the Slow Burner (takes time to open up), and the Straight Shooter (direct and honest). This quiz tells you which one you are."}},{"@type":"Question","name":"Is this dating personality quiz free?","acceptedAnswer":{"@type":"Answer","text":"Yes — completely free, with no sign-up or email required, and your result appears instantly. It's for entertainment only."}}]}</script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Dating Personality Quiz</h1>
+<p>Hopeless romantic? Thrill-seeker? Discover your dating style in 8 questions — free, instant, no sign-up.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/red-flag-quiz/">What Is Your Red Flag Quiz? (Fun & Honest)</a>
+<a href="/quiz/short-love-language-quiz/">Short Love Language Quiz (No Sign-Up, 2 Min)</a>
+<a href="/quiz/whats-your-love-language/">What's My Love Language?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Everyone has a dating personality — a signature style that shows up on every first date, in every talking stage, in every will-they-won't-they text thread. This dating personality quiz pinpoints yours in 8 quick questions. Are you the type who plans the perfect evening down to the playlist, or the one who suggests skydiving for date two?</p>
+<p>Knowing your dating style is genuinely useful. Romantics thrive with partners who appreciate grand gestures; adventurers need someone who says yes to the road trip; slow burners need patience, not pressure; straight shooters need honesty, not games. Our free dating personality quiz sorts you into one of four dating styles, with no sign-up and instant results — and it might explain a lot about your dating history.</p>
+<p>Take the dating personality quiz below, get your dating style, and share it with someone who needs to hear it. Just for fun, obviously — but the good kind of obvious.</p>
+<p><strong>What is a dating personality quiz?</strong> A dating personality quiz reveals your dating style — how you approach romance, from hopeless romantic to straight shooter. This one asks 8 quick questions and matches you to a dating personality type.</p>
+<p><strong>What are the main dating personality types?</strong> Common dating personalities include the Romantic (grand gestures), the Adventurer (experience-driven dates), the Slow Burner (takes time to open up), and the Straight Shooter (direct and honest). This quiz tells you which one you are.</p>
+<p><strong>Is it really free?</strong> Yes — completely free, with no sign-up or email required, and your result appears instantly. We're supported by clearly-labeled sponsored links, like the one above. It's for entertainment only.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {
+  questions: [
+    { q: "Your ideal first date:", o: ["Candlelit dinner with a handwritten note", "Sunset hike followed by street tacos", "Coffee — low pressure, easy exit", "Drinks where we skip small talk entirely"], s: [10, 20, 30, 40] },
+    { q: "Someone you're into takes hours to reply. You:", o: ["Send a sweet follow-up anyway", "Plan something fun with friends instead", "Wait it out — good things take time", "Ask them directly what's going on"], s: [10, 20, 30, 40] },
+    { q: "Pick a date-night vibe:", o: ["Slow dancing in the kitchen", "Spontaneous road trip, no plan", "Cooking together at home, third date in", "Deep conversation about everything"], s: [10, 20, 30, 40] },
+    { q: "How do you show you're interested?", o: ["Thoughtful gestures and sweet texts", "Inviting them on an adventure", "Remembering the little things they say", "Telling them exactly how I feel"], s: [10, 20, 30, 40] },
+    { q: "Your texting style is:", o: ["Good morning texts, every day", "Memes and voice notes at random hours", "Thoughtful but not constant", "Short, clear, and to the point"], s: [10, 20, 30, 40] },
+    { q: "The talking stage should last:", o: ["As long as the magic lasts", "Until the next adventure calls", "As long as it takes to really know them", "Two weeks, then we define it"], s: [10, 20, 30, 40] },
+    { q: "Your friends say your dating style is:", o: ["A romantic movie protagonist", "Exhausting but fun", "Mysteriously hard to read", "Brutally, refreshingly honest"], s: [10, 20, 30, 40] },
+    { q: "Love, to you, is:", o: ["The grandest adventure of all", "Best experienced, not explained", "Built slowly, brick by brick", "Simple: honesty, loyalty, done"], s: [10, 20, 30, 40] }
+  ],
+  results: [
+    { min: 0, max: 140, t: "The Hopeless Romantic", d: "Grand gestures, love notes, remembering the anniversary of your first text — that's you. You believe in the movie version of love and you're not embarrassed about it. Your person is lucky." },
+    { min: 141, max: 200, t: "The Adventurer", d: "For you, dating is an experience sport. Hikes, road trips, trying the weird restaurant — if it's boring, you're out. You fall for people who say yes to the plan, whatever the plan is." },
+    { min: 201, max: 260, t: "The Slow Burner", d: "You don't rush, and you don't do surface-level. You open up gradually, and when you commit, it's deep. Your person needs patience — but what they get in return is worth the wait." },
+    { min: 261, max: 99999, t: "The Straight Shooter", d: "No games, no guessing, no three-day rule. You say what you mean and expect the same. Some call it intense; the right person calls it a breath of fresh air." }
+  ]
+};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S10CQJF8N3');
+</script>
+</body>
+</html>

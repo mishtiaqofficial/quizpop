@@ -1,0 +1,80 @@
+{
+  "quizzes": [
+    {
+      "category": "riddles",
+      "description": "50 original funny riddles for adults about coffee, Mondays, office life and adulting \u2014 clean, family-friendly, with hidden answers.",
+      "questions_count": 50,
+      "slug": "funny-riddles-adults",
+      "tags": [
+        "funny",
+        "adults",
+        "clean",
+        "party"
+      ],
+      "title": "50 Funny Riddles for Adults (With Answers)",
+      "url": "/quiz/funny-riddles-adults/"
+    },
+    {
+      "category": "riddles",
+      "description": "50 genuinely hard riddles for adults built on misdirection, wordplay and lateral thinking \u2014 each with a hidden answer.",
+      "questions_count": 50,
+      "slug": "hard-riddles-adults",
+      "tags": [
+        "hard",
+        "adults",
+        "brain-teasers",
+        "lateral-thinking"
+      ],
+      "title": "50 Hard Riddles for Adults (With Answers)",
+      "url": "/quiz/hard-riddles-adults/"
+    },
+    {
+      "category": "riddles",
+      "description": "50 easy riddles for kids ages 4-10 about animals, food and nature \u2014 simple words, big giggles, hidden answers.",
+      "questions_count": 50,
+      "slug": "easy-riddles-kids",
+      "tags": [
+        "kids",
+        "easy",
+        "classroom",
+        "family"
+      ],
+      "title": "50 Easy Riddles for Kids (With Answers)",
+      "url": "/quiz/easy-riddles-kids/"
+    },
+    {
+      "category": "riddles",
+      "description": "40 original 'what am I' riddles \u2014 guess the object, animal or thing from clever clues, with hidden answers.",
+      "questions_count": 40,
+      "slug": "what-am-i-riddles",
+      "tags": [
+        "what-am-i",
+        "guessing",
+        "all-ages"
+      ],
+      "title": "40 'What Am I?' Riddles With Answers",
+      "url": "/quiz/what-am-i-riddles/"
+    },
+    {
+      "category": "riddles",
+      "description": "40 logic riddles for adults \u2014 lateral-thinking scenarios, number tricks and reasoning puzzles with hidden answers.",
+      "questions_count": 40,
+      "slug": "logic-riddles-adults",
+      "tags": [
+        "logic",
+        "adults",
+        "reasoning",
+        "puzzles"
+      ],
+      "title": "40 Logic Riddles for Adults",
+      "url": "/quiz/logic-riddles-adults/"
+    }
+  ],
+  "sitemap_urls": [
+    "https://quizpop.pages.dev/quiz/funny-riddles-adults/",
+    "https://quizpop.pages.dev/quiz/hard-riddles-adults/",
+    "https://quizpop.pages.dev/quiz/easy-riddles-kids/",
+    "https://quizpop.pages.dev/quiz/what-am-i-riddles/",
+    "https://quizpop.pages.dev/quiz/logic-riddles-adults/"
+  ]
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Which Christmas Character Are You? Quiz — QuizPop</title>
+<meta name="description" content="Which Christmas character are you? Take this free Christmas character quiz — Santa, Rudolph, the Grinch or Frosty. No sign-up, instant results.">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="canonical" href="https://quizpop.pages.dev/quiz/christmas-character-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Which Christmas Character Are You? Quiz — QuizPop">
+<meta property="og:description" content="Which Christmas character are you? Take this free Christmas character quiz — Santa, Rudolph, the Grinch or Frosty. No sign-up, instant results.">
+<meta property="og:url" content="https://quizpop.pages.dev/quiz/christmas-character-quiz/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which Christmas character am I?","acceptedAnswer":{"@type":"Answer","text":"This christmas character quiz finds out in 60 seconds. Answer 8 quick questions about your holiday style and get matched to Santa Claus, Rudolph, the Grinch, or Frosty the Snowman — free, with no sign-up."}},{"@type":"Question","name":"Is this Christmas character quiz free?","acceptedAnswer":{"@type":"Answer","text":"Yes — completely free, with no sign-up or email required, and your result appears instantly. It is for entertainment only."}},{"@type":"Question","name":"Can I share my Christmas character result?","acceptedAnswer":{"@type":"Answer","text":"Yes! Use the share buttons under your result to post it on X, Facebook, or WhatsApp, or copy the link to send to friends and family."}}]}</script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Which Christmas Character Are You?</h1>
+<p>Answer 8 quick questions and meet your holiday alter ego — free, instant results, no sign-up.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/thanksgiving-family-quiz/">Thanksgiving Quiz for the Whole Family</a>
+<a href="/quiz/halloween-costume-quiz/">What Halloween Costume Should You Be?</a>
+<a href="/quiz/which-decade-do-you-belong-in/">Which Decade Do You Belong In?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Are you the Santa of your friend group — generous, jolly, and always with a gift? Or maybe you are a Rudolph, quietly guiding everyone through the dark? Perhaps there is a little Grinch in you (we won't tell), or you are pure Frosty joy. This christmas character quiz settles the debate in about 60 seconds.</p>
+<p>Answer 8 quick questions about your holiday habits — how you decorate, how you shop, how you feel about Christmas music in November — and we will match you to one of four beloved characters: Santa Claus, Rudolph, the Grinch, or Frosty the Snowman. Each result comes with a fun description of your holiday personality. The quiz is completely free, with no sign-up or email required.</p>
+<p>Take it solo, or make it a holiday party game: have everyone take the quiz and see who got Santa and who has some Grinch energy to work on.</p>
+<p><strong>Which Christmas character am I?</strong> This christmas character quiz finds out in 60 seconds. Answer 8 quick questions about your holiday style and get matched to Santa Claus, Rudolph, the Grinch, or Frosty the Snowman — free, with no sign-up.</p>
+<p><strong>Is this Christmas character quiz free?</strong> Yes — completely free, with no sign-up or email required, and your result appears instantly. We are supported by clearly-labeled sponsored links, like the one above. It is for entertainment only.</p>
+<p><strong>Can I share my Christmas character result?</strong> Yes! Use the share buttons under your result to post it on X, Facebook, or WhatsApp, or copy the link to send to friends and family.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {
+  questions: [
+    { q: "When do you start feeling festive?", o: ["The day after Thanksgiving — it's tradition", "Early December, when the lights go up", "Honestly? I could skip the whole season", "The first snowfall"], s: [10, 20, 30, 40] },
+    { q: "Your gift shopping style:", o: ["Thoughtful lists for everyone I love", "Small, meaningful gifts", "Last-minute and slightly stressed", "Homemade and heartfelt"], s: [10, 20, 30, 40] },
+    { q: "Christmas music in November is:", o: ["The best part of the season", "Fine in small doses", "A personal attack", "Magical"], s: [10, 20, 30, 40] },
+    { q: "Pick a holiday drink:", o: ["Hot cocoa with extra marshmallows", "Peppermint tea", "Black coffee, hold the cheer", "Eggnog, obviously"], s: [10, 20, 30, 40] },
+    { q: "Your decorating style:", o: ["Go big — the whole house glows", "A few special touches", "A single sad string of lights", "Classic and cozy"], s: [10, 20, 30, 40] },
+    { q: "On Christmas morning you are:", o: ["Up first, waking everyone up", "Quietly enjoying the moment", "Sleeping in as long as possible", "Outside playing in the snow"], s: [10, 20, 30, 40] },
+    { q: "Your friends would call you:", o: ["Generous", "Loyal", "Blunt", "Cheerful"], s: [10, 20, 30, 40] },
+    { q: "The holidays are really about:", o: ["Giving", "Being there for others", "Surviving with snacks", "Pure joy"], s: [10, 20, 30, 40] }
+  ],
+  results: [
+    { min: 0, max: 140, t: "You're Santa Claus 🎅", d: "Jolly, generous, and the heart of every celebration. You remember everyone's favorite things and make magic happen. The holidays are brighter because of you." },
+    { min: 141, max: 200, t: "You're Rudolph 🦌", d: "Humble, loyal, and quietly essential. You might not seek the spotlight, but when things get dark, everyone counts on your light to guide them through." },
+    { min: 201, max: 260, t: "You're the Grinch 💚", d: "Let's be honest — the holiday hype exhausts you. But deep down, your heart is three sizes bigger than you admit. We see you, Grinch." },
+    { min: 261, max: 99999, t: "You're Frosty ☃️", d: "Pure joy in human form. You find magic in snowflakes and laughter in every moment. Being around you feels like the best part of winter." }
+  ]
+};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S10CQJF8N3');
+</script>
+</body>
+</html>

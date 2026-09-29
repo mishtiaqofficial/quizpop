@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Job Should I Do? Quiz — QuizPop</title>
+<meta name="description" content="What job should I do? Take this free 8-question quiz to find your fit — people, organizing, hands-on or analytical jobs. No sign-up.">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="canonical" href="https://quizpop.pages.dev/quiz/what-job-should-i-do-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="What Job Should I Do? Quiz — QuizPop">
+<meta property="og:description" content="What job should I do? Take this free 8-question quiz to find your fit — people, organizing, hands-on or analytical jobs. No sign-up.">
+<meta property="og:url" content="https://quizpop.pages.dev/quiz/what-job-should-i-do-quiz/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does a “what job should I do” quiz do?", "acceptedAnswer": {"@type": "Answer", "text": "It looks at your habits and preferences — how you socialize, organize, create and solve problems — and matches you to a job style. This free quiz asks 8 questions and sorts you into People Person, Organizer, Maker or Analyst, each with example roles."}}, {"@type": "Question", "name": "I’m torn between two totally different jobs — will this help?", "acceptedAnswer": {"@type": "Answer", "text": "It can narrow things down. The quiz reveals which work style energizes you most, which is often the real tiebreaker. Use your result to research roles, then test them with part-time work, volunteering or informational interviews."}}, {"@type": "Question", "name": "Is this job quiz free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — completely free, with no sign-up or email required. Your result appears instantly, and it is for entertainment and self-reflection only."}}]}</script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>What Job Should I Do?</h1>
+<p>Answer 8 quick questions and discover the job style that fits you — people person, organizer, maker or analyst. Free, instant results.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/money-personality-quiz/">Money Personality Quiz</a>
+<a href="/quiz/career-quiz-for-teens/">Career Quiz for Teens</a>
+<a href="/quiz/what-is-my-aesthetic-quiz/">What Is My Aesthetic Quiz?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>“What job should I do?” might be the most Googled career question on the planet — and for good reason. With thousands of job titles out there, narrowing it down to the ones that fit your actual personality can feel impossible.</p>
+<p>This free what job should i do quiz makes it simple. Answer 8 quick questions about your habits, your weekends and how you handle everyday situations, and we will match you to one of four job styles: The People Person, The Organizer, The Maker, or The Analyst. Each result breaks down the kinds of roles where people like you tend to thrive — from sales and hospitality to project management, culinary work, IT and data roles.</p>
+<p>No sign-up, no email, no cost — just honest, instant results in about a minute. It will not write your résumé for you, but it will point you toward job families worth exploring. Take the quiz below and find your lane.</p>
+<p><strong>What does a “what job should I do” quiz do?</strong> It looks at your habits and preferences — how you socialize, organize, create and solve problems — and matches you to a job style. This free quiz asks 8 questions and sorts you into People Person, Organizer, Maker or Analyst, each with example roles.</p>
+<p><strong>I’m torn between two totally different jobs — will this help?</strong> It can narrow things down. The quiz reveals which work style energizes you most, which is often the real tiebreaker. Use your result to research roles, then test them with part-time work, volunteering or informational interviews.</p>
+<p><strong>Is this job quiz free?</strong> Yes — completely free, with no sign-up or email required. Your result appears instantly, and it is for entertainment and self-reflection only.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {"questions": [{"q": "Saturday morning, you’d rather:", "o": ["Host brunch for friends", "Color-code your closet", "Bake something new", "Tinker with a spreadsheet"], "s": [10, 20, 30, 40]}, {"q": "At a party you:", "o": ["Work the whole room", "Keep the snacks and playlist on schedule", "Bring the homemade dessert", "End up in a deep one-on-one chat"], "s": [10, 20, 30, 40]}, {"q": "Your most-used phone app is for:", "o": ["Messaging friends", "Lists and calendars", "Recipes or DIY videos", "News and learning"], "s": [10, 20, 30, 40]}, {"q": "Pick a side hustle:", "o": ["Selling vintage finds online", "Planning friends’ trips", "Custom cakes or crafts", "Freelance data cleanup"], "s": [10, 20, 30, 40]}, {"q": "You feel proud when you:", "o": ["Win someone over", "Hit every deadline", "Finish something with your hands", "Catch the error nobody saw"], "s": [10, 20, 30, 40]}, {"q": "Choose a work uniform:", "o": ["Sharp blazer, big smile", "Neat planner in hand", "Apron, sleeves rolled up", "Headphones and a hoodie"], "s": [10, 20, 30, 40]}, {"q": "Your inbox style:", "o": ["Replied in minutes, warmly", "Zero unread, all labeled", "Ignored until the weekend", "Starred and sorted by priority"], "s": [10, 20, 30, 40]}, {"q": "A perfect Friday night:", "o": ["Dinner out with a big group", "Game night you organized", "Cooking a brand-new recipe", "A documentary and early bed"], "s": [10, 20, 30, 40]}], "results": [{"min": 0, "max": 140, "t": "You’re The People Person 🤝", "d": "Charismatic, warm and energized by others. You would shine in sales, customer success, hospitality, recruiting or event hosting — any job where relationships are the product. Your edge: people remember how you made them feel, so lean into roles with a human touch."}, {"min": 141, "max": 200, "t": "You’re The Organizer 📋", "d": "Reliable, detail-loving and always three steps ahead. Project management, office operations, logistics or event planning would suit your love of order. Your edge: teams run smoother with you around — turn that into a career in coordination."}, {"min": 201, "max": 260, "t": "You’re The Maker 🍳", "d": "Hands-on, sensory and proud of craft. Consider culinary work, skilled crafts, beauty, or the trades — jobs where you create something real every day. Your edge: quality you can touch beats promises on paper, so build a portfolio of your work."}, {"min": 261, "max": 99999, "t": "You’re The Analyst 📊", "d": "Sharp, logical and calm with complexity. IT support, bookkeeping, data analysis or quality assurance would use your brain well. Your edge: you spot what others miss — a superpower in any analytical role."}]};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S10CQJF8N3');
+</script>
+</body>
+</html>

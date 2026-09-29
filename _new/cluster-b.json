@@ -1,0 +1,103 @@
+{
+  "quizzes": [
+    {
+      "category": "personality",
+      "description": "What career should I have? Take this free quiz — 8 quick questions match your personality to careers in tech, healthcare and creative fields. No sign-up.",
+      "questions_count": 8,
+      "slug": "what-career-should-i-have-quiz",
+      "tags": [
+        "career",
+        "jobs",
+        "personality",
+        "quiz",
+        "free"
+      ],
+      "title": "What Career Should I Have? Quiz",
+      "url": "/quiz/what-career-should-i-have-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "What job should I do? Take this free 8-question quiz to find your fit — people, organizing, hands-on or analytical jobs. No sign-up.",
+      "questions_count": 8,
+      "slug": "what-job-should-i-do-quiz",
+      "tags": [
+        "jobs",
+        "career",
+        "personality",
+        "quiz",
+        "free"
+      ],
+      "title": "What Job Should I Do? Quiz",
+      "url": "/quiz/what-job-should-i-do-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "Free career quiz for adults with no sign-up. 8 quick questions match your experience to your next move — switcher, leader, specialist or independent.",
+      "questions_count": 8,
+      "slug": "free-career-quiz-adults",
+      "tags": [
+        "career",
+        "adults",
+        "personality",
+        "quiz",
+        "free",
+        "no-sign-up"
+      ],
+      "title": "Free Career Quiz for Adults (No Sign-Up)",
+      "url": "/quiz/free-career-quiz-adults/"
+    },
+    {
+      "category": "personality",
+      "description": "Short career quiz — just 5 minutes. Answer 8 rapid-fire questions and discover your career style: sprinter, steady hand, idea machine or problem solver.",
+      "questions_count": 8,
+      "slug": "5-minute-career-quiz",
+      "tags": [
+        "career",
+        "quick",
+        "personality",
+        "quiz",
+        "free"
+      ],
+      "title": "5-Minute Career Quiz",
+      "url": "/quiz/5-minute-career-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "What is my dream job? Take this free quiz — 8 fun questions reveal whether you’re a visionary, explorer, star or changemaker. No sign-up.",
+      "questions_count": 8,
+      "slug": "dream-job-quiz",
+      "tags": [
+        "dream-job",
+        "career",
+        "aspirational",
+        "quiz",
+        "free"
+      ],
+      "title": "What Is My Dream Job? Quiz",
+      "url": "/quiz/dream-job-quiz/"
+    },
+    {
+      "category": "personality",
+      "description": "What is your spending personality? Take this free quiz — 8 quick questions reveal if you’re a saver, splurger, investor or planner. No sign-up.",
+      "questions_count": 8,
+      "slug": "spending-personality-quiz",
+      "tags": [
+        "money",
+        "spending",
+        "personality",
+        "quiz",
+        "free"
+      ],
+      "title": "What’s Your Spending Personality? Quiz",
+      "url": "/quiz/spending-personality-quiz/"
+    }
+  ],
+  "sitemap_urls": [
+    "https://quizpop.pages.dev/quiz/what-career-should-i-have-quiz/",
+    "https://quizpop.pages.dev/quiz/what-job-should-i-do-quiz/",
+    "https://quizpop.pages.dev/quiz/free-career-quiz-adults/",
+    "https://quizpop.pages.dev/quiz/5-minute-career-quiz/",
+    "https://quizpop.pages.dev/quiz/dream-job-quiz/",
+    "https://quizpop.pages.dev/quiz/spending-personality-quiz/"
+  ]
+}

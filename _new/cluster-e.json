@@ -1,0 +1,118 @@
+{
+  "quizzes": [
+    {
+      "category": "trivia",
+      "description": "60 hard trivia questions for adults with answers on science, history, geography, literature and the arts.",
+      "questions_count": 60,
+      "slug": "hard-trivia-questions-adults",
+      "tags": [
+        "trivia",
+        "hard",
+        "adults",
+        "questions",
+        "answers"
+      ],
+      "title": "100 Hard Trivia Questions for Adults (With Answers)",
+      "url": "/quiz/hard-trivia-questions-adults/"
+    },
+    {
+      "category": "trivia",
+      "description": "50 funny trivia questions for adults with answers — weird-but-true animal facts, science oddities and hilarious records.",
+      "questions_count": 50,
+      "slug": "funny-trivia-questions-adults",
+      "tags": [
+        "trivia",
+        "funny",
+        "adults",
+        "questions",
+        "answers"
+      ],
+      "title": "50 Funny Trivia Questions for Adults",
+      "url": "/quiz/funny-trivia-questions-adults/"
+    },
+    {
+      "category": "trivia",
+      "description": "50 90s trivia questions and answers on Friends, boy bands, movies, games and tech of the nineties.",
+      "questions_count": 50,
+      "slug": "90s-trivia-questions",
+      "tags": [
+        "trivia",
+        "90s",
+        "nostalgia",
+        "questions",
+        "answers"
+      ],
+      "title": "50 90s Trivia Questions and Answers",
+      "url": "/quiz/90s-trivia-questions/"
+    },
+    {
+      "category": "trivia",
+      "description": "60 movie trivia questions and answers on blockbusters, Disney classics, Oscar winners and iconic movie quotes.",
+      "questions_count": 60,
+      "slug": "movie-trivia-questions",
+      "tags": [
+        "trivia",
+        "movies",
+        "film",
+        "questions",
+        "answers"
+      ],
+      "title": "60 Movie Trivia Questions and Answers",
+      "url": "/quiz/movie-trivia-questions/"
+    },
+    {
+      "category": "trivia",
+      "description": "50 easy trivia questions for kids with answers — animals, colors, numbers and everyday wonders for family quiz time.",
+      "questions_count": 50,
+      "slug": "easy-trivia-kids",
+      "tags": [
+        "trivia",
+        "kids",
+        "easy",
+        "questions",
+        "answers"
+      ],
+      "title": "50 Easy Trivia Questions for Kids",
+      "url": "/quiz/easy-trivia-kids/"
+    },
+    {
+      "category": "trivia",
+      "description": "40 simple but hard trivia questions with answers — deceptively tricky riddles and lateral-thinking stumpers.",
+      "questions_count": 40,
+      "slug": "simple-hard-trivia",
+      "tags": [
+        "trivia",
+        "tricky",
+        "riddles",
+        "questions",
+        "answers"
+      ],
+      "title": "40 Simple But Hard Trivia Questions",
+      "url": "/quiz/simple-hard-trivia/"
+    },
+    {
+      "category": "trivia",
+      "description": "Top 100 hard quiz questions with answers across science, history, geography, arts, literature and sports.",
+      "questions_count": 100,
+      "slug": "top-100-hard-quiz-questions",
+      "tags": [
+        "trivia",
+        "hard",
+        "quiz",
+        "questions",
+        "answers"
+      ],
+      "title": "Top 100 Hard Quiz Questions With Answers",
+      "url": "/quiz/top-100-hard-quiz-questions/"
+    }
+  ],
+  "sitemap_urls": [
+    "https://quizpop.pages.dev/quiz/hard-trivia-questions-adults/",
+    "https://quizpop.pages.dev/quiz/funny-trivia-questions-adults/",
+    "https://quizpop.pages.dev/quiz/90s-trivia-questions/",
+    "https://quizpop.pages.dev/quiz/movie-trivia-questions/",
+    "https://quizpop.pages.dev/quiz/easy-trivia-kids/",
+    "https://quizpop.pages.dev/quiz/simple-hard-trivia/",
+    "https://quizpop.pages.dev/quiz/top-100-hard-quiz-questions/"
+  ]
+}

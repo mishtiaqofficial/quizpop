@@ -27,7 +27,7 @@ jobs:
       - name: Generate quizzes
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash
+          GEMINI_MODEL: gemini-3.5-flash
           QUIZZES_PER_DAY: ${{ inputs.count || '3' }}
           SITE_DOMAIN: https://quizpop.pages.dev/
         run: python scripts/generate_quiz.py
