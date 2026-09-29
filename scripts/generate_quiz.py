@@ -11,7 +11,7 @@ Env:
   GEMINI_API_KEY   required (GitHub repo secret)
   GEMINI_MODEL     default: gemini-2.0-flash
   QUIZZES_PER_DAY  default: 3
-  SITE_DOMAIN      default: https://quizpop.example/
+  SITE_DOMAIN      default: https://quizpop.pages.dev/
 """
 import html
 import json
@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent  # repo root (quizpop-site content
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 PER_DAY = int(os.environ.get("QUIZZES_PER_DAY", "3"))
-DOMAIN = os.environ.get("SITE_DOMAIN", "https://quizpop.example/").rstrip("/") + "/"
+DOMAIN = os.environ.get("SITE_DOMAIN", "https://quizpop.pages.dev/").rstrip("/") + "/"
 
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
                 "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/"]
@@ -162,6 +162,7 @@ def render_page(q, related):
     ) or '<div class="soon">More quizzes dropping daily<br><span class="soon-badge">Stay tuned</span></div>'
     page = tpl.replace("__SEO_TITLE__", html.escape(q["seo_title"], quote=True))
     page = page.replace("__META_DESCRIPTION__", html.escape(q["meta_description"], quote=True))
+    page = page.replace("__CANONICAL_URL__", f"{DOMAIN}quiz/{q['slug']}/")
     page = page.replace("__H1__", html.escape(q["title"]))
     page = page.replace("__HOOK__", html.escape(q["hook"]))
     page = page.replace("__SEO_INTRO__", html.escape(q["seo_intro"]))
