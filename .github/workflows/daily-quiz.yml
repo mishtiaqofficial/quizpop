@@ -35,7 +35,7 @@ jobs:
       - name: Commit and push
         run: |
           git config user.name "Muhammad Ishtiaq"
-          git config user.email "bot@quizpop.example"
+          git config user.email "teamjaandigital@gmail.com"
           git add -A
           git diff --cached --quiet && echo "No changes." || \
             (git commit -m "Daily quizzes $(date -u +%F)" && git push)

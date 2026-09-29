@@ -15,9 +15,7 @@ Mobile-first static quiz site. No frameworks, no build step. Deploy target: **Cl
 | Placeholder | Where | Replace with |
 |---|---|---|
 | `YOUR_MONETAG_SMARTLINK` | `assets/js/tracking.js` (**one place only**) | Your real Monetag Direct Link (Dashboard → Sites → Add zone → Direct Link). Keep it out of public repos. |
-| `YOUR_FORM_ID` | `index.html` (signup), `contact/index.html` | Your Formspree form ID (`https://formspree.io/f/…`) |
-| `https://quizpop.example/` | `sitemap.xml` | Your real domain |
-| `hello@quizpop.example` | `contact/`, `about/`, `privacy/`, `terms/` | Your real contact email |
+| `https://quizpop.example/` | `sitemap.xml`, `.github/workflows/daily-quiz.yml` (`SITE_DOMAIN`) | Your real domain — set once the live URL is confirmed |
 | GA4 snippet | Before `</body>` on every page (see `<!-- GA4 -->` comments) | Your `G-XXXXXXXXXX` measurement snippet |
 
 ## Add a new quiz (2 minutes)
