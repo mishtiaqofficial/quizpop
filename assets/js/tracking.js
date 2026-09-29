@@ -1,10 +1,10 @@
 /* QuizPop SmartLink tracking (Playbook Phase 5).
-   - SMARTLINK is a placeholder. Replace ONCE here at deploy time with your
-     real Monetag Direct Link. Never commit the real link to a public repo.
+   - SMARTLINK set per user instruction 2026-09-30: using the user's
+     monetization link until AdSense approval. (Revisit after AdSense.)
    - The link fires ONLY from a user click on a clearly-labeled Sponsored CTA
      (a[data-smartlink]). Never auto-fire on load, scroll, or quiz completion.
    - UTM params are attached at click-time so crawlers never index them. */
-var SMARTLINK = "YOUR_MONETAG_SMARTLINK"; // ← replace at deploy
+var SMARTLINK = "https://vidy.my/Iii-media.mp4"; // user's monetization link (temp, pre-AdSense)
 
 function smartlinkURL(source, campaign, content) {
   var u = new URL(SMARTLINK);
