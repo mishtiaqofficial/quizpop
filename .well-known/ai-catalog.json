@@ -1,0 +1,24 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "QuizPop",
+    "identifier": "quizpop.pages.dev"
+  },
+  "description": "QuizPop publishes free personality quizzes, trivia quizzes and riddles. No programmatic agentic tools (MCP/A2A) are exposed; agent-readable site documentation is listed below.",
+  "entries": [
+    {
+      "identifier": "urn:ai:quizpop.pages.dev:doc:llms-txt",
+      "displayName": "QuizPop agent documentation (llms.txt)",
+      "type": "text/markdown",
+      "mediaType": "text/markdown",
+      "url": "https://quizpop.pages.dev/llms.txt",
+      "description": "Agent-readable guide to QuizPop: quiz categories, popular quizzes, content policies and sponsored-content behavior.",
+      "representativeQueries": [
+        "What quizzes and categories does QuizPop publish?",
+        "What is QuizPop's sponsored content and advertising policy?"
+      ],
+      "tags": ["documentation", "quizzes", "llms.txt"]
+    }
+  ],
+  "collections": []
+}
