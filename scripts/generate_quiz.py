@@ -142,7 +142,7 @@ Concept: {concept} | Format: {fmt}
  "results": [ exactly 3 items: {{"title": "...", "description": "40-80 words"}} ],
  "seo_title": "max 60 chars",
  "meta_description": "max 155 chars",
- "faq": [ exactly 3 items: {"q": "a real 'people also ask' style question about this quiz topic", "a": "helpful 1-2 sentence answer, 40-60 words"} ]
+ "faq": [ exactly 3 items: {{"q": "a real 'people also ask' style question about this quiz topic", "a": "helpful 1-2 sentence answer, 40-60 words"}} ]
 }}
 Rules: 100% original wording (never copy existing quizzes); trivia/riddle answers must be well-established facts with exactly one correct option; personality results are fun, varied descriptions; NO medical/psychological diagnosis claims; NO politics/tragedy/health content; seo_title should contain the target keyword phrase naturally; the first FAQ question should directly answer the target keyword query."""
 
