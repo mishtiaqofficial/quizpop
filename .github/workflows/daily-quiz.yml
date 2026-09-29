@@ -1,0 +1,41 @@
+name: Daily Quiz Pipeline
+
+# Free tier: ubuntu-latest minutes (2,000/mo) — this job uses ~2 min/day.
+on:
+  schedule:
+    # 03:00 UTC = 08:00 PKT, every day
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many quizzes to generate"
+        required: false
+        default: "3"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate quizzes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.0-flash
+          QUIZZES_PER_DAY: ${{ inputs.count || '3' }}
+          SITE_DOMAIN: https://quizpop.example/
+        run: python scripts/generate_quiz.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Muhammad Ishtiaq"
+          git config user.email "bot@quizpop.example"
+          git add -A
+          git diff --cached --quiet && echo "No changes." || \
+            (git commit -m "Daily quizzes $(date -u +%F)" && git push)
