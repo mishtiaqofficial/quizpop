@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search quizzes — QuizPop</title>
+<meta name="description" content="Search all QuizPop quizzes by title or topic.">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Search quizzes</h1>
+<p>Type a topic — "love", "riddle", "90s" — and find your next 90 seconds of fun.</p>
+</section>
+<input class="search-input" id="q" type="search" placeholder="Search quizzes…" aria-label="Search quizzes" autocomplete="off">
+<div class="quiz-grid" id="results"></div>
+<p id="empty" style="display:none;color:#64748b">No quizzes match — try "personality", "riddle" or "trivia".</p>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script src="/assets/js/tracking.js"></script>
+<script>
+(function () {
+  var box = document.getElementById('q'), out = document.getElementById('results'),
+      empty = document.getElementById('empty'), all = [];
+  function card(x) {
+    var a = document.createElement('a');
+    a.className = 'qcard'; a.href = x.url;
+    a.innerHTML = '<span class="kicker"></span><h3></h3><p></p>';
+    a.querySelector('.kicker').textContent = x.category.charAt(0).toUpperCase() + x.category.slice(1);
+    a.querySelector('h3').textContent = x.title;
+    a.querySelector('p').textContent = x.questions_count + ' questions';
+    return a;
+  }
+  function render(list) {
+    out.innerHTML = '';
+    list.forEach(function (x) { out.appendChild(card(x)); });
+    empty.style.display = list.length ? 'none' : 'block';
+  }
+  fetch('/quizzes.json').then(function (r) { return r.json(); }).then(function (data) {
+    all = data; render(all);
+  }).catch(function () { empty.style.display = 'block'; });
+  box.addEventListener('input', function () {
+    var s = box.value.trim().toLowerCase();
+    if (!s) { render(all); return; }
+    render(all.filter(function (x) {
+      return (x.title + ' ' + x.description + ' ' + x.category + ' ' + x.tags.join(' ')).toLowerCase().indexOf(s) > -1;
+    }));
+  });
+})();
+</script>
+</body>
+</html>

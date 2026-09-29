@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- NOTE: replace https://quizpop.example/ with your real domain at deploy -->
+  <url><loc>https://quizpop.example/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://quizpop.example/personality/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quizpop.example/trivia/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quizpop.example/riddles/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quizpop.example/trending/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://quizpop.example/search/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://quizpop.example/about/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://quizpop.example/contact/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://quizpop.example/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://quizpop.example/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://quizpop.example/disclosure/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://quizpop.example/quiz/which-decade-do-you-belong-in/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://quizpop.example/quiz/7-tricky-riddles/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://quizpop.example/quiz/whats-your-love-language/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+</urlset>

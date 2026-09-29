@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Which Decade Do You Belong In? — QuizPop</title>
+<meta name="description" content="Take this 90-second personality quiz and find out which decade matches your vibe. Free, no signup.">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Which Decade Do You Belong In?</h1>
+<p>Answer 5 quick questions — takes about 90 seconds. Your result is revealed right here, free, no signup.</p>
+</section>
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<h3>Want more like this?</h3>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/7-tricky-riddles/">7 Tricky Riddles Most Adults Fail</a>
+<a href="/quiz/whats-your-love-language/">What's Your Love Language?</a>
+<div class="soon">Only Millennials Get 8/10 on This 90s Quiz<br><span class="soon-badge">Coming soon</span></div>
+<div class="soon">Are You an Introvert or Extrovert?<br><span class="soon-badge">Coming soon</span></div>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p><strong>How does it work?</strong> Pick the answer that feels most like you for each question. Your result is calculated instantly and shown above — nothing is hidden or locked.</p>
+<p><strong>Is it accurate?</strong> It's for entertainment only, not a psychological assessment. But it's scarily fun.</p>
+<p><strong>Is it really free?</strong> Yes. We're supported by clearly-labeled sponsored links, like the one above.</p>
+</section>
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {
+  questions: [
+    { q: "Pick a Friday night:", o: ["Vinyl records & candles", "Neon arcade & synths", "Drive-in movie", "VR headset & energy drinks"], s: [70, 80, 50, 2010] },
+    { q: "Your ideal ride:", o: ["Classic convertible", "DeLorean", "Motorcycle", "Electric SUV"], s: [60, 80, 70, 2020] },
+    { q: "Choose a fashion staple:", o: ["Bell bottoms", "Leather jacket", "Plaid flannel", "Oversized hoodie"], s: [70, 80, 90, 2020] },
+    { q: "Pick a music icon:", o: ["Aretha Franklin", "Michael Jackson", "Nirvana", "Billie Eilish"], s: [60, 80, 90, 2010] },
+    { q: "Your dream tech:", o: ["Rotary phone", "Boombox", "Dial-up internet", "AI assistant"], s: [50, 80, 90, 2020] }
+  ],
+  results: [
+    { min: 0, max: 340, t: "You're a 1970s soul 🎶", d: "Peace, love and vinyl. You'd thrive in bell bottoms at a candle-lit concert." },
+    { min: 341, max: 430, t: "You're pure 1980s ⚡", d: "Neon, synths and big hair energy. The arcade is your natural habitat." },
+    { min: 431, max: 470, t: "You're a 1990s kid 📼", d: "Flannel, mixtapes and dial-up nostalgia. You peaked with Saturday morning cartoons." },
+    { min: 471, max: 99999, t: "You're living in the 2020s 🚀", d: "Streaming, memes and AI. The future is your comfort zone." }
+  ]
+};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/tracking.js"></script>
+<!-- GA4: paste your measurement snippet before </body> -->
+</body>
+</html>
