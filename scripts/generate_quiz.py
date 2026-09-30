@@ -18,13 +18,13 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root (quizpop-site contents)
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 PER_DAY = int(os.environ.get("QUIZZES_PER_DAY", "3"))
 DOMAIN = os.environ.get("SITE_DOMAIN", "https://quizpop.pages.dev/").rstrip("/") + "/"
 
@@ -77,32 +77,77 @@ SEASONAL_WINDOWS = [
 
 
 # ── Gemini REST call (stdlib only) ──────────────────────────────────────────
+def discover_models():
+    """Ask the API which models this key can actually use right now.
+
+    Self-healing: retired or overloaded models are simply absent from the
+    list, so the pipeline never again dies because a hardcoded model name
+    stopped working."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models?key={API_KEY}"
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            data = json.loads(r.read())
+    except Exception:
+        return []
+    names = []
+    for m in data.get("models", []):
+        if "generateContent" in m.get("supportedGenerationMethods", []):
+            name = m.get("name", "").replace("models/", "")
+            if name:
+                names.append(name)
+    return names
+
+
+def candidate_models():
+    """Preferred model first, then other flash models, then anything else."""
+    preferred = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
+    ordered = []
+    for m in [preferred] + discover_models():
+        if m and m not in ordered:
+            ordered.append(m)
+    flash = [m for m in ordered if "flash" in m.lower()]
+    rest = [m for m in ordered if m not in flash]
+    return flash + rest or [preferred]
+
+
 def gemini(prompt, temperature=0.9):
     if not API_KEY:
         sys.exit("ERROR: GEMINI_API_KEY is not set.")
-    url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
-           f"{MODEL}:generateContent?key={API_KEY}")
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json",
                              "temperature": temperature},
     }).encode()
-    req = urllib.request.Request(url, data=body,
-                                 headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=180) as r:
-            data = json.loads(r.read())
-    except Exception as e:
-        sys.exit(f"ERROR: Gemini API call failed: {e}")
-    try:
-        text = data["candidates"][0]["content"]["parts"][0]["text"]
-    except (KeyError, IndexError):
-        sys.exit(f"ERROR: unexpected Gemini response: {str(data)[:300]}")
-    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip(), flags=re.M)
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        sys.exit(f"ERROR: Gemini did not return valid JSON: {text[:300]}")
+    last_err = None
+    for model in candidate_models():
+        url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
+               f"{model}:generateContent?key={API_KEY}")
+        req = urllib.request.Request(url, data=body,
+                                     headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            # 404 = retired, 429 = rate-limited, 5xx = overloaded → try next model
+            if e.code in (404, 429, 500, 502, 503):
+                print(f"WARN: model {model} unavailable (HTTP {e.code}), trying next…",
+                      flush=True)
+                last_err = e
+                continue
+            sys.exit(f"ERROR: Gemini API call failed: {e}")
+        except Exception as e:
+            sys.exit(f"ERROR: Gemini API call failed: {e}")
+        print(f"INFO: using Gemini model {model}", flush=True)
+        try:
+            text = data["candidates"][0]["content"]["parts"][0]["text"]
+        except (KeyError, IndexError):
+            sys.exit(f"ERROR: unexpected Gemini response: {str(data)[:300]}")
+        text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip(), flags=re.M)
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            sys.exit(f"ERROR: Gemini did not return valid JSON: {text[:300]}")
+    sys.exit(f"ERROR: all Gemini models failed, last error: {last_err}")
 
 
 # ── Prompts ─────────────────────────────────────────────────────────────────
