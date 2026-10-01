@@ -1,678 +1,723 @@
 [
- {
-  "category": "personality",
-  "description": "Answer 8 spooky questions and find out whether you're a vampire, witch, ghost or werewolf. Free, instant results, no sign-up.",
-  "questions_count": 8,
-  "slug": "which-halloween-monster-are-you",
-  "tags": [
-   "personality",
-   "halloween",
-   "monsters",
-   "vampire",
-   "witch",
-   "spooky",
-   "october"
-  ],
-  "title": "Which Halloween Monster Are You?",
-  "url": "/quiz/which-halloween-monster-are-you/"
- },
- {
-  "category": "personality",
-  "description": "Answer 5 quick questions and find out whether you're a 70s soul, 80s neon kid, 90s throwback or living in the 2020s.",
-  "questions_count": 5,
-  "slug": "which-decade-do-you-belong-in",
-  "tags": [
-   "personality",
-   "decades",
-   "70s",
-   "80s",
-   "90s",
-   "vibe"
-  ],
-  "title": "Which Decade Do You Belong In?",
-  "url": "/quiz/which-decade-do-you-belong-in/"
- },
- {
-  "category": "riddles",
-  "description": "Five classic riddles with answers revealed as you play. Only 2% score a perfect 5/5 — can you?",
-  "questions_count": 5,
-  "slug": "7-tricky-riddles",
-  "tags": [
-   "riddles",
-   "brain teasers",
-   "puzzles",
-   "what am i"
-  ],
-  "title": "7 Tricky Riddles Most Adults Fail",
-  "url": "/quiz/7-tricky-riddles/"
- },
- {
-  "category": "personality",
-  "description": "Five quick scenarios reveal whether you feel most loved through words, acts, gifts or quality time.",
-  "questions_count": 5,
-  "slug": "whats-your-love-language",
-  "tags": [
-   "personality",
-   "love language",
-   "relationships",
-   "couples"
-  ],
-  "title": "What's Your Love Language?",
-  "url": "/quiz/whats-your-love-language/"
- },
- {
-  "category": "personality",
-  "description": "Answer 8 quick questions and discover your aesthetic — cottagecore, dark academia, Y2K or minimalist. Free, instant results, no sign-up.",
-  "questions_count": 8,
-  "slug": "what-is-my-aesthetic-quiz",
-  "tags": [
-   "personality",
-   "aesthetic",
-   "cottagecore",
-   "dark academia",
-   "y2k",
-   "minimalist",
-   "vibe"
-  ],
-  "title": "What Is My Aesthetic Quiz?",
-  "url": "/quiz/what-is-my-aesthetic-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Discover your money style in 60 seconds — are you a saver, spender, investor or avoider? Free quiz, no sign-up, instant results.",
-  "questions_count": 8,
-  "slug": "money-personality-quiz",
-  "tags": [
-   "personality",
-   "money",
-   "finance",
-   "saver",
-   "spender",
-   "investor"
-  ],
-  "title": "Money Personality Quiz",
-  "url": "/quiz/money-personality-quiz/"
- },
- {
-  "category": "personality",
-  "description": "A career quiz for teens: answer 8 questions about your interests and find your future career path — creator, helper, builder or thinker. Free, no sign-up.",
-  "questions_count": 8,
-  "slug": "career-quiz-for-teens",
-  "tags": [
-   "personality",
-   "career",
-   "teens",
-   "students",
-   "jobs",
-   "future"
-  ],
-  "title": "Career Quiz for Teens",
-  "url": "/quiz/career-quiz-for-teens/"
- },
- {
-  "category": "personality",
-  "description": "Take this love language quiz for couples together and compare results. 8 quick questions, free, no sign-up — see how you both give and receive love.",
-  "questions_count": 8,
-  "slug": "love-language-quiz-for-couples",
-  "tags": [
-   "love",
-   "couples",
-   "love language",
-   "relationships",
-   "personality",
-   "quiz"
-  ],
-  "title": "Love Language Quiz for Couples: Take It Together",
-  "url": "/quiz/love-language-quiz-for-couples/"
- },
- {
-  "category": "personality",
-  "description": "What is your red flag quiz? Answer 8 playful questions and find your funniest dating red flag. Honest, lighthearted, free — no sign-up needed.",
-  "questions_count": 8,
-  "slug": "red-flag-quiz",
-  "tags": [
-   "dating",
-   "red flags",
-   "funny",
-   "relationships",
-   "personality",
-   "quiz"
-  ],
-  "title": "What Is Your Red Flag Quiz? (Fun & Honest)",
-  "url": "/quiz/red-flag-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Am I in love? Take this quiz and check 8 telling signs — from butterflies to can't-stop-smiling. Free, private, no sign-up, instant result.",
-  "questions_count": 8,
-  "slug": "am-i-in-love-quiz",
-  "tags": [
-   "love",
-   "crush",
-   "relationships",
-   "signs",
-   "personality",
-   "quiz"
-  ],
-  "title": "Am I In Love? Quiz: 8 Telling Signs",
-  "url": "/quiz/am-i-in-love-quiz/"
- },
- {
-  "category": "personality",
-  "description": "What's your dating personality? This dating personality quiz reveals your dating style in 8 questions — free, no sign-up, instant results.",
-  "questions_count": 8,
-  "slug": "dating-personality-quiz",
-  "tags": [
-   "dating",
-   "dating style",
-   "relationships",
-   "personality",
-   "quiz"
-  ],
-  "title": "Dating Personality Quiz: Your Dating Style",
-  "url": "/quiz/dating-personality-quiz/"
- },
- {
-  "category": "personality",
-  "description": "This couple compatibility quiz is just for fun — 8 playful questions for you and your partner. Free, no sign-up, instant compatibility result.",
-  "questions_count": 8,
-  "slug": "couple-compatibility-quiz",
-  "tags": [
-   "couples",
-   "compatibility",
-   "relationships",
-   "fun",
-   "personality",
-   "quiz"
-  ],
-  "title": "Couple Compatibility Quiz (Just for Fun)",
-  "url": "/quiz/couple-compatibility-quiz/"
- },
- {
-  "category": "personality",
-  "description": "What career should I have? Take this free quiz — 8 quick questions match your personality to careers in tech, healthcare and creative fields. No sign-up.",
-  "questions_count": 8,
-  "slug": "what-career-should-i-have-quiz",
-  "tags": [
-   "career",
-   "jobs",
-   "personality",
-   "quiz",
-   "free"
-  ],
-  "title": "What Career Should I Have? Quiz",
-  "url": "/quiz/what-career-should-i-have-quiz/"
- },
- {
-  "category": "personality",
-  "description": "What job should I do? Take this free 8-question quiz to find your fit — people, organizing, hands-on or analytical jobs. No sign-up.",
-  "questions_count": 8,
-  "slug": "what-job-should-i-do-quiz",
-  "tags": [
-   "jobs",
-   "career",
-   "personality",
-   "quiz",
-   "free"
-  ],
-  "title": "What Job Should I Do? Quiz",
-  "url": "/quiz/what-job-should-i-do-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Free career quiz for adults with no sign-up. 8 quick questions match your experience to your next move — switcher, leader, specialist or independent.",
-  "questions_count": 8,
-  "slug": "free-career-quiz-adults",
-  "tags": [
-   "career",
-   "adults",
-   "personality",
-   "quiz",
-   "free",
-   "no-sign-up"
-  ],
-  "title": "Free Career Quiz for Adults (No Sign-Up)",
-  "url": "/quiz/free-career-quiz-adults/"
- },
- {
-  "category": "personality",
-  "description": "Short career quiz — just 5 minutes. Answer 8 rapid-fire questions and discover your career style: sprinter, steady hand, idea machine or problem solver.",
-  "questions_count": 8,
-  "slug": "5-minute-career-quiz",
-  "tags": [
-   "career",
-   "quick",
-   "personality",
-   "quiz",
-   "free"
-  ],
-  "title": "5-Minute Career Quiz",
-  "url": "/quiz/5-minute-career-quiz/"
- },
- {
-  "category": "personality",
-  "description": "What is my dream job? Take this free quiz — 8 fun questions reveal whether you’re a visionary, explorer, star or changemaker. No sign-up.",
-  "questions_count": 8,
-  "slug": "dream-job-quiz",
-  "tags": [
-   "dream-job",
-   "career",
-   "aspirational",
-   "quiz",
-   "free"
-  ],
-  "title": "What Is My Dream Job? Quiz",
-  "url": "/quiz/dream-job-quiz/"
- },
- {
-  "category": "personality",
-  "description": "What is your spending personality? Take this free quiz — 8 quick questions reveal if you’re a saver, splurger, investor or planner. No sign-up.",
-  "questions_count": 8,
-  "slug": "spending-personality-quiz",
-  "tags": [
-   "money",
-   "spending",
-   "personality",
-   "quiz",
-   "free"
-  ],
-  "title": "What’s Your Spending Personality? Quiz",
-  "url": "/quiz/spending-personality-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Match your personality quirks to pizza, taco, sushi or burger in this playful food quiz.",
-  "questions_count": 8,
-  "slug": "what-food-am-i-quiz",
-  "tags": [
-   "food",
-   "personality",
-   "fun"
-  ],
-  "title": "What Food Am I? Quiz",
-  "url": "/quiz/what-food-am-i-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Discover your dessert twin — chocolate cake, ice cream sundae, cupcake or donut — in this sweet personality quiz.",
-  "questions_count": 8,
-  "slug": "what-dessert-are-you-quiz",
-  "tags": [
-   "food",
-   "dessert",
-   "personality",
-   "fun"
-  ],
-  "title": "What Dessert Are You? Quiz",
-  "url": "/quiz/what-dessert-are-you-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Crown your pizza topping personality — pepperoni, mushroom, extra cheese or pineapple — in this playful quiz.",
-  "questions_count": 8,
-  "slug": "pizza-topping-quiz",
-  "tags": [
-   "food",
-   "pizza",
-   "personality",
-   "fun"
-  ],
-  "title": "Which Pizza Topping Are You? Quiz",
-  "url": "/quiz/pizza-topping-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Your coffee order reveals your personality — espresso, latte, cold brew or cappuccino — in this fun quiz.",
-  "questions_count": 8,
-  "slug": "coffee-personality-quiz",
-  "tags": [
-   "food",
-   "coffee",
-   "personality"
-  ],
-  "title": "What Type of Coffee Are You? Quiz",
-  "url": "/quiz/coffee-personality-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Crunch-based self-discovery: match your soul to a tortilla, potato, pita or kettle chip in this silly quiz.",
-  "questions_count": 8,
-  "slug": "chip-personality-quiz",
-  "tags": [
-   "food",
-   "funny",
-   "personality",
-   "fun"
-  ],
-  "title": "What Kind of Chip Are You? Quiz",
-  "url": "/quiz/chip-personality-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Fun decade-personality quiz: 8 questions reveal whether you belong in the 70s, 80s, 90s or 2000s.",
-  "questions_count": 8,
-  "slug": "what-era-born-in-quiz",
-  "tags": [
-   "personality",
-   "decades",
-   "70s",
-   "80s",
-   "90s",
-   "2000s",
-   "nostalgia quiz"
-  ],
-  "title": "What Era Should You Have Been Born In? Quiz",
-  "url": "/quiz/what-era-born-in-quiz/"
- },
- {
-  "category": "personality",
-  "description": "'Am I' phrasing variant: 8 questions match you to Vintage, Grunge, Preppy or Boho.",
-  "questions_count": 8,
-  "slug": "which-aesthetic-am-i-quiz",
-  "tags": [
-   "personality",
-   "aesthetic",
-   "vintage",
-   "grunge",
-   "preppy",
-   "boho",
-   "vibe quiz"
-  ],
-  "title": "Which Aesthetic Am I? Quiz",
-  "url": "/quiz/which-aesthetic-am-i-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Color-pick quiz: 8 questions reveal your aura color — red, blue, green or purple.",
-  "questions_count": 8,
-  "slug": "aura-color-quiz",
-  "tags": [
-   "personality",
-   "aura",
-   "colors",
-   "self discovery",
-   "fun quiz"
-  ],
-  "title": "What Color Is My Aura? Quiz",
-  "url": "/quiz/aura-color-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Fantasy personality quiz: 8 questions reveal your mythical creature — dragon, phoenix, unicorn or kraken.",
-  "questions_count": 8,
-  "slug": "mythical-creature-quiz",
-  "tags": [
-   "personality",
-   "mythical creatures",
-   "dragon",
-   "phoenix",
-   "fantasy quiz"
-  ],
-  "title": "Which Mythical Creature Are You? Quiz",
-  "url": "/quiz/mythical-creature-quiz/"
- },
- {
-  "category": "trivia",
-  "description": "60 hard trivia questions for adults with answers on science, history, geography, literature and the arts.",
-  "questions_count": 60,
-  "slug": "hard-trivia-questions-adults",
-  "tags": [
-   "trivia",
-   "hard",
-   "adults",
-   "questions",
-   "answers"
-  ],
-  "title": "100 Hard Trivia Questions for Adults (With Answers)",
-  "url": "/quiz/hard-trivia-questions-adults/"
- },
- {
-  "category": "trivia",
-  "description": "50 funny trivia questions for adults with answers — weird-but-true animal facts, science oddities and hilarious records.",
-  "questions_count": 50,
-  "slug": "funny-trivia-questions-adults",
-  "tags": [
-   "trivia",
-   "funny",
-   "adults",
-   "questions",
-   "answers"
-  ],
-  "title": "50 Funny Trivia Questions for Adults",
-  "url": "/quiz/funny-trivia-questions-adults/"
- },
- {
-  "category": "trivia",
-  "description": "50 90s trivia questions and answers on Friends, boy bands, movies, games and tech of the nineties.",
-  "questions_count": 50,
-  "slug": "90s-trivia-questions",
-  "tags": [
-   "trivia",
-   "90s",
-   "nostalgia",
-   "questions",
-   "answers"
-  ],
-  "title": "50 90s Trivia Questions and Answers",
-  "url": "/quiz/90s-trivia-questions/"
- },
- {
-  "category": "trivia",
-  "description": "60 movie trivia questions and answers on blockbusters, Disney classics, Oscar winners and iconic movie quotes.",
-  "questions_count": 60,
-  "slug": "movie-trivia-questions",
-  "tags": [
-   "trivia",
-   "movies",
-   "film",
-   "questions",
-   "answers"
-  ],
-  "title": "60 Movie Trivia Questions and Answers",
-  "url": "/quiz/movie-trivia-questions/"
- },
- {
-  "category": "trivia",
-  "description": "50 easy trivia questions for kids with answers — animals, colors, numbers and everyday wonders for family quiz time.",
-  "questions_count": 50,
-  "slug": "easy-trivia-kids",
-  "tags": [
-   "trivia",
-   "kids",
-   "easy",
-   "questions",
-   "answers"
-  ],
-  "title": "50 Easy Trivia Questions for Kids",
-  "url": "/quiz/easy-trivia-kids/"
- },
- {
-  "category": "trivia",
-  "description": "40 simple but hard trivia questions with answers — deceptively tricky riddles and lateral-thinking stumpers.",
-  "questions_count": 40,
-  "slug": "simple-hard-trivia",
-  "tags": [
-   "trivia",
-   "tricky",
-   "riddles",
-   "questions",
-   "answers"
-  ],
-  "title": "40 Simple But Hard Trivia Questions",
-  "url": "/quiz/simple-hard-trivia/"
- },
- {
-  "category": "trivia",
-  "description": "Top 100 hard quiz questions with answers across science, history, geography, arts, literature and sports.",
-  "questions_count": 100,
-  "slug": "top-100-hard-quiz-questions",
-  "tags": [
-   "trivia",
-   "hard",
-   "quiz",
-   "questions",
-   "answers"
-  ],
-  "title": "Top 100 Hard Quiz Questions With Answers",
-  "url": "/quiz/top-100-hard-quiz-questions/"
- },
- {
-  "category": "riddles",
-  "description": "50 original funny riddles for adults about coffee, Mondays, office life and adulting — clean, family-friendly, with hidden answers.",
-  "questions_count": 50,
-  "slug": "funny-riddles-adults",
-  "tags": [
-   "funny",
-   "adults",
-   "clean",
-   "party"
-  ],
-  "title": "50 Funny Riddles for Adults (With Answers)",
-  "url": "/quiz/funny-riddles-adults/"
- },
- {
-  "category": "riddles",
-  "description": "50 genuinely hard riddles for adults built on misdirection, wordplay and lateral thinking — each with a hidden answer.",
-  "questions_count": 50,
-  "slug": "hard-riddles-adults",
-  "tags": [
-   "hard",
-   "adults",
-   "brain-teasers",
-   "lateral-thinking"
-  ],
-  "title": "50 Hard Riddles for Adults (With Answers)",
-  "url": "/quiz/hard-riddles-adults/"
- },
- {
-  "category": "riddles",
-  "description": "50 easy riddles for kids ages 4-10 about animals, food and nature — simple words, big giggles, hidden answers.",
-  "questions_count": 50,
-  "slug": "easy-riddles-kids",
-  "tags": [
-   "kids",
-   "easy",
-   "classroom",
-   "family"
-  ],
-  "title": "50 Easy Riddles for Kids (With Answers)",
-  "url": "/quiz/easy-riddles-kids/"
- },
- {
-  "category": "riddles",
-  "description": "40 original 'what am I' riddles — guess the object, animal or thing from clever clues, with hidden answers.",
-  "questions_count": 40,
-  "slug": "what-am-i-riddles",
-  "tags": [
-   "what-am-i",
-   "guessing",
-   "all-ages"
-  ],
-  "title": "40 'What Am I?' Riddles With Answers",
-  "url": "/quiz/what-am-i-riddles/"
- },
- {
-  "category": "riddles",
-  "description": "40 logic riddles for adults — lateral-thinking scenarios, number tricks and reasoning puzzles with hidden answers.",
-  "questions_count": 40,
-  "slug": "logic-riddles-adults",
-  "tags": [
-   "logic",
-   "adults",
-   "reasoning",
-   "puzzles"
-  ],
-  "title": "40 Logic Riddles for Adults",
-  "url": "/quiz/logic-riddles-adults/"
- },
- {
-  "category": "personality",
-  "description": "Match your personality to a Halloween costume idea — Vampire, Witch, Ghost or Superhero. Free, 60 seconds, no sign-up.",
-  "questions_count": 8,
-  "slug": "halloween-costume-quiz",
-  "tags": [
-   "halloween",
-   "costume",
-   "personality",
-   "quiz",
-   "october"
-  ],
-  "title": "What Halloween Costume Should You Be? Quiz",
-  "url": "/quiz/halloween-costume-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Family game-night Thanksgiving quiz revealing your dinner-table role — Head Chef, Storyteller, Game Captain or Dessert Hero.",
-  "questions_count": 8,
-  "slug": "thanksgiving-family-quiz",
-  "tags": [
-   "thanksgiving",
-   "family",
-   "game night",
-   "personality",
-   "quiz"
-  ],
-  "title": "Thanksgiving Quiz for the Whole Family",
-  "url": "/quiz/thanksgiving-family-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Find out which Christmas character you are — Santa Claus, Rudolph, the Grinch or Frosty. Free holiday personality quiz.",
-  "questions_count": 8,
-  "slug": "christmas-character-quiz",
-  "tags": [
-   "christmas",
-   "holiday",
-   "personality",
-   "quiz",
-   "december"
-  ],
-  "title": "Which Christmas Character Are You? Quiz",
-  "url": "/quiz/christmas-character-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Discover your 2027 vibe — Fitness Starter, Money Master, Adventurer or Zen Seeker. Free New Year resolution quiz, no sign-up.",
-  "questions_count": 8,
-  "slug": "new-year-resolution-quiz",
-  "tags": [
-   "new year",
-   "resolutions",
-   "2027",
-   "personality",
-   "quiz"
-  ],
-  "title": "New Year Resolution Quiz: Your 2027 Vibe",
-  "url": "/quiz/new-year-resolution-quiz/"
- },
- {
-  "category": "personality",
-  "description": "Sweet Valentine's Day quiz for couples revealing your couple type — Romantics, Adventurers, Homebodies or Sweet Surprisers.",
-  "questions_count": 8,
-  "slug": "valentines-day-quiz",
-  "tags": [
-   "valentines day",
-   "couples",
-   "love",
-   "personality",
-   "quiz"
-  ],
-  "title": "Valentine's Day Quiz for Couples",
-  "url": "/quiz/valentines-day-quiz/"
- },
- {
-  "slug": "short-love-language-quiz-no-sign-up",
-  "title": "Short Love Language Quiz No Sign Up Needed!",
-  "category": "personality",
-  "tags": [
-   "short love language quiz no sign up",
-   "love languages",
-   "personality quiz",
-   "family friendly",
-   "quizpop"
-  ],
-  "description": "Take our quick, family-friendly short love language quiz no sign up required! Get instant results to see how you show care and connect with others.",
-  "url": "/quiz/short-love-language-quiz-no-sign-up/",
-  "questions_count": 6
- }
+  {
+    "category": "personality",
+    "description": "Answer 8 spooky questions and find out whether you're a vampire, witch, ghost or werewolf. Free, instant results, no sign-up.",
+    "questions_count": 8,
+    "slug": "which-halloween-monster-are-you",
+    "tags": [
+      "personality",
+      "halloween",
+      "monsters",
+      "vampire",
+      "witch",
+      "spooky",
+      "october"
+    ],
+    "title": "Which Halloween Monster Are You?",
+    "url": "/quiz/which-halloween-monster-are-you/"
+  },
+  {
+    "category": "personality",
+    "description": "Answer 5 quick questions and find out whether you're a 70s soul, 80s neon kid, 90s throwback or living in the 2020s.",
+    "questions_count": 5,
+    "slug": "which-decade-do-you-belong-in",
+    "tags": [
+      "personality",
+      "decades",
+      "70s",
+      "80s",
+      "90s",
+      "vibe"
+    ],
+    "title": "Which Decade Do You Belong In?",
+    "url": "/quiz/which-decade-do-you-belong-in/"
+  },
+  {
+    "category": "riddles",
+    "description": "Five classic riddles with answers revealed as you play. Only 2% score a perfect 5/5 — can you?",
+    "questions_count": 5,
+    "slug": "7-tricky-riddles",
+    "tags": [
+      "riddles",
+      "brain teasers",
+      "puzzles",
+      "what am i"
+    ],
+    "title": "7 Tricky Riddles Most Adults Fail",
+    "url": "/quiz/7-tricky-riddles/"
+  },
+  {
+    "category": "personality",
+    "description": "Five quick scenarios reveal whether you feel most loved through words, acts, gifts or quality time.",
+    "questions_count": 5,
+    "slug": "whats-your-love-language",
+    "tags": [
+      "personality",
+      "love language",
+      "relationships",
+      "couples"
+    ],
+    "title": "What's Your Love Language?",
+    "url": "/quiz/whats-your-love-language/"
+  },
+  {
+    "category": "personality",
+    "description": "Answer 8 quick questions and discover your aesthetic — cottagecore, dark academia, Y2K or minimalist. Free, instant results, no sign-up.",
+    "questions_count": 8,
+    "slug": "what-is-my-aesthetic-quiz",
+    "tags": [
+      "personality",
+      "aesthetic",
+      "cottagecore",
+      "dark academia",
+      "y2k",
+      "minimalist",
+      "vibe"
+    ],
+    "title": "What Is My Aesthetic Quiz?",
+    "url": "/quiz/what-is-my-aesthetic-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Discover your money style in 60 seconds — are you a saver, spender, investor or avoider? Free quiz, no sign-up, instant results.",
+    "questions_count": 8,
+    "slug": "money-personality-quiz",
+    "tags": [
+      "personality",
+      "money",
+      "finance",
+      "saver",
+      "spender",
+      "investor"
+    ],
+    "title": "Money Personality Quiz",
+    "url": "/quiz/money-personality-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "A career quiz for teens: answer 8 questions about your interests and find your future career path — creator, helper, builder or thinker. Free, no sign-up.",
+    "questions_count": 8,
+    "slug": "career-quiz-for-teens",
+    "tags": [
+      "personality",
+      "career",
+      "teens",
+      "students",
+      "jobs",
+      "future"
+    ],
+    "title": "Career Quiz for Teens",
+    "url": "/quiz/career-quiz-for-teens/"
+  },
+  {
+    "category": "personality",
+    "description": "Take this love language quiz for couples together and compare results. 8 quick questions, free, no sign-up — see how you both give and receive love.",
+    "questions_count": 8,
+    "slug": "love-language-quiz-for-couples",
+    "tags": [
+      "love",
+      "couples",
+      "love language",
+      "relationships",
+      "personality",
+      "quiz"
+    ],
+    "title": "Love Language Quiz for Couples: Take It Together",
+    "url": "/quiz/love-language-quiz-for-couples/"
+  },
+  {
+    "category": "personality",
+    "description": "What is your red flag quiz? Answer 8 playful questions and find your funniest dating red flag. Honest, lighthearted, free — no sign-up needed.",
+    "questions_count": 8,
+    "slug": "red-flag-quiz",
+    "tags": [
+      "dating",
+      "red flags",
+      "funny",
+      "relationships",
+      "personality",
+      "quiz"
+    ],
+    "title": "What Is Your Red Flag Quiz? (Fun & Honest)",
+    "url": "/quiz/red-flag-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Am I in love? Take this quiz and check 8 telling signs — from butterflies to can't-stop-smiling. Free, private, no sign-up, instant result.",
+    "questions_count": 8,
+    "slug": "am-i-in-love-quiz",
+    "tags": [
+      "love",
+      "crush",
+      "relationships",
+      "signs",
+      "personality",
+      "quiz"
+    ],
+    "title": "Am I In Love? Quiz: 8 Telling Signs",
+    "url": "/quiz/am-i-in-love-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "What's your dating personality? This dating personality quiz reveals your dating style in 8 questions — free, no sign-up, instant results.",
+    "questions_count": 8,
+    "slug": "dating-personality-quiz",
+    "tags": [
+      "dating",
+      "dating style",
+      "relationships",
+      "personality",
+      "quiz"
+    ],
+    "title": "Dating Personality Quiz: Your Dating Style",
+    "url": "/quiz/dating-personality-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "This couple compatibility quiz is just for fun — 8 playful questions for you and your partner. Free, no sign-up, instant compatibility result.",
+    "questions_count": 8,
+    "slug": "couple-compatibility-quiz",
+    "tags": [
+      "couples",
+      "compatibility",
+      "relationships",
+      "fun",
+      "personality",
+      "quiz"
+    ],
+    "title": "Couple Compatibility Quiz (Just for Fun)",
+    "url": "/quiz/couple-compatibility-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "What career should I have? Take this free quiz — 8 quick questions match your personality to careers in tech, healthcare and creative fields. No sign-up.",
+    "questions_count": 8,
+    "slug": "what-career-should-i-have-quiz",
+    "tags": [
+      "career",
+      "jobs",
+      "personality",
+      "quiz",
+      "free"
+    ],
+    "title": "What Career Should I Have? Quiz",
+    "url": "/quiz/what-career-should-i-have-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "What job should I do? Take this free 8-question quiz to find your fit — people, organizing, hands-on or analytical jobs. No sign-up.",
+    "questions_count": 8,
+    "slug": "what-job-should-i-do-quiz",
+    "tags": [
+      "jobs",
+      "career",
+      "personality",
+      "quiz",
+      "free"
+    ],
+    "title": "What Job Should I Do? Quiz",
+    "url": "/quiz/what-job-should-i-do-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Free career quiz for adults with no sign-up. 8 quick questions match your experience to your next move — switcher, leader, specialist or independent.",
+    "questions_count": 8,
+    "slug": "free-career-quiz-adults",
+    "tags": [
+      "career",
+      "adults",
+      "personality",
+      "quiz",
+      "free",
+      "no-sign-up"
+    ],
+    "title": "Free Career Quiz for Adults (No Sign-Up)",
+    "url": "/quiz/free-career-quiz-adults/"
+  },
+  {
+    "category": "personality",
+    "description": "Short career quiz — just 5 minutes. Answer 8 rapid-fire questions and discover your career style: sprinter, steady hand, idea machine or problem solver.",
+    "questions_count": 8,
+    "slug": "5-minute-career-quiz",
+    "tags": [
+      "career",
+      "quick",
+      "personality",
+      "quiz",
+      "free"
+    ],
+    "title": "5-Minute Career Quiz",
+    "url": "/quiz/5-minute-career-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "What is my dream job? Take this free quiz — 8 fun questions reveal whether you’re a visionary, explorer, star or changemaker. No sign-up.",
+    "questions_count": 8,
+    "slug": "dream-job-quiz",
+    "tags": [
+      "dream-job",
+      "career",
+      "aspirational",
+      "quiz",
+      "free"
+    ],
+    "title": "What Is My Dream Job? Quiz",
+    "url": "/quiz/dream-job-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "What is your spending personality? Take this free quiz — 8 quick questions reveal if you’re a saver, splurger, investor or planner. No sign-up.",
+    "questions_count": 8,
+    "slug": "spending-personality-quiz",
+    "tags": [
+      "money",
+      "spending",
+      "personality",
+      "quiz",
+      "free"
+    ],
+    "title": "What’s Your Spending Personality? Quiz",
+    "url": "/quiz/spending-personality-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Match your personality quirks to pizza, taco, sushi or burger in this playful food quiz.",
+    "questions_count": 8,
+    "slug": "what-food-am-i-quiz",
+    "tags": [
+      "food",
+      "personality",
+      "fun"
+    ],
+    "title": "What Food Am I? Quiz",
+    "url": "/quiz/what-food-am-i-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Discover your dessert twin — chocolate cake, ice cream sundae, cupcake or donut — in this sweet personality quiz.",
+    "questions_count": 8,
+    "slug": "what-dessert-are-you-quiz",
+    "tags": [
+      "food",
+      "dessert",
+      "personality",
+      "fun"
+    ],
+    "title": "What Dessert Are You? Quiz",
+    "url": "/quiz/what-dessert-are-you-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Crown your pizza topping personality — pepperoni, mushroom, extra cheese or pineapple — in this playful quiz.",
+    "questions_count": 8,
+    "slug": "pizza-topping-quiz",
+    "tags": [
+      "food",
+      "pizza",
+      "personality",
+      "fun"
+    ],
+    "title": "Which Pizza Topping Are You? Quiz",
+    "url": "/quiz/pizza-topping-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Your coffee order reveals your personality — espresso, latte, cold brew or cappuccino — in this fun quiz.",
+    "questions_count": 8,
+    "slug": "coffee-personality-quiz",
+    "tags": [
+      "food",
+      "coffee",
+      "personality"
+    ],
+    "title": "What Type of Coffee Are You? Quiz",
+    "url": "/quiz/coffee-personality-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Crunch-based self-discovery: match your soul to a tortilla, potato, pita or kettle chip in this silly quiz.",
+    "questions_count": 8,
+    "slug": "chip-personality-quiz",
+    "tags": [
+      "food",
+      "funny",
+      "personality",
+      "fun"
+    ],
+    "title": "What Kind of Chip Are You? Quiz",
+    "url": "/quiz/chip-personality-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Fun decade-personality quiz: 8 questions reveal whether you belong in the 70s, 80s, 90s or 2000s.",
+    "questions_count": 8,
+    "slug": "what-era-born-in-quiz",
+    "tags": [
+      "personality",
+      "decades",
+      "70s",
+      "80s",
+      "90s",
+      "2000s",
+      "nostalgia quiz"
+    ],
+    "title": "What Era Should You Have Been Born In? Quiz",
+    "url": "/quiz/what-era-born-in-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "'Am I' phrasing variant: 8 questions match you to Vintage, Grunge, Preppy or Boho.",
+    "questions_count": 8,
+    "slug": "which-aesthetic-am-i-quiz",
+    "tags": [
+      "personality",
+      "aesthetic",
+      "vintage",
+      "grunge",
+      "preppy",
+      "boho",
+      "vibe quiz"
+    ],
+    "title": "Which Aesthetic Am I? Quiz",
+    "url": "/quiz/which-aesthetic-am-i-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Color-pick quiz: 8 questions reveal your aura color — red, blue, green or purple.",
+    "questions_count": 8,
+    "slug": "aura-color-quiz",
+    "tags": [
+      "personality",
+      "aura",
+      "colors",
+      "self discovery",
+      "fun quiz"
+    ],
+    "title": "What Color Is My Aura? Quiz",
+    "url": "/quiz/aura-color-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Fantasy personality quiz: 8 questions reveal your mythical creature — dragon, phoenix, unicorn or kraken.",
+    "questions_count": 8,
+    "slug": "mythical-creature-quiz",
+    "tags": [
+      "personality",
+      "mythical creatures",
+      "dragon",
+      "phoenix",
+      "fantasy quiz"
+    ],
+    "title": "Which Mythical Creature Are You? Quiz",
+    "url": "/quiz/mythical-creature-quiz/"
+  },
+  {
+    "category": "trivia",
+    "description": "60 hard trivia questions for adults with answers on science, history, geography, literature and the arts.",
+    "questions_count": 60,
+    "slug": "hard-trivia-questions-adults",
+    "tags": [
+      "trivia",
+      "hard",
+      "adults",
+      "questions",
+      "answers"
+    ],
+    "title": "100 Hard Trivia Questions for Adults (With Answers)",
+    "url": "/quiz/hard-trivia-questions-adults/"
+  },
+  {
+    "category": "trivia",
+    "description": "50 funny trivia questions for adults with answers — weird-but-true animal facts, science oddities and hilarious records.",
+    "questions_count": 50,
+    "slug": "funny-trivia-questions-adults",
+    "tags": [
+      "trivia",
+      "funny",
+      "adults",
+      "questions",
+      "answers"
+    ],
+    "title": "50 Funny Trivia Questions for Adults",
+    "url": "/quiz/funny-trivia-questions-adults/"
+  },
+  {
+    "category": "trivia",
+    "description": "50 90s trivia questions and answers on Friends, boy bands, movies, games and tech of the nineties.",
+    "questions_count": 50,
+    "slug": "90s-trivia-questions",
+    "tags": [
+      "trivia",
+      "90s",
+      "nostalgia",
+      "questions",
+      "answers"
+    ],
+    "title": "50 90s Trivia Questions and Answers",
+    "url": "/quiz/90s-trivia-questions/"
+  },
+  {
+    "category": "trivia",
+    "description": "60 movie trivia questions and answers on blockbusters, Disney classics, Oscar winners and iconic movie quotes.",
+    "questions_count": 60,
+    "slug": "movie-trivia-questions",
+    "tags": [
+      "trivia",
+      "movies",
+      "film",
+      "questions",
+      "answers"
+    ],
+    "title": "60 Movie Trivia Questions and Answers",
+    "url": "/quiz/movie-trivia-questions/"
+  },
+  {
+    "category": "trivia",
+    "description": "50 easy trivia questions for kids with answers — animals, colors, numbers and everyday wonders for family quiz time.",
+    "questions_count": 50,
+    "slug": "easy-trivia-kids",
+    "tags": [
+      "trivia",
+      "kids",
+      "easy",
+      "questions",
+      "answers"
+    ],
+    "title": "50 Easy Trivia Questions for Kids",
+    "url": "/quiz/easy-trivia-kids/"
+  },
+  {
+    "category": "trivia",
+    "description": "40 simple but hard trivia questions with answers — deceptively tricky riddles and lateral-thinking stumpers.",
+    "questions_count": 40,
+    "slug": "simple-hard-trivia",
+    "tags": [
+      "trivia",
+      "tricky",
+      "riddles",
+      "questions",
+      "answers"
+    ],
+    "title": "40 Simple But Hard Trivia Questions",
+    "url": "/quiz/simple-hard-trivia/"
+  },
+  {
+    "category": "trivia",
+    "description": "Top 100 hard quiz questions with answers across science, history, geography, arts, literature and sports.",
+    "questions_count": 100,
+    "slug": "top-100-hard-quiz-questions",
+    "tags": [
+      "trivia",
+      "hard",
+      "quiz",
+      "questions",
+      "answers"
+    ],
+    "title": "Top 100 Hard Quiz Questions With Answers",
+    "url": "/quiz/top-100-hard-quiz-questions/"
+  },
+  {
+    "category": "riddles",
+    "description": "50 original funny riddles for adults about coffee, Mondays, office life and adulting — clean, family-friendly, with hidden answers.",
+    "questions_count": 50,
+    "slug": "funny-riddles-adults",
+    "tags": [
+      "funny",
+      "adults",
+      "clean",
+      "party"
+    ],
+    "title": "50 Funny Riddles for Adults (With Answers)",
+    "url": "/quiz/funny-riddles-adults/"
+  },
+  {
+    "category": "riddles",
+    "description": "50 genuinely hard riddles for adults built on misdirection, wordplay and lateral thinking — each with a hidden answer.",
+    "questions_count": 50,
+    "slug": "hard-riddles-adults",
+    "tags": [
+      "hard",
+      "adults",
+      "brain-teasers",
+      "lateral-thinking"
+    ],
+    "title": "50 Hard Riddles for Adults (With Answers)",
+    "url": "/quiz/hard-riddles-adults/"
+  },
+  {
+    "category": "riddles",
+    "description": "50 easy riddles for kids ages 4-10 about animals, food and nature — simple words, big giggles, hidden answers.",
+    "questions_count": 50,
+    "slug": "easy-riddles-kids",
+    "tags": [
+      "kids",
+      "easy",
+      "classroom",
+      "family"
+    ],
+    "title": "50 Easy Riddles for Kids (With Answers)",
+    "url": "/quiz/easy-riddles-kids/"
+  },
+  {
+    "category": "riddles",
+    "description": "40 original 'what am I' riddles — guess the object, animal or thing from clever clues, with hidden answers.",
+    "questions_count": 40,
+    "slug": "what-am-i-riddles",
+    "tags": [
+      "what-am-i",
+      "guessing",
+      "all-ages"
+    ],
+    "title": "40 'What Am I?' Riddles With Answers",
+    "url": "/quiz/what-am-i-riddles/"
+  },
+  {
+    "category": "riddles",
+    "description": "40 logic riddles for adults — lateral-thinking scenarios, number tricks and reasoning puzzles with hidden answers.",
+    "questions_count": 40,
+    "slug": "logic-riddles-adults",
+    "tags": [
+      "logic",
+      "adults",
+      "reasoning",
+      "puzzles"
+    ],
+    "title": "40 Logic Riddles for Adults",
+    "url": "/quiz/logic-riddles-adults/"
+  },
+  {
+    "category": "personality",
+    "description": "Match your personality to a Halloween costume idea — Vampire, Witch, Ghost or Superhero. Free, 60 seconds, no sign-up.",
+    "questions_count": 8,
+    "slug": "halloween-costume-quiz",
+    "tags": [
+      "halloween",
+      "costume",
+      "personality",
+      "quiz",
+      "october"
+    ],
+    "title": "What Halloween Costume Should You Be? Quiz",
+    "url": "/quiz/halloween-costume-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Family game-night Thanksgiving quiz revealing your dinner-table role — Head Chef, Storyteller, Game Captain or Dessert Hero.",
+    "questions_count": 8,
+    "slug": "thanksgiving-family-quiz",
+    "tags": [
+      "thanksgiving",
+      "family",
+      "game night",
+      "personality",
+      "quiz"
+    ],
+    "title": "Thanksgiving Quiz for the Whole Family",
+    "url": "/quiz/thanksgiving-family-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Find out which Christmas character you are — Santa Claus, Rudolph, the Grinch or Frosty. Free holiday personality quiz.",
+    "questions_count": 8,
+    "slug": "christmas-character-quiz",
+    "tags": [
+      "christmas",
+      "holiday",
+      "personality",
+      "quiz",
+      "december"
+    ],
+    "title": "Which Christmas Character Are You? Quiz",
+    "url": "/quiz/christmas-character-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Discover your 2027 vibe — Fitness Starter, Money Master, Adventurer or Zen Seeker. Free New Year resolution quiz, no sign-up.",
+    "questions_count": 8,
+    "slug": "new-year-resolution-quiz",
+    "tags": [
+      "new year",
+      "resolutions",
+      "2027",
+      "personality",
+      "quiz"
+    ],
+    "title": "New Year Resolution Quiz: Your 2027 Vibe",
+    "url": "/quiz/new-year-resolution-quiz/"
+  },
+  {
+    "category": "personality",
+    "description": "Sweet Valentine's Day quiz for couples revealing your couple type — Romantics, Adventurers, Homebodies or Sweet Surprisers.",
+    "questions_count": 8,
+    "slug": "valentines-day-quiz",
+    "tags": [
+      "valentines day",
+      "couples",
+      "love",
+      "personality",
+      "quiz"
+    ],
+    "title": "Valentine's Day Quiz for Couples",
+    "url": "/quiz/valentines-day-quiz/"
+  },
+  {
+    "slug": "short-love-language-quiz-no-sign-up",
+    "title": "Short Love Language Quiz No Sign Up Needed!",
+    "category": "personality",
+    "tags": [
+      "short love language quiz no sign up",
+      "love languages",
+      "personality quiz",
+      "family friendly",
+      "quizpop"
+    ],
+    "description": "Take our quick, family-friendly short love language quiz no sign up required! Get instant results to see how you show care and connect with others.",
+    "url": "/quiz/short-love-language-quiz-no-sign-up/",
+    "questions_count": 6
+  },
+  {
+    "slug": "morning-person-or-night-owl-quiz",
+    "title": "Morning Person or Night Owl Quiz: What's Your Cycle?",
+    "category": "personality",
+    "tags": [
+      "sleep",
+      "lifestyle",
+      "habits",
+      "chronotype",
+      "personality"
+    ],
+    "description": "Take our fun morning person or night owl quiz to discover your natural sleep schedule, daily energy patterns, and perfect daily routine.",
+    "url": "/quiz/morning-person-or-night-owl-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "does-he-like-me-quiz",
+    "title": "Does He Like Me Quiz: Decode His Secret Crushing Signs!",
+    "category": "personality",
+    "tags": [
+      "crush",
+      "teens",
+      "dating",
+      "relationship",
+      "love"
+    ],
+    "description": "Are you wondering if your crush has feelings for you? Take this fun does he like me quiz to decode his body language and see if he is secretly crushing.",
+    "url": "/quiz/does-he-like-me-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "off-grid-cabin-survival-quiz",
+    "title": "How Many Days Could You Survive Off-Grid?",
+    "category": "personality",
+    "tags": [
+      "off-grid",
+      "cabin-life",
+      "survival-quiz",
+      "nature",
+      "personality"
+    ],
+    "description": "Would you survive living in an unplugged, off-grid forest cabin? Take this fun lifestyle quiz to see how many days you'd last without technology!",
+    "url": "/quiz/off-grid-cabin-survival-quiz/",
+    "questions_count": 6
+  }
 ]
