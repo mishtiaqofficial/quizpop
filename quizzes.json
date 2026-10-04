@@ -719,5 +719,50 @@
     "description": "Would you survive living in an unplugged, off-grid forest cabin? Take this fun lifestyle quiz to see how many days you'd last without technology!",
     "url": "/quiz/off-grid-cabin-survival-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "autumn-style-90s-tv-fashion-twin",
+    "title": "What Is Your Autumn Style 90s TV Fashion Twin?",
+    "category": "personality",
+    "tags": [
+      "fashion",
+      "90s tv",
+      "autumn style",
+      "personality quiz",
+      "nostalgia"
+    ],
+    "description": "Take our fun 90s TV fashion twin quiz to match your cozy autumn style with iconic characters like Rachel Green, Hilary Banks, or Clarissa Darling!",
+    "url": "/quiz/autumn-style-90s-tv-fashion-twin/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-pet-costume-personality-quiz",
+    "title": "What Viral Pet Costume Matches Your Pet?",
+    "category": "personality",
+    "tags": [
+      "pets",
+      "costumes",
+      "personality",
+      "funny",
+      "halloween"
+    ],
+    "description": "Take our fun viral pet costume quiz to discover which hilarious internet-famous outfit perfectly matches your cat or dog's unique personality!",
+    "url": "/quiz/viral-pet-costume-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "virtual-fridge-organizer-riddles",
+    "title": "Virtual Fridge Organizer: Solve the Kitchen Riddles!",
+    "category": "riddles",
+    "tags": [
+      "fridge",
+      "riddles",
+      "organization",
+      "food",
+      "kitchen"
+    ],
+    "description": "Can you organize this messy virtual fridge? Solve 6 satisfying food riddles to place every grocery item in its perfect spot and tidy up the kitchen!",
+    "url": "/quiz/virtual-fridge-organizer-riddles/",
+    "questions_count": 6
   }
 ]
