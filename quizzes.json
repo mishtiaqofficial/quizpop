@@ -764,5 +764,50 @@
     "description": "Can you organize this messy virtual fridge? Solve 6 satisfying food riddles to place every grocery item in its perfect spot and tidy up the kitchen!",
     "url": "/quiz/virtual-fridge-organizer-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "90s-pop-lyrics-quiz",
+    "title": "Can You Finish These 90s Pop Lyrics?",
+    "category": "trivia",
+    "tags": [
+      "90s",
+      "pop music",
+      "lyrics",
+      "nostalgia",
+      "trivia"
+    ],
+    "description": "Prove you are a true 90s music fan! Test your memory and see if you can complete the lyrics to the decade's biggest chart-topping pop hits.",
+    "url": "/quiz/90s-pop-lyrics-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "hot-spring-capybara-vibe-quiz",
+    "title": "Which Hot Spring Capybara Is Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "capybara",
+      "personality quiz",
+      "animal vibe",
+      "relaxation",
+      "cute animals"
+    ],
+    "description": "Take our fun hot spring capybara quiz to discover your current relaxation style and find your perfect, cute water-loving animal match!",
+    "url": "/quiz/hot-spring-capybara-vibe-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-getaway-aesthetic-quiz",
+    "title": "What Is Your Scenic Autumn Getaway Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "fall-quiz",
+      "autumn-travel",
+      "cozy-aesthetic",
+      "personality-quiz",
+      "travel-vibes"
+    ],
+    "description": "Design your perfect cozy autumn day in this fun personality quiz to find out which scenic fall getaway aesthetic matches your travel style!",
+    "url": "/quiz/autumn-getaway-aesthetic-quiz/",
+    "questions_count": 6
   }
 ]
