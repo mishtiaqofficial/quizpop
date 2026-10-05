@@ -2,10 +2,10 @@
   "specVersion": "1.0",
   "entries": [
     {
-      "identifier": "urn:air:quizpop.pages.dev:docs:llms-txt",
+      "identifier": "urn:air:popquizdaily.site:docs:llms-txt",
       "displayName": "QuizPop agent documentation (llms.txt)",
       "type": "text/markdown",
-      "url": "https://quizpop.pages.dev/llms.txt",
+      "url": "https://popquizdaily.site/llms.txt",
       "description": "Agent-readable guide to QuizPop: quiz categories, popular quizzes, content policies and sponsored-content behavior.",
       "representativeQueries": [
         "What quizzes and categories does QuizPop publish?",

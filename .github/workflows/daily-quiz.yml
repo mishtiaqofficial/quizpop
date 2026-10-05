@@ -29,7 +29,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash
           QUIZZES_PER_DAY: ${{ inputs.count || '3' }}
-          SITE_DOMAIN: https://quizpop.pages.dev/
+          SITE_DOMAIN: https://popquizdaily.site/
         run: python scripts/generate_quiz.py
 
       - name: Commit and push

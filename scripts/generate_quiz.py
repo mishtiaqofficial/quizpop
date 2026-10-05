@@ -11,7 +11,7 @@ Env:
   GEMINI_API_KEY   required (GitHub repo secret)
   GEMINI_MODEL     default: gemini-3.5-flash
   QUIZZES_PER_DAY  default: 3
-  SITE_DOMAIN      default: https://quizpop.pages.dev/
+  SITE_DOMAIN      default: https://popquizdaily.site/
 """
 import html
 import json
@@ -26,7 +26,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent  # repo root (quizpop-site contents)
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 PER_DAY = int(os.environ.get("QUIZZES_PER_DAY", "3"))
-DOMAIN = os.environ.get("SITE_DOMAIN", "https://quizpop.pages.dev/").rstrip("/") + "/"
+DOMAIN = os.environ.get("SITE_DOMAIN", "https://popquizdaily.site/").rstrip("/") + "/"
 
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
                 "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/"]

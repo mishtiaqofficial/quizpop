@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://quizpop.pages.dev/sitemap.xml
+Sitemap: https://popquizdaily.site/sitemap.xml

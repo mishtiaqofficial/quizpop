@@ -8,14 +8,14 @@ Mobile-first static quiz site. No frameworks, no build step. Deploy target: **Cl
 2. Push to GitHub (private repo recommended).
 3. Cloudflare dashboard → Pages → Create → Connect Git → select repo.
 4. Build settings: **no build command**, output directory: `/` (repo root = site root).
-5. Deploy. You get `https://quizpop.pages.dev` instantly; add your custom domain later in Pages → Custom domains.
+5. Deploy. You get `https://popquizdaily.site` instantly; add your custom domain later in Pages → Custom domains.
 
 ## Before launch — replace these placeholders
 
 | Placeholder | Where | Replace with |
 |---|---|---|
 | `YOUR_MONETAG_SMARTLINK` | `assets/js/tracking.js` (**one place only**) | Your real Monetag Direct Link (Dashboard → Sites → Add zone → Direct Link). Keep it out of public repos. |
-| `https://quizpop.example/` | `sitemap.xml`, `.github/workflows/daily-quiz.yml` (`SITE_DOMAIN`) | Your real domain — set once the live URL is confirmed |
+| `https://popquizdaily.site/` | `sitemap.xml`, `.github/workflows/daily-quiz.yml` (`SITE_DOMAIN`) | Your real domain — set once the live URL is confirmed |
 | GA4 snippet | Before `</body>` on every page (see `<!-- GA4 -->` comments) | Your `G-XXXXXXXXXX` measurement snippet |
 
 ## Add a new quiz (2 minutes)
@@ -97,4 +97,4 @@ The `scripts/` + `.github/` folders turn the site into a self-running content ma
 
 **To pause:** Actions → "Daily Quiz Pipeline" → Disable workflow.
 
-> ⚠️ Replace `https://quizpop.example/` with your real domain in the workflow file (`SITE_DOMAIN`) and in `sitemap.xml` before launch.
+> ⚠️ Replace `https://popquizdaily.site/` with your real domain in the workflow file (`SITE_DOMAIN`) and in `sitemap.xml` before launch.

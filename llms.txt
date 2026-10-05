@@ -2,40 +2,40 @@
 
 > Free personality quizzes, trivia quizzes and riddles with instant results. No sign-up, no email required. New quizzes published daily.
 
-QuizPop (https://quizpop.pages.dev/) is a mobile-friendly quiz website. Every quiz is free,
+QuizPop (https://popquizdaily.site/) is a mobile-friendly quiz website. Every quiz is free,
 takes about a minute, and shows the result instantly on the page — results are never
 gated behind ads, clicks or sign-ups.
 
 ## Start here
 
-- [QuizPop home — fun quizzes, trivia & riddles](https://quizpop.pages.dev/)
-- [Trending quizzes](https://quizpop.pages.dev/trending/)
-- [Search all quizzes](https://quizpop.pages.dev/search/)
+- [QuizPop home — fun quizzes, trivia & riddles](https://popquizdaily.site/)
+- [Trending quizzes](https://popquizdaily.site/trending/)
+- [Search all quizzes](https://popquizdaily.site/search/)
 
 ## Quiz categories
 
-- [Personality quizzes](https://quizpop.pages.dev/personality/) — career, food, aesthetic, decade, love-language and lifestyle quizzes
-- [Trivia quizzes](https://quizpop.pages.dev/trivia/) — hard trivia questions, general knowledge and themed trivia
-- [Riddles](https://quizpop.pages.dev/riddles/) — tricky riddles with answers for adults and kids
+- [Personality quizzes](https://popquizdaily.site/personality/) — career, food, aesthetic, decade, love-language and lifestyle quizzes
+- [Trivia quizzes](https://popquizdaily.site/trivia/) — hard trivia questions, general knowledge and themed trivia
+- [Riddles](https://popquizdaily.site/riddles/) — tricky riddles with answers for adults and kids
 
 ## Popular quizzes
 
-- [What Career Should I Have? Quiz](https://quizpop.pages.dev/quiz/what-career-should-i-have-quiz/)
-- [Money Personality Quiz](https://quizpop.pages.dev/quiz/money-personality-quiz/)
-- [What Food Am I? Quiz](https://quizpop.pages.dev/quiz/what-food-am-i-quiz/)
-- [Which Decade Do You Belong In?](https://quizpop.pages.dev/quiz/which-decade-do-you-belong-in/)
-- [What Is My Aesthetic Quiz](https://quizpop.pages.dev/quiz/what-is-my-aesthetic-quiz/)
-- [7 Tricky Riddles (With Answers)](https://quizpop.pages.dev/quiz/7-tricky-riddles/)
-- [Halloween Costume Quiz](https://quizpop.pages.dev/quiz/halloween-costume-quiz/)
-- [Short Love Language Quiz — No Sign Up](https://quizpop.pages.dev/quiz/short-love-language-quiz-no-sign-up/)
+- [What Career Should I Have? Quiz](https://popquizdaily.site/quiz/what-career-should-i-have-quiz/)
+- [Money Personality Quiz](https://popquizdaily.site/quiz/money-personality-quiz/)
+- [What Food Am I? Quiz](https://popquizdaily.site/quiz/what-food-am-i-quiz/)
+- [Which Decade Do You Belong In?](https://popquizdaily.site/quiz/which-decade-do-you-belong-in/)
+- [What Is My Aesthetic Quiz](https://popquizdaily.site/quiz/what-is-my-aesthetic-quiz/)
+- [7 Tricky Riddles (With Answers)](https://popquizdaily.site/quiz/7-tricky-riddles/)
+- [Halloween Costume Quiz](https://popquizdaily.site/quiz/halloween-costume-quiz/)
+- [Short Love Language Quiz — No Sign Up](https://popquizdaily.site/quiz/short-love-language-quiz-no-sign-up/)
 
 ## About and policies
 
-- [About QuizPop](https://quizpop.pages.dev/about/)
-- [Contact](https://quizpop.pages.dev/contact/)
-- [Privacy Policy](https://quizpop.pages.dev/privacy/)
-- [Terms of Use](https://quizpop.pages.dev/terms/)
-- [Affiliate Disclosure](https://quizpop.pages.dev/disclosure/)
+- [About QuizPop](https://popquizdaily.site/about/)
+- [Contact](https://popquizdaily.site/contact/)
+- [Privacy Policy](https://popquizdaily.site/privacy/)
+- [Terms of Use](https://popquizdaily.site/terms/)
+- [Affiliate Disclosure](https://popquizdaily.site/disclosure/)
 
 ## Content notes for agents
 
