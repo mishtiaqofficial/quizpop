@@ -185,7 +185,7 @@ Concept: {concept} | Format: {fmt}
  "tags": ["5", "short", "keywords", "us", "quiz"],
  "questions": [ exactly 6 items, each {q_spec} ],
  "results": [ exactly 3 items: {{"title": "...", "description": "40-80 words"}} ],
- "seo_title": "max 60 chars",
+ "seo_title": "max 50 chars (site appends — QuizPop, keep total under 60)",
  "meta_description": "max 155 chars",
  "faq": [ exactly 3 items: {{"q": "a real 'people also ask' style question about this quiz topic", "a": "helpful 1-2 sentence answer, 40-60 words"}} ]
 }}
