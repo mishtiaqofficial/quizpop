@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Block Cloudflare's internal email-obfuscation endpoint (not a real page;
+# Bing flags it as a 4xx when it tries to crawl the obfuscated email link)
+Disallow: /cdn-cgi/l/email-protection
+
 Sitemap: https://popquizdaily.site/sitemap.xml
