@@ -809,5 +809,50 @@
     "description": "Design your perfect cozy autumn day in this fun personality quiz to find out which scenic fall getaway aesthetic matches your travel style!",
     "url": "/quiz/autumn-getaway-aesthetic-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "90s-nostalgic-toy-riddles",
+    "title": "Can You Solve These Retro 90s Toy Riddles?",
+    "category": "riddles",
+    "tags": [
+      "90s",
+      "toys",
+      "riddles",
+      "nostalgia",
+      "trivia"
+    ],
+    "description": "Dust off your Y2K memories! See if you can solve these fun, cryptic riddles about the most popular toys from the 1990s and early 2000s.",
+    "url": "/quiz/90s-nostalgic-toy-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "name-that-80s-song-slowed-down-lyrics",
+    "title": "Can You Guess These 80s Songs From Slowed-Down Lyrics?",
+    "category": "trivia",
+    "tags": [
+      "music",
+      "retro",
+      "pop",
+      "trivia",
+      "80s"
+    ],
+    "description": "Take our 80s song lyrics quiz! Can you identify these massive hit songs from the 1980s when the lyrics are slowed down to a crawl?",
+    "url": "/quiz/name-that-80s-song-slowed-down-lyrics/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-autumn-workout-style",
+    "title": "What Is Your Cozy Autumn Workout Style?",
+    "category": "personality",
+    "tags": [
+      "fitness",
+      "autumn",
+      "cozy",
+      "personality",
+      "workout"
+    ],
+    "description": "Take our fun quiz to discover your perfect cozy indoor workout style and match it with a warm, comforting autumn aesthetic!",
+    "url": "/quiz/cozy-autumn-workout-style/",
+    "questions_count": 6
   }
 ]
