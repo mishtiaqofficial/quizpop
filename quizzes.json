@@ -854,5 +854,50 @@
     "description": "Take our fun quiz to discover your perfect cozy indoor workout style and match it with a warm, comforting autumn aesthetic!",
     "url": "/quiz/cozy-autumn-workout-style/",
     "questions_count": 6
+  },
+  {
+    "slug": "real-autumn-cozy-or-cake-illusion",
+    "title": "Real Autumn Cozy or Cake Illusion?",
+    "category": "riddles",
+    "tags": [
+      "cake",
+      "autumn",
+      "riddle",
+      "food",
+      "fall"
+    ],
+    "description": "Can you tell the difference between real cozy autumn objects and hyper-realistic cakes? Test your eyes with this fun fall riddle quiz!",
+    "url": "/quiz/real-autumn-cozy-or-cake-illusion/",
+    "questions_count": 6
+  },
+  {
+    "slug": "retro-virtual-pocket-pets-quiz",
+    "title": "Can You Name These Retro Virtual Pocket Pets?",
+    "category": "trivia",
+    "tags": [
+      "virtual pets",
+      "90s toys",
+      "retro gaming",
+      "nostalgia",
+      "trivia"
+    ],
+    "description": "Can you identify these classic 90s and 2000s virtual pocket pets? Take this nostalgic trivia quiz to see if you are a master digital caretaker!",
+    "url": "/quiz/retro-virtual-pocket-pets-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-lunchbox-snack-energy-quiz",
+    "title": "Which 90s Lunchbox Snack Matches Your Energy?",
+    "category": "personality",
+    "tags": [
+      "90s",
+      "lunchbox",
+      "snacks",
+      "nostalgia",
+      "personality"
+    ],
+    "description": "Take this fun nostalgia quiz to find out which classic 1990s school lunchbox snack matches your current daily energy levels!",
+    "url": "/quiz/90s-lunchbox-snack-energy-quiz/",
+    "questions_count": 6
   }
 ]
