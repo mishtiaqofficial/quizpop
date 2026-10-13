@@ -5624,5 +5624,365 @@
     "description": "Take the which christmas cookie are you quiz to discover your holiday baking personality! Are you a sugar cookie, gingerbread, or chocolate treat?",
     "url": "/quiz/which-christmas-cookie-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-10",
+    "title": "Which Santa's Workshop Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "personality test",
+      "north pole",
+      "holiday fun"
+    ],
+    "description": "Take the which santa's workshop are you quiz to find your North Pole job! Answer fun holiday questions and discover your festive station.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-10/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-6",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movies",
+      "movie night",
+      "fall quiz",
+      "spooky season",
+      "family film"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Get a personalized spooky film recommendation for your movie night.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-6/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-witch-familiar-are-you-quiz",
+    "title": "Which Witch Familiar Are You?",
+    "category": "personality",
+    "tags": [
+      "witch familiar",
+      "black cat",
+      "owl",
+      "toad",
+      "magic quiz"
+    ],
+    "description": "Take the which witch familiar are you quiz to discover if your magical spirit animal is a clever black cat, a wise owl, or a charming garden toad!",
+    "url": "/quiz/which-witch-familiar-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-monster-cereal-are-quiz-3",
+    "title": "Which Monster Cereal Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "which monster cereal are you quiz",
+      "monster cereals",
+      "count chocula",
+      "franken berry",
+      "breakfast quiz"
+    ],
+    "description": "Take the Which Monster Cereal Are You Quiz to find out if you match Count Chocula, Franken Berry, or Boo Berry in this fun breakfast personality test!",
+    "url": "/quiz/which-monster-cereal-are-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-a-witch-or-vampire-quiz",
+    "title": "Am I a Witch or a Vampire Quiz",
+    "category": "personality",
+    "tags": [
+      "witch",
+      "vampire",
+      "halloween",
+      "magic",
+      "quiz"
+    ],
+    "description": "Take the ultimate am i a witch or a vampire quiz to discover your magical destiny! Are you a spellcasting witch or a creature of the night? Find out now.",
+    "url": "/quiz/am-i-a-witch-or-vampire-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-vibe-quiz-2",
+    "title": "What's Your Spooky Season Vibe?",
+    "category": "personality",
+    "tags": [
+      "spooky season",
+      "autumn quiz",
+      "fall vibe",
+      "halloween personality",
+      "quizpop"
+    ],
+    "description": "Take what is my spooky season vibe quiz to discover your autumn personality! Are you cozy cider, classic monster, or ghost hunter? Find out now.",
+    "url": "/quiz/whats-your-spooky-season-vibe-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-job-title-quiz-2",
+    "title": "What's Your Spooky Season Job Title?",
+    "category": "personality",
+    "tags": [
+      "halloween quiz",
+      "spooky season",
+      "fall personality quiz",
+      "what is your spooky season job title quiz",
+      "fun family quiz"
+    ],
+    "description": "Take this fun personality quiz to find out what is your spooky season job title! Answer six autumn questions to discover your official Halloween role.",
+    "url": "/quiz/whats-your-spooky-season-job-title-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-christmas-aesthetic-quiz",
+    "title": "What's Your Christmas Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "christmas aesthetic",
+      "holiday quiz",
+      "christmas style",
+      "decorating quiz",
+      "festive personality"
+    ],
+    "description": "Take this fun quiz to find out what is my christmas aesthetic! Discover your unique holiday decorating style and festive personality today.",
+    "url": "/quiz/whats-your-christmas-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-movie-character-are-you-quiz",
+    "title": "Which Christmas Movie Character Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas movies",
+      "holiday quiz",
+      "personality quiz",
+      "christmas characters",
+      "family fun"
+    ],
+    "description": "Take the which christmas movie character are you quiz to discover your holiday cinematic match! Fun questions for the whole family.",
+    "url": "/quiz/which-christmas-movie-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-reindeer-are-you-quiz",
+    "title": "Which Reindeer Are You?",
+    "category": "personality",
+    "tags": [
+      "which reindeer are you quiz",
+      "christmas quiz",
+      "holiday personality test",
+      "santa sleigh",
+      "family fun"
+    ],
+    "description": "Take the which reindeer are you quiz to find out which of Santa's festive helpers matches your personality. Fun holiday quiz for kids and families!",
+    "url": "/quiz/which-reindeer-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-elf-name-quiz",
+    "title": "What Is Your Elf Name?",
+    "category": "personality",
+    "tags": [
+      "elf name generator",
+      "christmas quiz",
+      "holiday personality",
+      "festive fun",
+      "winter games"
+    ],
+    "description": "Take the what is your elf name quiz to discover your secret North Pole holiday identity! Answer fun festive questions and share your results with friends.",
+    "url": "/quiz/what-is-your-elf-name-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-holiday-are-you-quiz",
+    "title": "Which Holiday Are You?",
+    "category": "personality",
+    "tags": [
+      "which holiday are you quiz",
+      "personality quiz",
+      "holiday quiz",
+      "fun quiz",
+      "family friendly"
+    ],
+    "description": "Take the which holiday are you quiz to discover which festive celebration matches your personality. Answer 6 fun questions and share your result today!",
+    "url": "/quiz/which-holiday-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "should-i-dress-up-for-halloween-quiz",
+    "title": "Should I Dress Up for Halloween Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "costume",
+      "party",
+      "fall",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out if you should wear a full costume this October or keep things casual and cozy. Discover your Halloween style!",
+    "url": "/quiz/should-i-dress-up-for-halloween-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-should-i-be-for-halloween-quiz",
+    "title": "What Should I Be for Halloween?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "costume",
+      "quiz",
+      "fall",
+      "personality"
+    ],
+    "description": "Take this fun personality quiz to find out what you should be for Halloween! Answer six quick questions to get your ultimate costume recommendation today.",
+    "url": "/quiz/what-should-i-be-for-halloween-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "does-she-like-me-quiz",
+    "title": "Does She Like Me Quiz",
+    "category": "personality",
+    "tags": [
+      "does she like me quiz",
+      "crush",
+      "dating",
+      "school",
+      "personality"
+    ],
+    "description": "Take this does she like me quiz to find out if your crush has feelings for you. Answer fun questions about texts, school, and chats to decode her hints!",
+    "url": "/quiz/does-she-like-me-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "does-my-crush-like-me-quiz",
+    "title": "Does My Crush Like Me Quiz",
+    "category": "personality",
+    "tags": [
+      "does my crush like me quiz",
+      "crush quiz",
+      "tween crushes",
+      "school crush",
+      "personality quiz"
+    ],
+    "description": "Take this fun does my crush like me quiz to decode their mixed signals. Find out if they have feelings for you or just see you as a friend right now!",
+    "url": "/quiz/does-my-crush-like-me-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-in-love-or-just-crushing-quiz",
+    "title": "Am I in Love or Just Crushing?",
+    "category": "personality",
+    "tags": [
+      "crush",
+      "love",
+      "feelings",
+      "school",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out if you are truly in love or just experiencing a normal crush. Answer a few questions about your feelings and get instant results!",
+    "url": "/quiz/am-i-in-love-or-just-crushing-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "how-to-know-if-he-likes-you-quiz",
+    "title": "How to Know If He Likes You Quiz",
+    "category": "personality",
+    "tags": [
+      "how to know if he likes you quiz",
+      "crush",
+      "dating",
+      "teen",
+      "friends"
+    ],
+    "description": "Take this fun how to know if he likes you quiz to decode his texts, body language, and clues. Find out if your crush likes you back today!",
+    "url": "/quiz/how-to-know-if-he-likes-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "is-he-flirting-or-just-friendly-quiz",
+    "title": "Is He Flirting or Just Friendly Quiz?",
+    "category": "personality",
+    "tags": [
+      "is he flirting or just friendly quiz",
+      "crush quiz",
+      "dating quiz",
+      "teenage crush",
+      "mixed signals"
+    ],
+    "description": "Take this fun quiz to decode his mixed signals! Find out if he is secretly crushing on you or just being a super nice guy.",
+    "url": "/quiz/is-he-flirting-or-just-friendly-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-ready-for-a-relationship-quiz",
+    "title": "Am I Ready for a Relationship Quiz",
+    "category": "personality",
+    "tags": [
+      "relationships",
+      "dating",
+      "teen",
+      "friends",
+      "personality"
+    ],
+    "description": "Take this fun quiz to find out if you are ready for a relationship. Discover your dating readiness and explore your heart with our quick personality test!",
+    "url": "/quiz/am-i-ready-for-a-relationship-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-attachment-style-quiz",
+    "title": "What Is My Attachment Style Quiz",
+    "category": "personality",
+    "tags": [
+      "attachment style quiz",
+      "friendship quiz",
+      "personality test",
+      "relationship styles",
+      "kids quiz"
+    ],
+    "description": "Take this fun quiz to discover what is my attachment style quiz results and learn how you connect with friends and family in everyday situations.",
+    "url": "/quiz/what-is-my-attachment-style-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-the-red-flag-or-the-green-flag-quiz",
+    "title": "Am I the Red Flag or the Green Flag Quiz",
+    "category": "personality",
+    "tags": [
+      "red flag quiz",
+      "green flag",
+      "personality test",
+      "friendship quiz",
+      "quizpop"
+    ],
+    "description": "Take the am i the red flag or the green flag quiz to discover your friendship style. Are you total good vibes or do you need a attitude tune-up?",
+    "url": "/quiz/am-i-the-red-flag-or-the-green-flag-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-a-green-flag-quiz",
+    "title": "Am I a Green Flag Quiz",
+    "category": "personality",
+    "tags": [
+      "am i a green flag quiz",
+      "friendship test",
+      "personality quiz",
+      "good vibes",
+      "green flag vs red flag"
+    ],
+    "description": "Take this fun quiz to see if you are a total green flag in friendships and relationships. Discover your vibe and share your results with friends!",
+    "url": "/quiz/am-i-a-green-flag-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-type-of-girlfriend-am-i-quiz",
+    "title": "What Type of Girlfriend Am I Quiz",
+    "category": "personality",
+    "tags": [
+      "what type of girlfriend am i quiz",
+      "relationship quiz",
+      "love personality",
+      "couple goals",
+      "fun quiz"
+    ],
+    "description": "Take the what type of girlfriend am i quiz to discover your unique relationship style, love personality, and what makes you an amazing romantic partner today!",
+    "url": "/quiz/what-type-of-girlfriend-am-i-quiz/",
+    "questions_count": 6
   }
 ]
