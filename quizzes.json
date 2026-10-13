@@ -899,5 +899,35 @@
     "description": "Take this fun nostalgia quiz to find out which classic 1990s school lunchbox snack matches your current daily energy levels!",
     "url": "/quiz/90s-lunchbox-snack-energy-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "halloween-personality-quiz-monster",
+    "title": "Halloween Personality Quiz: Which Monster Are You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "monster",
+      "personality quiz",
+      "spooky",
+      "fun quiz"
+    ],
+    "description": "Take our fun halloween personality quiz to discover which classic spooky monster matches your style! Are you a friendly ghost, werewolf, or vampire?",
+    "url": "/quiz/halloween-personality-quiz-monster/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-costume-should-i-wear-quiz",
+    "title": "What Halloween Costume Should I Wear? Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween costumes",
+      "halloween quiz",
+      "costume ideas",
+      "party quiz",
+      "personality quiz"
+    ],
+    "description": "Stuck on spooky season outfits? Take our what Halloween costume should I wear quiz to find your dream match, from creepy classics to cozy pop culture icons!",
+    "url": "/quiz/what-halloween-costume-should-i-wear-quiz/",
+    "questions_count": 6
   }
 ]
