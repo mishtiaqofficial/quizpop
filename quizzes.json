@@ -6689,5 +6689,335 @@
     "description": "Take this fun personality quiz to find out which coquette aesthetic matches your unique vibe. Discover your dreamy soft-girl style today!",
     "url": "/quiz/which-coquette-aesthetic-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-13",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa",
+      "north pole",
+      "personality quiz",
+      "holidays"
+    ],
+    "description": "Take the which santa's workshop are you quiz to find out which magical North Pole department matches your personality. Fun holiday quiz for kids and families!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-13/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-9",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "movies",
+      "quiz",
+      "family",
+      "fall"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer simple questions about your fall favorites to get your perfect match.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-9/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-vibe-quiz-5",
+    "title": "What's Your Spooky Season Vibe?",
+    "category": "personality",
+    "tags": [
+      "fall",
+      "halloween",
+      "spooky season",
+      "autumn",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover what is my spooky season vibe quiz result! Are you a cozy ghost, pumpkin king, or midnight spellcaster?",
+    "url": "/quiz/whats-your-spooky-season-vibe-quiz-5/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-job-title-quiz-5",
+    "title": "Spooky Season Job Title Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "fall",
+      "spooky season",
+      "personality quiz",
+      "autumn"
+    ],
+    "description": "Take this fun personality quiz to discover your official spooky season job title! Are you a master of haunts or chief pumpkin carver? Find out now.",
+    "url": "/quiz/whats-your-spooky-season-job-title-quiz-5/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-christmas-aesthetic-quiz-3",
+    "title": "What's Your Christmas Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "christmas aesthetic",
+      "holiday quiz",
+      "christmas decor",
+      "personality quiz",
+      "winter style"
+    ],
+    "description": "Take this fun quiz to discover your holiday style! Find out if your vibe is rustic, classic, or pastel. What is my christmas aesthetic quiz awaits you!",
+    "url": "/quiz/whats-your-christmas-aesthetic-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-cottagecore-or-dark-academia-quiz",
+    "title": "Am I Cottagecore or Dark Academia Quiz",
+    "category": "personality",
+    "tags": [
+      "cottagecore",
+      "dark academia",
+      "aesthetic quiz",
+      "personality test",
+      "fun quiz"
+    ],
+    "description": "Take the am i cottagecore or dark academia quiz to find out if your true aesthetic style belongs in a sunny meadow or a moody library. Discover your vibe!",
+    "url": "/quiz/am-i-cottagecore-or-dark-academia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "old-money-aesthetic-quiz",
+    "title": "Old Money Aesthetic Quiz",
+    "category": "personality",
+    "tags": [
+      "old money aesthetic quiz",
+      "preppy style",
+      "quiet luxury",
+      "fashion quiz",
+      "classic style"
+    ],
+    "description": "Take the old money aesthetic quiz to discover your quiet luxury style, from coastal heir to Ivy League scholar. Find your classic vibe today!",
+    "url": "/quiz/old-money-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "clean-girl-aesthetic-quiz",
+    "title": "What's Your Clean Girl Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "clean girl aesthetic quiz",
+      "fashion",
+      "lifestyle",
+      "minimalist",
+      "personality"
+    ],
+    "description": "Take the clean girl aesthetic quiz to discover your minimalist style vibe! Answer six fun questions to find out which fresh-faced trend matches you.",
+    "url": "/quiz/clean-girl-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "y2k-aesthetic-quiz",
+    "title": "What Is Your Y2K Aesthetic Quiz?",
+    "category": "personality",
+    "tags": [
+      "y2k aesthetic quiz",
+      "2000s style",
+      "personality test",
+      "retro fashion",
+      "y2k trend"
+    ],
+    "description": "Take this fun y2k aesthetic quiz to discover your true 2000s style identity. Are you a cyber star, pop princess, or mall icon? Find out your retro vibe now!",
+    "url": "/quiz/y2k-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "grunge-aesthetic-quiz",
+    "title": "What's Your Grunge Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "grunge aesthetic quiz",
+      "90s fashion",
+      "alternative style",
+      "personality test",
+      "teen trends"
+    ],
+    "description": "Take this fun grunge aesthetic quiz to find out which 90s-inspired alternative style matches your unique personality. Discover your fashion vibe today!",
+    "url": "/quiz/grunge-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fairycore-aesthetic-quiz",
+    "title": "Which Fairycore Aesthetic Are You?",
+    "category": "personality",
+    "tags": [
+      "fairycore aesthetic quiz",
+      "fairy quiz",
+      "cottagecore",
+      "magic",
+      "personality test"
+    ],
+    "description": "Take this fun fairycore aesthetic quiz to discover your magical woodland style, find your fairy type, and explore your connection to nature today!",
+    "url": "/quiz/fairycore-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "downtown-girl-aesthetic-quiz",
+    "title": "What's Your Downtown Girl Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "downtown girl aesthetic quiz",
+      "style quiz",
+      "nyc fashion",
+      "personality test",
+      "indie aesthetic"
+    ],
+    "description": "Take the downtown girl aesthetic quiz to find out which NYC-inspired style and personality match you best! Are you an art student or indie sleaze icon?",
+    "url": "/quiz/downtown-girl-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-meant-to-be-an-entrepreneur-quiz",
+    "title": "Am I Meant to Be an Entrepreneur Quiz",
+    "category": "personality",
+    "tags": [
+      "entrepreneur",
+      "business",
+      "career",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take the am i meant to be an entrepreneur quiz to discover your business style, leadership skills, and startup potential. Fun and family-friendly!",
+    "url": "/quiz/am-i-meant-to-be-an-entrepreneur-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-career-path-should-i-choose-quiz",
+    "title": "Which Career Path Should I Choose Quiz",
+    "category": "personality",
+    "tags": [
+      "career quiz",
+      "job finder",
+      "future job",
+      "kids quiz",
+      "personality"
+    ],
+    "description": "Wondering which career path should I choose quiz? Take our fun personality test designed for kids and teens to find your dream job based on your favorite hobbie",
+    "url": "/quiz/which-career-path-should-i-choose-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-should-i-study-in-college-quiz",
+    "title": "What Should I Study in College Quiz: Find Your Major",
+    "category": "personality",
+    "tags": [
+      "college major",
+      "education",
+      "career path",
+      "university",
+      "personality quiz"
+    ],
+    "description": "Take our free what should i study in college quiz to find the perfect major! Discover your strengths and see which degree fits your personality best.",
+    "url": "/quiz/what-should-i-study-in-college-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "trade-school-or-college-quiz",
+    "title": "Trade School or College Quiz: Discover Your Perfect Path",
+    "category": "personality",
+    "tags": [
+      "education",
+      "career",
+      "students",
+      "us",
+      "quiz"
+    ],
+    "description": "Wondering which educational path is right for you? Take our trade school or college quiz to discover if you belong in a workshop or a university hall.",
+    "url": "/quiz/trade-school-or-college-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-a-leader-or-follower-quiz",
+    "title": "Am I a Leader or Follower Quiz",
+    "category": "personality",
+    "tags": [
+      "leader or follower",
+      "personality quiz",
+      "friendship",
+      "teamwork",
+      "quizpop"
+    ],
+    "description": "Take this fun am i a leader or follower quiz to discover your natural social style. Find out if you take charge or prefer to support the team today!",
+    "url": "/quiz/am-i-a-leader-or-follower-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "should-i-quit-my-job-quiz",
+    "title": "Should I Quit My Job Quiz",
+    "category": "personality",
+    "tags": [
+      "career",
+      "job quiz",
+      "workplace",
+      "boss",
+      "quit job"
+    ],
+    "description": "Take this fun should i quit my job quiz to find out if it is time to hand in your notice or stay put. Get personalized career advice today!",
+    "url": "/quiz/should-i-quit-my-job-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "2000s-trivia-questions-and-answers-quiz",
+    "title": "2000s Trivia Questions and Answers Quiz",
+    "category": "trivia",
+    "tags": [
+      "2000s trivia questions and answers quiz",
+      "2000s trivia",
+      "decade trivia",
+      "pop culture",
+      "family game night"
+    ],
+    "description": "Take the ultimate 2000s trivia questions and answers quiz! Test your family on noughties movies, music, and gadgets in this fun, free challenge.",
+    "url": "/quiz/2000s-trivia-questions-and-answers-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "ultimate-disney-trivia-questions-quiz",
+    "title": "Ultimate Disney Trivia Questions Quiz",
+    "category": "trivia",
+    "tags": [
+      "disney",
+      "trivia",
+      "movies",
+      "family",
+      "quiz"
+    ],
+    "description": "Test your knowledge with our fun disney trivia questions quiz! Perfect for kids, families, and superfans of all ages. Play now to see your score.",
+    "url": "/quiz/ultimate-disney-trivia-questions-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "friends-tv-show-trivia-quiz",
+    "title": "Friends TV Show Trivia Quiz",
+    "category": "trivia",
+    "tags": [
+      "friends tv show trivia quiz",
+      "friends trivia",
+      "sitcom quiz",
+      "tv trivia",
+      "90s tv show"
+    ],
+    "description": "Take the ultimate friends tv show trivia quiz on QuizPop! Test your knowledge about Ross, Rachel, Chandler, and the gang with these fun questions.",
+    "url": "/quiz/friends-tv-show-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "80s-music-trivia-quiz",
+    "title": "80s Music Trivia Quiz: Test Your Retro Beats",
+    "category": "trivia",
+    "tags": [
+      "80s music trivia quiz",
+      "retro music",
+      "eighties pop",
+      "music trivia",
+      "family quiz"
+    ],
+    "description": "Take our fun 80s music trivia quiz and test your knowledge of retro pop, rock, and synth hits from the best decade ever. Perfect for the whole family!",
+    "url": "/quiz/80s-music-trivia-quiz/",
+    "questions_count": 6
   }
 ]
