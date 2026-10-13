@@ -1154,5 +1154,215 @@
     "description": "Take this fun personality quiz to discover which classic horror movie character matches your vibe. Answer six quick questions to find your spooky match!",
     "url": "/quiz/which-horror-movie-character-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-aesthetic-quiz",
+    "title": "What Is Your Halloween Aesthetic Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "aesthetic",
+      "spooky",
+      "fall",
+      "personality"
+    ],
+    "description": "Take this fun personality test to find out what is your halloween aesthetic quiz result! Discover your unique spooky season style today.",
+    "url": "/quiz/what-is-your-halloween-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-house-room-are-you-quiz",
+    "title": "Which Haunted House Room Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "haunted house",
+      "personality quiz",
+      "spooky season",
+      "ghosts",
+      "fun quiz"
+    ],
+    "description": "Take the which haunted house room are you quiz! Answer fun questions to discover your spooky personality match in a haunted mansion.",
+    "url": "/quiz/which-haunted-house-room-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-spooky-pet-should-get-quiz",
+    "title": "What Spooky Pet Should You Get Quiz",
+    "category": "personality",
+    "tags": [
+      "spooky pet",
+      "halloween",
+      "personality quiz",
+      "creatures",
+      "fun"
+    ],
+    "description": "Take the what spooky pet should you get quiz to find your magical creature companion. Are you destined for a black cat, raven, or phantom goldfish?",
+    "url": "/quiz/what-spooky-pet-should-get-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-vampire-clan-are-you-quiz",
+    "title": "Which Vampire Clan Are You?",
+    "category": "personality",
+    "tags": [
+      "vampire quiz",
+      "personality test",
+      "mythical creatures",
+      "gothic",
+      "immortal"
+    ],
+    "description": "Take this fun personality quiz to discover which vampire clan matches your inner spirit. Are you royalty, a wild huntsman, or a shadow dancer?",
+    "url": "/quiz/which-vampire-clan-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movies",
+      "fall movie night",
+      "family fun",
+      "spooky season",
+      "quiz"
+    ],
+    "description": "Take the what halloween movie should you watch quiz to find the ultimate spooky film for your family movie night based on your favorite autumn treats!",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-trick-or-treater-are-you-quiz",
+    "title": "Which Trick or Treater Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "trick or treat",
+      "personality",
+      "spooky season",
+      "fun quiz"
+    ],
+    "description": "Take the which trick or treater are you quiz to discover your Halloween personality! Are you a candy strategist or a spooky spirit? Find out now.",
+    "url": "/quiz/which-trick-or-treater-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-ghost-are-you-quiz",
+    "title": "Which Ghost Are You Quiz: Find Your Spirit",
+    "category": "personality",
+    "tags": [
+      "ghost quiz",
+      "personality",
+      "spooky",
+      "fun",
+      "kids"
+    ],
+    "description": "Take this fun personality quiz to discover which type of ghost you are! Answer six questions about your favorite things to reveal your spooky spirit twin.",
+    "url": "/quiz/which-ghost-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-pumpkin-carving-are-you-quiz",
+    "title": "What Pumpkin Carving Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "pumpkin carving",
+      "fall",
+      "jack-o-lantern",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover what pumpkin carving style matches your autumn vibe. Are you spooky, silly, or a creative masterpiece?",
+    "url": "/quiz/what-pumpkin-carving-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-dessert-are-you-quiz",
+    "title": "Which Halloween Dessert Are You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "dessert",
+      "personality quiz",
+      "fall treats",
+      "spooky"
+    ],
+    "description": "Take this fun personality quiz to find out which halloween dessert matches your spooky style. Are you a marshmallow ghost or a witch brownie?",
+    "url": "/quiz/which-halloween-dessert-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-zombie-apocalypse-role-are-you-quiz",
+    "title": "Which Zombie Apocalypse Role Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "zombie apocalypse",
+      "survival quiz",
+      "personality test",
+      "apocalypse role",
+      "fun quiz"
+    ],
+    "description": "Take the Which Zombie Apocalypse Role Are You Quiz to discover your survival archetype in a world overrun by the undead. Are you a scout, medic, or builder?",
+    "url": "/quiz/which-zombie-apocalypse-role-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-party-theme-are-you-quiz",
+    "title": "What Halloween Party Theme Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween party",
+      "party themes",
+      "personality quiz",
+      "fall fun",
+      "spooky season"
+    ],
+    "description": "Take the what halloween party theme are you quiz to discover your ideal spooky celebration style, from classic monster bashes to cozy autumn gatherings.",
+    "url": "/quiz/what-halloween-party-theme-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-addams-family-member-are-quiz",
+    "title": "Which Addams Family Member Are You?",
+    "category": "personality",
+    "tags": [
+      "addams family",
+      "personality quiz",
+      "wednesday addams",
+      "spooky fun",
+      "character quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which Addams Family member you are most like. Are you Wednesday, Gomez, or Pugsley? Play now!",
+    "url": "/quiz/which-addams-family-member-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-spirit-animal-quiz",
+    "title": "What Is Your Halloween Spirit Animal Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "spirit animal",
+      "fall",
+      "personality quiz",
+      "spooky"
+    ],
+    "description": "Take the what is your halloween spirit animal quiz to discover your spooky match! Are you a black cat, wise owl, or soaring bat? Find out now!",
+    "url": "/quiz/what-is-your-halloween-spirit-animal-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-ghost-hunter-are-you-quiz",
+    "title": "What Kind Of Ghost Hunter Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "ghost hunter",
+      "paranormal",
+      "personality quiz",
+      "spooky",
+      "fun"
+    ],
+    "description": "Take this fun personality quiz to find out what kind of ghost hunter you are! Discover your paranormal style with six quick questions.",
+    "url": "/quiz/what-kind-of-ghost-hunter-are-you-quiz/",
+    "questions_count": 6
   }
 ]
