@@ -2774,5 +2774,380 @@
     "description": "Take our fun personality test to find out what kind of christmas card are you quiz result matches your festive holiday style and personality today!",
     "url": "/quiz/what-kind-of-christmas-card-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "whoville-or-mt-crumpit-quiz-3",
+    "title": "Whoville or Mt. Crumpit Quiz",
+    "category": "personality",
+    "tags": [
+      "whoville",
+      "mt crumpit",
+      "grinch",
+      "holiday",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which Grinch character you are. Do you belong in Whoville or up on Mt. Crumpit? Play now!",
+    "url": "/quiz/whoville-or-mt-crumpit-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-candle-scent-are-you-quiz",
+    "title": "What Christmas Candle Scent Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas candle",
+      "holiday quiz",
+      "pine",
+      "cinnamon",
+      "personality quiz"
+    ],
+    "description": "Take this fun holiday quiz to discover what christmas candle scent matches your personality! Are you pine, cinnamon, or vanilla?",
+    "url": "/quiz/what-christmas-candle-scent-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-2",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "north pole",
+      "holiday personality",
+      "family fun"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole department matches your fun holiday personality. Play now!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-parade-are-quiz",
+    "title": "Which Christmas Parade Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas parade",
+      "holiday quiz",
+      "personality test",
+      "winter fun",
+      "festive"
+    ],
+    "description": "Take the Which Christmas Parade Are You Quiz to find out which festive holiday celebration matches your unique winter personality today!",
+    "url": "/quiz/which-christmas-parade-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-wreath-are-you-quiz",
+    "title": "What Christmas Wreath Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas wreath",
+      "holiday quiz",
+      "personality test",
+      "christmas decor",
+      "winter fun"
+    ],
+    "description": "Take this fun personality quiz to discover what christmas wreath matches your holiday vibe! Find out your festive door decor style now.",
+    "url": "/quiz/what-christmas-wreath-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-ebenezer-scrooge-are-you-quiz",
+    "title": "Which Ebenezer Scrooge Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas quiz",
+      "scrooge personality",
+      "holiday fun",
+      "charles dickens",
+      "which ebenezer scrooge are you quiz"
+    ],
+    "description": "Take the which ebenezer scrooge are you quiz to discover your holiday personality. Are you a grumpy miser or a cheerful gift-giver? Find out now!",
+    "url": "/quiz/which-ebenezer-scrooge-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-star-are-you-quiz",
+    "title": "What Christmas Star Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas star",
+      "tree topper",
+      "holiday quiz",
+      "personality",
+      "christmas"
+    ],
+    "description": "Take the what christmas star are you quiz to find out which holiday tree topper matches your festive personality. Fun questions for the whole family!",
+    "url": "/quiz/what-christmas-star-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-cracker-are-you-quiz",
+    "title": "Which Christmas Cracker Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas cracker quiz",
+      "holiday personality quiz",
+      "family quiz",
+      "festive fun",
+      "winter games"
+    ],
+    "description": "Take this fun family personality test to discover which Christmas cracker matches your holiday vibe. Are you the loud snap, silly joke, or paper crown?",
+    "url": "/quiz/which-christmas-cracker-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-eggnog-are-you-quiz",
+    "title": "What Kind Of Eggnog Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "eggnog",
+      "holiday",
+      "christmas",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take the what kind of eggnog are you quiz to discover your holiday beverage match. Find out if you are classic, spiced, or sweet this winter!",
+    "url": "/quiz/what-kind-of-eggnog-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-village-are-you-quiz",
+    "title": "Which Christmas Village Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas village",
+      "holiday quiz",
+      "personality quiz",
+      "winter fun",
+      "festive"
+    ],
+    "description": "Take the which christmas village are you quiz to discover your holiday town match! Find your festive personality and winter spirit today.",
+    "url": "/quiz/which-christmas-village-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-bell-are-you-quiz",
+    "title": "What Christmas Bell Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "what christmas bell are you quiz",
+      "christmas quiz",
+      "holiday personality quiz",
+      "festive quiz",
+      "christmas bells"
+    ],
+    "description": "Take the What Christmas Bell Are You Quiz to find out which festive chime matches your personality. Fun holiday quiz for the whole family!",
+    "url": "/quiz/what-christmas-bell-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-saint-nicholas-are-you-quiz",
+    "title": "Which Saint Nicholas Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "saint nicholas",
+      "holiday quiz",
+      "christmas tradition",
+      "personality test",
+      "winter"
+    ],
+    "description": "Take the which saint nicholas are you quiz to find out which legendary gift-giver and holiday tradition matches your unique personality and festive spirit!",
+    "url": "/quiz/which-saint-nicholas-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-snow-are-you-quiz",
+    "title": "What Christmas Snow Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas snow",
+      "winter quiz",
+      "holiday personality",
+      "snow storm",
+      "family fun"
+    ],
+    "description": "Take the what christmas snow are you quiz to find out if you are a gentle flurry or a mighty blizzard. A fun holiday personality quiz for the whole family!",
+    "url": "/quiz/what-christmas-snow-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-movie-villain-are-you-quiz",
+    "title": "Which Christmas Movie Villain Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas quiz",
+      "holiday movies",
+      "personality test",
+      "villain",
+      "family fun"
+    ],
+    "description": "Take the which christmas movie villain are you quiz to find out which classic holiday antagonist matches your festive personality. Play now!",
+    "url": "/quiz/which-christmas-movie-villain-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-christmas-tree-topper-are-you-quiz",
+    "title": "What Kind Of Christmas Tree Topper Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas tree topper",
+      "holiday quiz",
+      "star or angel",
+      "christmas personality",
+      "family fun"
+    ],
+    "description": "Take this fun holiday quiz to find out if you are a glowing star or a sweet angel. Discover your Christmas tree topper personality today!",
+    "url": "/quiz/what-kind-of-christmas-tree-topper-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-cookie-decorator-are-you-quiz",
+    "title": "Which Christmas Cookie Decorator Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas cookies",
+      "baking quiz",
+      "holiday fun",
+      "cookie decorating",
+      "personality quiz"
+    ],
+    "description": "Take this fun holiday personality quiz to find out which christmas cookie decorator are you! Discover your festive baking style and share with friends.",
+    "url": "/quiz/which-christmas-cookie-decorator-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-song-lyric-are-quiz",
+    "title": "What Christmas Song Lyric Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "songs",
+      "lyrics",
+      "holiday",
+      "personality"
+    ],
+    "description": "Take this fun personality quiz to discover what christmas song lyric are you quiz match! Find out your holiday anthem and share your festive results.",
+    "url": "/quiz/what-christmas-song-lyric-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-white-christmas-character-are-you-quiz",
+    "title": "Which White Christmas Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "white christmas",
+      "holiday movies",
+      "christmas quiz",
+      "personality",
+      "classic film"
+    ],
+    "description": "Take this fun personality quiz to find out which classic White Christmas movie character matches your festive winter style and holiday personality!",
+    "url": "/quiz/which-white-christmas-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-light-display-are-you-quiz",
+    "title": "What Christmas Light Display Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas lights",
+      "holiday quiz",
+      "personality",
+      "festive",
+      "winter"
+    ],
+    "description": "Take this fun personality quiz to find out what christmas light display matches your holiday spirit! Are you classic, colorful, or a mega musical show?",
+    "url": "/quiz/what-christmas-light-display-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-dinner-are-quiz",
+    "title": "Which Christmas Dinner Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas dinner",
+      "food quiz",
+      "holiday personality",
+      "family traditions",
+      "festive feast"
+    ],
+    "description": "Take this fun personality quiz to discover which Christmas dinner matches your holiday style! Find out your festive feast twin in just six quick questions.",
+    "url": "/quiz/which-christmas-dinner-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-christmas-eve-box-are-you-quiz",
+    "title": "What Kind of Christmas Eve Box Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas eve box",
+      "holiday quiz",
+      "personality quiz",
+      "christmas traditions",
+      "winter fun"
+    ],
+    "description": "Take the What Kind of Christmas Eve Box Are You Quiz to discover your holiday personality! Find out which festive surprise matches your winter style.",
+    "url": "/quiz/what-kind-of-christmas-eve-box-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-jumper-are-quiz",
+    "title": "Which Christmas Jumper Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas sweater",
+      "holiday quiz",
+      "ugly sweater",
+      "winter style",
+      "personality quiz"
+    ],
+    "description": "Take the Which Christmas Jumper Are You Quiz to discover your holiday style! Find out if you match a glowing, cozy, or funny festive sweater today.",
+    "url": "/quiz/which-christmas-jumper-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-market-food-are-you-quiz",
+    "title": "What Christmas Market Food Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas market food",
+      "holiday quiz",
+      "personality quiz",
+      "winter treats",
+      "festive food"
+    ],
+    "description": "Take this fun personality quiz to discover what christmas market food are you! Find out if you match sweet roasted nuts, warm gluhwein, or gingerbread.",
+    "url": "/quiz/what-christmas-market-food-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-snowman-are-you-quiz",
+    "title": "Which Snowman Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "snowman quiz",
+      "winter quiz",
+      "snow day",
+      "personality quiz",
+      "fun quiz"
+    ],
+    "description": "Take the which snowman are you quiz to discover your winter personality! Answer fun questions about snow days and find your frosty match.",
+    "url": "/quiz/which-snowman-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-wish-are-you-quiz",
+    "title": "What Christmas Wish Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas quiz",
+      "santa letter",
+      "holiday personality",
+      "winter fun",
+      "family"
+    ],
+    "description": "Take this fun quiz to find out what christmas wish are you! Discover your holiday personality match and see what your letter to Santa reveals about you.",
+    "url": "/quiz/what-christmas-wish-are-you-quiz/",
+    "questions_count": 6
   }
 ]
