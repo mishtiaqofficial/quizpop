@@ -929,5 +929,230 @@
     "description": "Stuck on spooky season outfits? Take our what Halloween costume should I wear quiz to find your dream match, from creepy classics to cozy pop culture icons!",
     "url": "/quiz/what-halloween-costume-should-i-wear-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-demon-hunters-character-are-you-quiz",
+    "title": "Which Kpop Demon Hunters Character Are You?",
+    "category": "personality",
+    "tags": [
+      "kpop demon hunters",
+      "personality quiz",
+      "anime style",
+      "heroes and demons",
+      "pop music"
+    ],
+    "description": "Take the which kpop demon hunters character are you quiz to discover your inner hero or demon! Answer 6 fun questions for your match.",
+    "url": "/quiz/which-kpop-demon-hunters-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-huntrix-member-are-you-quiz",
+    "title": "Which Huntrix Member Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "huntrix",
+      "personality quiz",
+      "rumi",
+      "mira",
+      "zoey"
+    ],
+    "description": "Take the Which Huntrix Member Are You Quiz to find out if your personality matches Rumi, Mira, or Zoey. Answer fun questions and discover your hero match!",
+    "url": "/quiz/which-huntrix-member-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-saja-boys-member-are-you-quiz",
+    "title": "Which Saja Boys Member Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "saja boys",
+      "jinu",
+      "pop music",
+      "personality quiz",
+      "music"
+    ],
+    "description": "Take the Which Saja Boys Member Are You Quiz to find out which star from Jinu and the Saja Boys matches your awesome personality. Play now!",
+    "url": "/quiz/which-saja-boys-member-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kpop-demon-hunters-costume-should-you-wear-quiz",
+    "title": "What KPop Demon Hunters Costume Should You Wear Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop",
+      "halloween",
+      "costume",
+      "quiz",
+      "demon hunters"
+    ],
+    "description": "Take this fun personality quiz to discover what kpop demon hunters costume you should wear for Halloween based on your favorite music and superpower choices!",
+    "url": "/quiz/what-kpop-demon-hunters-costume-should-you-wear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-demon-or-a-hunter-quiz",
+    "title": "Are You a Demon or a Hunter Quiz?",
+    "category": "personality",
+    "tags": [
+      "kpop",
+      "demon",
+      "hunter",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take the are you a demon or a hunter quiz to discover your K-Pop supernatural alter ego. Are you a fierce stage defender or a mischievous shadow?",
+    "url": "/quiz/are-you-a-demon-or-a-hunter-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-mario-character-are-you-quiz",
+    "title": "Which Mario Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "mario",
+      "nintendo",
+      "personality quiz",
+      "gaming",
+      "mushroom kingdom"
+    ],
+    "description": "Take our fun which mario character are you quiz! Discover if you are brave like Mario, regal like Peach, or bold like Bowser in just a few quick taps.",
+    "url": "/quiz/which-mario-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-mario-costume-should-you-wear-quiz",
+    "title": "What Mario Costume Should You Wear Quiz",
+    "category": "personality",
+    "tags": [
+      "mario costume",
+      "halloween quiz",
+      "nintendo look",
+      "mario characters",
+      "costume quiz"
+    ],
+    "description": "Take our fun what mario costume should you wear quiz to find your ultimate Nintendo Halloween look before trick-or-treating!",
+    "url": "/quiz/what-mario-costume-should-you-wear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-mario-kart-character-are-you-quiz",
+    "title": "Which Mario Kart Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "mario kart",
+      "nintendo",
+      "racing games",
+      "video games",
+      "personality quiz"
+    ],
+    "description": "Take the which mario kart character are you quiz to find out if you race like Mario, Yoshi, or Bowser. Answer fun questions about your gaming style!",
+    "url": "/quiz/which-mario-kart-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-it-costume-should-you-wear-quiz",
+    "title": "What It Costume Should You Wear Quiz",
+    "category": "personality",
+    "tags": [
+      "pennywise",
+      "losers club",
+      "halloween",
+      "costume",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out what it costume you should wear for Halloween, whether you are Pennywise or a brave Losers Club member.",
+    "url": "/quiz/what-it-costume-should-you-wear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-pennywise-form-are-you-quiz",
+    "title": "Which Pennywise Form Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "pennywise",
+      "derry",
+      "clown",
+      "stephen king",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality test to find out which spooky Derry clown manifestation matches your vibe. Answer six questions and discover your result!",
+    "url": "/quiz/which-pennywise-form-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-costume-should-your-dog-wear-quiz",
+    "title": "What Halloween Costume Should Your Dog Wear Quiz",
+    "category": "personality",
+    "tags": [
+      "dog costume quiz",
+      "halloween dogs",
+      "pet personality",
+      "costume ideas",
+      "dog quiz"
+    ],
+    "description": "Take our what halloween costume should your dog wear quiz to find the cutest, comfiest spooky season outfit matching your pup's unique personality!",
+    "url": "/quiz/what-halloween-costume-should-your-dog-wear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-costume-should-your-cat-wear-quiz",
+    "title": "What Halloween Costume Should Your Cat Wear Quiz",
+    "category": "personality",
+    "tags": [
+      "cat Halloween costumes",
+      "pet quiz",
+      "funny cats",
+      "spooky season",
+      "pet fashion"
+    ],
+    "description": "Take this fun quiz to discover what halloween costume should your cat wear! Find the purr-fect outfit for your furry friend this spooky season.",
+    "url": "/quiz/what-halloween-costume-should-your-cat-wear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-addams-family-costume-should-you-wear-quiz",
+    "title": "Which Addams Family Costume Should You Wear Quiz",
+    "category": "personality",
+    "tags": [
+      "addams family",
+      "costume quiz",
+      "halloween",
+      "wednesday",
+      "personality"
+    ],
+    "description": "Take this fun quiz to discover if you should wear a Wednesday, Morticia, or Gomez Addams family costume this Halloween season!",
+    "url": "/quiz/which-addams-family-costume-should-you-wear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-witch-are-you-quiz",
+    "title": "What Kind of Witch Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "witch quiz",
+      "personality test",
+      "magic",
+      "fun quiz",
+      "what kind of witch are you quiz"
+    ],
+    "description": "Take this fun personality quiz to discover your magical style! Find out if you are a kitchen, cosmic, or green witch with these fun questions.",
+    "url": "/quiz/what-kind-of-witch-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-horror-movie-character-are-you-quiz",
+    "title": "Which Horror Movie Character Are You?",
+    "category": "personality",
+    "tags": [
+      "horror movie",
+      "personality quiz",
+      "spooky",
+      "character test",
+      "fun"
+    ],
+    "description": "Take this fun personality quiz to discover which classic horror movie character matches your vibe. Answer six quick questions to find your spooky match!",
+    "url": "/quiz/which-horror-movie-character-are-you-quiz/",
+    "questions_count": 6
   }
 ]
