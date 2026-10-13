@@ -7349,5 +7349,245 @@
     "description": "Can you separate fact from fiction in this autumn spice trivia challenge? Test your knowledge of fall ingredients now!",
     "url": "/quiz/fall-spice-fact-or-fiction/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-15",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "personality quiz",
+      "north pole",
+      "holiday fun"
+    ],
+    "description": "Take this fun quiz to find out which Santa's workshop matches your personality! Discover your North Pole station today.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-15/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-11",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "movies",
+      "fall",
+      "family",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions to get your ultimate spooky movie recommendation.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-11/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-vibe-quiz-7",
+    "title": "What's Your Spooky Season Vibe?",
+    "category": "personality",
+    "tags": [
+      "spooky season",
+      "halloween",
+      "autumn",
+      "personality",
+      "fall vibe"
+    ],
+    "description": "Take this fun personality quiz to discover what is my spooky season vibe quiz result. Find out your true autumn aesthetic and Halloween style today!",
+    "url": "/quiz/whats-your-spooky-season-vibe-quiz-7/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-job-title-quiz-7",
+    "title": "What's Your Spooky Season Job Title?",
+    "category": "personality",
+    "tags": [
+      "halloween quiz",
+      "fall personality quiz",
+      "spooky season",
+      "family friendly",
+      "fun quiz"
+    ],
+    "description": "Take this fun personality quiz to discover what is your spooky season job title quiz result! Find out your autumn role today.",
+    "url": "/quiz/whats-your-spooky-season-job-title-quiz-7/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-christmas-aesthetic-2",
+    "title": "What's Your Christmas Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "christmas aesthetic",
+      "holiday quiz",
+      "christmas decor",
+      "personality quiz",
+      "winter style"
+    ],
+    "description": "Take this fun holiday personality quiz to find out what is my christmas aesthetic. Discover your ideal winter decor style and holiday vibe today!",
+    "url": "/quiz/whats-your-christmas-aesthetic-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-job-fits-my-personality-quiz",
+    "title": "What Job Fits My Personality Quiz",
+    "category": "personality",
+    "tags": [
+      "career quiz",
+      "personality test",
+      "job matching",
+      "future jobs",
+      "work style"
+    ],
+    "description": "Take the what job fits my personality quiz to discover exciting career paths tailored to your unique strengths, hobbies, and everyday preferences.",
+    "url": "/quiz/what-job-fits-my-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-autumn-sweater-aesthetic",
+    "title": "What's Your 90s Autumn Sweater Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "90s fashion",
+      "fall sweaters",
+      "retro style",
+      "autumn aesthetic",
+      "personality quiz"
+    ],
+    "description": "Take this fun quiz to discover your ultimate 90s-inspired autumn sweater aesthetic and find your retro fall fashion match today!",
+    "url": "/quiz/90s-autumn-sweater-aesthetic/",
+    "questions_count": 6
+  },
+  {
+    "slug": "big-apple-variety-quiz",
+    "title": "The Big Apple Variety Quiz",
+    "category": "trivia",
+    "tags": [
+      "apples",
+      "orchard",
+      "history",
+      "food",
+      "trivia"
+    ],
+    "description": "Test your knowledge of American apple varieties, Johnny Appleseed, and orchard history with this fun family-friendly trivia quiz.",
+    "url": "/quiz/big-apple-variety-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-board-game-piece-personality-quiz",
+    "title": "Which Classic Board Game Piece Are You?",
+    "category": "personality",
+    "tags": [
+      "board games",
+      "family fun",
+      "strategy",
+      "game night",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which classic board game piece matches your inner strategist. Are you a racer, mastermind, or wildcard?",
+    "url": "/quiz/classic-board-game-piece-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-us-state-by-its-autumn-tree-canopy",
+    "title": "Can You Guess The State By Its Autumn Trees?",
+    "category": "trivia",
+    "tags": [
+      "autumn",
+      "fall foliage",
+      "us states",
+      "nature quiz",
+      "geography"
+    ],
+    "description": "Can you guess the US state based on its famous autumn tree canopy? Test your fall foliage knowledge with this fun family-friendly geography trivia quiz.",
+    "url": "/quiz/guess-the-us-state-by-its-autumn-tree-canopy/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-gaming-soundtrack-mood",
+    "title": "Which Cozy Gaming Soundtrack Matches Your Mood?",
+    "category": "personality",
+    "tags": [
+      "cozy games",
+      "soundtracks",
+      "relaxing",
+      "video games",
+      "gaming quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which relaxing cozy video game soundtrack matches your current relaxation mood and vibe today!",
+    "url": "/quiz/cozy-gaming-soundtrack-mood/",
+    "questions_count": 6
+  },
+  {
+    "slug": "can-you-solve-these-tricky-maze-riddles",
+    "title": "Can You Solve These Tricky Maze Riddles?",
+    "category": "riddles",
+    "tags": [
+      "mazes",
+      "riddles",
+      "brain teasers",
+      "puzzles",
+      "logic"
+    ],
+    "description": "Test your brain with these tricky maze riddles! Solve fun puzzles and see if you can find your way out of the labyrinth. Play now on QuizPop.",
+    "url": "/quiz/can-you-solve-these-tricky-maze-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-cozy-tech-setup-matches-your-fall-evening",
+    "title": "Which Cozy Tech Setup Matches Your Fall Evening?",
+    "category": "personality",
+    "tags": [
+      "fall tech",
+      "cozy setups",
+      "autumn routine",
+      "personality quiz",
+      "gadgets"
+    ],
+    "description": "Take this fun personality quiz to discover which cozy tech setup matches your ideal fall evening routine. Find your ultimate autumn gadget pairing!",
+    "url": "/quiz/which-cozy-tech-setup-matches-your-fall-evening/",
+    "questions_count": 6
+  },
+  {
+    "slug": "secret-ingredient-autumn-cookies",
+    "title": "The Secret Soft Autumn Cookie Ingredient",
+    "category": "trivia",
+    "tags": [
+      "autumn cookies",
+      "baking trivia",
+      "fall recipes",
+      "cookie secrets",
+      "food quiz"
+    ],
+    "description": "Can you guess the secret ingredient that makes autumn cookies so soft? Take this fun baking trivia quiz and test your kitchen knowledge today!",
+    "url": "/quiz/secret-ingredient-autumn-cookies/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-night-sky-quiz",
+    "title": "Can You Pass This Autumn Night Sky Quiz?",
+    "category": "trivia",
+    "tags": [
+      "astronomy",
+      "stars",
+      "autumn",
+      "space",
+      "science"
+    ],
+    "description": "Think you know your fall constellations and stars? Take this fun autumn night sky quiz to test your astronomy skills and see how much you really know!",
+    "url": "/quiz/autumn-night-sky-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-animal-survival-riddles",
+    "title": "Autumn Animal Riddles: How Woodland Creatures Survive",
+    "category": "riddles",
+    "tags": [
+      "autumn",
+      "animals",
+      "riddles",
+      "nature",
+      "science"
+    ],
+    "description": "Solve fun autumn animal riddles and discover how woodland creatures survive the winter in this family-friendly nature quiz for kids.",
+    "url": "/quiz/autumn-animal-survival-riddles/",
+    "questions_count": 6
   }
 ]
