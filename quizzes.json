@@ -3149,5 +3149,380 @@
     "description": "Take this fun quiz to find out what christmas wish are you! Discover your holiday personality match and see what your letter to Santa reveals about you.",
     "url": "/quiz/what-christmas-wish-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "whoville-or-mt-crumpit-quiz-4",
+    "title": "Whoville or Mt. Crumpit Quiz",
+    "category": "personality",
+    "tags": [
+      "grinch quiz",
+      "whoville",
+      "holiday quiz",
+      "personality test",
+      "family fun"
+    ],
+    "description": "Take the which grinch character are you quiz! Discover if you belong in cheery Whoville or cozy Mt. Crumpit with this fun personality test for families.",
+    "url": "/quiz/whoville-or-mt-crumpit-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-3",
+    "title": "Which Santa's Workshop Are You?",
+    "category": "personality",
+    "tags": [
+      "santa's workshop",
+      "christmas quiz",
+      "north pole",
+      "holiday",
+      "personality"
+    ],
+    "description": "Take this fun quiz to find out which santa's workshop matches your personality! Discover your North Pole station today.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-parade-are-quiz-2",
+    "title": "Which Christmas Parade Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas parade",
+      "holiday quiz",
+      "personality quiz",
+      "festive",
+      "family fun"
+    ],
+    "description": "Take the which christmas parade are you quiz to discover your ultimate holiday celebration match based on your favorite festive traditions and style.",
+    "url": "/quiz/which-christmas-parade-are-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-song-lyric-are-you-quiz",
+    "title": "What Christmas Song Lyric Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas songs",
+      "holiday quiz",
+      "personality test",
+      "festive",
+      "winter fun"
+    ],
+    "description": "Take the what christmas song lyric are you quiz! Answer 6 fun questions to find out which festive holiday phrase matches your winter personality.",
+    "url": "/quiz/what-christmas-song-lyric-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-dinner-are-you-quiz",
+    "title": "Which Christmas Dinner Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "dinner",
+      "holiday",
+      "food",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which christmas dinner matches your festive holiday style and winter personality today!",
+    "url": "/quiz/which-christmas-dinner-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-jumper-are-you-quiz",
+    "title": "Which Christmas Jumper Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas sweater",
+      "holiday fashion",
+      "ugly sweater",
+      "winter fun",
+      "personality quiz"
+    ],
+    "description": "Take the which christmas jumper are you quiz to discover your ultimate holiday knit! Find out if you are a cozy reindeer or a loud light-up sweater.",
+    "url": "/quiz/which-christmas-jumper-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-december-birthstone-are-you-quiz",
+    "title": "Which December Birthstone Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "december birthstone",
+      "turquoise",
+      "tanzanite",
+      "gemstone quiz",
+      "birthstone personality"
+    ],
+    "description": "Take the which december birthstone are you quiz to find out if your vibrant personality matches classic turquoise or rare tanzanite gemstone energy!",
+    "url": "/quiz/which-december-birthstone-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-new-year-are-you-quiz",
+    "title": "What Kind Of New Year Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "new year",
+      "personality",
+      "december 31",
+      "quiz",
+      "family fun"
+    ],
+    "description": "Take the what kind of new year are you quiz to discover your December 31st personality! Are you a party pro, a cozy cuddler, or a star gazer? Find out now.",
+    "url": "/quiz/what-kind-of-new-year-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-vampire-are-you-quiz",
+    "title": "Which Vampire Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "vampire",
+      "personality quiz",
+      "spooky",
+      "halloween",
+      "fun"
+    ],
+    "description": "Take the which vampire are you quiz to discover your inner creature of the night! Fun, family-friendly personality questions for all ages.",
+    "url": "/quiz/which-vampire-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-monster-are-you-quiz",
+    "title": "What Halloween Monster Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween monster",
+      "personality quiz",
+      "spooky fun",
+      "creature feature",
+      "family friendly"
+    ],
+    "description": "Take the what halloween monster are you quiz to discover your spooky spirit animal! Answer fun questions and find out if you are a ghost, werewolf, or vampire.",
+    "url": "/quiz/what-halloween-monster-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-witch-hat-are-you-quiz",
+    "title": "Which Witch Hat Are You?",
+    "category": "personality",
+    "tags": [
+      "witch hat",
+      "personality quiz",
+      "magic",
+      "costume",
+      "fun"
+    ],
+    "description": "Take the which witch hat are you quiz to discover your magical style! Find out if you match the classic pointy, wide-brim, or crooked hat today.",
+    "url": "/quiz/which-witch-hat-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-broomstick-are-you-quiz",
+    "title": "What Broomstick Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "broomstick",
+      "magic",
+      "flying",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take the what broomstick are you quiz to find your magical flying style! Discover if you match a fast racer or a calm cruiser in this fun test.",
+    "url": "/quiz/what-broomstick-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-potion-are-you-quiz",
+    "title": "Which Potion Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "potions",
+      "magic",
+      "fantasy",
+      "personality quiz",
+      "fun"
+    ],
+    "description": "Take the Which Potion Are You Quiz to discover your magical liquid match! Answer fun questions to find your inner potion and share your results today.",
+    "url": "/quiz/which-potion-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-spellbook-are-you-quiz",
+    "title": "What Spellbook Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "spellbook quiz",
+      "magic quiz",
+      "personality quiz",
+      "wizard test",
+      "witch quiz"
+    ],
+    "description": "Take the What Spellbook Are You Quiz to find out which magical grimoire matches your personality. Discover your inner magic with this fun family quiz!",
+    "url": "/quiz/what-spellbook-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-black-cat-are-quiz",
+    "title": "Which Black Cat Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "black cat",
+      "cats",
+      "personality quiz",
+      "animals",
+      "pets"
+    ],
+    "description": "Take the which black cat are you quiz to discover your feline alter ego! Are you a cozy couch panther, a midnight explorer, or a mischievous shadow?",
+    "url": "/quiz/which-black-cat-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-night-are-you-quiz",
+    "title": "What Halloween Night Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween night",
+      "personality quiz",
+      "october 31",
+      "spooky season",
+      "fall fun"
+    ],
+    "description": "Take the what halloween night are you quiz to discover your ultimate October 31st celebration style, from cozy movie nights to thrilling adventures.",
+    "url": "/quiz/what-halloween-night-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-candy-corn-are-you-quiz",
+    "title": "Which Candy Corn Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "candy corn",
+      "halloween",
+      "fall quiz",
+      "personality quiz",
+      "autumn"
+    ],
+    "description": "Take the Which Candy Corn Are You Quiz to discover your autumn personality match! Are you a sweet lover or a proud hater? Play now!",
+    "url": "/quiz/which-candy-corn-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-trick-are-you-quiz",
+    "title": "What Trick Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "what trick are you quiz",
+      "personality quiz",
+      "prank style",
+      "fun quiz",
+      "family friendly"
+    ],
+    "description": "Take the what trick are you quiz to discover your playful personality style! Find out if you are a giggle master, mastermind, or surprise pro.",
+    "url": "/quiz/what-trick-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-jack-o-lantern-are-you-quiz",
+    "title": "Which Jack O Lantern Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "jack o lantern",
+      "halloween",
+      "fall vibe",
+      "personality quiz",
+      "pumpkin patch"
+    ],
+    "description": "Take the which jack o lantern are you quiz to discover your spooky autumn personality! Find out if you are a classic grinning or silly pumpkin.",
+    "url": "/quiz/which-jack-o-lantern-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-haunted-hayride-are-you-quiz",
+    "title": "What Haunted Hayride Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "haunted hayride",
+      "halloween quiz",
+      "spooky season",
+      "fall fun",
+      "personality quiz"
+    ],
+    "description": "Take the what haunted hayride are you quiz to discover your ideal spooky autumn adventure! Find out which fall attraction matches your fun personality.",
+    "url": "/quiz/what-haunted-hayride-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-corn-maze-are-you-quiz",
+    "title": "Which Corn Maze Are You?",
+    "category": "personality",
+    "tags": [
+      "corn maze quiz",
+      "fall personality quiz",
+      "autumn adventure",
+      "seasonal quiz",
+      "family fun"
+    ],
+    "description": "Take this fun personality quiz to discover which corn maze matches your autumn vibe, from cozy cider trails to spooky nighttime adventures!",
+    "url": "/quiz/which-corn-maze-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-apple-cider-are-you-quiz",
+    "title": "What Apple Cider Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "apple cider",
+      "fall quiz",
+      "personality quiz",
+      "autumn",
+      "quizpop"
+    ],
+    "description": "Take the what apple cider are you quiz to find out which cozy fall drink matches your personality. Discover your autumn beverage style today!",
+    "url": "/quiz/what-apple-cider-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-scarecrow-are-you-quiz",
+    "title": "Which Scarecrow Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "scarecrow",
+      "fall",
+      "harvest",
+      "autumn",
+      "personality"
+    ],
+    "description": "Take the which scarecrow are you quiz to discover your autumn field guardian personality. Answer fun fall questions and share your results today!",
+    "url": "/quiz/which-scarecrow-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-full-moon-are-quiz",
+    "title": "What Full Moon Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "full moon",
+      "astrology",
+      "personality quiz",
+      "lunar phases",
+      "space"
+    ],
+    "description": "Take the what full moon are you quiz to discover your lunar personality match! Answer fun questions and find out which moon phase fits your vibe.",
+    "url": "/quiz/what-full-moon-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-bat-are-you-quiz",
+    "title": "Which Bat Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "bats",
+      "animals",
+      "nocturnal",
+      "personality",
+      "nature"
+    ],
+    "description": "Take the which bat are you quiz to discover your nocturnal spirit animal! Answer fun questions about your nighttime habits and find your perfect bat match.",
+    "url": "/quiz/which-bat-are-you-quiz/",
+    "questions_count": 6
   }
 ]
