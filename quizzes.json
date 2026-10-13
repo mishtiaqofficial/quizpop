@@ -2069,5 +2069,350 @@
     "description": "Take this fun personality quiz to discover which Thanksgiving Day parade float matches your holiday spirit! Find out your parade persona now.",
     "url": "/quiz/which-thanksgiving-float-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-cranberry-sauce-are-you-quiz",
+    "title": "Which Cranberry Sauce Are You?",
+    "category": "personality",
+    "tags": [
+      "which cranberry sauce are you quiz",
+      "thanksgiving quiz",
+      "holiday personality quiz",
+      "food quiz",
+      "family fun"
+    ],
+    "description": "Take the Which Cranberry Sauce Are You quiz to discover your holiday food personality! Are you smooth jellied or chunky whole berry?",
+    "url": "/quiz/which-cranberry-sauce-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-pilgrim-are-you-quiz",
+    "title": "Which Pilgrim Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "pilgrim quiz",
+      "history quiz",
+      "thanksgiving",
+      "personality",
+      "family friendly"
+    ],
+    "description": "Take the Which Pilgrim Are You Quiz to find out your 1621 colonial match! Answer fun questions about food and daily life for a family-friendly result.",
+    "url": "/quiz/which-pilgrim-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-pumpkin-spice-level-are-you-quiz",
+    "title": "What Pumpkin Spice Level Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "pumpkin spice",
+      "fall quiz",
+      "autumn",
+      "personality",
+      "flavor"
+    ],
+    "description": "Take the what pumpkin spice level are you quiz to discover your autumn flavor style! Answer six fun questions to find out your cozy season score.",
+    "url": "/quiz/what-pumpkin-spice-level-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-harvest-moon-are-you-quiz",
+    "title": "Which Harvest Moon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "harvest moon",
+      "autumn quiz",
+      "personality test",
+      "fall fun",
+      "lunar match"
+    ],
+    "description": "Take the which harvest moon are you quiz to discover your autumn lunar match! Answer fun fall questions and find your cozy season personality today.",
+    "url": "/quiz/which-harvest-moon-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-scent-are-you-quiz",
+    "title": "What Thanksgiving Scent Are You?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality quiz",
+      "holiday scents",
+      "turkey vs cinnamon",
+      "fall fun"
+    ],
+    "description": "Take the what thanksgiving scent are you quiz to find out if your personality is more like a savory roast turkey or sweet cinnamon spice today!",
+    "url": "/quiz/what-thanksgiving-scent-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-movie-are-quiz",
+    "title": "Which Christmas Movie Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas movies",
+      "holiday quiz",
+      "personality test",
+      "family fun",
+      "festive"
+    ],
+    "description": "Take this fun quiz to find out which Christmas movie are you match! Answer festive questions and discover your ultimate holiday film twin today.",
+    "url": "/quiz/which-christmas-movie-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-character-are-you-quiz",
+    "title": "What Christmas Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas quiz",
+      "holiday personality",
+      "santa claus",
+      "winter fun",
+      "family games"
+    ],
+    "description": "Take the what christmas character are you quiz to discover your holiday persona! Answer fun questions to find your festive match today.",
+    "url": "/quiz/what-christmas-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whoville-or-mt-crumpit-quiz",
+    "title": "Whoville or Mt. Crumpit Quiz",
+    "category": "personality",
+    "tags": [
+      "grinch",
+      "whoville",
+      "personality quiz",
+      "holiday",
+      "fun"
+    ],
+    "description": "Take this fun quiz to find out which Grinch character you are and whether you belong in bustling Whoville or snowy Mt. Crumpit!",
+    "url": "/quiz/whoville-or-mt-crumpit-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-elf-are-you-quiz",
+    "title": "What Kind Of Elf Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "what kind of elf are you quiz",
+      "christmas quiz",
+      "santa workshop",
+      "holiday personality",
+      "family fun"
+    ],
+    "description": "Take this fun what kind of elf are you quiz to discover your secret North Pole job in Santa's workshop! Are you a toy maker, baker, or wrapper?",
+    "url": "/quiz/what-kind-of-elf-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-home-alone-character-are-you-quiz",
+    "title": "Which Home Alone Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "home alone",
+      "movie quiz",
+      "holiday",
+      "personality test",
+      "90s movies"
+    ],
+    "description": "Take the which home alone character are you quiz to find out if you match Kevin, Harry, or Kate. Answer fun questions and share your holiday result!",
+    "url": "/quiz/which-home-alone-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-song-are-you-quiz",
+    "title": "Which Christmas Song Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas song",
+      "holiday personality",
+      "winter fun",
+      "carol match",
+      "festive quiz"
+    ],
+    "description": "Take the which christmas song are you quiz to discover your holiday carol match! Answer fun questions about winter traditions and find your festive vibe.",
+    "url": "/quiz/which-christmas-song-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-christmas-aesthetic-quiz",
+    "title": "What Is Your Christmas Aesthetic Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas aesthetic",
+      "holiday quiz",
+      "christmas style",
+      "festive personality",
+      "winter holidays"
+    ],
+    "description": "Take this fun quiz to find out what is your christmas aesthetic quiz style! Discover your holiday vibe, from cozy cabin to glamorous winter wonderland.",
+    "url": "/quiz/what-is-your-christmas-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-elf-on-the-shelf-are-you-quiz",
+    "title": "Which Elf on the Shelf Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "elf on the shelf",
+      "christmas quiz",
+      "holiday personality",
+      "family fun",
+      "winter games"
+    ],
+    "description": "Take the which elf on the shelf are you quiz to discover your holiday mischief style! Are you a silly prankster or a sweet helper? Play now!",
+    "url": "/quiz/which-elf-on-the-shelf-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-christmas-shopper-are-you-quiz",
+    "title": "What Kind of Christmas Shopper Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas shopping",
+      "holiday quiz",
+      "gift guide",
+      "personality test",
+      "family fun"
+    ],
+    "description": "Take the what kind of christmas shopper are you quiz to discover your holiday gifting style. Are you an early planner or a last-minute sprinter?",
+    "url": "/quiz/what-kind-of-christmas-shopper-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-villain-are-you-quiz",
+    "title": "Which Christmas Villain Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas villains",
+      "grinch vs scrooge",
+      "holiday quiz",
+      "personality test",
+      "festive mood"
+    ],
+    "description": "Take the which christmas villain are you quiz to see if you are more like the Grinch or Ebenezer Scrooge this holiday season. Find out now!",
+    "url": "/quiz/which-christmas-villain-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-tradition-are-you-quiz",
+    "title": "What Christmas Tradition Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas traditions",
+      "holiday quiz",
+      "personality quiz",
+      "family rituals",
+      "winter holidays"
+    ],
+    "description": "Take the what christmas tradition are you quiz to discover which festive holiday ritual matches your personality. Find out your holiday match now!",
+    "url": "/quiz/what-christmas-tradition-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-nutcracker-character-are-you-quiz",
+    "title": "Which Nutcracker Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "nutcracker quiz",
+      "ballet quiz",
+      "christmas quiz",
+      "holiday quiz",
+      "personality quiz"
+    ],
+    "description": "Take the Which Nutcracker Character Are You quiz! Find out if you are the Sugar Plum Fairy, the brave Prince, or Clara in this fun holiday personality test.",
+    "url": "/quiz/which-nutcracker-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-hot-chocolate-are-you-quiz",
+    "title": "What Hot Chocolate Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "hot chocolate",
+      "personality quiz",
+      "winter drinks",
+      "cocoa",
+      "fun quiz"
+    ],
+    "description": "Take the what hot chocolate are you quiz to discover your cozy winter beverage match. Find out if you are classic milk chocolate, peppermint, or caramel!",
+    "url": "/quiz/what-hot-chocolate-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-tree-are-you-quiz",
+    "title": "Which Christmas Tree Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas tree",
+      "personality quiz",
+      "holiday fun",
+      "festive",
+      "winter"
+    ],
+    "description": "Take the which christmas tree are you quiz to find out if your holiday personality matches a classic Fraser Fir or a sparkly tinsel tree today!",
+    "url": "/quiz/which-christmas-tree-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-christmas-love-language-quiz",
+    "title": "What Is Your Christmas Love Language?",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "love language",
+      "holiday quiz",
+      "personality",
+      "family fun"
+    ],
+    "description": "Take this fun quiz to discover your holiday affection style! Find out what is your christmas love language and share your festive personality with family.",
+    "url": "/quiz/what-is-your-christmas-love-language-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-rudolph-character-are-you-quiz",
+    "title": "Which Rudolph Character Are You?",
+    "category": "personality",
+    "tags": [
+      "rudolph",
+      "rankin bass",
+      "christmas quiz",
+      "holiday",
+      "personality"
+    ],
+    "description": "Take the which rudolph character are you quiz to find out which classic Rankin-Bass holiday hero matches your fun and festive personality today!",
+    "url": "/quiz/which-rudolph-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-christmas-cookie-are-you-quiz",
+    "title": "What Christmas Cookie Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas cookies",
+      "personality quiz",
+      "holiday fun",
+      "baking",
+      "winter"
+    ],
+    "description": "Take the what christmas cookie are you quiz to find out if you are a sugar cookie, gingerbread, or snickerdoodle! Fun holiday personality test.",
+    "url": "/quiz/what-christmas-cookie-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santa-claus-are-you-quiz",
+    "title": "Which Santa Claus Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santa claus",
+      "christmas",
+      "holiday quiz",
+      "personality quiz",
+      "family"
+    ],
+    "description": "Take the which santa claus are you quiz to discover your holiday persona! Answer fun questions about winter traditions and find out your festive match.",
+    "url": "/quiz/which-santa-claus-are-you-quiz/",
+    "questions_count": 6
   }
 ]
