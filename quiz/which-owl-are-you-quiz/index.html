@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<link rel="ard" href="/.well-known/ard.json">
+<title>Which Owl Are You Quiz — QuizPop</title>
+<meta name="description" content="Take this fun personality quiz to find out which majestic owl matches your nocturnal habits and personal style. Discover your inner bird today!">
+<style>
+/* QuizPop design system — mobile-first, no frameworks */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--brand:#4f46e5;--ink:#1e293b;--muted:#475569;--faint:#64748b;--line:#e2e8f0;--bg:#fff;--soft:#f8fafc}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+img{max-width:100%}
+
+/* Header / nav */
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}
+.nav{max-width:720px;margin:0 auto;padding:.8rem 1rem;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:1.25rem;color:var(--brand);text-decoration:none}
+.nav-links{display:flex;align-items:center}
+.nav-links a{margin-left:.9rem;color:var(--muted);text-decoration:none;font-size:.9rem}
+.nav-links a:hover{color:var(--brand)}
+
+/* Layout */
+main{max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem}
+.hero h1{font-size:1.7rem;line-height:1.25;margin:.5rem 0}
+.hero p{color:var(--muted);margin-bottom:1rem}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:2rem 0 .75rem}
+.section-head h2{font-size:1.25rem}
+.section-head a{font-size:.85rem;color:var(--brand);text-decoration:none}
+
+/* Quiz card grid */
+.quiz-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:.5rem 0 1rem}
+.qcard{border:1px solid var(--line);border-radius:12px;padding:1rem;text-decoration:none;color:var(--ink);display:block;background:#fff}
+.qcard:hover{border-color:var(--brand)}
+.qcard .kicker{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:700}
+.qcard h3{font-size:1rem;margin:.3rem 0;line-height:1.35}
+.qcard p{font-size:.82rem;color:var(--muted)}
+.qcard.soon{background:var(--soft);border-style:dashed;cursor:default}
+.soon-badge{display:inline-block;font-size:.7rem;font-weight:700;color:#92400e;background:#fef3c7;border-radius:99px;padding:.15rem .6rem;margin-top:.4rem}
+
+/* Quiz widget */
+.quiz-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:1.25rem;margin:1rem 0}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:1rem}
+.progress>div{height:100%;background:var(--brand);width:0;transition:width .3s}
+.q-text{font-size:1.15rem;font-weight:700;margin-bottom:.9rem}
+.opt{display:block;width:100%;text-align:left;padding:.85rem 1rem;margin:.5rem 0;border:2px solid var(--line);border-radius:10px;background:#fff;font-size:1rem;cursor:pointer;min-height:48px;font-family:inherit;color:var(--ink)}
+.opt:active{transform:scale(.98)}
+.opt.correct{border-color:#16a34a;background:#f0fdf4}
+.opt.wrong{border-color:#dc2626;background:#fef2f2}
+.opt:disabled{opacity:.85;cursor:default}
+.quiz-nav{margin-top:1rem;text-align:right}
+.next-btn{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.8rem;font-size:1rem;font-weight:700;cursor:pointer;min-height:48px;font-family:inherit}
+.result-card{display:none;background:#eef2ff;border:2px solid var(--brand);border-radius:14px;padding:1.5rem;margin:1.5rem 0;text-align:center}
+.result-card h2{color:var(--brand);margin-bottom:.5rem}
+.share-row{margin-top:1rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+.share-row button{border:1px solid #cbd5e1;background:#fff;border-radius:999px;padding:.55rem 1rem;font-size:.9rem;cursor:pointer;min-height:44px;font-family:inherit}
+.entertainment-note{font-size:.78rem;color:#64748b;margin-top:1rem}
+
+/* Sponsored CTA block */
+.sponsored-block{margin:2rem 0;padding:1.25rem;border:1px dashed #cbd5e1;border-radius:12px;background:var(--soft);text-align:center}
+.sponsored-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.ftc-note{font-size:.75rem;color:var(--faint);margin:.25rem 0 .75rem}
+.cta-btn{display:inline-block;padding:.9rem 2.2rem;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;min-height:48px}
+.cta-btn:active{transform:scale(.97)}
+
+/* Related + FAQ */
+.related{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0}
+.related a{border:1px solid var(--line);border-radius:10px;padding:.9rem;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.related div.soon{border:1px dashed var(--line);border-radius:10px;padding:.9rem;color:var(--faint);font-size:.95rem;background:var(--soft)}
+.faq{margin:2rem 0}.faq h3{margin-bottom:.5rem}.faq p{color:var(--muted);margin-bottom:1rem;font-size:.95rem}
+
+/* How it works steps */
+.steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1rem 0}
+.step{border:1px solid var(--line);border-radius:12px;padding:1rem;text-align:center;background:var(--soft)}
+.step .n{display:inline-block;width:2rem;height:2rem;line-height:2rem;border-radius:99px;background:var(--brand);color:#fff;font-weight:800;margin-bottom:.5rem}
+.step p{font-size:.88rem;color:var(--muted)}
+
+/* Email signup */
+.signup{background:#eef2ff;border:1px solid var(--brand);border-radius:14px;padding:1.5rem;margin:2rem 0;text-align:center}
+.signup h2{margin-bottom:.4rem}
+.signup p{color:var(--muted);font-size:.92rem;margin-bottom:1rem}
+.signup form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+.signup input[type=email]{flex:1;min-width:200px;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:999px;font-size:1rem;font-family:inherit}
+.signup button{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.6rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Search */
+.search-input{width:100%;padding:.9rem 1.1rem;border:2px solid var(--line);border-radius:12px;font-size:1.05rem;font-family:inherit;margin:1rem 0}
+.search-input:focus{outline:none;border-color:var(--brand)}
+
+/* Legal / prose pages */
+.prose h1{font-size:1.6rem;margin:.5rem 0 1rem}
+.prose h2{font-size:1.15rem;margin:1.5rem 0 .5rem}
+.prose p,.prose li{color:var(--muted);margin-bottom:.8rem;font-size:.96rem}
+.prose ul{padding-left:1.2rem}
+
+/* Trending list */
+.trend-row{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1rem;margin:.6rem 0;text-decoration:none;color:var(--ink)}
+.trend-row .rank{font-size:1.6rem;font-weight:800;color:var(--brand);min-width:2.2rem;text-align:center}
+.trend-row h3{font-size:1.02rem}
+.trend-row p{font-size:.82rem;color:var(--muted)}
+
+/* Contact form */
+.contact-form{max-width:480px;margin:1rem 0}
+.contact-form label{display:block;font-weight:600;margin:.9rem 0 .3rem;font-size:.92rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:10px;font-size:1rem;font-family:inherit}
+.contact-form textarea{min-height:140px;resize:vertical}
+.contact-form button{margin-top:1rem;background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.85rem 2rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:1.5rem 1rem;text-align:center;font-size:.85rem;color:var(--faint)}
+footer a{color:var(--faint);margin:0 .5rem;text-decoration:none}
+footer a:hover{color:var(--brand)}
+.seo-foot{max-width:720px;margin:0 auto;padding:0 1rem 2rem;font-size:.8rem;color:#64748b}
+
+/* Small screens */
+@media (max-width:420px){
+  .steps{grid-template-columns:1fr}
+  .nav-links a{margin-left:.6rem;font-size:.82rem}
+}
+</style>
+<link rel="canonical" href="https://popquizdaily.site/quiz/which-owl-are-you-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Which Owl Are You Quiz — QuizPop">
+<meta property="og:description" content="Take this fun personality quiz to find out which majestic owl matches your nocturnal habits and personal style. Discover your inner bird today!">
+<meta property="og:url" content="https://popquizdaily.site/quiz/which-owl-are-you-quiz/">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Which Owl Are You Quiz</h1>
+<p>Discover your inner night bird with this fun personality quiz!</p>
+</section>
+
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Quick heads-up</p>
+<p style="margin:.4rem 0 1rem;color:#475569">QuizPop is free forever thanks to our sponsor. Your quiz starts right below.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="quiz-top"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<p class="sponsored-title">Want more like this?</p>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/what-spider-are-you-quiz/">What Spider Are You Quiz</a><a href="/quiz/what-full-moon-are-you/">What Full Moon Are You?</a><a href="/quiz/which-black-cat-are-you-quiz/">Which Black Cat Are You Quiz</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Have you ever wondered which owl matches your personality? If you love staying up late, observing the world, or solving tricky problems, you might just share traits with these amazing nocturnal birds. Taking a which owl are you quiz is a fun way to explore your habits and find out if you are more like a wise Great Horned Owl, a speedy Barn Owl, or a tiny, curious Elf Owl. Owls are fascinating creatures known for their quiet flight and sharp eyesight. By answering six quick and easy questions about your favorite evening activities, your study habits, and how you handle surprises, this quiz will reveal your feathered match. Whether you are a night owl who loves studying under the stars or an early bird who just likes a cozy evening, this quiz is perfect for animal lovers of all ages. Gather your friends and family to see which majestic bird of prey fits your style best. Let us flutter into the fun and discover your unique owl persona right now!</p>
+<p><strong>How does it work?</strong> Answer each question and your result is calculated instantly, shown right here — nothing is hidden or locked.</p>
+<p><strong>Is it accurate?</strong> It's for entertainment only, not a psychological assessment. But it's scarily fun.</p>
+<p><strong>Is it really free?</strong> Yes. We're supported by clearly-labeled sponsored links, like the one above.</p>
+<p><strong>Which owl are you quiz: how does it work?</strong> This quiz asks you six fun questions about your daily habits, favorite activities, and sleep schedule. Your answers are tallied up to match your personality with one of three amazing owl species.</p><p><strong>Are owls really nocturnal creatures?</strong> Most owl species are nocturnal, meaning they hunt and are most active during the night. However, a few types of owls are active during the day or at twilight.</p><p><strong>Can I share my owl quiz results with friends?</strong> Yes, absolutely! You can share your results with your family and friends to compare which owls you all got and see who is the biggest night owl.</p><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which owl are you quiz: how does it work?", "acceptedAnswer": {"@type": "Answer", "text": "This quiz asks you six fun questions about your daily habits, favorite activities, and sleep schedule. Your answers are tallied up to match your personality with one of three amazing owl species."}}, {"@type": "Question", "name": "Are owls really nocturnal creatures?", "acceptedAnswer": {"@type": "Answer", "text": "Most owl species are nocturnal, meaning they hunt and are most active during the night. However, a few types of owls are active during the day or at twilight."}}, {"@type": "Question", "name": "Can I share my owl quiz results with friends?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, absolutely! You can share your results with your family and friends to compare which owls you all got and see who is the biggest night owl."}}]}</script>
+</section>
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Thanks for playing!</p>
+<p style="margin:.4rem 0 1rem;color:#475569">More quizzes, trivia and riddles — fresh every day.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="page-bottom"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {"questions": [{"q": "What is your favorite way to spend a quiet Friday evening?", "o": ["Reading a mystery book in my cozy room", "Stargazing and listening to the night sounds", "Hanging out with a big group of friends", "Finishing up my homework early and going to bed"], "s": [10, 30, 20, 0]}, {"q": "How do you usually handle a tricky problem at school?", "o": ["I look at all the facts before deciding", "I trust my quick instincts to fix it", "I ask for help from my friends or family", "I take a short break to clear my mind first"], "s": [30, 10, 20, 0]}, {"q": "Which superpower would you choose to have?", "o": ["Super hearing to catch every little whisper", "Super speed to dash across the playground", "Super wisdom to always know the right answer", "Super night vision to see in total darkness"], "s": [20, 10, 30, 0]}, {"q": "What is your natural sleep schedule like?", "o": ["I am a total night owl who stays up late", "I wake up super early ready to take on the day", "I sleep whenever I feel like it, with no set routine", "I need eight solid hours to function properly"], "s": [30, 0, 10, 20]}, {"q": "Where is your favorite place to hang out outdoors?", "o": ["High up in a sturdy treehouse", "In an open meadow full of wildflowers", "Near a bustling park with lots of action", "In a quiet garden right outside my home"], "s": [30, 10, 0, 20]}, {"q": "What word best describes your personal style?", "o": ["Quiet and mysterious", "Fast and energetic", "Friendly and social", "Thoughtful and calm"], "s": [30, 10, 20, 0]}], "results": [{"min": 0, "max": 96, "t": "Great Horned Owl", "d": "You are the Great Horned Owl! You possess incredible wisdom, a calm demeanor, and a strong presence. People often come to you for advice because you see the big picture and always know the right thing to say. You love quiet moments and deep thinking."}, {"min": 97, "max": 189, "t": "Barn Owl", "d": "You are the Barn Owl! Quick, clever, and full of energy, you love to explore new places and solve fast-paced puzzles. You are very observant and notice every little detail happening around you. Your bright personality brings joy to everyone you meet."}, {"min": 190, "max": 240, "t": "Elf Owl", "d": "You are the tiny Elf Owl! Cute, friendly, and very social, you enjoy being surrounded by your favorite people. Even though you are small, you have a big heart and a lively spirit that makes every single day an exciting new adventure."}]};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script defer src="/assets/js/tracking.js"></script>
+<!-- GA4: stub queues events instantly; library lazy-loads after first paint (idle/interaction) -->
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+(function(){
+var done=false;
+function load(){if(done)return;done=true;
+var s=document.createElement('script');s.async=true;
+s.src='https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3';
+document.head.appendChild(s);gtag('config','G-S10CQJF8N3');}
+function idle(){if('requestIdleCallback' in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3000);}}
+['scroll','click','touchstart','keydown'].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true,capture:true});});
+window.addEventListener('load',idle);setTimeout(load,10000);
+})();
+</script>
+</body>
+</html>
