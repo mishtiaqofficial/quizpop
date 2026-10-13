@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<link rel="ard" href="/.well-known/ard.json">
+<title>Am I in a Situationship Quiz — QuizPop</title>
+<meta name="description" content="Take the am i in a situationship quiz to figure out if your current connection is a real relationship or just relationship limbo. Get clarity fast!">
+<style>
+/* QuizPop design system — mobile-first, no frameworks */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--brand:#4f46e5;--ink:#1e293b;--muted:#475569;--faint:#64748b;--line:#e2e8f0;--bg:#fff;--soft:#f8fafc}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+img{max-width:100%}
+
+/* Header / nav */
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}
+.nav{max-width:720px;margin:0 auto;padding:.8rem 1rem;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:1.25rem;color:var(--brand);text-decoration:none}
+.nav-links{display:flex;align-items:center}
+.nav-links a{margin-left:.9rem;color:var(--muted);text-decoration:none;font-size:.9rem}
+.nav-links a:hover{color:var(--brand)}
+
+/* Layout */
+main{max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem}
+.hero h1{font-size:1.7rem;line-height:1.25;margin:.5rem 0}
+.hero p{color:var(--muted);margin-bottom:1rem}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:2rem 0 .75rem}
+.section-head h2{font-size:1.25rem}
+.section-head a{font-size:.85rem;color:var(--brand);text-decoration:none}
+
+/* Quiz card grid */
+.quiz-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:.5rem 0 1rem}
+.qcard{border:1px solid var(--line);border-radius:12px;padding:1rem;text-decoration:none;color:var(--ink);display:block;background:#fff}
+.qcard:hover{border-color:var(--brand)}
+.qcard .kicker{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:700}
+.qcard h3{font-size:1rem;margin:.3rem 0;line-height:1.35}
+.qcard p{font-size:.82rem;color:var(--muted)}
+.qcard.soon{background:var(--soft);border-style:dashed;cursor:default}
+.soon-badge{display:inline-block;font-size:.7rem;font-weight:700;color:#92400e;background:#fef3c7;border-radius:99px;padding:.15rem .6rem;margin-top:.4rem}
+
+/* Quiz widget */
+.quiz-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:1.25rem;margin:1rem 0}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:1rem}
+.progress>div{height:100%;background:var(--brand);width:0;transition:width .3s}
+.q-text{font-size:1.15rem;font-weight:700;margin-bottom:.9rem}
+.opt{display:block;width:100%;text-align:left;padding:.85rem 1rem;margin:.5rem 0;border:2px solid var(--line);border-radius:10px;background:#fff;font-size:1rem;cursor:pointer;min-height:48px;font-family:inherit;color:var(--ink)}
+.opt:active{transform:scale(.98)}
+.opt.correct{border-color:#16a34a;background:#f0fdf4}
+.opt.wrong{border-color:#dc2626;background:#fef2f2}
+.opt:disabled{opacity:.85;cursor:default}
+.quiz-nav{margin-top:1rem;text-align:right}
+.next-btn{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.8rem;font-size:1rem;font-weight:700;cursor:pointer;min-height:48px;font-family:inherit}
+.result-card{display:none;background:#eef2ff;border:2px solid var(--brand);border-radius:14px;padding:1.5rem;margin:1.5rem 0;text-align:center}
+.result-card h2{color:var(--brand);margin-bottom:.5rem}
+.share-row{margin-top:1rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+.share-row button{border:1px solid #cbd5e1;background:#fff;border-radius:999px;padding:.55rem 1rem;font-size:.9rem;cursor:pointer;min-height:44px;font-family:inherit}
+.entertainment-note{font-size:.78rem;color:#64748b;margin-top:1rem}
+
+/* Sponsored CTA block */
+.sponsored-block{margin:2rem 0;padding:1.25rem;border:1px dashed #cbd5e1;border-radius:12px;background:var(--soft);text-align:center}
+.sponsored-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.ftc-note{font-size:.75rem;color:var(--faint);margin:.25rem 0 .75rem}
+.cta-btn{display:inline-block;padding:.9rem 2.2rem;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;min-height:48px}
+.cta-btn:active{transform:scale(.97)}
+
+/* Related + FAQ */
+.related{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0}
+.related a{border:1px solid var(--line);border-radius:10px;padding:.9rem;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.related div.soon{border:1px dashed var(--line);border-radius:10px;padding:.9rem;color:var(--faint);font-size:.95rem;background:var(--soft)}
+.faq{margin:2rem 0}.faq h3{margin-bottom:.5rem}.faq p{color:var(--muted);margin-bottom:1rem;font-size:.95rem}
+
+/* How it works steps */
+.steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1rem 0}
+.step{border:1px solid var(--line);border-radius:12px;padding:1rem;text-align:center;background:var(--soft)}
+.step .n{display:inline-block;width:2rem;height:2rem;line-height:2rem;border-radius:99px;background:var(--brand);color:#fff;font-weight:800;margin-bottom:.5rem}
+.step p{font-size:.88rem;color:var(--muted)}
+
+/* Email signup */
+.signup{background:#eef2ff;border:1px solid var(--brand);border-radius:14px;padding:1.5rem;margin:2rem 0;text-align:center}
+.signup h2{margin-bottom:.4rem}
+.signup p{color:var(--muted);font-size:.92rem;margin-bottom:1rem}
+.signup form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+.signup input[type=email]{flex:1;min-width:200px;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:999px;font-size:1rem;font-family:inherit}
+.signup button{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.6rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Search */
+.search-input{width:100%;padding:.9rem 1.1rem;border:2px solid var(--line);border-radius:12px;font-size:1.05rem;font-family:inherit;margin:1rem 0}
+.search-input:focus{outline:none;border-color:var(--brand)}
+
+/* Legal / prose pages */
+.prose h1{font-size:1.6rem;margin:.5rem 0 1rem}
+.prose h2{font-size:1.15rem;margin:1.5rem 0 .5rem}
+.prose p,.prose li{color:var(--muted);margin-bottom:.8rem;font-size:.96rem}
+.prose ul{padding-left:1.2rem}
+
+/* Trending list */
+.trend-row{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1rem;margin:.6rem 0;text-decoration:none;color:var(--ink)}
+.trend-row .rank{font-size:1.6rem;font-weight:800;color:var(--brand);min-width:2.2rem;text-align:center}
+.trend-row h3{font-size:1.02rem}
+.trend-row p{font-size:.82rem;color:var(--muted)}
+
+/* Contact form */
+.contact-form{max-width:480px;margin:1rem 0}
+.contact-form label{display:block;font-weight:600;margin:.9rem 0 .3rem;font-size:.92rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:10px;font-size:1rem;font-family:inherit}
+.contact-form textarea{min-height:140px;resize:vertical}
+.contact-form button{margin-top:1rem;background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.85rem 2rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:1.5rem 1rem;text-align:center;font-size:.85rem;color:var(--faint)}
+footer a{color:var(--faint);margin:0 .5rem;text-decoration:none}
+footer a:hover{color:var(--brand)}
+.seo-foot{max-width:720px;margin:0 auto;padding:0 1rem 2rem;font-size:.8rem;color:#64748b}
+
+/* Small screens */
+@media (max-width:420px){
+  .steps{grid-template-columns:1fr}
+  .nav-links a{margin-left:.6rem;font-size:.82rem}
+}
+</style>
+<link rel="canonical" href="https://popquizdaily.site/quiz/am-i-in-a-situationship-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Am I in a Situationship Quiz — QuizPop">
+<meta property="og:description" content="Take the am i in a situationship quiz to figure out if your current connection is a real relationship or just relationship limbo. Get clarity fast!">
+<meta property="og:url" content="https://popquizdaily.site/quiz/am-i-in-a-situationship-quiz/">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Am I in a Situationship Quiz</h1>
+<p>Are you more than friends, but not quite a couple? Let us decode your relationship status!</p>
+</section>
+
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Quick heads-up</p>
+<p style="margin:.4rem 0 1rem;color:#475569">QuizPop is free forever thanks to our sponsor. Your quiz starts right below.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="quiz-top"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<p class="sponsored-title">Want more like this?</p>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/does-he-miss-me-quiz/">Does He Miss Me Quiz</a><a href="/quiz/am-i-over-my-ex-quiz/">Am I Over My Ex Quiz</a><a href="/quiz/what-does-my-crush-think-of-me-quiz/">What Does My Crush Think of Me Quiz</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Wondering what is really going on with that special someone? Take our fun am i in a situationship quiz to find out if you are building a solid romance or just stuck in relationship limbo. Modern dating can be super confusing, especially when there are no clear labels, future plans, or official titles. One day you are hanging out like a couple, and the next day you feel like just a casual option. This 6-question quiz looks at your texting habits, dates, and how you talk about each other to give you a clear look at your current dynamic. Whether you are sending good-morning texts every single day or only hearing from them late at night, it is time to get some clarity. Stop guessing and start figuring out where you actually stand so you can protect your heart and make your next move with total confidence!</p>
+<p><strong>How does it work?</strong> Answer each question and your result is calculated instantly, shown right here — nothing is hidden or locked.</p>
+<p><strong>Is it accurate?</strong> It's for entertainment only, not a psychological assessment. But it's scarily fun.</p>
+<p><strong>Is it really free?</strong> Yes. We're supported by clearly-labeled sponsored links, like the one above.</p>
+<p><strong>Am I in a situationship quiz: how do I know if I am in one?</strong> You might be in a situationship if you spend time together and act like a couple, but have no official title or future plans. Taking our quiz can help you figure out your status.</p><p><strong>What are the main signs of a modern situationship?</strong> Key signs include last-minute plans, inconsistent texting, avoiding talk about the future, and never officially being introduced as a boyfriend or girlfriend to other people in their life.</p><p><strong>Should I talk to my crush about our relationship status?</strong> Yes, having an open and honest conversation is the best way to get clarity. It helps ensure that both of you are on the same page and looking for the exact same things.</p><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Am I in a situationship quiz: how do I know if I am in one?", "acceptedAnswer": {"@type": "Answer", "text": "You might be in a situationship if you spend time together and act like a couple, but have no official title or future plans. Taking our quiz can help you figure out your status."}}, {"@type": "Question", "name": "What are the main signs of a modern situationship?", "acceptedAnswer": {"@type": "Answer", "text": "Key signs include last-minute plans, inconsistent texting, avoiding talk about the future, and never officially being introduced as a boyfriend or girlfriend to other people in their life."}}, {"@type": "Question", "name": "Should I talk to my crush about our relationship status?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, having an open and honest conversation is the best way to get clarity. It helps ensure that both of you are on the same page and looking for the exact same things."}}]}</script>
+</section>
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Thanks for playing!</p>
+<p style="margin:.4rem 0 1rem;color:#475569">More quizzes, trivia and riddles — fresh every day.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="page-bottom"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {"questions": [{"q": "How often do you and this person hang out on actual planned dates?", "o": ["We have set dinner or activity dates every week.", "Mostly last-minute hangouts or chilling at home.", "Whenever it is convenient for their busy schedule.", "We just see each other at school or group hangouts."], "s": [0, 20, 40, 10]}, {"q": "What do your text conversations usually look like?", "o": ["Deep talks, sharing daily updates, and constant chatting.", "Friendly memes and random check-ins every few days.", "Late-night messages asking what you are up to.", "Short replies with very little effort on their end."], "s": [0, 15, 30, 40]}, {"q": "Have you two ever talked about what your official relationship status is?", "o": ["Yes, we proudly call each other boyfriend and girlfriend.", "We joked about it, but never really settled on anything.", "We avoid the topic because it feels too heavy and awkward.", "Nope, we just go with the flow and do not ask questions."], "s": [0, 20, 35, 40]}, {"q": "How do they introduce you to their friends or family members?", "o": ["As their significant other with a huge smile.", "Just by my first name like any other buddy.", "They usually avoid introducing me to important people.", "As a really close friend, nothing more."], "s": [0, 20, 40, 30]}, {"q": "How do you feel when you think about where your connection is heading?", "o": ["Excited and secure because we have a great future together.", "A bit nervous since I never really know what comes next.", "Confused and stressed because I want more commitment.", "Totally fine, I do not care about labels at all right now."], "s": [0, 20, 40, 10]}, {"q": "What happens on weekends or holidays?", "o": ["We make plans together to celebrate or do something fun.", "Sometimes we hang out, but they also do their own thing.", "They are always busy with other people or plans.", "We only text briefly while doing our own weekend activities."], "s": [0, 20, 40, 30]}], "results": [{"min": 0, "max": 96, "t": "The Official Relationship", "d": "Good news! You are definitely not in a situationship. You and your person have clear labels, great communication, and mutual respect. You know where you stand, and you are building a real romance together with open plans for the future. Keep up the amazing teamwork and enjoy every moment of your solid partnership!"}, {"min": 97, "max": 189, "t": "The Gray Area Zone", "d": "You are walking right on the edge of a situationship. Sometimes things feel super romantic, and other times it feels totally unclear. You might benefit from having an honest conversation with them to see what they are looking for, so you do not waste your precious time wondering where you stand."}, {"min": 190, "max": 240, "t": "Classic Situationship", "d": "Uh-oh! You are swimming deep in situationship territory. There are no clear labels, communication is spotty, and you are mostly just going with the flow without any real commitment. It is time to decide if this casual setup makes you happy or if you deserve someone who is proud to call you theirs!"}]};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script defer src="/assets/js/tracking.js"></script>
+<!-- GA4: stub queues events instantly; library lazy-loads after first paint (idle/interaction) -->
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+(function(){
+var done=false;
+function load(){if(done)return;done=true;
+var s=document.createElement('script');s.async=true;
+s.src='https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3';
+document.head.appendChild(s);gtag('config','G-S10CQJF8N3');}
+function idle(){if('requestIdleCallback' in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3000);}}
+['scroll','click','touchstart','keydown'].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true,capture:true});});
+window.addEventListener('load',idle);setTimeout(load,10000);
+})();
+</script>
+</body>
+</html>

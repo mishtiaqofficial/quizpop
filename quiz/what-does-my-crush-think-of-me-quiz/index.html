@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<link rel="ard" href="/.well-known/ard.json">
+<title>What Does My Crush Think of Me Quiz — QuizPop</title>
+<meta name="description" content="Take the what does my crush think of me quiz to find out if your special someone likes you back. Fun questions about school, texts, and hints!">
+<style>
+/* QuizPop design system — mobile-first, no frameworks */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--brand:#4f46e5;--ink:#1e293b;--muted:#475569;--faint:#64748b;--line:#e2e8f0;--bg:#fff;--soft:#f8fafc}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+img{max-width:100%}
+
+/* Header / nav */
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}
+.nav{max-width:720px;margin:0 auto;padding:.8rem 1rem;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:1.25rem;color:var(--brand);text-decoration:none}
+.nav-links{display:flex;align-items:center}
+.nav-links a{margin-left:.9rem;color:var(--muted);text-decoration:none;font-size:.9rem}
+.nav-links a:hover{color:var(--brand)}
+
+/* Layout */
+main{max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem}
+.hero h1{font-size:1.7rem;line-height:1.25;margin:.5rem 0}
+.hero p{color:var(--muted);margin-bottom:1rem}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:2rem 0 .75rem}
+.section-head h2{font-size:1.25rem}
+.section-head a{font-size:.85rem;color:var(--brand);text-decoration:none}
+
+/* Quiz card grid */
+.quiz-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:.5rem 0 1rem}
+.qcard{border:1px solid var(--line);border-radius:12px;padding:1rem;text-decoration:none;color:var(--ink);display:block;background:#fff}
+.qcard:hover{border-color:var(--brand)}
+.qcard .kicker{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:700}
+.qcard h3{font-size:1rem;margin:.3rem 0;line-height:1.35}
+.qcard p{font-size:.82rem;color:var(--muted)}
+.qcard.soon{background:var(--soft);border-style:dashed;cursor:default}
+.soon-badge{display:inline-block;font-size:.7rem;font-weight:700;color:#92400e;background:#fef3c7;border-radius:99px;padding:.15rem .6rem;margin-top:.4rem}
+
+/* Quiz widget */
+.quiz-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:1.25rem;margin:1rem 0}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:1rem}
+.progress>div{height:100%;background:var(--brand);width:0;transition:width .3s}
+.q-text{font-size:1.15rem;font-weight:700;margin-bottom:.9rem}
+.opt{display:block;width:100%;text-align:left;padding:.85rem 1rem;margin:.5rem 0;border:2px solid var(--line);border-radius:10px;background:#fff;font-size:1rem;cursor:pointer;min-height:48px;font-family:inherit;color:var(--ink)}
+.opt:active{transform:scale(.98)}
+.opt.correct{border-color:#16a34a;background:#f0fdf4}
+.opt.wrong{border-color:#dc2626;background:#fef2f2}
+.opt:disabled{opacity:.85;cursor:default}
+.quiz-nav{margin-top:1rem;text-align:right}
+.next-btn{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.8rem;font-size:1rem;font-weight:700;cursor:pointer;min-height:48px;font-family:inherit}
+.result-card{display:none;background:#eef2ff;border:2px solid var(--brand);border-radius:14px;padding:1.5rem;margin:1.5rem 0;text-align:center}
+.result-card h2{color:var(--brand);margin-bottom:.5rem}
+.share-row{margin-top:1rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+.share-row button{border:1px solid #cbd5e1;background:#fff;border-radius:999px;padding:.55rem 1rem;font-size:.9rem;cursor:pointer;min-height:44px;font-family:inherit}
+.entertainment-note{font-size:.78rem;color:#64748b;margin-top:1rem}
+
+/* Sponsored CTA block */
+.sponsored-block{margin:2rem 0;padding:1.25rem;border:1px dashed #cbd5e1;border-radius:12px;background:var(--soft);text-align:center}
+.sponsored-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.ftc-note{font-size:.75rem;color:var(--faint);margin:.25rem 0 .75rem}
+.cta-btn{display:inline-block;padding:.9rem 2.2rem;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;min-height:48px}
+.cta-btn:active{transform:scale(.97)}
+
+/* Related + FAQ */
+.related{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0}
+.related a{border:1px solid var(--line);border-radius:10px;padding:.9rem;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.related div.soon{border:1px dashed var(--line);border-radius:10px;padding:.9rem;color:var(--faint);font-size:.95rem;background:var(--soft)}
+.faq{margin:2rem 0}.faq h3{margin-bottom:.5rem}.faq p{color:var(--muted);margin-bottom:1rem;font-size:.95rem}
+
+/* How it works steps */
+.steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1rem 0}
+.step{border:1px solid var(--line);border-radius:12px;padding:1rem;text-align:center;background:var(--soft)}
+.step .n{display:inline-block;width:2rem;height:2rem;line-height:2rem;border-radius:99px;background:var(--brand);color:#fff;font-weight:800;margin-bottom:.5rem}
+.step p{font-size:.88rem;color:var(--muted)}
+
+/* Email signup */
+.signup{background:#eef2ff;border:1px solid var(--brand);border-radius:14px;padding:1.5rem;margin:2rem 0;text-align:center}
+.signup h2{margin-bottom:.4rem}
+.signup p{color:var(--muted);font-size:.92rem;margin-bottom:1rem}
+.signup form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+.signup input[type=email]{flex:1;min-width:200px;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:999px;font-size:1rem;font-family:inherit}
+.signup button{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.6rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Search */
+.search-input{width:100%;padding:.9rem 1.1rem;border:2px solid var(--line);border-radius:12px;font-size:1.05rem;font-family:inherit;margin:1rem 0}
+.search-input:focus{outline:none;border-color:var(--brand)}
+
+/* Legal / prose pages */
+.prose h1{font-size:1.6rem;margin:.5rem 0 1rem}
+.prose h2{font-size:1.15rem;margin:1.5rem 0 .5rem}
+.prose p,.prose li{color:var(--muted);margin-bottom:.8rem;font-size:.96rem}
+.prose ul{padding-left:1.2rem}
+
+/* Trending list */
+.trend-row{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1rem;margin:.6rem 0;text-decoration:none;color:var(--ink)}
+.trend-row .rank{font-size:1.6rem;font-weight:800;color:var(--brand);min-width:2.2rem;text-align:center}
+.trend-row h3{font-size:1.02rem}
+.trend-row p{font-size:.82rem;color:var(--muted)}
+
+/* Contact form */
+.contact-form{max-width:480px;margin:1rem 0}
+.contact-form label{display:block;font-weight:600;margin:.9rem 0 .3rem;font-size:.92rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:10px;font-size:1rem;font-family:inherit}
+.contact-form textarea{min-height:140px;resize:vertical}
+.contact-form button{margin-top:1rem;background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.85rem 2rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:1.5rem 1rem;text-align:center;font-size:.85rem;color:var(--faint)}
+footer a{color:var(--faint);margin:0 .5rem;text-decoration:none}
+footer a:hover{color:var(--brand)}
+.seo-foot{max-width:720px;margin:0 auto;padding:0 1rem 2rem;font-size:.8rem;color:#64748b}
+
+/* Small screens */
+@media (max-width:420px){
+  .steps{grid-template-columns:1fr}
+  .nav-links a{margin-left:.6rem;font-size:.82rem}
+}
+</style>
+<link rel="canonical" href="https://popquizdaily.site/quiz/what-does-my-crush-think-of-me-quiz/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="What Does My Crush Think of Me Quiz — QuizPop">
+<meta property="og:description" content="Take the what does my crush think of me quiz to find out if your special someone likes you back. Fun questions about school, texts, and hints!">
+<meta property="og:url" content="https://popquizdaily.site/quiz/what-does-my-crush-think-of-me-quiz/">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>What Does My Crush Think of Me Quiz</h1>
+<p>Find out if your special someone likes you back!</p>
+</section>
+
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Quick heads-up</p>
+<p style="margin:.4rem 0 1rem;color:#475569">QuizPop is free forever thanks to our sponsor. Your quiz starts right below.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="quiz-top"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<p class="sponsored-title">Want more like this?</p>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/when-will-i-meet-my-soulmate-quiz/">When Will I Meet My Soulmate Quiz</a><a href="/quiz/who-is-my-soulmate-initial-quiz/">Who Is My Soulmate Initial Quiz</a><a href="/quiz/what-type-of-boyfriend-am-i-quiz/">What Type Of Boyfriend Am I Quiz</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Have you been wondering what does my crush think of me quiz? It is completely normal to feel butterflies and wonder if the person you like feels the same way. Navigating your first crush can feel like a big mystery, but your daily interactions might actually hold some big clues. Do they smile when you walk into the room? Do they joke around with you or try to sit next to you in class? This fun and friendly personality quiz is designed to help you decode their signals. By looking at how you two talk, share secrets, and spend time together, we can give you a fun peek into what might be going on inside their head. Just remember to answer honestly about your real experiences with them. Whether you are total best friends or just starting to notice each other, this quiz will help you explore your romantic potential. Get ready to find out if you are headed toward a sweet new friendship, a fun secret crush, or maybe even your very first middle school romance. Take the quiz now and see what the friendship stars have to say about you and your crush!</p>
+<p><strong>How does it work?</strong> Answer each question and your result is calculated instantly, shown right here — nothing is hidden or locked.</p>
+<p><strong>Is it accurate?</strong> It's for entertainment only, not a psychological assessment. But it's scarily fun.</p>
+<p><strong>Is it really free?</strong> Yes. We're supported by clearly-labeled sponsored links, like the one above.</p>
+<p><strong>What does my crush think of me quiz?</strong> This fun personality quiz looks at your daily interactions, text messages, and school moments to help you figure out if your crush has romantic feelings for you or just views you as a good friend.</p><p><strong>How can I tell if my crush likes me?</strong> You can look for subtle clues like making eye contact, smiling when you walk by, replying quickly to your messages, and trying to sit near you during class projects or lunch breaks.</p><p><strong>Is this quiz accurate for school crushes?</strong> Yes! This quiz is specially designed with relatable middle and high school scenarios to help you have fun while thinking about your current crush and how they treat you.</p><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does my crush think of me quiz?", "acceptedAnswer": {"@type": "Answer", "text": "This fun personality quiz looks at your daily interactions, text messages, and school moments to help you figure out if your crush has romantic feelings for you or just views you as a good friend."}}, {"@type": "Question", "name": "How can I tell if my crush likes me?", "acceptedAnswer": {"@type": "Answer", "text": "You can look for subtle clues like making eye contact, smiling when you walk by, replying quickly to your messages, and trying to sit near you during class projects or lunch breaks."}}, {"@type": "Question", "name": "Is this quiz accurate for school crushes?", "acceptedAnswer": {"@type": "Answer", "text": "Yes! This quiz is specially designed with relatable middle and high school scenarios to help you have fun while thinking about your current crush and how they treat you."}}]}</script>
+</section>
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Thanks for playing!</p>
+<p style="margin:.4rem 0 1rem;color:#475569">More quizzes, trivia and riddles — fresh every day.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="page-bottom"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {"questions": [{"q": "What happens when you walk past your crush in the school hallway?", "o": ["They smile, wave, and say a loud hello!", "They quickly look down at their shoes and blush.", "They high-five me or tell a funny joke.", "They do not really notice me at all."], "s": [30, 20, 40, 5]}, {"q": "How does your crush usually text you back?", "o": ["Instantly, with tons of emojis and exclamation points!", "They take a while, but their messages are very long.", "We send funny memes and GIFs back and forth all day.", "They leave me on read or take hours to reply."], "s": [40, 25, 30, 5]}, {"q": "When you are working together on a group project, what do they do?", "o": ["They try to sit right next to me the whole time.", "They get super quiet and act a little shy around me.", "We end up laughing and talking about non-school stuff.", "They try to switch groups to work with someone else."], "s": [35, 20, 40, 5]}, {"q": "What do your mutual friends say about your crush?", "o": ["They wink and say my crush talks about me a lot.", "They tease us whenever we are standing near each other.", "They say we would make an awesome team.", "They tell me my crush is focused on other things right now."], "s": [40, 30, 35, 5]}, {"q": "How does your crush act when you talk to other people?", "o": ["They peek over and try to join our conversation.", "They look a little jealous or quiet.", "They cheer me on and are super supportive.", "They do not pay attention to who I am talking to."], "s": [35, 30, 25, 5]}, {"q": "If you dropped your books in the cafeteria, how would your crush react?", "o": ["They would rush over immediately to help me pick them up.", "They would point and laugh playfully before helping.", "They would catch my eye and give me an encouraging smile.", "They would keep eating and act like they did not see it."], "s": [40, 25, 30, 5]}], "results": [{"min": 0, "max": 96, "t": "Total Crush Material!", "d": "All signs point to yes! Your crush definitely notices you and probably likes you back more than just a friend. From the way they text you to how they smile in the hallway, you are clearly on their mind. Keep being your awesome, kind self, and do not be afraid to make the first move or start a fun conversation!"}, {"min": 97, "max": 189, "t": "Secret Admirer Status", "d": "There is definitely a fun spark between you two, even if your crush is a little shy about showing it! They might be nervous around you or worried about saying the wrong thing. Give them a little time, share a smile, and show them you are friendly. You might just draw them right out of their shell!"}, {"min": 190, "max": 240, "t": "Good Friends for Now", "d": "Right now, your crush probably just sees you as a really cool friend or classmate. But do not worry at all! Friendships are the absolute best foundation for anything special in the future. Focus on having fun, laughing together, and enjoying each other's company without any pressure to rush things."}]};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script defer src="/assets/js/tracking.js"></script>
+<!-- GA4: stub queues events instantly; library lazy-loads after first paint (idle/interaction) -->
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+(function(){
+var done=false;
+function load(){if(done)return;done=true;
+var s=document.createElement('script');s.async=true;
+s.src='https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3';
+document.head.appendChild(s);gtag('config','G-S10CQJF8N3');}
+function idle(){if('requestIdleCallback' in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3000);}}
+['scroll','click','touchstart','keydown'].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true,capture:true});});
+window.addEventListener('load',idle);setTimeout(load,10000);
+})();
+</script>
+</body>
+</html>
