@@ -31,33 +31,110 @@ DOMAIN = os.environ.get("SITE_DOMAIN", "https://popquizdaily.site/").rstrip("/")
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
                 "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/"]
 
-# ── SEO keyword targets (research 2026-09-29, quizpop-keyword-research-20260929-1818).
-# Low-competition long-tail keywords for US/UK/CA/AU. Priority order: easiest wins first.
+# ── SEO keyword targets (research 2026-10-13, 100 low-competition long-tails).
+# Priority order: seasonal first (Halloween window), then GSC-proven love cluster, then rest.
 # The pipeline works through these in order, skipping anything already published.
 KEYWORD_TARGETS = [
-    # priority 1 — easiest wins
-    {"kw": "what is my aesthetic quiz", "cluster": "decade/aesthetic", "angle": "which aesthetic are you (cottagecore, dark academia, Y2K, minimal)?"},
-    {"kw": "short love language quiz no sign up", "cluster": "love", "angle": "5-question version, result shown instantly with no email"},
-    {"kw": "career quiz for teens", "cluster": "career/money", "angle": "fun career matcher for teens — no boring aptitude-test tone"},
-    {"kw": "free career quiz for adults no sign up", "cluster": "career/money", "angle": "quick career-path finder, instant result, no email wall"},
-    {"kw": "money personality quiz", "cluster": "career/money", "angle": "are you a saver, spender, investor or giver?"},
-    {"kw": "which decade do i belong in quiz", "cluster": "decade/aesthetic", "angle": "alternate phrasing of our decade quiz — 60s/70s/80s/90s/2000s"},
-    # priority 2
-    {"kw": "love language quiz for couples", "cluster": "love", "angle": "couples edition — compare your love languages"},
-    {"kw": "what is my love language test", "cluster": "love", "angle": "full 5-love-languages test, instant result"},
-    {"kw": "which disney princess am i quiz", "cluster": "decade/aesthetic", "angle": "original wording — personality-mapped princess results"},
-    {"kw": "what kind of witch am i quiz", "cluster": "decade/aesthetic", "angle": "cottage witch, sea witch, kitchen witch..."},
-    {"kw": "which greek god are you quiz", "cluster": "decade/aesthetic", "angle": "zeus, athena, apollo, artemis..."},
-    {"kw": "what dessert am i quiz", "cluster": "food", "angle": "which dessert matches your personality"},
-    {"kw": "which pizza topping are you quiz", "cluster": "food", "angle": "fun food-personality quiz"},
-    {"kw": "morning person or night owl quiz", "cluster": "decade/aesthetic", "angle": "chronotype quiz with fun results"},
-    # priority 3 — high-volume, medium competition
-    {"kw": "hard trivia questions for adults with answers", "cluster": "trivia", "angle": "50-question listicle-style quiz, hidden answers"},
-    {"kw": "tricky riddles for adults with answers", "cluster": "riddles", "angle": "30-riddle collection, answers revealed as you play"},
-    {"kw": "fun quizzes to take when bored", "cluster": "decade/aesthetic", "angle": "boredom-buster personality quiz"},
-    {"kw": "what should i be for halloween quiz", "cluster": "seasonal", "angle": "costume picker quiz"},
-    {"kw": "am i in love quiz", "cluster": "love", "angle": "signs-you're-in-love checklist quiz"},
-    {"kw": "does he like me quiz", "cluster": "love", "angle": "does-he-like-me signs quiz for teens"},
+    {"kw": "which halloween candy are you quiz", "cluster": "seasonal", "angle": "Which Halloween Candy Are You?"},
+    {"kw": "what halloween costume should i wear quiz", "cluster": "seasonal", "angle": "What Halloween Costume Should You Wear?"},
+    {"kw": "am i a witch or a vampire quiz", "cluster": "seasonal", "angle": "Am I a Witch or a Vampire?"},
+    {"kw": "which horror movie villain are you quiz", "cluster": "seasonal", "angle": "Which Horror Movie Villain Are You?"},
+    {"kw": "what is my spooky season vibe quiz", "cluster": "seasonal", "angle": "What's Your Spooky Season Vibe?"},
+    {"kw": "which haunted house character are you quiz", "cluster": "seasonal", "angle": "Which Haunted House Character Are You?"},
+    {"kw": "trick or treat personality quiz", "cluster": "seasonal", "angle": "Trick or Treat Personality"},
+    {"kw": "which halloween movie character are you quiz", "cluster": "seasonal", "angle": "Which Halloween Movie Character Are You?"},
+    {"kw": "what kind of ghost are you quiz", "cluster": "seasonal", "angle": "What Kind of Ghost Are You?"},
+    {"kw": "zombie or vampire quiz which are you", "cluster": "seasonal", "angle": "Zombie or Vampire: Which Are You?"},
+    {"kw": "which halloween decoration are you quiz", "cluster": "seasonal", "angle": "Which Halloween Decoration Are You?"},
+    {"kw": "what is your spooky season job title quiz", "cluster": "seasonal", "angle": "What's Your Spooky Season Job Title?"},
+    {"kw": "which fall scent are you quiz", "cluster": "seasonal", "angle": "Which Fall Scent Are You?"},
+    {"kw": "pumpkin spice personality quiz", "cluster": "seasonal", "angle": "Pumpkin Spice Personality"},
+    {"kw": "which autumn aesthetic are you quiz", "cluster": "seasonal", "angle": "Which Autumn Aesthetic Are You?"},
+    {"kw": "cozy fall personality quiz", "cluster": "seasonal", "angle": "Cozy Fall Personality"},
+    {"kw": "which thanksgiving food are you quiz", "cluster": "seasonal", "angle": "Which Thanksgiving Food Are You?"},
+    {"kw": "which christmas cookie are you quiz", "cluster": "seasonal", "angle": "Which Christmas Cookie Are You?"},
+    {"kw": "what is my christmas aesthetic quiz", "cluster": "seasonal", "angle": "What's Your Christmas Aesthetic?"},
+    {"kw": "which christmas movie character are you quiz", "cluster": "seasonal", "angle": "Which Christmas Movie Character Are You?"},
+    {"kw": "which reindeer are you quiz", "cluster": "seasonal", "angle": "Which Reindeer Are You?"},
+    {"kw": "what is your elf name quiz", "cluster": "seasonal", "angle": "What Is Your Elf Name?"},
+    {"kw": "which holiday are you quiz", "cluster": "seasonal", "angle": "Which Holiday Are You?"},
+    {"kw": "should i dress up for halloween quiz", "cluster": "seasonal", "angle": "Should I Dress Up for Halloween?"},
+    {"kw": "what should i be for halloween quiz", "cluster": "seasonal", "angle": "What Should I Be for Halloween?"},
+    {"kw": "does she like me quiz", "cluster": "love", "angle": "Does She Like Me?"},
+    {"kw": "does my crush like me quiz", "cluster": "love", "angle": "Does My Crush Like Me?"},
+    {"kw": "am i in love or just crushing quiz", "cluster": "love", "angle": "Am I in Love or Just Crushing?"},
+    {"kw": "how to know if he likes you quiz", "cluster": "love", "angle": "How to Know If He Likes You:"},
+    {"kw": "is he flirting or just friendly quiz", "cluster": "love", "angle": "Is He Flirting or Just Friendly?"},
+    {"kw": "am i ready for a relationship quiz", "cluster": "love", "angle": "Am I Ready for a Relationship?"},
+    {"kw": "what is my attachment style quiz", "cluster": "love", "angle": "What's My Attachment Style?"},
+    {"kw": "am i the red flag or the green flag quiz", "cluster": "love", "angle": "Am I the Red Flag or the Green Flag?"},
+    {"kw": "am i a green flag quiz", "cluster": "love", "angle": "Am I a Green Flag?"},
+    {"kw": "what type of girlfriend am i quiz", "cluster": "love", "angle": "What Type of Girlfriend Am I?"},
+    {"kw": "what type of boyfriend am i quiz", "cluster": "love", "angle": "What Type of Boyfriend Am I?"},
+    {"kw": "who is my soulmate initial quiz", "cluster": "love", "angle": "Who Is My Soulmate? Initial"},
+    {"kw": "when will i meet my soulmate quiz", "cluster": "love", "angle": "When Will I Meet My Soulmate?"},
+    {"kw": "what does my crush think of me quiz", "cluster": "love", "angle": "What Does My Crush Think of Me?"},
+    {"kw": "am i over my ex quiz", "cluster": "love", "angle": "Am I Over My Ex?"},
+    {"kw": "does he miss me quiz", "cluster": "love", "angle": "Does He Miss Me?"},
+    {"kw": "am i in a situationship quiz", "cluster": "love", "angle": "Am I in a Situationship?"},
+    {"kw": "what is my love language test for teens", "cluster": "love", "angle": "Love Language Test for Teens"},
+    {"kw": "what color is my personality quiz", "cluster": "decade/aesthetic", "angle": "What Color Is Your Personality?"},
+    {"kw": "pick a color get a personality quiz", "cluster": "decade/aesthetic", "angle": "Pick a Color, Get a Personality"},
+    {"kw": "which princess are you quiz", "cluster": "decade/aesthetic", "angle": "Which Princess Are You?"},
+    {"kw": "which villain are you quiz", "cluster": "decade/aesthetic", "angle": "Which Villain Are You?"},
+    {"kw": "am i the main character quiz", "cluster": "decade/aesthetic", "angle": "Am I the Main Character?"},
+    {"kw": "what is my vibe quiz", "cluster": "decade/aesthetic", "angle": "What Is My Vibe?"},
+    {"kw": "what animal am i quiz", "cluster": "decade/aesthetic", "angle": "What Animal Am I?"},
+    {"kw": "which bird are you quiz", "cluster": "decade/aesthetic", "angle": "Which Bird Are You?"},
+    {"kw": "what is my spirit animal quiz", "cluster": "decade/aesthetic", "angle": "What's My Spirit Animal?"},
+    {"kw": "am i an introvert quiz", "cluster": "decade/aesthetic", "angle": "Am I an Introvert?"},
+    {"kw": "introvert or extrovert quiz", "cluster": "decade/aesthetic", "angle": "Introvert or Extrovert"},
+    {"kw": "what is my birth month personality quiz", "cluster": "decade/aesthetic", "angle": "What's My Birth Month Personality?"},
+    {"kw": "which greek god are you quiz", "cluster": "decade/aesthetic", "angle": "Which Greek God Are You?"},
+    {"kw": "which element am i quiz fire water earth air", "cluster": "decade/aesthetic", "angle": "Which Element Am I?"},
+    {"kw": "what kind of friend am i quiz", "cluster": "decade/aesthetic", "angle": "What Kind of Friend Am I?"},
+    {"kw": "am i a good friend quiz", "cluster": "decade/aesthetic", "angle": "Am I a Good Friend?"},
+    {"kw": "what snack are you quiz", "cluster": "food", "angle": "What Snack Are You?"},
+    {"kw": "what fast food are you quiz", "cluster": "food", "angle": "What Fast Food Are You?"},
+    {"kw": "which soda are you quiz", "cluster": "food", "angle": "Which Soda Are You?"},
+    {"kw": "what ice cream flavor are you quiz", "cluster": "food", "angle": "What Ice Cream Flavor Are You?"},
+    {"kw": "which pasta are you quiz", "cluster": "food", "angle": "Which Pasta Are You?"},
+    {"kw": "what breakfast food are you quiz", "cluster": "food", "angle": "What Breakfast Food Are You?"},
+    {"kw": "which candy are you quiz", "cluster": "food", "angle": "Which Candy Are You?"},
+    {"kw": "what fruit are you quiz", "cluster": "food", "angle": "What Fruit Are You?"},
+    {"kw": "which starbucks drink are you quiz", "cluster": "food", "angle": "Which Starbucks Drink Are You?"},
+    {"kw": "which cheese are you quiz", "cluster": "food", "angle": "Which Cheese Are You?"},
+    {"kw": "which coquette aesthetic are you quiz", "cluster": "decade/aesthetic", "angle": "Which Coquette Aesthetic Are You?"},
+    {"kw": "am i cottagecore or dark academia quiz", "cluster": "decade/aesthetic", "angle": "Am I Cottagecore or Dark Academia?"},
+    {"kw": "old money aesthetic quiz", "cluster": "decade/aesthetic", "angle": "Old Money Aesthetic"},
+    {"kw": "clean girl aesthetic quiz", "cluster": "decade/aesthetic", "angle": "Clean Girl Aesthetic"},
+    {"kw": "y2k aesthetic quiz", "cluster": "decade/aesthetic", "angle": "Y2K Aesthetic"},
+    {"kw": "grunge aesthetic quiz", "cluster": "decade/aesthetic", "angle": "Grunge Aesthetic"},
+    {"kw": "fairycore aesthetic quiz", "cluster": "decade/aesthetic", "angle": "Fairycore Aesthetic"},
+    {"kw": "downtown girl aesthetic quiz", "cluster": "decade/aesthetic", "angle": "Downtown Girl Aesthetic"},
+    {"kw": "what job fits my personality quiz", "cluster": "career/money", "angle": "What Job Fits My Personality?"},
+    {"kw": "am i meant to be an entrepreneur quiz", "cluster": "career/money", "angle": "Am I Meant to Be an Entrepreneur?"},
+    {"kw": "which career path should i choose quiz", "cluster": "career/money", "angle": "Which Career Path Should I Choose?"},
+    {"kw": "what should i study in college quiz", "cluster": "career/money", "angle": "What Should I Study in College?"},
+    {"kw": "trade school or college quiz", "cluster": "career/money", "angle": "Trade School or College?"},
+    {"kw": "am i a leader or follower quiz", "cluster": "career/money", "angle": "Am I a Leader or Follower?"},
+    {"kw": "what is my dream job based on my personality quiz", "cluster": "career/money", "angle": "What's My Dream Job? Personality"},
+    {"kw": "should i quit my job quiz", "cluster": "career/money", "angle": "Should I Quit My Job?"},
+    {"kw": "2000s trivia questions and answers quiz", "cluster": "trivia", "angle": "2000s Trivia Questions"},
+    {"kw": "disney trivia questions quiz", "cluster": "trivia", "angle": "Disney Trivia Questions"},
+    {"kw": "friends tv show trivia quiz", "cluster": "trivia", "angle": "Friends TV Show Trivia"},
+    {"kw": "80s music trivia quiz", "cluster": "trivia", "angle": "80s Music Trivia"},
+    {"kw": "general knowledge quiz for teens", "cluster": "trivia", "angle": "General Knowledge for Teens"},
+    {"kw": "impossible trivia questions quiz", "cluster": "trivia", "angle": "Impossible Trivia Questions"},
+    {"kw": "marvel trivia quiz for beginners", "cluster": "trivia", "angle": "Marvel Trivia for Beginners"},
+    {"kw": "what am i riddles for adults with answers", "cluster": "riddles", "angle": "What Am I Riddles for Adults"},
+    {"kw": "tricky riddles for teens with answers", "cluster": "riddles", "angle": "Tricky Riddles for Teens"},
+    {"kw": "detective riddles quiz solve the mystery", "cluster": "riddles", "angle": "Detective Riddles: Solve the Mystery"},
+    {"kw": "math riddles for adults quiz", "cluster": "riddles", "angle": "Math Riddles for Adults"},
+    {"kw": "funny what am i riddles quiz", "cluster": "riddles", "angle": "Funny \"What Am I\" Riddles"},
+    {"kw": "which dinosaur are you quiz", "cluster": "decade/aesthetic", "angle": "Which Dinosaur Are You?"},
+    {"kw": "which cartoon character are you quiz", "cluster": "decade/aesthetic", "angle": "Which Cartoon Character Are You?"},
+    {"kw": "what mythical pet should i get quiz", "cluster": "decade/aesthetic", "angle": "What Mythical Pet Should You Get?"},
 ]
 
 # Seasonal overrides: if today falls in a window, one quiz MUST target the seasonal keyword.
@@ -128,9 +205,14 @@ def gemini(prompt, temperature=0.9):
             with urllib.request.urlopen(req, timeout=180) as r:
                 data = json.loads(r.read())
         except urllib.error.HTTPError as e:
-            # 404 = retired, 429 = rate-limited, 5xx = overloaded → try next model
-            if e.code in (404, 429, 500, 502, 503):
-                print(f"WARN: model {model} unavailable (HTTP {e.code}), trying next…",
+            # 400 = bad key or model rejected for this call, 404 = retired,
+            # 429 = rate-limited, 5xx = overloaded → try next model, never die here
+            if e.code in (400, 404, 429, 500, 502, 503):
+                try:
+                    detail = e.read().decode(errors="replace")[:200]
+                except Exception:
+                    detail = ""
+                print(f"WARN: model {model} unavailable (HTTP {e.code} {detail}), trying next…",
                       flush=True)
                 last_err = e
                 continue
@@ -302,6 +384,19 @@ def in_window(start, end, today=None):
     return mmdd >= start or mmdd <= end
 
 
+def kw_already_covered(kw, published_slugs):
+    """True if this keyword's topic is already published.
+    Matches on the slug form, not just the first word (the old first-word
+    check wrongly skipped ~80% of fresh keywords)."""
+    slug = re.sub(r'[^a-z0-9]+', '-', kw.lower()).strip('-')
+    slug_no_quiz = re.sub(r'-quiz$', '', slug)
+    for s in published_slugs:
+        s = s.lower()
+        if slug in s or slug_no_quiz in s or s in slug:
+            return True
+    return False
+
+
 def pick_concepts(published_slugs, published_titles, n):
     """Return n quiz concepts: seasonal override first, then keyword targets,
     then fall back to trend discovery. Each item: (concept, format, target_kw)."""
@@ -311,7 +406,7 @@ def pick_concepts(published_slugs, published_titles, n):
     # 1. seasonal override
     for start, end, target in SEASONAL_WINDOWS:
         if in_window(start, end):
-            if target["kw"].split()[0] not in covered:
+            if not kw_already_covered(target["kw"], published_slugs):
                 concepts.append((target["angle"], "personality", target["kw"]))
                 covered += " " + target["kw"]
             break
@@ -320,8 +415,7 @@ def pick_concepts(published_slugs, published_titles, n):
     for target in KEYWORD_TARGETS:
         if len(concepts) >= n:
             break
-        key = target["kw"].split()[0]
-        if key in covered:
+        if kw_already_covered(target["kw"], published_slugs):
             continue
         fmt = "personality"
         if target["cluster"] in ("trivia",):
