@@ -6344,5 +6344,350 @@
     "description": "Take this fun personality test to find out what is my spirit animal quiz result! Answer six quick questions to discover your true animal match.",
     "url": "/quiz/what-is-my-spirit-animal-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-12",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "north pole",
+      "christmas quiz",
+      "holiday personality",
+      "quizpop"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole department matches your festive personality and holiday style!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-12/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-8",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movie",
+      "movie night",
+      "fall fun",
+      "spooky season",
+      "family movie"
+    ],
+    "description": "Take this what halloween movie should you watch quiz to find the ultimate spooky film for your movie night. Get your personalized recommendation now!",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-8/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-vibe-quiz-4",
+    "title": "What's Your Spooky Season Vibe?",
+    "category": "personality",
+    "tags": [
+      "spooky season",
+      "autumn",
+      "fall vibe",
+      "personality quiz",
+      "halloween"
+    ],
+    "description": "Take this fun personality quiz to discover what is my spooky season vibe! Answer six quick questions to find your ultimate autumn style and share with friends.",
+    "url": "/quiz/whats-your-spooky-season-vibe-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-job-title-quiz-4",
+    "title": "What's Your Spooky Season Job Title?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "fall",
+      "spooky season",
+      "personality quiz",
+      "autumn"
+    ],
+    "description": "Take this fun personality quiz to discover what is your spooky season job title quiz result! Find out your autumn alter ego and share with friends.",
+    "url": "/quiz/whats-your-spooky-season-job-title-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-christmas-aesthetic-quiz-2",
+    "title": "What's Your Christmas Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "christmas aesthetic",
+      "holiday quiz",
+      "decorating style",
+      "christmas personality",
+      "festive vibe"
+    ],
+    "description": "Take the what is my christmas aesthetic quiz to discover your holiday decorating style! Find out if you are Rustic Cabin, Winter Wonderland, or Merry & Bright.",
+    "url": "/quiz/whats-your-christmas-aesthetic-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-animal-am-i-quiz",
+    "title": "What Animal Am I Quiz",
+    "category": "personality",
+    "tags": [
+      "what animal am i quiz",
+      "spirit animal test",
+      "personality quiz",
+      "fun animal quiz",
+      "family friendly"
+    ],
+    "description": "Take this fun what animal am i quiz to discover your true spirit animal. Answer six quick questions to find out which creature matches your personality!",
+    "url": "/quiz/what-animal-am-i-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-an-introvert-quiz",
+    "title": "Am I an Introvert Quiz",
+    "category": "personality",
+    "tags": [
+      "introvert",
+      "personality",
+      "quiz",
+      "social",
+      "fun"
+    ],
+    "description": "Take this fun quiz to find out if you are an introvert, extrovert, or somewhere in between! Discover how you recharge your social energy today.",
+    "url": "/quiz/am-i-an-introvert-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "introvert-or-extrovert-quiz",
+    "title": "Are You An Introvert Or Extrovert Quiz?",
+    "category": "personality",
+    "tags": [
+      "introvert or extrovert quiz",
+      "personality test",
+      "social battery",
+      "fun quiz",
+      "quizpop"
+    ],
+    "description": "Take this fun introvert or extrovert quiz to discover your social style! Answer quick questions about your daily habits and find out where you rank.",
+    "url": "/quiz/introvert-or-extrovert-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-birth-month-personality-quiz",
+    "title": "What Is My Birth Month Personality Quiz?",
+    "category": "personality",
+    "tags": [
+      "birth month",
+      "personality quiz",
+      "birthday traits",
+      "fun quiz",
+      "us"
+    ],
+    "description": "Take the what is my birth month personality quiz to discover fun insights about your unique traits, preferences, and hidden vibes based on your choices.",
+    "url": "/quiz/what-is-my-birth-month-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-greek-god-are-you-quiz",
+    "title": "Which Greek God Are You?",
+    "category": "personality",
+    "tags": [
+      "greek gods",
+      "mythology",
+      "personality test",
+      "mount olympus",
+      "quizpop"
+    ],
+    "description": "Take the which greek god are you quiz to discover your divine mythical match on Mount Olympus. Are you Zeus, Athena, or Poseidon? Find out now!",
+    "url": "/quiz/which-greek-god-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-friend-am-i-quiz",
+    "title": "What Kind of Friend Am I Quiz",
+    "category": "personality",
+    "tags": [
+      "friendship quiz",
+      "best friends",
+      "personality test",
+      "fun quiz",
+      "quizpop"
+    ],
+    "description": "Take this fun personality quiz to discover your friendship style! Are you the cheerleader, the loyal listener, or the fun planner? Find out now!",
+    "url": "/quiz/what-kind-of-friend-am-i-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-a-good-friend-quiz",
+    "title": "Am I a Good Friend Quiz",
+    "category": "personality",
+    "tags": [
+      "am i a good friend quiz",
+      "friendship test",
+      "bestie quiz",
+      "good friend quiz",
+      "personality quiz"
+    ],
+    "description": "Take this fun am i a good friend quiz to discover your friendship style! Answer six questions and see if you are a super star bestie.",
+    "url": "/quiz/am-i-a-good-friend-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-snack-are-you-quiz",
+    "title": "What Snack Are You? Find Your Match",
+    "category": "personality",
+    "tags": [
+      "what snack are you quiz",
+      "personality quiz",
+      "food quiz",
+      "fun quiz",
+      "kids quiz"
+    ],
+    "description": "Take the what snack are you quiz to discover your food alter-ego! Are you sweet, salty, or spicy? Answer fun questions and find your snack match today.",
+    "url": "/quiz/what-snack-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-fast-food-are-you-quiz",
+    "title": "What Fast Food Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "what fast food are you quiz",
+      "fast food personality quiz",
+      "food quiz",
+      "fun quiz for kids",
+      "quizpop"
+    ],
+    "description": "Take the what fast food are you quiz to discover your snack match! Are you a crispy fry or a juicy burger? Find out now in this fun personality test.",
+    "url": "/quiz/what-fast-food-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-soda-are-you-quiz",
+    "title": "Which Soda Are You?",
+    "category": "personality",
+    "tags": [
+      "which soda are you quiz",
+      "personality quiz",
+      "drink quiz",
+      "fun quiz",
+      "family friendly"
+    ],
+    "description": "Take the which soda are you quiz to discover your bubbly drink match based on your personality, favorite snacks, and weekend activities!",
+    "url": "/quiz/which-soda-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-ice-cream-flavor-are-you-quiz",
+    "title": "What Ice Cream Flavor Are You?",
+    "category": "personality",
+    "tags": [
+      "ice cream",
+      "personality quiz",
+      "dessert",
+      "fun",
+      "food"
+    ],
+    "description": "Take the what ice cream flavor are you quiz to discover your sweet personality match! Answer fun questions and find out which tasty treat fits your vibe.",
+    "url": "/quiz/what-ice-cream-flavor-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-pasta-are-you-quiz",
+    "title": "Which Pasta Are You?",
+    "category": "personality",
+    "tags": [
+      "pasta quiz",
+      "food personality",
+      "which pasta are you",
+      "fun quiz",
+      "dinner ideas"
+    ],
+    "description": "Take the Which Pasta Are You? quiz to find out your true noodle match! Are you classic spaghetti, sturdy penne, or layered lasagna? Play now!",
+    "url": "/quiz/which-pasta-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-breakfast-food-are-you-quiz",
+    "title": "What Breakfast Food Are You?",
+    "category": "personality",
+    "tags": [
+      "what breakfast food are you quiz",
+      "breakfast personality quiz",
+      "food quiz",
+      "morning meal quiz",
+      "fun quiz for kids"
+    ],
+    "description": "Take the what breakfast food are you quiz to find out which morning meal matches your personality. Are you pancakes, waffles, or toast? Play now!",
+    "url": "/quiz/what-breakfast-food-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-candy-are-you-quiz",
+    "title": "Which Candy Are You?",
+    "category": "personality",
+    "tags": [
+      "candy",
+      "personality quiz",
+      "sweet treats",
+      "fun",
+      "food"
+    ],
+    "description": "Take the which candy are you quiz to discover your sweet match! Answer fun questions and find out if you are chocolate, gummy, or a lollipop.",
+    "url": "/quiz/which-candy-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-fruit-are-you-quiz",
+    "title": "What Fruit Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "what fruit are you quiz",
+      "personality quiz",
+      "fun fruit test",
+      "food personality",
+      "quizpop"
+    ],
+    "description": "Take the what fruit are you quiz to find out which delicious fruit matches your personality. Are you a sweet strawberry, zesty lemon, or cool watermelon?",
+    "url": "/quiz/what-fruit-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-starbucks-drink-are-you-quiz",
+    "title": "Which Starbucks Drink Are You?",
+    "category": "personality",
+    "tags": [
+      "starbucks",
+      "coffee",
+      "personality quiz",
+      "drinks",
+      "food and drink"
+    ],
+    "description": "Take the which starbucks drink are you quiz to find your coffee shop match! Answer six fun questions and discover your ultimate beverage personality.",
+    "url": "/quiz/which-starbucks-drink-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-cheese-are-you-quiz",
+    "title": "Which Cheese Are You?",
+    "category": "personality",
+    "tags": [
+      "which cheese are you quiz",
+      "cheese personality test",
+      "food quizzes",
+      "fun personality quiz",
+      "family friendly"
+    ],
+    "description": "Take the which cheese are you quiz to discover your dairy match! Answer fun questions about your personality and find out if you are cheddar, brie, or pepper ja",
+    "url": "/quiz/which-cheese-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-coquette-aesthetic-are-you-quiz",
+    "title": "Which Coquette Aesthetic Are You?",
+    "category": "personality",
+    "tags": [
+      "coquette aesthetic",
+      "personality quiz",
+      "fashion style",
+      "soft girl",
+      "trends"
+    ],
+    "description": "Take this fun personality quiz to find out which coquette aesthetic matches your unique vibe. Discover your dreamy soft-girl style today!",
+    "url": "/quiz/which-coquette-aesthetic-are-you-quiz/",
+    "questions_count": 6
   }
 ]
