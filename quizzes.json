@@ -4619,5 +4619,350 @@
     "description": "Take the ultimate which stranger things monster are you quiz to discover if you match the Demogorgon, Mind Flayer, or a Demo-dog. Fun for all fans!",
     "url": "/quiz/which-stranger-things-monster-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-7",
+    "title": "Which Santa's Workshop Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa",
+      "north pole",
+      "personality quiz",
+      "holiday fun"
+    ],
+    "description": "Take the which santa's workshop are you quiz to discover your dream North Pole job, from Toy Design to Sweet Treats and Sleigh Mechanics!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-7/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-3",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movies",
+      "movie quiz",
+      "fall fun",
+      "spooky season",
+      "family movie night"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions to get your ultimate spooky movie night recommendation.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-scream-character-are-you-quiz",
+    "title": "Which Scream Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "scream",
+      "woodsboro",
+      "personality quiz",
+      "movie",
+      "ghostface"
+    ],
+    "description": "Take the which scream character are you quiz to discover your Woodsboro alter ego. Are you a clever sleuth or a horror movie expert? Find out now!",
+    "url": "/quiz/which-scream-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-bucket-list-quiz",
+    "title": "What Is Your Halloween Bucket List Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "bucket list",
+      "fall activities",
+      "spooky season",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover what is your halloween bucket list quiz match and find your ideal autumn activities for spooky season!",
+    "url": "/quiz/what-is-your-halloween-bucket-list-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-candy-bar-are-you-quiz",
+    "title": "What Halloween Candy Bar Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "candy bar",
+      "personality quiz",
+      "sweet treats",
+      "fun"
+    ],
+    "description": "Take the what halloween candy bar are you quiz to find out which sweet treat matches your fun personality. Answer six quick questions to get your results!",
+    "url": "/quiz/what-halloween-candy-bar-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-attraction-are-you-quiz",
+    "title": "Which Haunted Attraction Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "haunted house",
+      "halloween",
+      "personality quiz",
+      "spooky",
+      "fun"
+    ],
+    "description": "Take the which haunted attraction are you quiz to discover your spooky style! Are you a corn maze, monster mansion, or haunted hotel?",
+    "url": "/quiz/which-haunted-attraction-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-superpower-quiz",
+    "title": "What Is Your Halloween Superpower Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "superpower",
+      "personality",
+      "spooky",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to discover what is your halloween superpower quiz result! Uncover your secret spooky ability in just a few clicks.",
+    "url": "/quiz/what-is-your-halloween-superpower-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-fall-aesthetic-are-you-quiz",
+    "title": "Which Fall Aesthetic Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "fall aesthetic",
+      "autumn quiz",
+      "personality test",
+      "cozy season",
+      "quizpop"
+    ],
+    "description": "Take this fun personality quiz to discover your true autumn vibe. Find out which fall aesthetic matches your cozy lifestyle and seasonal preferences today!",
+    "url": "/quiz/which-fall-aesthetic-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-dracula-character-are-you-quiz",
+    "title": "Which Dracula Character Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "dracula",
+      "halloween",
+      "monsters",
+      "personality",
+      "vampire"
+    ],
+    "description": "Take the which dracula character are you quiz! Find out if you match a spooky vampire, brave hunter, or funny sidekick in this fun family personality test.",
+    "url": "/quiz/which-dracula-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-witch-name-quiz",
+    "title": "What Is Your Witch Name Quiz",
+    "category": "personality",
+    "tags": [
+      "witch name",
+      "magic quiz",
+      "personality test",
+      "fantasy",
+      "fun quiz"
+    ],
+    "description": "Take this fun personality quiz to find out what is your witch name quiz result! Discover your magical identity and share your new witch name with friends.",
+    "url": "/quiz/what-is-your-witch-name-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-ghostbusters-character-are-you-quiz",
+    "title": "Which Ghostbusters Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "ghostbusters",
+      "movies",
+      "80s",
+      "paranormal",
+      "personality"
+    ],
+    "description": "Take the official which ghostbusters character are you quiz! Discover if you match the brains, the humor, or the heart of the ultimate paranormal team.",
+    "url": "/quiz/which-ghostbusters-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-costume-era-quiz",
+    "title": "What Is Your Halloween Costume Era Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "costumes",
+      "decades",
+      "personality quiz",
+      "retro style"
+    ],
+    "description": "Take the what is your halloween costume era quiz to find out which vintage or modern decade matches your ultimate spooky style and personality!",
+    "url": "/quiz/what-is-your-halloween-costume-era-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-frankenstein-character-are-you-quiz",
+    "title": "Which Frankenstein Character Are You?",
+    "category": "personality",
+    "tags": [
+      "frankenstein quiz",
+      "classic literature",
+      "gothic novel",
+      "personality test",
+      "mary shelley"
+    ],
+    "description": "Take the which frankenstein character are you quiz to discover your gothic novel match! Find out if you are Victor, the Creature, or Henry.",
+    "url": "/quiz/which-frankenstein-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-it-character-are-you-quiz",
+    "title": "Which IT Character Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "it character quiz",
+      "personality test",
+      "derry characters",
+      "fun quiz",
+      "movie quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which character from the spooky town of Derry matches your style. Are you a brave leader or clever thinker?",
+    "url": "/quiz/which-it-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-emoji-are-you-quiz",
+    "title": "What Halloween Emoji Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween emoji",
+      "personality quiz",
+      "spooky season",
+      "fun test",
+      "family friendly"
+    ],
+    "description": "Take this fun personality test to find out what halloween emoji are you quiz match! Answer six spooky questions and discover your autumn symbol.",
+    "url": "/quiz/what-halloween-emoji-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-salem-witch-are-you-quiz",
+    "title": "Which Salem Witch Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "salem witch quiz",
+      "history personality test",
+      "colonial america",
+      "fun quizzes",
+      "witch trials"
+    ],
+    "description": "Take the Which Salem Witch Are You Quiz to discover your colonial archetype! Answer fun history-themed questions and find your 1692 match today.",
+    "url": "/quiz/which-salem-witch-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-monster-high-character-are-you-quiz",
+    "title": "What Monster High Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "monster high",
+      "personality quiz",
+      "ghouls",
+      "mattel",
+      "characters"
+    ],
+    "description": "Take the what monster high character are you quiz to find out if you match Draculaura, Clawdeen Wolf, or Frankie Stein. Discover your ghoul style today!",
+    "url": "/quiz/what-monster-high-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-doll-are-you-quiz",
+    "title": "Which Haunted Doll Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "haunted doll",
+      "creepy toys",
+      "personality quiz",
+      "spooky fun",
+      "paranormal"
+    ],
+    "description": "Take this spooky personality test to find out which haunted doll matches your vibe. Are you a mischievous antique toy or an attic aristocrat?",
+    "url": "/quiz/which-haunted-doll-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-love-language-quiz",
+    "title": "What Is Your Halloween Love Language Quiz?",
+    "category": "personality",
+    "tags": [
+      "halloween love language",
+      "spooky romance",
+      "fall quiz",
+      "personality test",
+      "autumn dating"
+    ],
+    "description": "Take our fun personality test to find out what is your halloween love language quiz result! Discover your spooky affection style today.",
+    "url": "/quiz/what-is-your-halloween-love-language-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-trick-or-treat-candy-are-you-quiz",
+    "title": "Which Trick Or Treat Candy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "candy",
+      "personality quiz",
+      "trick or treat",
+      "fall"
+    ],
+    "description": "Take the which trick or treat candy are you quiz to find out which Halloween sweet treat matches your fun personality. Play now and share with friends!",
+    "url": "/quiz/which-trick-or-treat-candy-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-halloween-neighbor-are-you-quiz",
+    "title": "What Kind Of Halloween Neighbor Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "neighbor",
+      "quiz",
+      "spooky",
+      "fall"
+    ],
+    "description": "Take the what kind of halloween neighbor are you quiz to discover your spooky street reputation, decoration style, and trick-or-treat ranking today!",
+    "url": "/quiz/what-kind-of-halloween-neighbor-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-paranormal-investigator-are-you-quiz",
+    "title": "Which Paranormal Investigator Are You?",
+    "category": "personality",
+    "tags": [
+      "ghosts",
+      "paranormal",
+      "quiz",
+      "halloween",
+      "spooky"
+    ],
+    "description": "Take this fun quiz to find out which paranormal investigator are you quiz style matches your ghost-hunting personality best! Discover your spooky style now.",
+    "url": "/quiz/which-paranormal-investigator-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-costume-couple-are-you-quiz",
+    "title": "What Halloween Costume Couple Are You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "couples",
+      "costume",
+      "quiz",
+      "duo"
+    ],
+    "description": "Take this fun quiz to find out what halloween costume couple you and your partner or friend should be this year. Get your custom duo match instantly!",
+    "url": "/quiz/what-halloween-costume-couple-are-you-quiz/",
+    "questions_count": 6
   }
 ]
