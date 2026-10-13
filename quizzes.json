@@ -4964,5 +4964,335 @@
     "description": "Take this fun quiz to find out what halloween costume couple you and your partner or friend should be this year. Get your custom duo match instantly!",
     "url": "/quiz/what-halloween-costume-couple-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-8",
+    "title": "Which Santa's Workshop Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "personality quiz",
+      "north pole",
+      "holiday fun"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find out your true North Pole job! Are you a builder, artist, or baker? Discover your festive match today.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-8/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-4",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "movies",
+      "fall",
+      "family",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch quiz style tonight! Answer six easy questions to get your spooky movie match.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-pumpkin-are-you-quiz",
+    "title": "What Kind Of Pumpkin Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "pumpkins",
+      "fall",
+      "autumn",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take this fun personality test to find out what kind of pumpkin you are! Answer 6 quick questions about fall to discover your autumn match.",
+    "url": "/quiz/what-kind-of-pumpkin-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-scary-movie-final-girl-are-you-quiz",
+    "title": "Which Scary Movie Final Girl Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "horror movies",
+      "final girl",
+      "halloween",
+      "spooky",
+      "survivor"
+    ],
+    "description": "Take the Which Scary Movie Final Girl Are You Quiz to find out which iconic horror movie survivor matches your personality and survival skills.",
+    "url": "/quiz/which-scary-movie-final-girl-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-morning-routine-quiz",
+    "title": "What Is Your Halloween Morning Routine Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "morning routine",
+      "fall",
+      "personality quiz",
+      "spooky season"
+    ],
+    "description": "Take what is your halloween morning routine quiz to discover your spooky AM style! Are you a cozy ghost or a high-energy monster? Find out now.",
+    "url": "/quiz/what-is-your-halloween-morning-routine-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-mansion-ghost-are-you-quiz",
+    "title": "Which Haunted Mansion Ghost Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "haunted mansion",
+      "ghost quiz",
+      "spooky fun",
+      "personality test",
+      "family friendly"
+    ],
+    "description": "Take the which haunted mansion ghost are you quiz to discover your spooky spirit style. Answer fun questions and find out which classic ghost you are!",
+    "url": "/quiz/which-haunted-mansion-ghost-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-vampire-are-you-quiz",
+    "title": "What Kind Of Vampire Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "vampires",
+      "personality",
+      "fun",
+      "quizpop",
+      "creatures"
+    ],
+    "description": "Take this fun personality test to find out if you are a classic, sparkly, or feral vampire. Answer six quick questions to discover your supernatural style!",
+    "url": "/quiz/what-kind-of-vampire-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-gothic-aesthetic-quiz",
+    "title": "What Is Your Gothic Aesthetic Quiz?",
+    "category": "personality",
+    "tags": [
+      "gothic aesthetic",
+      "personality quiz",
+      "dark style",
+      "goth subculture",
+      "quizpop"
+    ],
+    "description": "Take our fun personality test to find out what is your gothic aesthetic! Discover your unique dark vibe with this family-friendly quiz.",
+    "url": "/quiz/what-is-your-gothic-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-pumpkin-spice-are-you-quiz",
+    "title": "Which Pumpkin Spice Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "fall",
+      "pumpkin spice",
+      "autumn",
+      "personality quiz",
+      "fun"
+    ],
+    "description": "Take the which pumpkin spice are you quiz to discover your autumn personality! Answer fun questions and find your true fall flavor vibe today.",
+    "url": "/quiz/which-pumpkin-spice-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-prank-are-you-quiz",
+    "title": "What Halloween Prank Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween pranks",
+      "personality quiz",
+      "spooky season",
+      "trick or treat",
+      "fun family games"
+    ],
+    "description": "Take the what halloween prank are you quiz to discover your spooky trickster style! Find out if you are a classic spider hider or sound effect expert.",
+    "url": "/quiz/what-halloween-prank-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-villain-origin-story-quiz",
+    "title": "What Is Your Halloween Villain Origin Story Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "villain",
+      "origin story",
+      "personality quiz",
+      "spooky"
+    ],
+    "description": "Take the what is your halloween villain origin story quiz to find out how your spooky alter ego took over! Answer fun questions and discover your path.",
+    "url": "/quiz/what-is-your-halloween-villain-origin-story-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-spooky-season-activity-are-you-quiz",
+    "title": "Which Spooky Season Activity Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "october vibe",
+      "spooky season",
+      "fall activities",
+      "personality quiz",
+      "autumn fun"
+    ],
+    "description": "Take this fun personality quiz to discover which spooky season activity matches your October vibe. Are you a pumpkin carver, maze explorer, or stargazer?",
+    "url": "/quiz/which-spooky-season-activity-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-mummy-are-you-quiz",
+    "title": "What Kind Of Mummy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "mummy",
+      "ancient",
+      "egypt",
+      "halloween",
+      "personality"
+    ],
+    "description": "Take the what kind of mummy are you quiz to discover your ancient tomb persona! Are you a royal pharaoh or a prankster spirit? Find out now!",
+    "url": "/quiz/what-kind-of-mummy-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-mask-are-you-quiz",
+    "title": "Which Halloween Mask Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "mask",
+      "costume",
+      "personality",
+      "fall"
+    ],
+    "description": "Take this fun personality test to find out which Halloween mask matches your style! Answer six quick questions to discover your spooky alter-ego today.",
+    "url": "/quiz/which-halloween-mask-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-town-job-are-you-quiz",
+    "title": "What Halloween Town Job Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween town",
+      "personality quiz",
+      "spooky jobs",
+      "fall fun",
+      "quizpop"
+    ],
+    "description": "Take this what halloween town job are you quiz to discover your magical spooky career destiny. Answer fun questions and find your perfect supernatural role!",
+    "url": "/quiz/what-halloween-town-job-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-ghost-story-are-you-quiz",
+    "title": "Which Ghost Story Are You?",
+    "category": "personality",
+    "tags": [
+      "ghost story",
+      "campfire",
+      "halloween",
+      "spooky",
+      "personality quiz"
+    ],
+    "description": "Take the which ghost story are you quiz to discover your spooky campfire legend match! Fun personality quiz for kids, teens, and families.",
+    "url": "/quiz/which-ghost-story-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-fear-quiz",
+    "title": "What Is Your Halloween Fear Quiz?",
+    "category": "personality",
+    "tags": [
+      "halloween fear",
+      "spooky quiz",
+      "personality test",
+      "fall fun",
+      "scary things"
+    ],
+    "description": "Take the what is your halloween fear quiz to discover your ultimate spooky season phobia! Answer fun questions about ghosts, monsters, and haunted houses.",
+    "url": "/quiz/what-is-your-halloween-fear-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-monster-cereal-are-quiz",
+    "title": "Which Monster Cereal Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "monster cereal",
+      "count chocula",
+      "franken berry",
+      "halloween",
+      "breakfast"
+    ],
+    "description": "Take this fun personality test to find out which classic breakfast mascot matches your vibe. Are you Count Chocula or Franken Berry? Play now!",
+    "url": "/quiz/which-monster-cereal-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-halloween-candy-giver-are-you-quiz",
+    "title": "What Kind of Halloween Candy Giver Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween candy",
+      "candy giver",
+      "trick or treat",
+      "fall quiz",
+      "personality quiz"
+    ],
+    "description": "Take the what kind of halloween candy giver are you quiz to find out if you hand out giant chocolate bars or sad little boxes of raisins!",
+    "url": "/quiz/what-kind-of-halloween-candy-giver-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-spooky-netflix-show-are-you-quiz",
+    "title": "Which Spooky Netflix Show Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "netflix",
+      "spooky",
+      "personality",
+      "shows",
+      "quiz"
+    ],
+    "description": "Take the Which Spooky Netflix Show Are You Quiz to find out which eerie streaming hit matches your personality. Answer 6 fun questions now!",
+    "url": "/quiz/which-spooky-netflix-show-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-halloween-decade-quiz",
+    "title": "What Is Your Halloween Decade Quiz?",
+    "category": "personality",
+    "tags": [
+      "halloween decade quiz",
+      "spooky era",
+      "halloween history",
+      "personality quiz",
+      "family friendly"
+    ],
+    "description": "Take the what is your halloween decade quiz to discover your ultimate spooky era. Are you a vintage trick-or-treater or a modern haunt fan? Find out now!",
+    "url": "/quiz/what-is-your-halloween-decade-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-hayride-role-are-you-quiz",
+    "title": "Which Haunted Hayride Role Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "haunted hayride",
+      "halloween quiz",
+      "fall fun",
+      "personality test",
+      "spooky season"
+    ],
+    "description": "Take the which haunted hayride role are you quiz to discover your spooky farm persona. Are you a scary monster or a friendly driver? Find out now!",
+    "url": "/quiz/which-haunted-hayride-role-are-you-quiz/",
+    "questions_count": 6
   }
 ]
