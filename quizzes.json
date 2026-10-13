@@ -1364,5 +1364,350 @@
     "description": "Take this fun personality quiz to find out what kind of ghost hunter you are! Discover your paranormal style with six quick questions.",
     "url": "/quiz/what-kind-of-ghost-hunter-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-food-are-you-quiz",
+    "title": "Which Thanksgiving Food Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality quiz",
+      "holiday food",
+      "fun quiz",
+      "food match"
+    ],
+    "description": "Take this fun personality quiz to find out which Thanksgiving dish matches your vibe. Are you turkey, potatoes, or cranberry sauce? Play now!",
+    "url": "/quiz/which-thanksgiving-food-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-dish-are-you-quiz",
+    "title": "What Thanksgiving Dish Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality quiz",
+      "holiday food",
+      "fun quiz",
+      "family"
+    ],
+    "description": "Take this fun personality quiz to discover what thanksgiving dish are you quiz match! Find out which holiday food fits your vibe today.",
+    "url": "/quiz/what-thanksgiving-dish-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-side-dish-are-you-quiz",
+    "title": "Which Thanksgiving Side Dish Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "side dish",
+      "personality",
+      "holiday",
+      "food quiz"
+    ],
+    "description": "Take the which thanksgiving side dish are you quiz to find out if you are fluffy mashed potatoes or crisp green beans in this fun holiday personality test!",
+    "url": "/quiz/which-thanksgiving-side-dish-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-thanksgiving-host-are-you-quiz",
+    "title": "What Kind Of Thanksgiving Host Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving host",
+      "holiday quiz",
+      "turkey day",
+      "personality test",
+      "family fun"
+    ],
+    "description": "Take the what kind of thanksgiving host are you quiz to discover your holiday hosting style! Are you a master chef or a chill coordinator? Find out now.",
+    "url": "/quiz/what-kind-of-thanksgiving-host-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-pie-are-you-quiz",
+    "title": "Which Thanksgiving Pie Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving pie",
+      "personality quiz",
+      "fall desserts",
+      "holiday fun",
+      "food quiz"
+    ],
+    "description": "Take the which thanksgiving pie are you quiz to discover your holiday dessert match! Are you pumpkin, pecan, or apple? Find out now in this fun quiz.",
+    "url": "/quiz/which-thanksgiving-pie-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-dessert-are-you-quiz",
+    "title": "What Thanksgiving Dessert Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "dessert",
+      "food",
+      "holiday",
+      "personality"
+    ],
+    "description": "Take our fun what thanksgiving dessert are you quiz to discover if you are classic pumpkin pie, rich pecan pie, or warm apple crisp!",
+    "url": "/quiz/what-thanksgiving-dessert-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-team-turkey-or-team-ham-quiz",
+    "title": "Are You Team Turkey or Team Ham Quiz",
+    "category": "personality",
+    "tags": [
+      "holiday food",
+      "thanksgiving",
+      "christmas dinner",
+      "food quiz",
+      "personality test"
+    ],
+    "description": "Take the are you team turkey or team ham quiz to discover which holiday main dish matches your personality. Find out your festive food style today!",
+    "url": "/quiz/are-you-team-turkey-or-team-ham-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-friends-thanksgiving-character-are-you-quiz",
+    "title": "Which Friends Thanksgiving Character Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "friends",
+      "thanksgiving",
+      "sitcom",
+      "personality",
+      "tv"
+    ],
+    "description": "Take our which friends thanksgiving character are you quiz to find out if you cook like Monica, nap like Joey, or wear turkey headgear!",
+    "url": "/quiz/which-friends-thanksgiving-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-movie-should-you-watch-quiz",
+    "title": "What Thanksgiving Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving movies",
+      "holiday films",
+      "family movie night",
+      "thanksgiving tradition",
+      "movie picker"
+    ],
+    "description": "Take this fun quiz to find out what thanksgiving movie should you watch quiz! Answer six quick questions about the holiday to get your perfect movie match.",
+    "url": "/quiz/what-thanksgiving-movie-should-you-watch-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-parade-balloon-are-you-quiz",
+    "title": "Which Thanksgiving Parade Balloon Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving parade",
+      "personality quiz",
+      "holiday fun",
+      "giant balloons",
+      "family games"
+    ],
+    "description": "Take this fun personality quiz to discover which Thanksgiving parade balloon matches your holiday vibe! Answer six quick questions to find your giant inflatable",
+    "url": "/quiz/which-thanksgiving-parade-balloon-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-are-you-thankful-for-quiz",
+    "title": "What Are You Thankful For Quiz?",
+    "category": "personality",
+    "tags": [
+      "gratitude",
+      "thankful",
+      "personality quiz",
+      "family",
+      "happy"
+    ],
+    "description": "Take the what are you thankful for quiz to discover your gratitude style! Fun and family-friendly questions for kids and teens to see what matters most.",
+    "url": "/quiz/what-are-you-thankful-for-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-fall-food-are-you-quiz",
+    "title": "Which Fall Food Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "fall food",
+      "autumn personality quiz",
+      "seasonal snacks",
+      "food quiz",
+      "family friendly"
+    ],
+    "description": "Take the Which Fall Food Are You Quiz to discover your cozy autumn match! Are you a sweet pie, warm cider, or crisp apple? Find out now!",
+    "url": "/quiz/which-fall-food-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-thanksgiving-guest-are-you-quiz",
+    "title": "What Kind Of Thanksgiving Guest Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "holiday",
+      "family",
+      "dinner",
+      "personality"
+    ],
+    "description": "Take our fun quiz to discover your holiday style! Find out if you are a helpful guest, party starter, or relaxation expert.",
+    "url": "/quiz/what-kind-of-thanksgiving-guest-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-leftovers-are-you-quiz",
+    "title": "What Thanksgiving Leftovers Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving leftovers",
+      "personality quiz",
+      "holiday food",
+      "family fun",
+      "food personality"
+    ],
+    "description": "Take this fun personality quiz to discover what thanksgiving leftovers are you quiz match! Find out your holiday food vibe in six quick questions.",
+    "url": "/quiz/what-thanksgiving-leftovers-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-pie-flavor-are-you-quiz",
+    "title": "Which Pie Flavor Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "pie quiz",
+      "personality quiz",
+      "food quiz",
+      "dessert",
+      "fun"
+    ],
+    "description": "Take this fun personality quiz to discover which pie flavor matches your vibe. Are you classic apple, zesty key lime, or rich chocolate silk?",
+    "url": "/quiz/which-pie-flavor-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-thanksgiving-aesthetic-quiz",
+    "title": "What Is Your Thanksgiving Aesthetic Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving aesthetic",
+      "holiday personality quiz",
+      "fall vibes",
+      "thanksgiving decor",
+      "autumn style"
+    ],
+    "description": "Take the what is your thanksgiving aesthetic quiz to discover your holiday style, from cozy cabin vibes to elegant farmhouse decor. Find your vibe today!",
+    "url": "/quiz/what-is-your-thanksgiving-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-charlie-brown-thanksgiving-character-are-you-quiz",
+    "title": "Which Charlie Brown Thanksgiving Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "peanuts",
+      "thanksgiving",
+      "charlie brown",
+      "holiday",
+      "cartoon quiz"
+    ],
+    "description": "Take this fun quiz to find out which Charlie Brown Thanksgiving character you are! Match your holiday style to a classic Peanuts gang member today.",
+    "url": "/quiz/which-charlie-brown-thanksgiving-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-appetizer-are-you-quiz",
+    "title": "What Thanksgiving Appetizer Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving appetizer",
+      "personality quiz",
+      "holiday food",
+      "fallback fun",
+      "quizpop"
+    ],
+    "description": "Take this fun personality quiz to discover what thanksgiving appetizer are you! Find out which pre-dinner holiday snack matches your awesome vibe.",
+    "url": "/quiz/what-thanksgiving-appetizer-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-turkey-are-you-quiz",
+    "title": "Which Turkey Are You Quiz: Find Your Inner Bird!",
+    "category": "personality",
+    "tags": [
+      "turkey",
+      "thanksgiving",
+      "personality",
+      "birds",
+      "holiday"
+    ],
+    "description": "Take the which turkey are you quiz to find your inner bird! Discover if you are a wild explorer or a cozy farm friend in this fun, family-friendly test.",
+    "url": "/quiz/which-turkey-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-gravy-are-you-quiz",
+    "title": "What Kind of Gravy Are You? Find Your Sauce Style!",
+    "category": "personality",
+    "tags": [
+      "food",
+      "personality",
+      "kitchen",
+      "us",
+      "quiz"
+    ],
+    "description": "Wondering which savory sauce matches your personality? Take our what kind of gravy are you quiz to find your flavor profile today! Fun for the whole family.",
+    "url": "/quiz/what-kind-of-gravy-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-cranberry-sauce-are-quiz",
+    "title": "Which Cranberry Sauce Are You?",
+    "category": "personality",
+    "tags": [
+      "which cranberry sauce are you quiz",
+      "thanksgiving quiz",
+      "holiday personality quiz",
+      "cranberry sauce debate",
+      "food quiz"
+    ],
+    "description": "Take the which cranberry sauce are you quiz to discover if you are smooth jellied or rustic whole berry. Find your Thanksgiving personality today!",
+    "url": "/quiz/which-cranberry-sauce-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-thanksgiving-drink-are-you-quiz",
+    "title": "What Thanksgiving Drink Are You?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality quiz",
+      "fall drinks",
+      "holiday fun",
+      "food and drink"
+    ],
+    "description": "Take this fun personality quiz to find out what thanksgiving drink are you! Are you sparkling cider, warm apple cider, or rich wine?",
+    "url": "/quiz/what-thanksgiving-drink-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-black-friday-shopper-are-you-quiz",
+    "title": "Which Black Friday Shopper Are You?",
+    "category": "personality",
+    "tags": [
+      "black friday",
+      "shopping",
+      "holidays",
+      "personality quiz",
+      "deals"
+    ],
+    "description": "Take the which black friday shopper are you quiz to discover your holiday deal-hunting style, from early bird bargain hunter to cozy online browser.",
+    "url": "/quiz/which-black-friday-shopper-are-you-quiz/",
+    "questions_count": 6
   }
 ]
