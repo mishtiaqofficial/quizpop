@@ -7019,5 +7019,335 @@
     "description": "Take our fun 80s music trivia quiz and test your knowledge of retro pop, rock, and synth hits from the best decade ever. Perfect for the whole family!",
     "url": "/quiz/80s-music-trivia-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-14",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santa's workshop",
+      "christmas quiz",
+      "north pole",
+      "holiday fun",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which Santa's workshop department matches your holiday style. Are you a toy builder or candy maker?",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-14/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-10",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movie",
+      "movie picker",
+      "fall movie night",
+      "family friendly",
+      "spooky season"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer 6 quick questions and get your personalized spooky movie night match.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-10/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-vibe-quiz-6",
+    "title": "What's Your Spooky Season Vibe?",
+    "category": "personality",
+    "tags": [
+      "spooky season",
+      "autumn",
+      "fall vibe",
+      "personality quiz",
+      "halloween"
+    ],
+    "description": "Take this fun personality quiz to find out what is my spooky season vibe quiz result! Discover your autumn aesthetic and share with friends.",
+    "url": "/quiz/whats-your-spooky-season-vibe-quiz-6/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-spooky-season-job-title-quiz-6",
+    "title": "What's Your Spooky Season Job Title?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "fall",
+      "spooky season",
+      "personality quiz",
+      "autumn"
+    ],
+    "description": "Take this fun personality quiz to discover what is your spooky season job title! Find out if you are a candy inspector or a master pumpkin carver.",
+    "url": "/quiz/whats-your-spooky-season-job-title-quiz-6/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-christmas-aesthetic-quiz-4",
+    "title": "What's Your Christmas Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "christmas aesthetic",
+      "holiday decor",
+      "personality quiz",
+      "christmas style",
+      "winter fun"
+    ],
+    "description": "Take this fun personality quiz to find out what is my christmas aesthetic quiz result! Discover your ideal holiday style and decor vibe today.",
+    "url": "/quiz/whats-your-christmas-aesthetic-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-my-dream-job-based-on-my-personality-quiz",
+    "title": "What's My Dream Job Based on My Personality?",
+    "category": "personality",
+    "tags": [
+      "dream job",
+      "career quiz",
+      "personality test",
+      "future job",
+      "fun quiz"
+    ],
+    "description": "Take this fun quiz to discover what is my dream job based on my personality! Find out your ideal career match in minutes.",
+    "url": "/quiz/whats-my-dream-job-based-on-my-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "general-knowledge-quiz-for-teens",
+    "title": "Ultimate General Knowledge Quiz for Teens",
+    "category": "trivia",
+    "tags": [
+      "teens",
+      "trivia",
+      "general knowledge",
+      "students",
+      "quiz"
+    ],
+    "description": "Test your brain with this fun general knowledge quiz for teens! Answer six trivia questions about science, history, and more to see how much you know.",
+    "url": "/quiz/general-knowledge-quiz-for-teens/",
+    "questions_count": 6
+  },
+  {
+    "slug": "ultimate-impossible-trivia-questions-quiz",
+    "title": "The Ultimate Impossible Trivia Questions Quiz",
+    "category": "trivia",
+    "tags": [
+      "impossible trivia questions quiz",
+      "trivia",
+      "hard questions",
+      "fun facts",
+      "family games"
+    ],
+    "description": "Think you know it all? Take this impossible trivia questions quiz to test your brain with super tricky, fun, and mind-bending facts for the whole family.",
+    "url": "/quiz/ultimate-impossible-trivia-questions-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "marvel-trivia-quiz-for-beginners",
+    "title": "Marvel Trivia Quiz for Beginners",
+    "category": "trivia",
+    "tags": [
+      "marvel",
+      "avengers",
+      "superheroes",
+      "trivia",
+      "beginners"
+    ],
+    "description": "Take this fun marvel trivia quiz for beginners to test your knowledge of Iron Man, Spider-Man, Thor, and the rest of the Avengers right now!",
+    "url": "/quiz/marvel-trivia-quiz-for-beginners/",
+    "questions_count": 6
+  },
+  {
+    "slug": "tricky-riddles-for-teens-with-answers",
+    "title": "Tricky Riddles for Teens with Answers",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "teens",
+      "brain teasers",
+      "puzzles",
+      "smart"
+    ],
+    "description": "Test your brain with tricky riddles for teens with answers! Solve these 6 clever brain teasers and word puzzles to prove your smarts.",
+    "url": "/quiz/tricky-riddles-for-teens-with-answers/",
+    "questions_count": 6
+  },
+  {
+    "slug": "detective-riddles-quiz-solve-the-mystery",
+    "title": "Detective Riddles Quiz Solve the Mystery",
+    "category": "riddles",
+    "tags": [
+      "detective riddles",
+      "solve the mystery",
+      "riddle quiz",
+      "brain teasers",
+      "family fun"
+    ],
+    "description": "Test your logic with our detective riddles quiz solve the mystery challenge! Can you crack all six fun and tricky cases? Play now to find out!",
+    "url": "/quiz/detective-riddles-quiz-solve-the-mystery/",
+    "questions_count": 6
+  },
+  {
+    "slug": "math-riddles-for-adults-quiz",
+    "title": "Math Riddles for Adults Quiz",
+    "category": "riddles",
+    "tags": [
+      "math riddles",
+      "brain teasers",
+      "logic puzzles",
+      "adult trivia",
+      "math quiz"
+    ],
+    "description": "Test your brain with this math riddles for adults quiz! Solve tricky word problems, number puzzles, and logic questions to see how smart you really are.",
+    "url": "/quiz/math-riddles-for-adults-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-dinosaur-are-you-quiz",
+    "title": "Which Dinosaur Are You?",
+    "category": "personality",
+    "tags": [
+      "dinosaurs",
+      "personality quiz",
+      "jurassic",
+      "prehistoric",
+      "kids quiz"
+    ],
+    "description": "Take the which dinosaur are you quiz to discover your prehistoric match! Answer fun questions to see if you are a T-Rex, Brachiosaurus, or Velociraptor.",
+    "url": "/quiz/which-dinosaur-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-cartoon-character-are-you-quiz",
+    "title": "Which Cartoon Character Are You?",
+    "category": "personality",
+    "tags": [
+      "cartoons",
+      "personality quiz",
+      "animation",
+      "fun",
+      "characters"
+    ],
+    "description": "Take the which cartoon character are you quiz to discover your animated twin! Answer six fun questions to find your cartoon personality match today.",
+    "url": "/quiz/which-cartoon-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-mythical-pet-should-i-get-quiz",
+    "title": "What Mythical Pet Should You Get?",
+    "category": "personality",
+    "tags": [
+      "mythical pets",
+      "fantasy",
+      "magical creatures",
+      "personality quiz",
+      "animals"
+    ],
+    "description": "Take this fun personality quiz to find out what mythical pet should i get quiz results reveal! Discover your magical companion today.",
+    "url": "/quiz/what-mythical-pet-should-i-get-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-reading-nook-style-riddles",
+    "title": "What's Your Autumn Reading Nook Style?",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "reading nook",
+      "books",
+      "riddles",
+      "fall style"
+    ],
+    "description": "Solve fun literary riddles to discover your ultimate autumn reading nook style, from sunlit windowseats to cozy cabin retreats. Take the quiz now!",
+    "url": "/quiz/autumn-reading-nook-style-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-fall-apple-dessert-matches-your-vibe",
+    "title": "Which Fall Apple Dessert Matches Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "fall desserts",
+      "apple recipes",
+      "baking quiz",
+      "autumn vibes",
+      "personality test"
+    ],
+    "description": "Take this fun personality quiz to discover which fall apple dessert matches your weekend relaxation vibe and baking skills. Find your sweet match today!",
+    "url": "/quiz/which-fall-apple-dessert-matches-your-vibe/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-your-fall-coffee-order-reveals",
+    "title": "What Your Fall Coffee Order Reveals",
+    "category": "personality",
+    "tags": [
+      "fall coffee",
+      "personality quiz",
+      "autumn drinks",
+      "coffee lover",
+      "fun quiz"
+    ],
+    "description": "Take our fun personality quiz to discover what your go-to autumn coffee order says about your daily vibe and seasonal style!",
+    "url": "/quiz/what-your-fall-coffee-order-reveals/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-movie-monster-riddles",
+    "title": "Can You Name These Classic Movie Monsters?",
+    "category": "riddles",
+    "tags": [
+      "monsters",
+      "movies",
+      "riddles",
+      "horror",
+      "pop culture"
+    ],
+    "description": "Can you guess the classic movie monster from our fun and spooky pop culture riddles? Take this family-friendly quiz and test your cinema trivia skills today!",
+    "url": "/quiz/classic-movie-monster-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-us-state-fall-foliage",
+    "title": "Can You Guess the State by Its Fall Foliage?",
+    "category": "trivia",
+    "tags": [
+      "autumn",
+      "fall foliage",
+      "us states",
+      "geography",
+      "nature"
+    ],
+    "description": "Can you match these iconic autumn leaf landscapes to the correct US state? Take this fun fall foliage trivia quiz and test your geography skills today!",
+    "url": "/quiz/guess-the-us-state-fall-foliage/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-board-game-role-are-you",
+    "title": "Which Board Game Role Are You?",
+    "category": "personality",
+    "tags": [
+      "board games",
+      "family night",
+      "strategy",
+      "tabletop",
+      "personality"
+    ],
+    "description": "Take this fun quiz to discover your ideal strategic board game role for family game night. Are you a mastermind, resource baron, or wildcard explorer?",
+    "url": "/quiz/which-board-game-role-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fall-spice-fact-or-fiction",
+    "title": "Fall Spice Fact or Fiction",
+    "category": "trivia",
+    "tags": [
+      "autumn",
+      "spices",
+      "fall",
+      "food",
+      "trivia"
+    ],
+    "description": "Can you separate fact from fiction in this autumn spice trivia challenge? Test your knowledge of fall ingredients now!",
+    "url": "/quiz/fall-spice-fact-or-fiction/",
+    "questions_count": 6
   }
 ]
