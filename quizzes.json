@@ -7829,5 +7829,170 @@
     "description": "Can you solve these tricky riddles about iconic 90s family Halloween movies? Test your knowledge of Hocus Pocus, Casper, Halloweentown, and more!",
     "url": "/quiz/90s-family-halloween-movie-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-17",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "personality test",
+      "north pole",
+      "holiday fun"
+    ],
+    "description": "Take this fun quiz to find out which Santa's workshop station you belong in at the North Pole! Are you a toy maker, baker, or stable helper?",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-17/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-13",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movies",
+      "movie night",
+      "fall quiz",
+      "family friendly",
+      "spooky season"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer a few questions about your vibe and get your perfect spooky film match.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-13/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-ghost-dog-alter-ego-quiz",
+    "title": "Which Viral Ghost Dog Is Your Pup's Alter-Ego?",
+    "category": "personality",
+    "tags": [
+      "dogs",
+      "viral pets",
+      "ghost dog",
+      "funny pets",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to match your dog's hilarious mischief and chaotic daily habits to their very own viral ghost dog alter-ego!",
+    "url": "/quiz/viral-ghost-dog-alter-ego-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "can-you-guess-these-viral-pun-costumes",
+    "title": "Can You Guess These Viral Pun Costumes?",
+    "category": "riddles",
+    "tags": [
+      "costumes",
+      "puns",
+      "riddles",
+      "viral",
+      "wordplay"
+    ],
+    "description": "Solve fun visual wordplay riddles to guess the hilarious viral pun costumes in this family-friendly quiz designed for all ages.",
+    "url": "/quiz/can-you-guess-these-viral-pun-costumes/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-fantasy-aesthetic-weekend",
+    "title": "What Autumn Fantasy Aesthetic Matches Your Weekend?",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "fantasy",
+      "aesthetic",
+      "quiz",
+      "weekend"
+    ],
+    "description": "Discover which cozy autumn fantasy aesthetic matches your weekend habits! Take this fun family-friendly personality quiz to find your magical fall world.",
+    "url": "/quiz/autumn-fantasy-aesthetic-weekend/",
+    "questions_count": 6
+  },
+  {
+    "slug": "how-would-you-survive-a-giant-gourd-ride",
+    "title": "How Would You Survive a Giant Gourd Ride?",
+    "category": "personality",
+    "tags": [
+      "giant gourd",
+      "survival",
+      "outdoor",
+      "fun",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out how you would survive paddling inside a giant floating gourd down a winding river. Discover your captain style!",
+    "url": "/quiz/how-would-you-survive-a-giant-gourd-ride/",
+    "questions_count": 6
+  },
+  {
+    "slug": "spooky-escape-room-logic-puzzles",
+    "title": "Can You Escape The Spooky Mansion Logic Puzzles?",
+    "category": "riddles",
+    "tags": [
+      "escape room",
+      "spooky",
+      "logic puzzles",
+      "riddles",
+      "family"
+    ],
+    "description": "Test your brain with spooky escape room logic puzzles! Solve family-friendly riddles and escape the haunted mansion before time runs out.",
+    "url": "/quiz/spooky-escape-room-logic-puzzles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "retro-video-games-spooky-stages-quiz",
+    "title": "Can You Name These Retro Video Games By Their Spooky Stages?",
+    "category": "trivia",
+    "tags": [
+      "retro games",
+      "video game trivia",
+      "haunted levels",
+      "classic gaming",
+      "family quiz"
+    ],
+    "description": "Can you name classic retro video games just by their haunted levels? Take this fun trivia quiz to test your vintage gaming knowledge today!",
+    "url": "/quiz/retro-video-games-spooky-stages-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "night-creature-superpower-riddles",
+    "title": "Can You Guess These Night Creature Superpowers?",
+    "category": "riddles",
+    "tags": [
+      "night animals",
+      "riddles",
+      "family quiz",
+      "nocturnal creatures",
+      "animal trivia"
+    ],
+    "description": "Can you solve riddles about nocturnal animals with wild superpowers? Take this fun family-friendly quiz to test your night creature knowledge!",
+    "url": "/quiz/night-creature-superpower-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "monster-cereal-retro-prize-trivia",
+    "title": "The Ultimate Monster Cereal & Toy Trivia Challenge",
+    "category": "trivia",
+    "tags": [
+      "monster cereal",
+      "breakfast trivia",
+      "retro toys",
+      "cereal history",
+      "saturday mornings"
+    ],
+    "description": "Test your knowledge of iconic monster cereals like Count Chocula and retro box prizes in this fun family-friendly trivia challenge!",
+    "url": "/quiz/monster-cereal-retro-prize-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "bizarre-baseball-superstitions-trivia",
+    "title": "Bizarre Baseball Superstitions Trivia",
+    "category": "trivia",
+    "tags": [
+      "baseball",
+      "sports",
+      "trivia",
+      "superstitions",
+      "history"
+    ],
+    "description": "Test your knowledge of weird baseball lucky charms and historic fan superstitions with this fun family-friendly trivia quiz.",
+    "url": "/quiz/bizarre-baseball-superstitions-trivia/",
+    "questions_count": 6
   }
 ]
