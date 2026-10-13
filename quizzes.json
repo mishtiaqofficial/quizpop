@@ -7589,5 +7589,245 @@
     "description": "Solve fun autumn animal riddles and discover how woodland creatures survive the winter in this family-friendly nature quiz for kids.",
     "url": "/quiz/autumn-animal-survival-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-16",
+    "title": "Which Santa's Workshop Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa",
+      "north pole",
+      "holidays",
+      "personality"
+    ],
+    "description": "Wondering which Santa's workshop are you? Take our fun North Pole personality quiz to discover which magical department fits your festive personality!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-16/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-12",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movie",
+      "what halloween movie should you watch quiz",
+      "movie night",
+      "spooky",
+      "family friendly"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch quiz style! Pick your favorite treats and vibes for the ultimate movie night.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-12/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-spooky-season-vibe-quiz",
+    "title": "What Is My Spooky Season Vibe Quiz: Discover Your Mood",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "fall",
+      "aesthetic",
+      "spooky",
+      "personality"
+    ],
+    "description": "Take our 'what is my spooky season vibe quiz' to find your perfect autumn aesthetic. Are you a cozy pumpkin, a haunted shadow, or a mystical moon?",
+    "url": "/quiz/what-is-my-spooky-season-vibe-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-spooky-season-job-title-quiz",
+    "title": "What's Your Spooky Season Job Title?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "spooky season",
+      "personality quiz",
+      "autumn",
+      "fall fun"
+    ],
+    "description": "Curious what is your spooky season job title quiz? Take this personality test to see if you are a pumpkin architect, candy connoisseur, or ghost storyteller.",
+    "url": "/quiz/what-is-your-spooky-season-job-title-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-christmas-aesthetic-quiz",
+    "title": "What's Your Christmas Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "holiday",
+      "quiz",
+      "aesthetic",
+      "decor"
+    ],
+    "description": "Take the 'What Is My Christmas Aesthetic' quiz to discover your perfect holiday decorating style. Are you a Cozy Cabin, Classic, or Glitzy decorator?",
+    "url": "/quiz/what-is-my-christmas-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-element-am-i-quiz-fire-water-earth-air",
+    "title": "Which Element Am I Quiz: Fire, Water, Earth, or Air?",
+    "category": "personality",
+    "tags": [
+      "elements",
+      "personality",
+      "nature",
+      "fun",
+      "quiz"
+    ],
+    "description": "Take our Which Element Am I Quiz Fire Water Earth Air to find your true nature. Are you bold fire, calm water, steady earth, or free air? Find out now!",
+    "url": "/quiz/which-element-am-i-quiz-fire-water-earth-air/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-dream-job-based-on-my-personality-quiz",
+    "title": "What Is My Dream Job Based on My Personality Quiz",
+    "category": "personality",
+    "tags": [
+      "dream job",
+      "career quiz",
+      "personality test",
+      "future career",
+      "job match"
+    ],
+    "description": "Take our what is my dream job based on my personality quiz to uncover your ideal career path! Answer 6 fun questions to find your perfect work match.",
+    "url": "/quiz/what-is-my-dream-job-based-on-my-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thrifted-ghost-painting-aesthetic-is-you",
+    "title": "Which Thrifted Ghost Painting Aesthetic Is You?",
+    "category": "personality",
+    "tags": [
+      "thrifted ghost paintings",
+      "cozy art quiz",
+      "personality test",
+      "vintage aesthetic",
+      "creative hobbies"
+    ],
+    "description": "Take this fun quiz to discover your cozy artistic vibe and find out which thrifted ghost painting aesthetic matches your unique personality today!",
+    "url": "/quiz/which-thrifted-ghost-painting-aesthetic-is-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "stars-hollow-sweater-aesthetic-quiz",
+    "title": "Which Stars Hollow Sweater Aesthetic Are You?",
+    "category": "personality",
+    "tags": [
+      "stars hollow",
+      "fall sweaters",
+      "gilmore girls vibe",
+      "autumn fashion",
+      "vintage style"
+    ],
+    "description": "Take this fun personality quiz to discover which vintage fall sweater aesthetic matches your daily Stars Hollow small-town vibe.",
+    "url": "/quiz/stars-hollow-sweater-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-hilarious-pet-costume-riddles",
+    "title": "Guess the Hilarious Pet Costume Riddles",
+    "category": "riddles",
+    "tags": [
+      "pets",
+      "animals",
+      "riddles",
+      "funny",
+      "costumes"
+    ],
+    "description": "Can you solve these funny riddles about cats and dogs in costumes? Test your knowledge of hilarious pet outfits in this original quiz!",
+    "url": "/quiz/guess-the-hilarious-pet-costume-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "ultimate-autumn-road-trip-quiz",
+    "title": "Find Your Ultimate Fall Road Trip Destination!",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "road trip",
+      "fall foliage",
+      "vacation",
+      "travel"
+    ],
+    "description": "Take our fun quiz to discover your ultimate scenic US autumn road trip destination! Find your ideal fall foliage getaway in just six easy questions.",
+    "url": "/quiz/ultimate-autumn-road-trip-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-cozy-game-autumn-update",
+    "title": "Guess the Cozy Game: Autumn Update Edition!",
+    "category": "trivia",
+    "tags": [
+      "cozy games",
+      "autumn events",
+      "video games",
+      "trivia",
+      "nintendo"
+    ],
+    "description": "Can you guess the cozy simulator game from its autumn event? Test your knowledge of Stardew Valley, Animal Crossing, and more in this fall gaming trivia.",
+    "url": "/quiz/guess-cozy-game-autumn-update/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-y2k-childhood-toy-is-your-core-memory",
+    "title": "Which Y2K Childhood Toy Is Your Ultimate Core Memory?",
+    "category": "personality",
+    "tags": [
+      "y2k",
+      "childhood",
+      "toys",
+      "nostalgia",
+      "quiz"
+    ],
+    "description": "Take this personality quiz to find out which iconic Y2K toy best represents your favorite childhood core memory. Are you a digital pet or a tech fan?",
+    "url": "/quiz/which-y2k-childhood-toy-is-your-core-memory/",
+    "questions_count": 6
+  },
+  {
+    "slug": "solve-these-spooky-haunted-attraction-riddles",
+    "title": "Spooky Fun: Guess These Haunted Attractions!",
+    "category": "riddles",
+    "tags": [
+      "haunted",
+      "riddles",
+      "spooky",
+      "family-fun",
+      "trivia"
+    ],
+    "description": "Can you solve our spooky riddles to identify famous family-friendly haunted attractions? Test your knowledge with this fun and chilling trivia quiz!",
+    "url": "/quiz/solve-these-spooky-haunted-attraction-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-baking-science-quiz",
+    "title": "The Ultimate Autumn Baking Science Quiz",
+    "category": "trivia",
+    "tags": [
+      "baking",
+      "autumn",
+      "science",
+      "recipes",
+      "food"
+    ],
+    "description": "Are you a pro in the kitchen? Take our Autumn Baking Science quiz to test your knowledge of seasonal recipes, baking chemistry, and historical food facts.",
+    "url": "/quiz/autumn-baking-science-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-family-halloween-movie-riddles",
+    "title": "Can You Solve These 90s Halloween Movie Riddles?",
+    "category": "riddles",
+    "tags": [
+      "halloween",
+      "90s",
+      "movies",
+      "riddles",
+      "family"
+    ],
+    "description": "Can you solve these tricky riddles about iconic 90s family Halloween movies? Test your knowledge of Hocus Pocus, Casper, Halloweentown, and more!",
+    "url": "/quiz/90s-family-halloween-movie-riddles/",
+    "questions_count": 6
   }
 ]
