@@ -498,7 +498,12 @@ def gemini(prompt, temperature=0.9):
         try:
             return json.loads(text)
         except json.JSONDecodeError:
-            sys.exit(f"ERROR: Gemini did not return valid JSON: {text[:300]}")
+            # One malformed response must not kill a 25-quiz run:
+            # try the next model instead of dying here.
+            print(f"WARN: model {model} returned invalid JSON, trying next…",
+                  flush=True)
+            last_err = ValueError(f"invalid JSON from {model}: {text[:200]}")
+            continue
     sys.exit(f"ERROR: all Gemini models failed, last error: {last_err}")
 
 
