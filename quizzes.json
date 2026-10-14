@@ -8159,5 +8159,185 @@
     "description": "Can you guess these creepy cooking items? Solve six fun food riddles in this family-friendly quiz designed for all ages.",
     "url": "/quiz/spooky-kitchen-ingredient-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-19",
+    "title": "Which Santa's Workshop Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa",
+      "north pole",
+      "holiday quiz",
+      "personality"
+    ],
+    "description": "Take the official which Santa's workshop are you quiz to discover if you belong in toy invention, reindeer care, or sweet treat baking at the North Pole!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-19/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-15",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "movies",
+      "quiz",
+      "family",
+      "spooky"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Discover your spooky movie match based on your favorite fall treats and style.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-15/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-fake-spirit-hallowen-costume-are-you",
+    "title": "Which Fake Spirit Halloween Costume Are You?",
+    "category": "personality",
+    "tags": [
+      "spirit halloween",
+      "costumes",
+      "memes",
+      "funny",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which hilarious viral fake Spirit Halloween costume matches your everyday mood and lifestyle.",
+    "url": "/quiz/which-fake-spirit-hallowen-costume-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-12-foot-giant-skeleton-are-you",
+    "title": "Which 12-Foot Giant Skeleton Are You?",
+    "category": "personality",
+    "tags": [
+      "skeleton",
+      "halloween",
+      "fall",
+      "decorations",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which viral suburban 12-foot giant skeleton lawn display matches your autumn vibe and fall aesthetic!",
+    "url": "/quiz/which-12-foot-giant-skeleton-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "can-you-guess-these-epic-baking-disasters",
+    "title": "Can You Guess These Epic Baking Fails?",
+    "category": "trivia",
+    "tags": [
+      "baking",
+      "fails",
+      "food",
+      "funny",
+      "trivia"
+    ],
+    "description": "Can you guess what spooky treats these funny viral baking disasters were trying to make? Take this fun family-friendly trivia quiz to find out!",
+    "url": "/quiz/can-you-guess-these-epic-baking-disasters/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-fall-coffee-hacks-quiz",
+    "title": "Can You Match These Viral Fall Coffee Hacks?",
+    "category": "trivia",
+    "tags": [
+      "coffee",
+      "fall drinks",
+      "trivia",
+      "foodie",
+      "quiz"
+    ],
+    "description": "Test your knowledge of viral autumn drinks with our fun family-friendly quiz. Match secret syrups and foams now!",
+    "url": "/quiz/viral-fall-coffee-hacks-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-halloween-candy-riddles",
+    "title": "Can You Solve These Viral Halloween Candy Riddles?",
+    "category": "riddles",
+    "tags": [
+      "halloween candy",
+      "candy riddles",
+      "food trivia",
+      "family games",
+      "sweet treats"
+    ],
+    "description": "Test your sweet tooth with fast candy riddles based on viral Halloween treat debates. Can you guess all the classic treats correctly?",
+    "url": "/quiz/viral-halloween-candy-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "ghost-or-treat-pet-freaking-out",
+    "title": "Ghost Or Treat: Why Is Your Pet Freaking Out?",
+    "category": "trivia",
+    "tags": [
+      "pets",
+      "viral",
+      "animals",
+      "funny",
+      "trivia"
+    ],
+    "description": "Can you guess why pets freak out? Take this fun trivia quiz to find out if your pet is seeing ghosts or hunting for hidden treats!",
+    "url": "/quiz/ghost-or-treat-pet-freaking-out/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-90s-spooky-movies-emojis",
+    "title": "Can You Guess These 90s Spooky Movies From Emojis?",
+    "category": "riddles",
+    "tags": [
+      "90s movies",
+      "trivia",
+      "emojis",
+      "riddles",
+      "family fun"
+    ],
+    "description": "Test your knowledge of 90s movies with our fun emoji riddle quiz! Can you guess the classic spooky films using only three emoji clues?",
+    "url": "/quiz/guess-90s-spooky-movies-emojis/",
+    "questions_count": 6
+  },
+  {
+    "slug": "vampire-or-werewolf-quiz",
+    "title": "Are You More Vampire or Werewolf?",
+    "category": "personality",
+    "tags": [
+      "vampire",
+      "werewolf",
+      "monsters",
+      "halloween",
+      "personality"
+    ],
+    "description": "Are you more vampire or werewolf? Take this fun family-friendly personality quiz to find out which creature of the night matches your lifestyle habits.",
+    "url": "/quiz/vampire-or-werewolf-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "weirdest-roadside-haunted-spots-quiz",
+    "title": "The Weirdest Roadside Haunted Spots Quiz",
+    "category": "trivia",
+    "tags": [
+      "haunted",
+      "road-trip",
+      "ghosts",
+      "america",
+      "trivia"
+    ],
+    "description": "Think you know the weirdest haunted roadside spots in America? Take this fun trivia quiz to test your spooky road trip knowledge today!",
+    "url": "/quiz/weirdest-roadside-haunted-spots-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-cozy-acoustic-autumn-melody",
+    "title": "Can You Guess These Cozy Autumn Melodies?",
+    "category": "riddles",
+    "tags": [
+      "acoustic",
+      "autumn",
+      "music",
+      "riddles",
+      "fall"
+    ],
+    "description": "Can you guess the cozy acoustic autumn melody from these fun lyrical riddles? Take this family-friendly fall music quiz and test your knowledge now!",
+    "url": "/quiz/guess-cozy-acoustic-autumn-melody/",
+    "questions_count": 6
   }
 ]
