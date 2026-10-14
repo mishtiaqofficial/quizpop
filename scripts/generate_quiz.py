@@ -720,6 +720,28 @@ def pick_concepts(published_slugs, published_titles, n):
 
 
 # ── Main ────────────────────────────────────────────────────────────────────
+INDEXNOW_KEY = "f0c0a7951f4a18371a3f43156912c48e"
+
+def indexnow_ping(urls):
+    """Notify Bing/Yandex/etc via IndexNow that URLs changed. Best-effort."""
+    if not urls:
+        return
+    body = json.dumps({
+        "host": "popquizdaily.site",
+        "key": INDEXNOW_KEY,
+        "keyLocation": f"https://popquizdaily.site/{INDEXNOW_KEY}.txt",
+        "urlList": urls[:10000],
+    }).encode()
+    req = urllib.request.Request("https://api.indexnow.org/indexnow.json",
+                                 data=body,
+                                 headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print(f"INFO: IndexNow pinged {len(urls)} urls (HTTP {r.status})", flush=True)
+    except Exception as e:
+        print(f"WARN: IndexNow ping failed: {e}", flush=True)
+
+
 def main():
     quizzes_path = ROOT / "quizzes.json"
     quizzes = json.loads(quizzes_path.read_text()) if quizzes_path.exists() else []
@@ -763,6 +785,9 @@ def main():
     quizzes_path.write_text(json.dumps(quizzes, indent=2, ensure_ascii=False))
     write_sitemap(quizzes)
     print(f"DONE: {len(new_quizzes)} quizzes written.")
+    # notify search engines instantly (Bing/Yandex via IndexNow)
+    new_urls = [f"https://popquizdaily.site/quiz/{q['slug']}/" for q in new_quizzes]
+    indexnow_ping(new_urls)
 
 
 if __name__ == "__main__":
