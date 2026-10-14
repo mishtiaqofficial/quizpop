@@ -3,14 +3,14 @@ name: Daily Quiz Pipeline
 # Free tier: ubuntu-latest minutes (2,000/mo) — this job uses ~12 min/run at 25 quizzes, 8x daily = 200+/day.
 on:
   schedule:
-    # Every 3 hours = 8 runs/day x 25 quizzes = 200+/day
-    - cron: "0 */3 * * *"
+    # Once daily at 08:00 PKT — steady, natural publishing velocity
+    - cron: "0 3 * * *"
   workflow_dispatch:
     inputs:
       count:
         description: "How many quizzes to generate"
         required: false
-        default: "25"
+        default: "20"
 
 jobs:
   generate:
@@ -28,7 +28,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash
-          QUIZZES_PER_DAY: ${{ inputs.count || '25' }}
+          QUIZZES_PER_DAY: ${{ inputs.count || '20' }}
           SITE_DOMAIN: https://popquizdaily.site/
         run: python scripts/generate_quiz.py
 
