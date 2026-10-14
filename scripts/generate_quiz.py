@@ -488,6 +488,13 @@ def gemini(prompt, temperature=0.9):
                 continue
             sys.exit(f"ERROR: Gemini API call failed: {e}")
         except Exception as e:
+            # Timeouts are transient (slow API, not a bad model/key) —
+            # try the next model instead of killing the whole run.
+            if 'timed out' in str(e).lower() or isinstance(e, TimeoutError):
+                print(f"WARN: model {model} timed out, trying next…",
+                      flush=True)
+                last_err = e
+                continue
             sys.exit(f"ERROR: Gemini API call failed: {e}")
         print(f"INFO: using Gemini model {model}", flush=True)
         try:
