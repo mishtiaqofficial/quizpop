@@ -8339,5 +8339,65 @@
     "description": "Can you guess the cozy acoustic autumn melody from these fun lyrical riddles? Take this family-friendly fall music quiz and test your knowledge now!",
     "url": "/quiz/guess-cozy-acoustic-autumn-melody/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-20",
+    "title": "Which Santa's Workshop Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "santa workshop",
+      "christmas quiz",
+      "north pole",
+      "holiday personality",
+      "family fun"
+    ],
+    "description": "Take the which santa's workshop are you quiz to find out which magical North Pole station matches your personality and hobbies. Perfect for kids and families!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-20/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-16",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movie",
+      "movie night",
+      "spooky season",
+      "fall movies",
+      "personality quiz"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions for your personalized spooky film recommendation.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-16/",
+    "questions_count": 6
+  },
+  {
+    "slug": "signature-autumn-diy-style",
+    "title": "What's Your Signature Autumn DIY Style?",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "diy",
+      "fall decor",
+      "crafts",
+      "home decor"
+    ],
+    "description": "Take this fun quiz to discover your signature autumn DIY decorating style and find the best fall craft projects for your home this season!",
+    "url": "/quiz/signature-autumn-diy-style/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-road-trip-soundtrack-quiz",
+    "title": "What's Your Autumn Road Trip Soundtrack?",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "road trip",
+      "playlist",
+      "fall",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to discover your autumn road trip soundtrack! Find out which fall playlist matches your unique style today.",
+    "url": "/quiz/autumn-road-trip-soundtrack-quiz/",
+    "questions_count": 6
   }
 ]
