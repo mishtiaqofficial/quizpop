@@ -7994,5 +7994,170 @@
     "description": "Test your knowledge of weird baseball lucky charms and historic fan superstitions with this fun family-friendly trivia quiz.",
     "url": "/quiz/bizarre-baseball-superstitions-trivia/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-18",
+    "title": "Which Santa's Workshop Are You?",
+    "category": "personality",
+    "tags": [
+      "santa workshop quiz",
+      "christmas quiz",
+      "north pole",
+      "holiday personality",
+      "family friendly"
+    ],
+    "description": "Take this fun holiday quiz to find out which santa's workshop matches your personality! Discover your North Pole job and share your result with friends.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-18/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-watch-quiz-14",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movie",
+      "movie picker",
+      "family movie night",
+      "fall quiz",
+      "personality quiz"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer a few quick questions for the ultimate family-friendly movie match.",
+    "url": "/quiz/what-halloween-movie-should-watch-quiz-14/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-fall-video-game-world-quiz",
+    "title": "Which Cozy Fall Video Game World Should You Live In?",
+    "category": "personality",
+    "tags": [
+      "cozy gaming",
+      "fall vibes",
+      "stardew valley",
+      "animal crossing",
+      "gaming quiz"
+    ],
+    "description": "Take our fun personality quiz to discover your perfect digital autumn home! From Stardew Valley to Animal Crossing, find your cozy fall game world now.",
+    "url": "/quiz/cozy-fall-video-game-world-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-fall-dessert-personality-quiz",
+    "title": "Which Viral Fall Dessert Matches Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "fall desserts",
+      "autumn recipes",
+      "personality quiz",
+      "food trends",
+      "family fun"
+    ],
+    "description": "Take this fun personality quiz to discover which viral autumn dessert matches your unique seasonal vibe. Find your tasty fall treat match today!",
+    "url": "/quiz/viral-fall-dessert-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-iconic-pop-culture-sweater-fits-your-aesthetic",
+    "title": "What Iconic Pop Culture Sweater Fits Your Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "sweaters",
+      "pop culture",
+      "fashion",
+      "aesthetic",
+      "tv shows"
+    ],
+    "description": "Take this fun personality quiz to discover which legendary TV and movie sweater matches your unique style and vibe. Find your cozy fashion match today!",
+    "url": "/quiz/what-iconic-pop-culture-sweater-fits-your-aesthetic/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-coffee-orders-trivia",
+    "title": "How Well Do You Know Viral Coffee Orders?",
+    "category": "trivia",
+    "tags": [
+      "coffee",
+      "trends",
+      "food",
+      "trivia",
+      "drinks"
+    ],
+    "description": "Test your knowledge of trendy social media beverages with this fun viral coffee orders trivia quiz. Can you name the ingredients in these famous drinks?",
+    "url": "/quiz/viral-coffee-orders-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "haunted-landmark-riddles",
+    "title": "Can You Solve These Haunted Landmark Riddles?",
+    "category": "riddles",
+    "tags": [
+      "haunted landmarks",
+      "riddles",
+      "spooky quiz",
+      "ghost stories",
+      "family fun"
+    ],
+    "description": "Can you solve these mysterious haunted landmark riddles? Test your spooky knowledge with six fun puzzles about famous haunted places around the world.",
+    "url": "/quiz/haunted-landmark-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-movie-scene-sound-effects",
+    "title": "Can You Name These Movies By Sound Effects?",
+    "category": "trivia",
+    "tags": [
+      "movies",
+      "sound effects",
+      "trivia",
+      "cinema",
+      "family quiz"
+    ],
+    "description": "Test your movie knowledge with this fun sound effects trivia quiz! Can you guess the famous film scene using only audio clues? Play now!",
+    "url": "/quiz/guess-the-movie-scene-sound-effects/",
+    "questions_count": 6
+  },
+  {
+    "slug": "can-you-name-these-friendly-movie-monsters",
+    "title": "Can You Name These Friendly Movie Monsters?",
+    "category": "riddles",
+    "tags": [
+      "movies",
+      "monsters",
+      "riddles",
+      "family",
+      "trivia"
+    ],
+    "description": "Test your pop culture knowledge with this fun family riddle quiz! Can you name all six classic friendly movie monsters from our clever clues?",
+    "url": "/quiz/can-you-name-these-friendly-movie-monsters/",
+    "questions_count": 6
+  },
+  {
+    "slug": "test-your-pop-culture-halloween-costume-iq",
+    "title": "Test Your Pop Culture Halloween Costume IQ",
+    "category": "trivia",
+    "tags": [
+      "halloween costumes",
+      "pop culture",
+      "trivia quiz",
+      "movie outfits",
+      "family fun"
+    ],
+    "description": "Test your knowledge on iconic pop culture Halloween outfits with this fun and family-friendly trivia quiz. Can you name these famous costumes?",
+    "url": "/quiz/test-your-pop-culture-halloween-costume-iq/",
+    "questions_count": 6
+  },
+  {
+    "slug": "spooky-kitchen-ingredient-riddles",
+    "title": "Spooky Kitchen Ingredient Riddles",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "food",
+      "kitchen",
+      "kids",
+      "family"
+    ],
+    "description": "Can you guess these creepy cooking items? Solve six fun food riddles in this family-friendly quiz designed for all ages.",
+    "url": "/quiz/spooky-kitchen-ingredient-riddles/",
+    "questions_count": 6
   }
 ]
