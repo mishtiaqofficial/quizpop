@@ -8399,5 +8399,185 @@
     "description": "Take this fun personality quiz to discover your autumn road trip soundtrack! Find out which fall playlist matches your unique style today.",
     "url": "/quiz/autumn-road-trip-soundtrack-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-21",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa",
+      "elves",
+      "north pole",
+      "holiday quiz"
+    ],
+    "description": "Take our which santa's workshop are you quiz to find your dream North Pole job, from building toys to flying Santa's sleigh!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-21/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-movie-should-you-watch-quiz",
+    "title": "What Halloween Movie Should You Watch Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movie",
+      "family movie night",
+      "spooky season",
+      "movie picker",
+      "fall fun"
+    ],
+    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions for the ultimate family movie night match.",
+    "url": "/quiz/what-halloween-movie-should-you-watch-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-fall-tv-commercial-quiz",
+    "title": "Which 90s Fall TV Commercial Are You?",
+    "category": "personality",
+    "tags": [
+      "90s tv",
+      "fall commercials",
+      "nostalgia",
+      "autumn vibes",
+      "pop culture"
+    ],
+    "description": "Discover which nostalgic 90s fall TV commercial matches your cozy autumn energy with this fun, quick personality quiz!",
+    "url": "/quiz/90s-fall-tv-commercial-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "campfire-woodland-creature-riddles",
+    "title": "Campfire Riddles: Eerie Woodland Creatures",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "animals",
+      "wildlife",
+      "campfire",
+      "nature"
+    ],
+    "description": "Solve these spooky campfire woodland creature riddles before the embers fade! Can you identify the mysterious beasts lurking in the dark forest?",
+    "url": "/quiz/campfire-woodland-creature-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "giant-pumpkin-weight-riddles",
+    "title": "Giant Pumpkin Weight Riddles: Can You Guess?",
+    "category": "riddles",
+    "tags": [
+      "pumpkins",
+      "state fair",
+      "riddles",
+      "autumn",
+      "estimation"
+    ],
+    "description": "Think you can guess the size of fair-winning gourds? Solve these giant pumpkin weight riddles to test your estimation skills against record champions!",
+    "url": "/quiz/giant-pumpkin-weight-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-flour-makes-ultimate-pumpkin-loaf",
+    "title": "Which Flour Makes The Ultimate Pumpkin Loaf?",
+    "category": "trivia",
+    "tags": [
+      "baking",
+      "pumpkin loaf",
+      "flour",
+      "fall recipes",
+      "trivia"
+    ],
+    "description": "Take this fun trivia quiz to discover which alternative flour creates the ultimate bakery-soft pumpkin loaf for your autumn baking adventures!",
+    "url": "/quiz/which-flour-makes-ultimate-pumpkin-loaf/",
+    "questions_count": 6
+  },
+  {
+    "slug": "sneaky-squirrel-riddles",
+    "title": "Can You Crack These Sneaky Squirrel Riddles?",
+    "category": "riddles",
+    "tags": [
+      "squirrels",
+      "riddles",
+      "animals",
+      "nature",
+      "kids"
+    ],
+    "description": "Test your brain with these fun squirrel riddles! Can you guess how sneaky squirrels hide their acorns and survive the winter? Play now for family fun.",
+    "url": "/quiz/sneaky-squirrel-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "crisp-apple-varieties-quiz",
+    "title": "Crisp Apple Quiz: Test Your Orchard Knowledge",
+    "category": "trivia",
+    "tags": [
+      "apples",
+      "orchard",
+      "food trivia",
+      "fall",
+      "fruit"
+    ],
+    "description": "Think you know your Honeycrisp from a Gala? Test your grocery and orchard knowledge with our fun, family-friendly crisp apple trivia quiz!",
+    "url": "/quiz/crisp-apple-varieties-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "book-genre-reading-nook-quiz",
+    "title": "What Book Genre Matches Your Dream Reading Nook?",
+    "category": "personality",
+    "tags": [
+      "books",
+      "reading nook",
+      "book genre",
+      "personality quiz",
+      "cozy vibes"
+    ],
+    "description": "What fictional book genre matches your dream reading nook? Take our fun cozy sanctuary quiz to find your literary match in just 6 quick questions!",
+    "url": "/quiz/book-genre-reading-nook-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "board-game-strategy-persona",
+    "title": "What Is Your Board Game Strategy Persona?",
+    "category": "personality",
+    "tags": [
+      "board games",
+      "game night",
+      "personality quiz",
+      "tabletop games",
+      "family fun"
+    ],
+    "description": "Discover which classic tabletop strategy matches your family game night style! Take this fun quiz to reveal your winning board game persona.",
+    "url": "/quiz/board-game-strategy-persona/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-constellation-vibe-quiz",
+    "title": "Which Autumn Constellation Matches Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "constellations",
+      "autumn stars",
+      "night sky",
+      "personality quiz",
+      "astronomy"
+    ],
+    "description": "Discover which autumn constellation matches your personality! Take our quick, fun quiz to see which fall star pattern reflects your inner cosmic vibe.",
+    "url": "/quiz/autumn-constellation-vibe-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "monarch-butterfly-migration-quiz",
+    "title": "The Great Monarch Butterfly Migration Quiz",
+    "category": "trivia",
+    "tags": [
+      "monarchs",
+      "butterflies",
+      "wildlife",
+      "nature-quiz",
+      "migration"
+    ],
+    "description": "Test your nature IQ on the epic journey of monarchs across North America! See how much you know about their route, habits, and winter homes.",
+    "url": "/quiz/monarch-butterfly-migration-quiz/",
+    "questions_count": 6
   }
 ]
