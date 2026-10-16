@@ -8579,5 +8579,170 @@
     "description": "Test your nature IQ on the epic journey of monarchs across North America! See how much you know about their route, habits, and winter homes.",
     "url": "/quiz/monarch-butterfly-migration-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-22",
+    "title": "Which Santa's Workshop Are You?",
+    "category": "personality",
+    "tags": [
+      "santa",
+      "workshop",
+      "christmas",
+      "north pole",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which santa's workshop are you! Discover your North Pole station and share your holiday result with friends.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-22/",
+    "questions_count": 6
+  },
+  {
+    "slug": "secret-ingredients-viral-fall-desserts",
+    "title": "Guess the Secret Ingredient in Viral Fall Desserts!",
+    "category": "trivia",
+    "tags": [
+      "fall desserts",
+      "baking trivia",
+      "secret ingredients",
+      "viral recipes",
+      "autumn treats"
+    ],
+    "description": "Can you guess the secret ingredient in these viral fall desserts? Test your autumn baking knowledge with this fun trivia quiz on QuizPop!",
+    "url": "/quiz/secret-ingredients-viral-fall-desserts/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-90s-kid-were-you",
+    "title": "What Kind of 90s Kid Were You?",
+    "category": "personality",
+    "tags": [
+      "90s kids",
+      "retro toys",
+      "nostalgia quiz",
+      "personality quiz",
+      "90s nostalgia"
+    ],
+    "description": "Discover what kind of 90s kid you were based on your favorite childhood toys! Take this fun nostalgic quiz to unlock your retro personality type.",
+    "url": "/quiz/what-kind-of-90s-kid-were-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-pets-hidden-halloween-persona",
+    "title": "What Is Your Pet's Hidden Halloween Persona?",
+    "category": "personality",
+    "tags": [
+      "pets",
+      "halloween",
+      "animals",
+      "dogs",
+      "cats"
+    ],
+    "description": "Take this fun quiz to discover your pet's hidden Halloween persona! Are they a friendly ghost, a candy bandit, or a royal vampire?",
+    "url": "/quiz/what-is-your-pets-hidden-halloween-persona/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-cinema-monster-riddles",
+    "title": "Classic Cinema Monster Riddles: Can You Solve Them?",
+    "category": "riddles",
+    "tags": [
+      "movies",
+      "monsters",
+      "riddles",
+      "trivia",
+      "spooky"
+    ],
+    "description": "Test your horror movie knowledge with these classic cinema monster riddles. Can you identify Dracula, Frankenstein's monster, and more?",
+    "url": "/quiz/classic-cinema-monster-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "solve-autumn-mystery-cozy-read",
+    "title": "Solve the Autumn Mystery to Find Your Cozy Read",
+    "category": "riddles",
+    "tags": [
+      "autumn",
+      "riddles",
+      "mystery",
+      "cozy",
+      "books"
+    ],
+    "description": "Solve these cozy fall riddles to test your detective skills and discover your ultimate autumn book recommendation!",
+    "url": "/quiz/solve-autumn-mystery-cozy-read/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-video-game-autumn-soundtrack-quiz",
+    "title": "Cozy Video Game Autumn Level Soundtrack Quiz",
+    "category": "trivia",
+    "tags": [
+      "cozy games",
+      "video game music",
+      "autumn gaming",
+      "trivia quiz",
+      "soundtrack quiz"
+    ],
+    "description": "Test your knowledge of cozy video game autumn soundtracks! Match relaxing tunes to iconic fall game levels in this fun trivia quiz.",
+    "url": "/quiz/cozy-video-game-autumn-soundtrack-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-autumn-constellation-matches-your-personality",
+    "title": "Which Autumn Constellation Matches You?",
+    "category": "personality",
+    "tags": [
+      "astronomy",
+      "stargazing",
+      "autumn",
+      "constellations",
+      "space"
+    ],
+    "description": "Take this fun autumn stargazing quiz to find out which fall constellation matches your personality! Are you Pegasus, Cassiopeia, or Andromeda?",
+    "url": "/quiz/which-autumn-constellation-matches-your-personality/",
+    "questions_count": 6
+  },
+  {
+    "slug": "pumpkin-carving-hacks-tool-quiz",
+    "title": "Can You Guess These Viral Pumpkin Carving Tools?",
+    "category": "trivia",
+    "tags": [
+      "pumpkin carving",
+      "halloween hacks",
+      "household tools",
+      "diy crafts",
+      "fall quiz"
+    ],
+    "description": "Can you guess the clever household tools used in viral pumpkin carving hacks? Take this fun family trivia quiz and test your DIY holiday skills today!",
+    "url": "/quiz/pumpkin-carving-hacks-tool-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "apple-picking-expert-trivia",
+    "title": "Are You an Apple-Picking Expert or an Orchard Novice?",
+    "category": "trivia",
+    "tags": [
+      "fall",
+      "apples",
+      "harvest",
+      "nature",
+      "us"
+    ],
+    "description": "Test your orchard knowledge! Take our apple-picking trivia quiz to see if you are a harvest pro or just a beginner looking for cider donuts.",
+    "url": "/quiz/apple-picking-expert-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-leaf-science-riddles",
+    "title": "Autumn Leaf Science Riddles: Fact or Fiction?",
+    "category": "riddles",
+    "tags": [
+      "autumn",
+      "science",
+      "riddles",
+      "leaves",
+      "nature"
+    ],
+    "description": "Test your knowledge of fall foliage! Solve these 6 autumn leaf science riddles to separate cool fall facts from popular fiction.",
+    "url": "/quiz/autumn-leaf-science-riddles/",
+    "questions_count": 6
   }
 ]
