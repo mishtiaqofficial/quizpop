@@ -8744,5 +8744,170 @@
     "description": "Test your knowledge of fall foliage! Solve these 6 autumn leaf science riddles to separate cool fall facts from popular fiction.",
     "url": "/quiz/autumn-leaf-science-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-23",
+    "title": "Which Santa's Workshop Are You Quiz: Find Your Job!",
+    "category": "personality",
+    "tags": [
+      "north pole",
+      "christmas quiz",
+      "santa workshop",
+      "personality test",
+      "holiday fun"
+    ],
+    "description": "Take our fun which santa's workshop are you quiz to discover your dream North Pole job! Are you making toys, baking cookies, or flying with reindeer?",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-23/",
+    "questions_count": 6
+  },
+  {
+    "slug": "build-a-boo-basket-romance-quiz",
+    "title": "Build a Boo Basket: Find Your Autumn Romance Style",
+    "category": "personality",
+    "tags": [
+      "boo basket",
+      "fall quiz",
+      "romance style",
+      "autumn vibes",
+      "personality quiz"
+    ],
+    "description": "Build your dream Boo Basket with cute treats and cozy drinks to uncover your true autumn romance style in this fun, quick fall quiz!",
+    "url": "/quiz/build-a-boo-basket-romance-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "bizarre-pumpkin-spice-foods-quiz",
+    "title": "Bizarre Pumpkin Spice Foods: Real or Fake?",
+    "category": "trivia",
+    "tags": [
+      "pumpkin spice",
+      "fall foods",
+      "food trivia",
+      "viral trends",
+      "autumn snacks"
+    ],
+    "description": "Test your fall food knowledge! Can you guess which bizarre pumpkin spice creations actually exist? Take our fun viral food trivia quiz now!",
+    "url": "/quiz/bizarre-pumpkin-spice-foods-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-autumn-small-town-tv-trivia",
+    "title": "Cozy Autumn Small-Town TV Trivia",
+    "category": "trivia",
+    "tags": [
+      "tv",
+      "autumn",
+      "cozy",
+      "trivia",
+      "smalltown"
+    ],
+    "description": "Test your memory on cozy small-town autumn TV lore! From Stars Hollow to BlueBell, see how well you know these classic fall television moments.",
+    "url": "/quiz/cozy-autumn-small-town-tv-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-viral-pet-outfits-rhymes",
+    "title": "Rhyme & Bark: Guess the Viral Pet Outfits!",
+    "category": "riddles",
+    "tags": [
+      "pets",
+      "costumes",
+      "animals",
+      "riddles",
+      "viral"
+    ],
+    "description": "Can you solve rhyming riddles to identify the most viral pet outfits on the internet? Test your fashion animal smarts in this fun, family-friendly quiz!",
+    "url": "/quiz/guess-viral-pet-outfits-rhymes/",
+    "questions_count": 6
+  },
+  {
+    "slug": "thrifted-ghost-painting-aesthetic-quiz",
+    "title": "Which Thrifted Ghost Painting Aesthetic Matches You?",
+    "category": "personality",
+    "tags": [
+      "ghost painting",
+      "thrifted art",
+      "vintage aesthetic",
+      "cozy decor",
+      "quiz"
+    ],
+    "description": "Discover which cozy vintage thrifted ghost painting matches your style! Take our fun aesthetic quiz to find your haunted decor vibe.",
+    "url": "/quiz/thrifted-ghost-painting-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "haunted-scare-actor-energy-quiz",
+    "title": "Which Haunted Scare Actor Matches Your Chaotic Energy?",
+    "category": "personality",
+    "tags": [
+      "haunted house",
+      "scare actor",
+      "halloween quiz",
+      "personality test",
+      "spooky season"
+    ],
+    "description": "Which viral haunted attraction scare actor fits your chaotic energy? Take this fun quiz to see if you are a stealthy stalker, slider, or theatrical cackler!",
+    "url": "/quiz/haunted-scare-actor-energy-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-halloween-movie-easter-eggs-quiz",
+    "title": "Can You Spot These 90s Halloween Movie Easter Eggs?",
+    "category": "trivia",
+    "tags": [
+      "halloween",
+      "90s movies",
+      "hocus pocus",
+      "trivia",
+      "easter eggs"
+    ],
+    "description": "Can you spot the hidden background Easter eggs in 90s family Halloween movies like Hocus Pocus and Casper? Test your movie trivia knowledge now!",
+    "url": "/quiz/90s-halloween-movie-easter-eggs-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "spooky-pastry-ingredient-riddle",
+    "title": "The Spooky Pastry Ingredient Riddle Quest",
+    "category": "riddles",
+    "tags": [
+      "baking",
+      "halloween",
+      "riddles",
+      "desserts",
+      "food trivia"
+    ],
+    "description": "Can you solve these tasty kitchen riddles? Uncover the viral spooky pastry ingredient and test your Halloween baking smarts in this fun, quick quiz!",
+    "url": "/quiz/spooky-pastry-ingredient-riddle/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-fall-video-game-quiz",
+    "title": "Which Cozy Fall Video Game Should You Play Next?",
+    "category": "personality",
+    "tags": [
+      "cozy gaming",
+      "fall games",
+      "autumn personality quiz",
+      "gaming recommendations",
+      "cozy autumn"
+    ],
+    "description": "Plan your dream cozy fall weekend to unlock your next favorite relaxing video game recommendation in this fun personality quiz!",
+    "url": "/quiz/cozy-fall-video-game-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "pumpkin-patch-mishaps-riddle",
+    "title": "Pumpkin Patch Mishaps Riddle Challenge",
+    "category": "riddles",
+    "tags": [
+      "pumpkin patch",
+      "fall riddles",
+      "brain teasers",
+      "autumn fun",
+      "riddle quiz"
+    ],
+    "description": "Solve funny observational pumpkin patch riddles! Spot goofy mishaps, hilarious mix-ups, and farmyard blunders in this fun autumn brain teaser challenge.",
+    "url": "/quiz/pumpkin-patch-mishaps-riddle/",
+    "questions_count": 6
   }
 ]
