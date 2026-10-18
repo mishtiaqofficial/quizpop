@@ -8909,5 +8909,275 @@
     "description": "Solve funny observational pumpkin patch riddles! Spot goofy mishaps, hilarious mix-ups, and farmyard blunders in this fun autumn brain teaser challenge.",
     "url": "/quiz/pumpkin-patch-mishaps-riddle/",
     "questions_count": 6
+  },
+  {
+    "slug": "thrifted-ghost-painting-diy-quiz",
+    "title": "What Thrifted Ghost Painting DIY Style Are You?",
+    "category": "personality",
+    "tags": [
+      "ghost painting",
+      "thrift flip",
+      "spooky aesthetic",
+      "halloween craft",
+      "fall diy"
+    ],
+    "description": "Find your spooky aesthetic! Take our thrifted ghost painting DIY quiz to see which creative Halloween ghost art style you should paint this fall.",
+    "url": "/quiz/thrifted-ghost-painting-diy-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-cozy-autumn-video-game-soundtrack",
+    "title": "Guess the Cozy Autumn Video Game by Its Soundtrack!",
+    "category": "trivia",
+    "tags": [
+      "cozy games",
+      "autumn video games",
+      "game soundtracks",
+      "cozy gaming trivia",
+      "video game music"
+    ],
+    "description": "Test your video game music knowledge! Can you match the cozy autumn soundtrack clues to games like Stardew Valley and Animal Crossing?",
+    "url": "/quiz/guess-cozy-autumn-video-game-soundtrack/",
+    "questions_count": 6
+  },
+  {
+    "slug": "halloween-snack-charcuterie-board-riddles",
+    "title": "Can You Solve These Halloween Charcuterie Board Riddles?",
+    "category": "riddles",
+    "tags": [
+      "halloween",
+      "riddles",
+      "snacks",
+      "family",
+      "quiz"
+    ],
+    "description": "Can you solve these fun and family-friendly Halloween snack charcuterie board riddles? Test your spooky food knowledge and play today!",
+    "url": "/quiz/halloween-snack-charcuterie-board-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-halloween-movie-trivia",
+    "title": "Ultimate 90s Halloween Movie Trivia Quiz",
+    "category": "trivia",
+    "tags": [
+      "90s movies",
+      "halloween trivia",
+      "hocus pocus",
+      "halloweentown",
+      "spooky movies"
+    ],
+    "description": "Think you know classic 90s Halloween movies? Test your knowledge on Hocus Pocus, Casper, Halloweentown, and more in this fun trivia quiz!",
+    "url": "/quiz/90s-halloween-movie-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fall-foliage-road-trip-vibe-quiz",
+    "title": "What US Fall Foliage Road Trip Fits Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "fall",
+      "foliage",
+      "road trip",
+      "autumn",
+      "travel"
+    ],
+    "description": "Discover your ideal US autumn leaf-peeping road trip! Take our fun quiz to match your travel vibe with stunning fall foliage destinations today.",
+    "url": "/quiz/fall-foliage-road-trip-vibe-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-pet-costume-riddles",
+    "title": "Can You Solve These Viral Pet Costume Riddles?",
+    "category": "riddles",
+    "tags": [
+      "pets",
+      "costumes",
+      "riddles",
+      "funny",
+      "animals"
+    ],
+    "description": "Can you solve these funny viral pet costume riddles? Test your riddle-solving skills with this hilarious, family-friendly animal quiz today!",
+    "url": "/quiz/viral-pet-costume-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "extreme-3d-pumpkin-carving-trivia",
+    "title": "Extreme 3D Pumpkin Carving & Fall Trivia!",
+    "category": "trivia",
+    "tags": [
+      "pumpkin",
+      "halloween",
+      "trivia",
+      "carving",
+      "autumn"
+    ],
+    "description": "Think you know extreme 3D pumpkin carving and fall traditions? Take this fun quiz to test your seasonal knowledge today!",
+    "url": "/quiz/extreme-3d-pumpkin-carving-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "spooky-campfire-mystery-riddles",
+    "title": "Can You Solve These Spooky Campfire Riddles?",
+    "category": "riddles",
+    "tags": [
+      "campfire",
+      "riddles",
+      "spooky",
+      "mystery",
+      "family"
+    ],
+    "description": "Can you solve these spooky campfire mystery riddles before time runs out? Test your brain power with this fun, family-friendly word puzzle quiz.",
+    "url": "/quiz/spooky-campfire-mystery-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "artisanal-apple-cider-donut-flavor-quiz",
+    "title": "What Artisanal Apple Cider Donut Flavor Are You?",
+    "category": "personality",
+    "tags": [
+      "apple cider donuts",
+      "fall quiz",
+      "donut personality",
+      "autumn treats",
+      "food personality"
+    ],
+    "description": "Which artisanal apple cider donut matches your vibe? Answer 6 sweet fall questions to discover your delicious gourmet donut personality!",
+    "url": "/quiz/artisanal-apple-cider-donut-flavor-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "thrifted-ghost-painting-quiz",
+    "title": "Can You Spot Secrets in Thrifted Ghost Painting Makeovers?",
+    "category": "trivia",
+    "tags": [
+      "thrifted art",
+      "ghost painting",
+      "diy crafts",
+      "spooky art",
+      "trivia"
+    ],
+    "description": "Test your knowledge on thrifted art ghost makeovers! Can you spot the secrets, paint tricks, and hidden details in these viral thrift store flips?",
+    "url": "/quiz/thrifted-ghost-painting-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-autumn-indie-game-world-quiz",
+    "title": "Which Cozy Autumn Indie Game World Is Your Dream Home?",
+    "category": "personality",
+    "tags": [
+      "cozy games",
+      "indie video games",
+      "autumn quiz",
+      "personality quiz",
+      "gaming"
+    ],
+    "description": "Take our cozy autumn indie game world quiz to find out which peaceful, relaxing video game universe matches your chill fall aesthetic!",
+    "url": "/quiz/cozy-autumn-indie-game-world-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "halloween-snack-board-host-quiz",
+    "title": "What Kind of Halloween Snack Board Host Are You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "snack board",
+      "charcuterie",
+      "party quiz",
+      "snack style"
+    ],
+    "description": "What kind of Halloween snack board host are you? Take this fun QuizPop personality quiz to find your spooky entertaining style!",
+    "url": "/quiz/halloween-snack-board-host-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-halloween-movie-character-quiz",
+    "title": "Which 90s Halloween Movie Character Is Your Spiritual Twin?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "90s movies",
+      "personality quiz",
+      "hocus pocus",
+      "halloweentown"
+    ],
+    "description": "Take this fun personality quiz to find out which iconic 90s family Halloween movie character is your ultimate spiritual twin!",
+    "url": "/quiz/90s-halloween-movie-character-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-us-state-fall-foliage-2",
+    "title": "Can You Guess The State By Its Fall Foliage?",
+    "category": "trivia",
+    "tags": [
+      "fall foliage",
+      "us states",
+      "autumn trees",
+      "geography trivia",
+      "leaf peeping"
+    ],
+    "description": "Can you guess the US state based on its autumn trees? Take this fun fall foliage trivia quiz and test your knowledge of American nature.",
+    "url": "/quiz/guess-the-us-state-fall-foliage-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-pet-halloween-costume-quiz",
+    "title": "Which Viral Pet Halloween Costume Are You?",
+    "category": "personality",
+    "tags": [
+      "pet halloween costume",
+      "dog halloween",
+      "cat costumes",
+      "funny pets",
+      "halloween quiz"
+    ],
+    "description": "Take our fun personality quiz to find out which viral pet Halloween costume matches your furry friend's chaotic energy. Perfect for dog and cat lovers!",
+    "url": "/quiz/viral-pet-halloween-costume-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "signature-pumpkin-carving-style-quiz",
+    "title": "What Is Your Signature Pumpkin Carving Style?",
+    "category": "personality",
+    "tags": [
+      "pumpkin carving",
+      "halloween crafts",
+      "personality quiz",
+      "jack o lantern",
+      "fall activities"
+    ],
+    "description": "Take this fun quiz to discover your signature pumpkin carving style and skill level! Are you a Master Sculptor or a No-Mess Innovator?",
+    "url": "/quiz/signature-pumpkin-carving-style-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "iconic-vintage-sweater-moments",
+    "title": "Can You Name These Iconic Vintage Sweaters?",
+    "category": "trivia",
+    "tags": [
+      "sweaters",
+      "vintage",
+      "pop culture",
+      "fashion",
+      "trivia"
+    ],
+    "description": "Test your pop culture knowledge with our vintage sweater trivia quiz! Can you identify these famous cozy knits from TV and movies? Play now!",
+    "url": "/quiz/iconic-vintage-sweater-moments/",
+    "questions_count": 6
+  },
+  {
+    "slug": "ultimate-orchard-apple-picking-bakery-trivia",
+    "title": "Ultimate Orchard Apple Picking & Bakery Trivia Quiz",
+    "category": "trivia",
+    "tags": [
+      "apple picking",
+      "orchard trivia",
+      "fall bakery",
+      "apple cider",
+      "autumn quiz"
+    ],
+    "description": "Test your autumn knowledge with this fun orchard apple-picking and bakery trivia quiz! Can you get a perfect score on fresh apples and treats?",
+    "url": "/quiz/ultimate-orchard-apple-picking-bakery-trivia/",
+    "questions_count": 6
   }
 ]
