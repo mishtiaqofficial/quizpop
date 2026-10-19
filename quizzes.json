@@ -9179,5 +9179,170 @@
     "description": "Test your autumn knowledge with this fun orchard apple-picking and bakery trivia quiz! Can you get a perfect score on fresh apples and treats?",
     "url": "/quiz/ultimate-orchard-apple-picking-bakery-trivia/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-24",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop quiz",
+      "north pole quiz",
+      "christmas personality quiz",
+      "holiday quiz",
+      "elf workshop quiz"
+    ],
+    "description": "Take the which santa's workshop are you quiz to discover your North Pole station! Find your holiday match from toy design to reindeer care today.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-24/",
+    "questions_count": 6
+  },
+  {
+    "slug": "name-iconic-90s-tv-living-rooms",
+    "title": "Can You Name These Iconic 90s TV Living Rooms?",
+    "category": "trivia",
+    "tags": [
+      "90s tv",
+      "living rooms",
+      "sitcom trivia",
+      "television",
+      "pop culture"
+    ],
+    "description": "Test your 1990s television knowledge! Can you identify these famous sitcom living rooms from classic visual clues? Take the quiz to find out.",
+    "url": "/quiz/name-iconic-90s-tv-living-rooms/",
+    "questions_count": 6
+  },
+  {
+    "slug": "real-ranger-call-or-folklore-cryptid-quiz",
+    "title": "Real Ranger Call or Folklore Cryptid? Forest Riddles",
+    "category": "riddles",
+    "tags": [
+      "cryptids",
+      "national-parks",
+      "forest-riddles",
+      "folklore",
+      "trivia-quiz"
+    ],
+    "description": "Test your wilderness knowledge with eerie forest riddles. Can you distinguish real park ranger calls from famous mythical cryptids?",
+    "url": "/quiz/real-ranger-call-or-folklore-cryptid-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-autumn-pastry-weekend-vibe",
+    "title": "Which Viral Autumn Pastry Is Your Weekend Vibe?",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "pastry",
+      "food",
+      "vibes",
+      "fall"
+    ],
+    "description": "Discover which trending viral fall pastry matches your cozy weekend personality with this quick, fun 6-question quiz!",
+    "url": "/quiz/viral-autumn-pastry-weekend-vibe/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fall-porch-secret-seasonal-energy",
+    "title": "Design a Fall Porch to Find Your Seasonal Energy",
+    "category": "personality",
+    "tags": [
+      "fall decor",
+      "porch design",
+      "autumn vibe",
+      "personality quiz",
+      "pumpkins"
+    ],
+    "description": "Design your dream autumn porch with pumpkins, wreaths, and lights to uncover your secret seasonal energy in this fun, cozy fall personality quiz!",
+    "url": "/quiz/fall-porch-secret-seasonal-energy/",
+    "questions_count": 6
+  },
+  {
+    "slug": "identify-us-national-park-peak-fall-foliage",
+    "title": "Identify The US National Park By Its Peak Fall Foliage",
+    "category": "trivia",
+    "tags": [
+      "nationalparks",
+      "fallfoliage",
+      "autumn",
+      "trivia",
+      "nature"
+    ],
+    "description": "Test your leaf-peeping skills! Can you identify these US national parks by their peak fall foliage colors and autumn scenery?",
+    "url": "/quiz/identify-us-national-park-peak-fall-foliage/",
+    "questions_count": 6
+  },
+  {
+    "slug": "mini-pumpkin-design-aesthetic-quiz",
+    "title": "Pick A Miniature Pumpkin To Reveal Your Aesthetic",
+    "category": "personality",
+    "tags": [
+      "pumpkin",
+      "aesthetic",
+      "fall quiz",
+      "crafts",
+      "personality"
+    ],
+    "description": "Pick an intricate miniature pumpkin design to reveal your true aesthetic! Discover if you are cottagecore, dark academia, or modern minimalist.",
+    "url": "/quiz/mini-pumpkin-design-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-bookworm-riddles-historic-libraries",
+    "title": "Solve Cozy Bookworm Riddles To Identify Historic Libraries",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "libraries",
+      "history",
+      "books",
+      "trivia"
+    ],
+    "description": "Test your cozy bookworm knowledge! Solve 6 fun riddles to identify the world's most iconic historic libraries in this fun QuizPop quiz.",
+    "url": "/quiz/cozy-bookworm-riddles-historic-libraries/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-board-game-rules-quiz",
+    "title": "Are You Playing It Wrong? Board Game Rules Quiz",
+    "category": "trivia",
+    "tags": [
+      "board games",
+      "trivia",
+      "monopoly",
+      "family games",
+      "rules"
+    ],
+    "description": "Think you know how to play Uno and Monopoly? Take our classic board game rules quiz to see if your family has been playing by the real rulebook!",
+    "url": "/quiz/classic-board-game-rules-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "rare-heirloom-apple-personality-quiz",
+    "title": "What Rare Heirloom Apple Matches Your Personality?",
+    "category": "personality",
+    "tags": [
+      "apples",
+      "personality quiz",
+      "food quiz",
+      "orchard",
+      "nature"
+    ],
+    "description": "Discover which rare heirloom apple flavor matches your inner personality with this fun, orchard-inspired personality quiz. Find your unique fruit match!",
+    "url": "/quiz/rare-heirloom-apple-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "stargazer-riddles-celestial-wonders",
+    "title": "Stargazer Riddles: Wonders of the Night Sky",
+    "category": "riddles",
+    "tags": [
+      "astronomy",
+      "space riddles",
+      "stargazing",
+      "night sky",
+      "science trivia"
+    ],
+    "description": "Can you solve these stargazer riddles? Test your astronomy knowledge and reveal planets, comets, and cosmic wonders with this fun family-friendly quiz!",
+    "url": "/quiz/stargazer-riddles-celestial-wonders/",
+    "questions_count": 6
   }
 ]
