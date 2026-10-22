@@ -11534,5 +11534,275 @@
     "description": "Test your knowledge on animal migrations with this fun trivia quiz. Discover fascinating facts about whales, butterflies, and wildebeest journeys!",
     "url": "/quiz/great-animal-migration-challenge/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-dandys-world-toon-are-you-quiz-6",
+    "title": "Which Dandy's World Toon Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "dandys world",
+      "roblox toons",
+      "toon quiz",
+      "personality quiz",
+      "gaming"
+    ],
+    "description": "Take this fun which Dandy's World toon are you quiz to discover your cartoon match! Are you friendly Goob, cheerful Poppy, or the dazzling star Dandy?",
+    "url": "/quiz/which-dandys-world-toon-are-you-quiz-6/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-elf-are-you-quiz-6",
+    "title": "Which Santa's Workshop Elf Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "elf quiz",
+      "santa workshop",
+      "christmas quiz",
+      "holiday personality",
+      "family fun"
+    ],
+    "description": "Take the Which Santa's Workshop Elf Are You Quiz to find out your true North Pole job! Are you a toy maker, baker, or wrapper? Play now!",
+    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-6/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-4",
+    "title": "Which Macy's Thanksgiving Parade Balloon Are You?",
+    "category": "personality",
+    "tags": [
+      "macys parade",
+      "thanksgiving quiz",
+      "holiday fun",
+      "balloon match",
+      "personality test"
+    ],
+    "description": "Take this fun quiz to find out which iconic Macy's Thanksgiving Parade balloon matches your personality. Answer questions about the holidays to see your result!",
+    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-football-position-are-you-quiz",
+    "title": "Which Football Position Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "football",
+      "sports",
+      "nfl",
+      "personality",
+      "gridiron"
+    ],
+    "description": "Take the which football position are you quiz to discover your gridiron alter ego. Are you a quarterback, receiver, or linebacker? Find out now!",
+    "url": "/quiz/which-football-position-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "valentines-day-love-language-quiz-3",
+    "title": "What Is Your Valentine's Day Love Language?",
+    "category": "personality",
+    "tags": [
+      "valentines day",
+      "love language",
+      "quiz",
+      "relationships",
+      "personality"
+    ],
+    "description": "Take our valentine's day love language quiz to discover how you give and receive affection. Fun, quick, and perfect for celebrating with loved ones!",
+    "url": "/quiz/valentines-day-love-language-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-valentines-aesthetic-quiz-4",
+    "title": "What Is Your Valentine's Aesthetic Quiz?",
+    "category": "personality",
+    "tags": [
+      "valentines aesthetic quiz",
+      "romantic style",
+      "love vibe",
+      "personality test",
+      "date ideas"
+    ],
+    "description": "Take this fun quiz to find your romantic style! Discover your ideal date, favorite treats, and love vibe with our what is your valentine's aesthetic quiz.",
+    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-valentines-candy-are-you-quiz-4",
+    "title": "Which Valentine's Candy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines candy",
+      "personality quiz",
+      "candy match",
+      "sweet treats",
+      "fun quiz"
+    ],
+    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match! Are you a chocolate truffle, a conversation heart, or sour gummies?",
+    "url": "/quiz/which-valentines-candy-are-you-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-28",
+    "title": "Which Santa's Workshop Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "santa workshop",
+      "christmas quiz",
+      "north pole",
+      "holiday personality",
+      "family fun"
+    ],
+    "description": "Take the which santa's workshop are you quiz to discover your official North Pole job! Find out if you belong in the toy factory, bakery, or wrapping station.",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-28/",
+    "questions_count": 6
+  },
+  {
+    "slug": "us-state-fall-foliage-quiz",
+    "title": "Can You Name the State by Its Fall Foliage?",
+    "category": "trivia",
+    "tags": [
+      "fall foliage",
+      "autumn",
+      "us states",
+      "geography",
+      "leaf peeping"
+    ],
+    "description": "Can you identify the US state based on its famous fall foliage landscape? Take this fun autumn trivia quiz and test your leaf-peeping geography skills now!",
+    "url": "/quiz/us-state-fall-foliage-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-cozy-reader-aesthetic",
+    "title": "What's Your Ultimate Autumn Cozy Reader Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "books",
+      "reading",
+      "autumn",
+      "fall",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which cozy reader aesthetic matches your dream fall weekend of books, blankets, and hot drinks!",
+    "url": "/quiz/autumn-cozy-reader-aesthetic/",
+    "questions_count": 6
+  },
+  {
+    "slug": "match-2000s-digital-cameras-era",
+    "title": "Can You Match These 2000s Digital Cameras?",
+    "category": "trivia",
+    "tags": [
+      "2000s",
+      "cameras",
+      "nostalgia",
+      "tech",
+      "trivia"
+    ],
+    "description": "Can you match iconic early-2000s digital cameras to their release era? Take this fun trivia quiz to test your Y2K tech knowledge!",
+    "url": "/quiz/match-2000s-digital-cameras-era/",
+    "questions_count": 6
+  },
+  {
+    "slug": "ultimate-fall-corn-maze-riddles",
+    "title": "Can You Escape The Ultimate Fall Corn Maze?",
+    "category": "riddles",
+    "tags": [
+      "fall",
+      "corn maze",
+      "riddles",
+      "autumn",
+      "puzzle"
+    ],
+    "description": "Test your navigation skills with our fall corn maze riddles quiz! Solve all six puzzles to escape the autumn maze and win the game.",
+    "url": "/quiz/ultimate-fall-corn-maze-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-signature-fall-treat",
+    "title": "What Is Your Signature Fall Treat?",
+    "category": "personality",
+    "tags": [
+      "fall",
+      "snacks",
+      "autumn",
+      "food",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out your signature fall treat archetype based on your favorite weekend snack choices and autumn activities.",
+    "url": "/quiz/what-is-your-signature-fall-treat/",
+    "questions_count": 6
+  },
+  {
+    "slug": "eras-tour-setlist-outfits-trivia",
+    "title": "The Ultimate Eras Tour Trivia Challenge",
+    "category": "trivia",
+    "tags": [
+      "eras tour",
+      "taylor swift",
+      "concert trivia",
+      "pop music",
+      "music quiz"
+    ],
+    "description": "Think you know the setlist and iconic outfits from the Eras Tour? Take this fun trivia quiz to test your music knowledge and see how well you remember the show!",
+    "url": "/quiz/eras-tour-setlist-outfits-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "stardew-valley-crop-personality-quiz",
+    "title": "Which Stardew Valley Seasonal Crop Are You?",
+    "category": "personality",
+    "tags": [
+      "stardew valley",
+      "gaming",
+      "personality",
+      "farming",
+      "crops"
+    ],
+    "description": "Discover your inner farm harvest! This personality quiz matches your daily traits to iconic Stardew Valley crops like Melons, Pumpkins, and Parsnips.",
+    "url": "/quiz/stardew-valley-crop-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "animated-sequel-voice-cast-trivia",
+    "title": "Animated Sequel & Voice Cast Trivia",
+    "category": "trivia",
+    "tags": [
+      "animated movies",
+      "sequels",
+      "voice cast",
+      "family trivia",
+      "movies"
+    ],
+    "description": "Test your knowledge of famous animated movie sequels and the celebrity voice actors who brought them to life in this fun family-friendly trivia quiz.",
+    "url": "/quiz/animated-sequel-voice-cast-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fluffiest-pumpkin-bread-flour-quiz",
+    "title": "Which Flour Makes The Fluffiest Pumpkin Bread?",
+    "category": "trivia",
+    "tags": [
+      "pumpkin bread",
+      "baking trivia",
+      "fall recipes",
+      "flour types",
+      "family quiz"
+    ],
+    "description": "Take this fun trivia quiz to discover which alternative flour makes the fluffiest pumpkin bread. Test your baking knowledge and learn sweet tips!",
+    "url": "/quiz/fluffiest-pumpkin-bread-flour-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "monster-haunted-house-riddles",
+    "title": "Can You Guess the Monsters in Our Haunted House?",
+    "category": "riddles",
+    "tags": [
+      "monsters",
+      "haunted house",
+      "riddles",
+      "kids quiz",
+      "spooky"
+    ],
+    "description": "Can you guess the quirky monsters hiding in our homemade haunted house? Take this fun family-friendly riddle quiz and test your spooky smarts today!",
+    "url": "/quiz/monster-haunted-house-riddles/",
+    "questions_count": 6
   }
 ]

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<link rel="ard" href="/.well-known/ard.json">
+<title>Haunted House Monster Riddles Quiz for Kids — QuizPop</title>
+<meta name="description" content="Can you guess the quirky monsters hiding in our homemade haunted house? Take this fun family-friendly riddle quiz and test your spooky smarts today!">
+<style>
+/* QuizPop design system — mobile-first, no frameworks */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--brand:#4f46e5;--ink:#1e293b;--muted:#475569;--faint:#64748b;--line:#e2e8f0;--bg:#fff;--soft:#f8fafc}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+img{max-width:100%}
+
+/* Header / nav */
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}
+.nav{max-width:720px;margin:0 auto;padding:.8rem 1rem;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:1.25rem;color:var(--brand);text-decoration:none}
+.nav-links{display:flex;align-items:center}
+.nav-links a{margin-left:.9rem;color:var(--muted);text-decoration:none;font-size:.9rem}
+.nav-links a:hover{color:var(--brand)}
+
+/* Layout */
+main{max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem}
+.hero h1{font-size:1.7rem;line-height:1.25;margin:.5rem 0}
+.hero p{color:var(--muted);margin-bottom:1rem}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:2rem 0 .75rem}
+.section-head h2{font-size:1.25rem}
+.section-head a{font-size:.85rem;color:var(--brand);text-decoration:none}
+
+/* Quiz card grid */
+.quiz-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:.5rem 0 1rem}
+.qcard{border:1px solid var(--line);border-radius:12px;padding:1rem;text-decoration:none;color:var(--ink);display:block;background:#fff}
+.qcard:hover{border-color:var(--brand)}
+.qcard .kicker{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:700}
+.qcard h3{font-size:1rem;margin:.3rem 0;line-height:1.35}
+.qcard p{font-size:.82rem;color:var(--muted)}
+.qcard.soon{background:var(--soft);border-style:dashed;cursor:default}
+.soon-badge{display:inline-block;font-size:.7rem;font-weight:700;color:#92400e;background:#fef3c7;border-radius:99px;padding:.15rem .6rem;margin-top:.4rem}
+
+/* Quiz widget */
+.quiz-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:1.25rem;margin:1rem 0}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:1rem}
+.progress>div{height:100%;background:var(--brand);width:0;transition:width .3s}
+.q-text{font-size:1.15rem;font-weight:700;margin-bottom:.9rem}
+.opt{display:block;width:100%;text-align:left;padding:.85rem 1rem;margin:.5rem 0;border:2px solid var(--line);border-radius:10px;background:#fff;font-size:1rem;cursor:pointer;min-height:48px;font-family:inherit;color:var(--ink)}
+.opt:active{transform:scale(.98)}
+.opt.correct{border-color:#16a34a;background:#f0fdf4}
+.opt.wrong{border-color:#dc2626;background:#fef2f2}
+.opt:disabled{opacity:.85;cursor:default}
+.quiz-nav{margin-top:1rem;text-align:right}
+.next-btn{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.8rem;font-size:1rem;font-weight:700;cursor:pointer;min-height:48px;font-family:inherit}
+.result-card{display:none;background:#eef2ff;border:2px solid var(--brand);border-radius:14px;padding:1.5rem;margin:1.5rem 0;text-align:center}
+.result-card h2{color:var(--brand);margin-bottom:.5rem}
+.share-row{margin-top:1rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+.share-row button{border:1px solid #cbd5e1;background:#fff;border-radius:999px;padding:.55rem 1rem;font-size:.9rem;cursor:pointer;min-height:44px;font-family:inherit}
+.entertainment-note{font-size:.78rem;color:#64748b;margin-top:1rem}
+
+/* Sponsored CTA block */
+.sponsored-block{margin:2rem 0;padding:1.25rem;border:1px dashed #cbd5e1;border-radius:12px;background:var(--soft);text-align:center}
+.sponsored-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.ftc-note{font-size:.75rem;color:var(--faint);margin:.25rem 0 .75rem}
+.cta-btn{display:inline-block;padding:.9rem 2.2rem;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;min-height:48px}
+.cta-btn:active{transform:scale(.97)}
+
+/* Related + FAQ */
+.related{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0}
+.related a{border:1px solid var(--line);border-radius:10px;padding:.9rem;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.related div.soon{border:1px dashed var(--line);border-radius:10px;padding:.9rem;color:var(--faint);font-size:.95rem;background:var(--soft)}
+.faq{margin:2rem 0}.faq h3{margin-bottom:.5rem}.faq p{color:var(--muted);margin-bottom:1rem;font-size:.95rem}
+
+/* How it works steps */
+.steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1rem 0}
+.step{border:1px solid var(--line);border-radius:12px;padding:1rem;text-align:center;background:var(--soft)}
+.step .n{display:inline-block;width:2rem;height:2rem;line-height:2rem;border-radius:99px;background:var(--brand);color:#fff;font-weight:800;margin-bottom:.5rem}
+.step p{font-size:.88rem;color:var(--muted)}
+
+/* Email signup */
+.signup{background:#eef2ff;border:1px solid var(--brand);border-radius:14px;padding:1.5rem;margin:2rem 0;text-align:center}
+.signup h2{margin-bottom:.4rem}
+.signup p{color:var(--muted);font-size:.92rem;margin-bottom:1rem}
+.signup form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+.signup input[type=email]{flex:1;min-width:200px;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:999px;font-size:1rem;font-family:inherit}
+.signup button{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.6rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Search */
+.search-input{width:100%;padding:.9rem 1.1rem;border:2px solid var(--line);border-radius:12px;font-size:1.05rem;font-family:inherit;margin:1rem 0}
+.search-input:focus{outline:none;border-color:var(--brand)}
+
+/* Legal / prose pages */
+.prose h1{font-size:1.6rem;margin:.5rem 0 1rem}
+.prose h2{font-size:1.15rem;margin:1.5rem 0 .5rem}
+.prose p,.prose li{color:var(--muted);margin-bottom:.8rem;font-size:.96rem}
+.prose ul{padding-left:1.2rem}
+
+/* Trending list */
+.trend-row{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1rem;margin:.6rem 0;text-decoration:none;color:var(--ink)}
+.trend-row .rank{font-size:1.6rem;font-weight:800;color:var(--brand);min-width:2.2rem;text-align:center}
+.trend-row h3{font-size:1.02rem}
+.trend-row p{font-size:.82rem;color:var(--muted)}
+
+/* Contact form */
+.contact-form{max-width:480px;margin:1rem 0}
+.contact-form label{display:block;font-weight:600;margin:.9rem 0 .3rem;font-size:.92rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:10px;font-size:1rem;font-family:inherit}
+.contact-form textarea{min-height:140px;resize:vertical}
+.contact-form button{margin-top:1rem;background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.85rem 2rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:1.5rem 1rem;text-align:center;font-size:.85rem;color:var(--faint)}
+footer a{color:var(--faint);margin:0 .5rem;text-decoration:none}
+footer a:hover{color:var(--brand)}
+.seo-foot{max-width:720px;margin:0 auto;padding:0 1rem 2rem;font-size:.8rem;color:#64748b}
+
+/* Small screens */
+@media (max-width:420px){
+  .steps{grid-template-columns:1fr}
+  .nav-links a{margin-left:.6rem;font-size:.82rem}
+}
+</style>
+<link rel="canonical" href="https://popquizdaily.site/quiz/monster-haunted-house-riddles/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Haunted House Monster Riddles Quiz for Kids — QuizPop">
+<meta property="og:description" content="Can you guess the quirky monsters hiding in our homemade haunted house? Take this fun family-friendly riddle quiz and test your spooky smarts today!">
+<meta property="og:url" content="https://popquizdaily.site/quiz/monster-haunted-house-riddles/">
+<meta name="twitter:card" content="summary">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3821526096974690" crossorigin="anonymous"></script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<h1>Can You Guess the Monsters in Our Haunted House?</h1>
+<p>Step right up and test your spooky smarts with these silly monster riddles!</p>
+</section>
+
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Quick heads-up</p>
+<p style="margin:.4rem 0 1rem;color:#475569">QuizPop is free forever thanks to our sponsor. Your quiz starts right below.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="quiz-top"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<p class="sponsored-title">Want more like this?</p>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/fluffiest-pumpkin-bread-flour-quiz/">Which Flour Makes The Fluffiest Pumpkin Bread?</a><a href="/quiz/animated-sequel-voice-cast-trivia/">Animated Sequel &amp; Voice Cast Trivia</a><a href="/quiz/stardew-valley-crop-personality-quiz/">Which Stardew Valley Seasonal Crop Are You?</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Welcome to the ultimate homemade haunted house riddle challenge! If you love spooky fun, giggles, and clever clues, this quiz is made just for you. Imagine walking through a spooky maze built out of cardboard boxes, old bedsheets, and flickering flashlights. Inside this kid-friendly spooky house, a bunch of quirky, goofy monsters are hiding in plain sight. From ticklish ghosts to cereal-loving zombies, these creatures are not very scary at all—they are just looking for a fun time! Think you have what it takes to solve all six riddles based on their hilarious habits and silly hiding spots? Put on your thinking cap, grab a flashlight, and get ready to explore the spookiest, funniest house on the block. Whether you are playing by yourself or challenging your friends and family during game night, this quiz will test your brain power and keep you entertained. Let&#x27;s see if you can track down every single hidden monster and earn the ultimate title of Master Monster Hunter!</p>
+<p><strong>How does it work?</strong> Answer each question and your result is calculated instantly, shown right here — nothing is hidden or locked.</p>
+<p><strong>Is it accurate?</strong> It's for entertainment only, not a psychological assessment. But it's scarily fun.</p>
+<p><strong>Is it really free?</strong> Yes. We're supported by clearly-labeled sponsored links, like the one above.</p>
+<p><strong>What is the haunted house monster riddles quiz?</strong> This is a fun, family-friendly riddle quiz designed for kids and parents. Players read clever clues to figure out which quirky, silly monsters are hiding in different rooms of a homemade haunted house.</p><p><strong>Are these monster riddles scary for young children?</strong> Not at all! These riddles feature goofy, kid-friendly creatures like ticklish skeletons and cereal-loving zombies, making them completely safe, lighthearted, and fun for all ages.</p><p><strong>How many questions are in this monster riddle quiz?</strong> This quiz features six original multiple-choice riddles. Each question gives you fun hints about a different monster hiding inside a spooky homemade haunted house.</p><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the haunted house monster riddles quiz?", "acceptedAnswer": {"@type": "Answer", "text": "This is a fun, family-friendly riddle quiz designed for kids and parents. Players read clever clues to figure out which quirky, silly monsters are hiding in different rooms of a homemade haunted house."}}, {"@type": "Question", "name": "Are these monster riddles scary for young children?", "acceptedAnswer": {"@type": "Answer", "text": "Not at all! These riddles feature goofy, kid-friendly creatures like ticklish skeletons and cereal-loving zombies, making them completely safe, lighthearted, and fun for all ages."}}, {"@type": "Question", "name": "How many questions are in this monster riddle quiz?", "acceptedAnswer": {"@type": "Answer", "text": "This quiz features six original multiple-choice riddles. Each question gives you fun hints about a different monster hiding inside a spooky homemade haunted house."}}]}</script>
+</section>
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Thanks for playing!</p>
+<p style="margin:.4rem 0 1rem;color:#475569">More quizzes, trivia and riddles — fresh every day.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="page-bottom"
+   href="YOUR_MONETAG_SMARTLINK" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {"questions": [{"q": "I'm hiding in the hallway closet, but I'm not wearing any shoes. I love to rattle my funny bones and tell silly jokes you can't refuse. Who am I?", "o": ["A ticklish skeleton", "A grumpy troll", "A fuzzy spider", "A sleepy vampire"], "s": [100, 0, 0, 0]}, {"q": "You will find me floating near the ceiling fan, wearing an old white bedsheet. I love to say 'Boo!' but I giggle too much to be neat. Who am I?", "o": ["A flying saucer", "A friendly ghost", "A magic carpet", "A runaway balloon"], "s": [0, 100, 0, 0]}, {"q": "I am lurking under the kitchen table, munching on a box of fruit loops instead of brains. My skin is bright green and I love playing video games. Who am I?", "o": ["A hungry zombie", "A green alien", "A swamp monster", "A bouncing frog"], "s": [100, 0, 0, 0]}, {"q": "Peek behind the living room curtains and you'll see me hanging upside down. I wear a fancy black cape and dream of flying into town. Who am I?", "o": ["A plastic bat", "A friendly vampire", "A ninja spy", "A fuzzy monkey"], "s": [0, 100, 0, 0]}, {"q": "I live inside the laundry basket, spinning webs out of colorful yarn instead of silk. When I get thirsty, I drink a big glass of chocolate milk. Who am I?", "o": ["A giant house spider", "A sneaky kitten", "A laundry monster", "A silk worm"], "s": [100, 0, 0, 0]}, {"q": "Check the bathtub in the guest bathroom to find me splashing around. I have glowing green scales and make a loud bubbling sound. Who am I?", "o": ["A rubber ducky", "A friendly sea serpent", "A swamp creature", "A deep-sea diver"], "s": [0, 0, 100, 0]}], "results": [{"min": 0, "max": 240, "t": "Master Monster Hunter", "d": "You got a perfect score! You spotted every single quirky creature hiding in the homemade haunted house. Not a single spooky trick could fool your clever brain. You are officially the greatest monster detective on the block!"}, {"min": 241, "max": 474, "t": "Spooky Sidekick", "d": "Great job! You guessed most of the hidden monsters correctly and navigated the haunted house like a pro. You know your goofy ghosts from your silly zombies. Just a little more practice and you will be a top-tier detective!"}, {"min": 475, "max": 600, "t": "Brave Beginner", "d": "You gave it a fantastic try! Exploring a homemade haunted house filled with quirky monsters is no easy task. Review the clues, shake off those spooky jitters, and play again to see if you can catch all the hidden creatures next time."}]};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script defer src="/assets/js/tracking.js"></script>
+<!-- GA4: stub queues events instantly; library lazy-loads after first paint (idle/interaction) -->
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+(function(){
+var done=false;
+function load(){if(done)return;done=true;
+var s=document.createElement('script');s.async=true;
+s.src='https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3';
+document.head.appendChild(s);gtag('config','G-S10CQJF8N3');}
+function idle(){if('requestIdleCallback' in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3000);}}
+['scroll','click','touchstart','keydown'].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true,capture:true});});
+window.addEventListener('load',idle);setTimeout(load,10000);
+})();
+</script>
+</body>
+</html>
