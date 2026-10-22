@@ -10979,5 +10979,305 @@
     "description": "Can you match famous American national parks to their iconic dark-sky stargazing landmarks? Take this fun trivia quiz to test your night sky knowledge!",
     "url": "/quiz/national-park-stargazing-landmarks-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-elf-are-you-quiz-4",
+    "title": "Which Santa's Workshop Elf Are You?",
+    "category": "personality",
+    "tags": [
+      "elf",
+      "christmas",
+      "santa",
+      "holiday",
+      "personality"
+    ],
+    "description": "Take this fun quiz to find out which santa's workshop elf you are! Discover your North Pole job by answering questions about your holiday style.",
+    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-4/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-3",
+    "title": "Which Macy's Parade Balloon Are You?",
+    "category": "personality",
+    "tags": [
+      "macys parade",
+      "thanksgiving",
+      "holiday",
+      "personality quiz",
+      "family fun"
+    ],
+    "description": "Take this fun personality quiz to find out which iconic Macy's Thanksgiving parade balloon matches your holiday spirit! Answer 6 quick questions now.",
+    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-football-position-are-quiz-2",
+    "title": "Which Football Position Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "football",
+      "sports",
+      "nfl",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take this fun sports quiz to find out which football position matches your personality! Are you a star quarterback, speedy receiver, or tough linebacker?",
+    "url": "/quiz/which-football-position-are-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "super-bowl-trivia-quiz",
+    "title": "Super Bowl Trivia Quiz: What's Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "super bowl trivia quiz",
+      "football",
+      "big game",
+      "sports",
+      "family"
+    ],
+    "description": "Take this fun super bowl trivia quiz to discover your big game personality! Are you a sports expert, halftime fan, or snack master? Play now to find out.",
+    "url": "/quiz/super-bowl-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-super-bowl-snack-are-you-quiz",
+    "title": "Which Super Bowl Snack Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "super bowl snacks",
+      "game day food",
+      "personality quiz",
+      "football party",
+      "fun food quiz"
+    ],
+    "description": "Take the which super bowl snack are you quiz to find your game day food match. Are you nachos, wings, or brownies? Find out now in this fun quiz!",
+    "url": "/quiz/which-super-bowl-snack-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "valentines-day-love-language-quiz-2",
+    "title": "Valentine's Day Love Language Quiz",
+    "category": "personality",
+    "tags": [
+      "valentine",
+      "love",
+      "personality",
+      "us",
+      "quiz"
+    ],
+    "description": "Find your style with our Valentine's Day love language quiz! Discover if you prefer gifts, kind words, or quality time in this fun personality test.",
+    "url": "/quiz/valentines-day-love-language-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-valentines-aesthetic-quiz-2",
+    "title": "What Is Your Valentine's Aesthetic Quiz?",
+    "category": "personality",
+    "tags": [
+      "valentines aesthetic",
+      "love quiz",
+      "personality test",
+      "romantic style",
+      "holiday fun"
+    ],
+    "description": "Take what is your valentine's aesthetic quiz to discover your romantic style! Find out if you are a classic sweetheart, moody romantic, or cozy soul.",
+    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-valentines-candy-are-you-quiz-2",
+    "title": "Which Valentine's Candy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines candy",
+      "personality quiz",
+      "sweet treats",
+      "candy quiz",
+      "fun quizzes"
+    ],
+    "description": "Take the Which Valentine's Candy Are You Quiz to find out which sweet treat matches your personality. Fun, quick, and family-friendly!",
+    "url": "/quiz/which-valentines-candy-are-you-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-valentine-or-galentine-quiz",
+    "title": "Are You A Valentine Or Galentine Quiz",
+    "category": "personality",
+    "tags": [
+      "valentine",
+      "galentine",
+      "friendship",
+      "romance",
+      "quiz"
+    ],
+    "description": "Take the are you a valentine or galentine quiz to find out if your February style is classic romantic or squad-focused. Discover your result now!",
+    "url": "/quiz/are-you-a-valentine-or-galentine-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-26",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "holiday personality",
+      "north pole",
+      "family fun"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find out which festive North Pole station matches your holiday personality. Fun for the whole family!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-26/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-fantasy-book-trope-are-you",
+    "title": "Which Fantasy Book Trope Are You?",
+    "category": "personality",
+    "tags": [
+      "fantasy books",
+      "book tropes",
+      "reader",
+      "personality quiz",
+      "magical"
+    ],
+    "description": "Take this fun personality quiz to discover which fantasy book trope matches your unique vibe. Are you on a grand quest or in magic school?",
+    "url": "/quiz/which-fantasy-book-trope-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-cozy-video-game-character-are-you",
+    "title": "Which Cozy Video Game Character Are You?",
+    "category": "personality",
+    "tags": [
+      "cozy games",
+      "video games",
+      "gamer",
+      "personality quiz",
+      "animal crossing"
+    ],
+    "description": "Take this fun personality quiz to discover which cozy video game character matches your daily habits, morning routines, and relaxation style!",
+    "url": "/quiz/which-cozy-video-game-character-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "secret-productivity-style-workspace",
+    "title": "What's Your Secret Productivity Style?",
+    "category": "personality",
+    "tags": [
+      "productivity",
+      "workspace",
+      "personality quiz",
+      "focus",
+      "organization"
+    ],
+    "description": "Take this fun personality quiz to discover your hidden productivity style based on your ideal desk and workspace setup. Find your focus today!",
+    "url": "/quiz/secret-productivity-style-workspace/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-digital-pet-arcade-alter-ego",
+    "title": "Your 90s Digital Pet and Arcade Alter-Ego Quiz",
+    "category": "personality",
+    "tags": [
+      "90s nostalgia",
+      "arcade games",
+      "digital pets",
+      "retro gaming",
+      "personality quiz"
+    ],
+    "description": "Discover your 90s digital pet and arcade alter-ego! Take this fun retro quiz to find out which classic keychain critter and arcade game match your vibe.",
+    "url": "/quiz/90s-digital-pet-arcade-alter-ego/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-autumn-recipes-secret-ingredient-quiz",
+    "title": "Can You Guess The Viral Autumn Secret Ingredients?",
+    "category": "trivia",
+    "tags": [
+      "autumn recipes",
+      "fall food",
+      "secret ingredient",
+      "baking trivia",
+      "viral food"
+    ],
+    "description": "Can you guess the secret ingredient in these viral autumn recipes? Test your fall food knowledge with this fun and family-friendly trivia quiz!",
+    "url": "/quiz/viral-autumn-recipes-secret-ingredient-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cinematic-universe-detail-trivia",
+    "title": "Can You Spot These Tiny Cinematic Universe Details?",
+    "category": "trivia",
+    "tags": [
+      "movies",
+      "trivia",
+      "film",
+      "superheroes",
+      "universe"
+    ],
+    "description": "Think you know your favorite connected film franchises? Take this tough cinematic universe trivia quiz to test your eye for detail and hidden Easter eggs.",
+    "url": "/quiz/cinematic-universe-detail-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-plant-parent-are-you",
+    "title": "What Kind Of Plant Parent Are You?",
+    "category": "personality",
+    "tags": [
+      "plants",
+      "houseplants",
+      "personality",
+      "gardening",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to discover your true plant parent style. Are you a chill cactus keeper or a master botanist? Find out now!",
+    "url": "/quiz/what-kind-of-plant-parent-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "runaway-robot-gadget-riddles",
+    "title": "Can You Solve These Runaway Robot Gadget Riddles?",
+    "category": "riddles",
+    "tags": [
+      "robots",
+      "riddles",
+      "smart home",
+      "gadgets",
+      "kids quiz"
+    ],
+    "description": "Can you solve these fun riddles about runaway robotic gadgets and smart home quirks? Test your brain and find out now!",
+    "url": "/quiz/runaway-robot-gadget-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "match-mythology-riddle-to-constellation",
+    "title": "Can You Match Mythology Riddles To Constellations?",
+    "category": "riddles",
+    "tags": [
+      "constellations",
+      "mythology",
+      "riddles",
+      "space",
+      "stars"
+    ],
+    "description": "Can you match the ancient mythology riddle to the correct night sky constellation? Test your space and myth knowledge with this fun quiz!",
+    "url": "/quiz/match-mythology-riddle-to-constellation/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-roller-rink-dance-anthems-trivia",
+    "title": "Do You Know Classic Roller Rink Anthems?",
+    "category": "trivia",
+    "tags": [
+      "roller rink",
+      "disco music",
+      "retro hits",
+      "70s music",
+      "dance anthems"
+    ],
+    "description": "Test your knowledge of classic roller rink dance anthems and retro disco hits with this fun trivia quiz. How well do you know your vintage skating songs?",
+    "url": "/quiz/classic-roller-rink-dance-anthems-trivia/",
+    "questions_count": 6
   }
 ]
