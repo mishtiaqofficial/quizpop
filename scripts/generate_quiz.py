@@ -724,7 +724,7 @@ def normalize_quiz(q):
 def render_page(q, related):
     tpl = (ROOT / "scripts" / "quiz_template.html").read_text()
     rel_html = "".join(
-        f'<a href="/quiz/{r["slug"]}/">{html.escape(r["title"])}</a>' for r in related[:3]
+        f'<a href="/quiz/{r["slug"]}/">{html.escape(r["title"])}</a>' for r in related[:12]
     ) or '<div class="soon">More quizzes dropping daily<br><span class="soon-badge">Stay tuned</span></div>'
     page = tpl.replace("__SEO_TITLE__", html.escape(q["seo_title"], quote=True))
     page = page.replace("__META_DESCRIPTION__", html.escape(q["meta_description"], quote=True))
@@ -879,8 +879,11 @@ def main():
 
     # ── write phase (only reached if everything validated) ──
     for q in new_quizzes:
-        related = [z for z in quizzes if z["slug"] != q["slug"]]
-        page = render_page(q, related[-3:][::-1])
+        pool = [z for z in quizzes if z["slug"] != q["slug"]]
+        same = [z for z in pool if z.get("category") == q.get("category")]
+        rest = [z for z in pool if z.get("category") != q.get("category")]
+        related = (same + rest)[:12]
+        page = render_page(q, related)
         outdir = ROOT / "quiz" / q["slug"]
         outdir.mkdir(parents=True, exist_ok=True)
         (outdir / "index.html").write_text(page)
