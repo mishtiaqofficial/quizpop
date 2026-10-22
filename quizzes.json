@@ -10259,5 +10259,380 @@
     "description": "Ready for an adventure? Take the which jumanji avatar are you quiz to see if you are a brave leader, a martial artist, or a brilliant map reader!",
     "url": "/quiz/which-jumanji-avatar-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-dandys-world-toon-are-you-quiz-3",
+    "title": "Which Dandy's World Toon Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "dandys world",
+      "toon quiz",
+      "personality quiz",
+      "gaming",
+      "kids"
+    ],
+    "description": "Take the official Which Dandy's World Toon Are You Quiz! Answer fun questions to discover which game character matches your unique personality today.",
+    "url": "/quiz/which-dandys-world-toon-are-you-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-elf-are-you-quiz-2",
+    "title": "Which Santa's Workshop Elf Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa elf",
+      "personality quiz",
+      "holiday fun",
+      "north pole"
+    ],
+    "description": "Take our fun which santa's workshop elf are you quiz to discover your holiday role at the North Pole! Are you a toy maker, baker, or sleigh tuner?",
+    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "jumanji-trivia-quiz",
+    "title": "Jumanji Trivia Quiz: What's Your Jungle Style?",
+    "category": "personality",
+    "tags": [
+      "jumanji trivia quiz",
+      "jungle game",
+      "family fun",
+      "adventure",
+      "personality test"
+    ],
+    "description": "Take this fun jumanji trivia quiz to discover your jungle personality style, test your adventure skills, and find out which explorer role fits you best!",
+    "url": "/quiz/jumanji-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-jumanji-game-piece-are-you-quiz",
+    "title": "Which Jumanji Game Piece Are You?",
+    "category": "personality",
+    "tags": [
+      "jumanji",
+      "board game",
+      "personality quiz",
+      "adventure",
+      "90s movies"
+    ],
+    "description": "Take the which jumanji game piece are you quiz to discover your jungle token match! Answer fun questions and find out if you are the elephant or rhino.",
+    "url": "/quiz/which-jumanji-game-piece-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "would-you-survive-jumanji-quiz",
+    "title": "Would You Survive Jumanji Quiz?",
+    "category": "personality",
+    "tags": [
+      "jumanji",
+      "survival quiz",
+      "pop culture",
+      "personality test",
+      "adventure"
+    ],
+    "description": "Take our would you survive jumanji quiz to find out if you have the bravery and smarts to escape the jungle and win the ultimate game!",
+    "url": "/quiz/would-you-survive-jumanji-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-hogwarts-house-are-you-2026-quiz",
+    "title": "Which Hogwarts House Are You? 2026 Quiz",
+    "category": "personality",
+    "tags": [
+      "hogwarts",
+      "sorting hat",
+      "harry potter",
+      "reboot",
+      "quiz"
+    ],
+    "description": "Take our which hogwarts house are you 2026 quiz to find your magical home for the brand-new television series era. Discover your true house today!",
+    "url": "/quiz/which-hogwarts-house-are-you-2026-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "harry-potter-series-trivia-quiz",
+    "title": "The Ultimate Harry Potter Series Trivia Quiz",
+    "category": "personality",
+    "tags": [
+      "harry potter",
+      "wizarding world",
+      "hogwarts",
+      "trivia quiz",
+      "magic"
+    ],
+    "description": "Take this fun Harry Potter series trivia quiz to discover your magical knowledge level and see if you belong in Gryffindor or Ravenclaw!",
+    "url": "/quiz/harry-potter-series-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-harry-potter-character-are-you-quiz",
+    "title": "Which Harry Potter Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "harry potter",
+      "hogwarts",
+      "quiz",
+      "personality test",
+      "wizarding world"
+    ],
+    "description": "Take our which harry potter character are you quiz to discover your magical personality match! Are you brave Harry, brilliant Hermione, or loyal Ron?",
+    "url": "/quiz/which-harry-potter-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-hogwarts-class-are-you-quiz",
+    "title": "Which Hogwarts Class Are You Quiz: Find Your Match",
+    "category": "personality",
+    "tags": [
+      "hogwarts",
+      "harrypotter",
+      "magic",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take this fun which hogwarts class are you quiz to discover if you belong in Defense Against the Dark Arts, Potions, or Charms!",
+    "url": "/quiz/which-hogwarts-class-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-magical-creature-are-you-quiz",
+    "title": "Which Magical Creature Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "magical",
+      "creatures",
+      "fantasy",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take our which magical creature are you quiz to discover if you are a Phoenix, Dragon, or Unicorn! Fun personality test.",
+    "url": "/quiz/which-magical-creature-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-emily-in-paris-character-are-you-quiz",
+    "title": "Which Emily in Paris Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "emily in paris",
+      "netflix show",
+      "paris fashion",
+      "tv personality quiz",
+      "pop culture"
+    ],
+    "description": "Take the official which emily in paris character are you quiz! Discover your Parisian style twin with this fun personality test today.",
+    "url": "/quiz/which-emily-in-paris-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "violent-night-2-trivia-quiz",
+    "title": "Violent Night 2 Trivia Quiz: Which Hero Are You?",
+    "category": "personality",
+    "tags": [
+      "violent night",
+      "christmas quiz",
+      "action movies",
+      "holiday trivia",
+      "personality test"
+    ],
+    "description": "Take our violent night 2 trivia quiz to test your Christmas action hero style! Find out if you are Santa, an elf tactical specialist, or a guardian.",
+    "url": "/quiz/violent-night-2-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-angry-birds-character-are-you-quiz",
+    "title": "Which Angry Birds Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "angry birds",
+      "movies",
+      "personality",
+      "gaming",
+      "animation"
+    ],
+    "description": "Wondering who matches your feathers? Take our which angry birds character are you quiz to discover if you are fiery Red, speedy Chuck, or gentle Bomb!",
+    "url": "/quiz/which-angry-birds-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "nba-christmas-day-trivia-quiz",
+    "title": "Which NBA Christmas Day Legend Are You?",
+    "category": "personality",
+    "tags": [
+      "nba",
+      "christmas",
+      "basketball",
+      "sports",
+      "quiz"
+    ],
+    "description": "Take our ultimate NBA Christmas Day trivia quiz! Test your holiday hoop knowledge and discover which classic NBA superstar matches your game style.",
+    "url": "/quiz/nba-christmas-day-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-action-hero-are-you-quiz",
+    "title": "Which Christmas Action Hero Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "action hero",
+      "die hard",
+      "personality quiz",
+      "holiday movies"
+    ],
+    "description": "Take the ultimate Which Christmas Action Hero Are You Quiz to see if you are a tank-top hero, a holiday detective, or a festive guardian!",
+    "url": "/quiz/which-christmas-action-hero-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz",
+    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "macys parade",
+      "thanksgiving quiz",
+      "balloon match",
+      "personality quiz",
+      "holiday fun"
+    ],
+    "description": "Take our which macy's thanksgiving parade balloon are you quiz to find out if you are a classic hero, a playful icon, or a towering star!",
+    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "thanksgiving-dish-personality-quiz",
+    "title": "Which Thanksgiving Dish Matches Your Personality Quiz?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality quiz",
+      "holiday food",
+      "quizpop",
+      "fun quiz"
+    ],
+    "description": "Take our which thanksgiving dish matches your personality quiz to discover if you are traditional turkey, cozy stuffing, or sweet pumpkin pie!",
+    "url": "/quiz/thanksgiving-dish-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-2027-word-of-the-year-quiz",
+    "title": "What Is Your 2027 Word of the Year Quiz?",
+    "category": "personality",
+    "tags": [
+      "2027 word of the year quiz",
+      "personality quiz",
+      "goals",
+      "future",
+      "family friendly"
+    ],
+    "description": "Take the what is your 2027 word of the year quiz to discover your personal theme for success, creativity, and fun adventures in the year ahead!",
+    "url": "/quiz/what-is-your-2027-word-of-the-year-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "new-year-resolutions-quiz",
+    "title": "New Year Resolutions Quiz: Find Your Goal Style",
+    "category": "personality",
+    "tags": [
+      "resolutions",
+      "new year",
+      "goals",
+      "personality",
+      "habits"
+    ],
+    "description": "Take our fun new year resolutions quiz to discover your goal-setting superpower and make positive habits that actually stick this year!",
+    "url": "/quiz/new-year-resolutions-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-will-2027-bring-you-quiz",
+    "title": "What Will 2027 Bring You Quiz: Reveal Your Future!",
+    "category": "personality",
+    "tags": [
+      "2027 quiz",
+      "future prediction",
+      "personality test",
+      "year reveal",
+      "quizpop"
+    ],
+    "description": "Take our fun what will 2027 bring you quiz to unlock your personal future prediction, surprise victories, and exciting adventures ahead!",
+    "url": "/quiz/what-will-2027-bring-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-new-year-celebration-are-you-quiz",
+    "title": "Which New Year Celebration Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "new years",
+      "party personality",
+      "celebration",
+      "holiday quiz",
+      "countdown"
+    ],
+    "description": "Take our which new year celebration are you quiz to discover if you belong at a cozy countdown, a lively street party, or a wild midnight dance club!",
+    "url": "/quiz/which-new-year-celebration-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-should-your-2027-goal-be-quiz",
+    "title": "What Should Your 2027 Goal Be Quiz",
+    "category": "personality",
+    "tags": [
+      "goals",
+      "2027",
+      "future",
+      "personality",
+      "planning"
+    ],
+    "description": "Take this fun personality quiz to discover what your 2027 goal should be! Answer questions about your hobbies and find your ultimate focus for the future.",
+    "url": "/quiz/what-should-your-2027-goal-be-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-children-of-blood-and-bone-character-are-you-quiz",
+    "title": "Which Children of Blood and Bone Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "children of blood and bone",
+      "fantasy books",
+      "ya novels",
+      "personality quiz",
+      "orisha"
+    ],
+    "description": "Take this which children of blood and bone character are you quiz to find out if you match Zélie, Amari, or Inan in the kingdom of Orïsha!",
+    "url": "/quiz/which-children-of-blood-and-bone-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-magic-clan-are-you-quiz",
+    "title": "Which Magic Clan Are You Quiz: Find Your Guild",
+    "category": "personality",
+    "tags": [
+      "magic clan",
+      "fantasy quiz",
+      "personality test",
+      "sorcery",
+      "which clan"
+    ],
+    "description": "Take this which magic clan are you quiz to discover if you belong to the Frostshadow, Verdantspire, or Emberflame house in our fantasy realm!",
+    "url": "/quiz/which-magic-clan-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "children-of-blood-and-bone-trivia-quiz",
+    "title": "Children of Blood and Bone Trivia Quiz",
+    "category": "personality",
+    "tags": [
+      "children of blood and bone",
+      "book quiz",
+      "ya fantasy",
+      "orisha",
+      "tomi adeyemi"
+    ],
+    "description": "Test your knowledge with our children of blood and bone trivia quiz! See how well you know Zélie, Amari, and Orïsha while finding your magical clan.",
+    "url": "/quiz/children-of-blood-and-bone-trivia-quiz/",
+    "questions_count": 6
   }
 ]
