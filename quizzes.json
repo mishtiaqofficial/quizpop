@@ -11279,5 +11279,260 @@
     "description": "Test your knowledge of classic roller rink dance anthems and retro disco hits with this fun trivia quiz. How well do you know your vintage skating songs?",
     "url": "/quiz/classic-roller-rink-dance-anthems-trivia/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-dandys-world-toon-are-you-quiz-5",
+    "title": "Which Dandy's World Toon Are You?",
+    "category": "personality",
+    "tags": [
+      "dandys world",
+      "roblox",
+      "toon",
+      "personality quiz",
+      "gaming"
+    ],
+    "description": "Take the which dandy's world toon are you quiz to find out which game character matches your personality! Fun, fast, and family-friendly questions inside.",
+    "url": "/quiz/which-dandys-world-toon-are-you-quiz-5/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-elf-are-you-quiz-5",
+    "title": "Which Santa's Workshop Elf Are You?",
+    "category": "personality",
+    "tags": [
+      "christmas quiz",
+      "santa elf",
+      "holiday fun",
+      "personality test",
+      "north pole"
+    ],
+    "description": "Take the Which Santa's Workshop Elf Are You? quiz to discover your North Pole job. Are you a toy maker, baker, or wrapper? Find out now!",
+    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-5/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-football-position-are-quiz-3",
+    "title": "Which Football Position Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "football",
+      "sports",
+      "personality quiz",
+      "nfl",
+      "gridiron"
+    ],
+    "description": "Take the which football position are you quiz to discover your gridiron alter ego. Are you a quarterback, receiver, or linebacker? Find out now!",
+    "url": "/quiz/which-football-position-are-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-valentines-aesthetic-quiz-3",
+    "title": "What Is Your Valentine's Aesthetic Quiz?",
+    "category": "personality",
+    "tags": [
+      "valentines aesthetic",
+      "romance quiz",
+      "love style",
+      "holiday personality",
+      "quizpop"
+    ],
+    "description": "Take this fun personality quiz to discover your true Valentine's aesthetic! Find out your romantic style, ideal date, and perfect holiday vibe.",
+    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-valentines-candy-are-you-quiz-3",
+    "title": "Which Valentine's Candy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines candy",
+      "personality quiz",
+      "candy match",
+      "fun quiz",
+      "sweet treats"
+    ],
+    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match! Are you a chocolate truffle or conversation heart? Find out now.",
+    "url": "/quiz/which-valentines-candy-are-you-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-taylor-swift-era-are-you-quiz",
+    "title": "Which Taylor Swift Era Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "taylor swift",
+      "swiftie",
+      "music",
+      "personality quiz",
+      "pop culture"
+    ],
+    "description": "Take the which taylor swift era are you quiz to discover your true musical vibe! Find out if you belong in the 1989, Folklore, or Fearless era today.",
+    "url": "/quiz/which-taylor-swift-era-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-27",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "north pole",
+      "personality quiz",
+      "holiday fun"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole station matches your personality and holiday style. Play now!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-27/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-90s-sitcom-fall-fashion-icon-are-you",
+    "title": "Which 90s Sitcom Fall Fashion Icon Are You?",
+    "category": "personality",
+    "tags": [
+      "90s fashion",
+      "sitcoms",
+      "autumn style",
+      "retro",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which iconic 90s sitcom character matches your ultimate autumn fashion aesthetic. Find out your TV style match!",
+    "url": "/quiz/which-90s-sitcom-fall-fashion-icon-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-state-autumn-canopy",
+    "title": "Guess the US State by Its Autumn Tree Canopy",
+    "category": "trivia",
+    "tags": [
+      "fall foliage",
+      "us states",
+      "autumn trees",
+      "geography trivia",
+      "leaf peeping"
+    ],
+    "description": "Test your leaf-peeping skills! Can you identify these US states just by looking at their iconic autumn trees and colorful fall foliage canopies?",
+    "url": "/quiz/guess-state-autumn-canopy/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-cozy-book-character-are-you",
+    "title": "What Kind of Cozy Book Character Are You?",
+    "category": "personality",
+    "tags": [
+      "book character quiz",
+      "reading nook",
+      "cozy reads",
+      "bookworm personality",
+      "reading habits"
+    ],
+    "description": "Take this fun personality quiz to discover what kind of cozy book character you are in your reading nook. Find your literary match today!",
+    "url": "/quiz/what-kind-of-cozy-book-character-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fall-spice-trivia",
+    "title": "Fall Spice Trivia: Name That Flavor!",
+    "category": "trivia",
+    "tags": [
+      "fall spices",
+      "autumn treats",
+      "baking trivia",
+      "food quiz",
+      "family trivia"
+    ],
+    "description": "Test your knowledge of autumn baking ingredients with this fun fall spice trivia quiz. Can you name the flavors behind your favorite treats?",
+    "url": "/quiz/fall-spice-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "pumpkin-carving-personality-quiz",
+    "title": "What Is Your Signature Jack-O'-Lantern Carving Style?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "pumpkins",
+      "fall",
+      "carving",
+      "personality"
+    ],
+    "description": "Find your perfect jack-o'-lantern style! Take our personality quiz to see if you are a classic carver, a master artist, or a silly stylist this Halloween.",
+    "url": "/quiz/pumpkin-carving-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "stellar-riddles-autumn-constellations",
+    "title": "Stellar Riddles: Autumn Constellations",
+    "category": "riddles",
+    "tags": [
+      "autumn",
+      "constellations",
+      "stars",
+      "space",
+      "riddles"
+    ],
+    "description": "Can you solve these stellar riddles and name the autumn constellations? Test your stargazing skills with this fun fall space quiz for kids and families.",
+    "url": "/quiz/stellar-riddles-autumn-constellations/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-classic-board-game-fits-your-strategy",
+    "title": "Which Classic Board Game Fits Your Strategy?",
+    "category": "personality",
+    "tags": [
+      "board games",
+      "family game night",
+      "personality quiz",
+      "tabletop games",
+      "strategy style"
+    ],
+    "description": "Take this fun personality quiz to discover which classic tabletop board game matches your hidden competitive strategy style for game night!",
+    "url": "/quiz/which-classic-board-game-fits-your-strategy/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-woodland-sound-quiz",
+    "title": "What Autumn Woodland Sound Are You?",
+    "category": "riddles",
+    "tags": [
+      "autumn",
+      "animals",
+      "riddles",
+      "nature",
+      "woods"
+    ],
+    "description": "Match mysterious woodland sounds to the correct autumn animal in this fun, family-friendly riddle quiz designed for grade-six readers.",
+    "url": "/quiz/autumn-woodland-sound-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-us-city-by-architectural-marvels",
+    "title": "Can You Name the US City by Its Iconic Building?",
+    "category": "trivia",
+    "tags": [
+      "architecture",
+      "us cities",
+      "landmarks",
+      "geography",
+      "trivia"
+    ],
+    "description": "Can you guess the US city housing these architectural marvels? Take this fun trivia quiz to test your knowledge of famous American landmarks and buildings.",
+    "url": "/quiz/guess-us-city-by-architectural-marvels/",
+    "questions_count": 6
+  },
+  {
+    "slug": "great-animal-migration-challenge",
+    "title": "The Great Animal Migration Challenge",
+    "category": "trivia",
+    "tags": [
+      "animals",
+      "migration",
+      "nature",
+      "wildlife",
+      "trivia"
+    ],
+    "description": "Test your knowledge on animal migrations with this fun trivia quiz. Discover fascinating facts about whales, butterflies, and wildebeest journeys!",
+    "url": "/quiz/great-animal-migration-challenge/",
+    "questions_count": 6
   }
 ]
