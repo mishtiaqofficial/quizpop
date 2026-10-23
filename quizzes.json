@@ -12764,5 +12764,365 @@
     "description": "Take the Which Hocus Pocus Sister Are You Quiz to find out if you match Winifred, Sarah, or Mary Sanderson. Fun personality test for families!",
     "url": "/quiz/which-hocus-pocus-sister-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-scooby-doo-character-are-you-quiz",
+    "title": "Which Scooby Doo Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "scooby doo",
+      "cartoon quiz",
+      "mystery inc",
+      "personality quiz",
+      "90s kids"
+    ],
+    "description": "Take the Which Scooby Doo Character Are You Quiz to find out if you are Shaggy, Velma, Fred, Daphne, or Scooby! Answer fun questions and solve the mystery.",
+    "url": "/quiz/which-scooby-doo-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-idol-group-would-you-debut-in-quiz",
+    "title": "Which Kpop Idol Group Would You Debut In Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop",
+      "idol",
+      "debut",
+      "music",
+      "personality"
+    ],
+    "description": "Take the ultimate personality test to find out which kpop idol group would you debut in quiz! Discover your K-pop home and match your style today.",
+    "url": "/quiz/which-kpop-idol-group-would-you-debut-in-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "would-you-survive-as-demon-hunter-quiz",
+    "title": "Would You Survive as a Demon Hunter Quiz",
+    "category": "personality",
+    "tags": [
+      "demon hunter",
+      "personality quiz",
+      "supernatural",
+      "survival",
+      "fantasy"
+    ],
+    "description": "Take the would you survive as a demon hunter quiz to discover your monster-slaying style and test your supernatural survival skills today!",
+    "url": "/quiz/would-you-survive-as-demon-hunter-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-sam-from-trick-r-treat-are-you-quiz",
+    "title": "Which Sam From Trick R Treat Are You?",
+    "category": "personality",
+    "tags": [
+      "sam",
+      "trick r treat",
+      "halloween",
+      "personality quiz",
+      "horror"
+    ],
+    "description": "Take the which sam from trick r treat are you quiz! Discover which version of the iconic Halloween spirit matches your spooky personality today.",
+    "url": "/quiz/which-sam-from-trick-r-treat-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-michael-myers-are-you-quiz",
+    "title": "Which Michael Myers Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "michael myers",
+      "horror movies",
+      "personality quiz",
+      "scary movies"
+    ],
+    "description": "Take the which michael myers are you quiz to discover your slasher persona. Find out which version of the famous masked character matches your vibe today!",
+    "url": "/quiz/which-michael-myers-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-scream-queen-or-a-final-girl-quiz",
+    "title": "Are You A Scream Queen Or A Final Girl Quiz",
+    "category": "personality",
+    "tags": [
+      "horror movies",
+      "personality quiz",
+      "halloween",
+      "movie trivia",
+      "fun"
+    ],
+    "description": "Are you a scream queen or a final girl quiz? Take this fun personality test to find out which iconic horror movie archetype matches your vibe!",
+    "url": "/quiz/are-you-a-scream-queen-or-a-final-girl-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-pennywise-are-you-quiz",
+    "title": "Which Pennywise Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "pennywise",
+      "clown",
+      "personality quiz",
+      "horror",
+      "fun"
+    ],
+    "description": "Take this fun personality quiz to discover which version of the famous dancing clown matches your spooky style. Find your match today!",
+    "url": "/quiz/which-pennywise-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-conjuring-universe-demon-are-you-quiz",
+    "title": "Which Conjuring Universe Demon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "conjuring",
+      "demon",
+      "horror",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take the which conjuring universe demon are you quiz to discover your spooky supernatural match. Answer 6 fun questions to find your paranormal alter ego!",
+    "url": "/quiz/which-conjuring-universe-demon-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-horror-movie-should-you-watch-tonight-quiz",
+    "title": "Which Horror Movie Should You Watch Tonight Quiz",
+    "category": "personality",
+    "tags": [
+      "horror movie quiz",
+      "movie night",
+      "spooky movies",
+      "film recommendations",
+      "personality test"
+    ],
+    "description": "Take this quick personality quiz to find out which horror movie you should watch tonight based on your snack choices, favorite weather, and weekend style.",
+    "url": "/quiz/which-horror-movie-should-you-watch-tonight-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-90s-horror-movie-are-you-quiz",
+    "title": "Which 90s Horror Movie Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "90s horror",
+      "movie quiz",
+      "personality test",
+      "scary movies",
+      "nostalgia"
+    ],
+    "description": "Take this fun personality quiz to find out which 90s horror movie matches your unique vibe. Answer six quick questions for your cinematic result!",
+    "url": "/quiz/which-90s-horror-movie-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-found-footage-horror-survivor-are-you-quiz",
+    "title": "Which Found Footage Horror Survivor Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "horror movies",
+      "survivor",
+      "found footage",
+      "personality test",
+      "scary films"
+    ],
+    "description": "Take the which found footage horror survivor are you quiz to discover your scary movie archetype. Are you the brave camera operator or cautious planner?",
+    "url": "/quiz/which-found-footage-horror-survivor-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-the-shining-character-are-you-quiz",
+    "title": "Which The Shining Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "the shining",
+      "personality quiz",
+      "movie characters",
+      "fun quiz",
+      "family friendly"
+    ],
+    "description": "Take this fun personality quiz to find out which character from The Shining matches your personality best. Are you Jack, Wendy, or Danny? Play now!",
+    "url": "/quiz/which-the-shining-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-coraline-world-do-you-belong-in-quiz",
+    "title": "Which Coraline World Do You Belong In Quiz",
+    "category": "personality",
+    "tags": [
+      "coraline",
+      "personality quiz",
+      "other world",
+      "pink palace",
+      "fun"
+    ],
+    "description": "Take the which coraline world do you belong in quiz to discover if you belong in the real world or the mysterious Other World behind the small door!",
+    "url": "/quiz/which-coraline-world-do-you-belong-in-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-team-horror-or-team-cozy-halloween-movies-quiz",
+    "title": "Are You Team Horror Or Team Cozy Halloween Movies Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movies",
+      "horror movies",
+      "cozy movies",
+      "fall season",
+      "movie quiz"
+    ],
+    "description": "Take the are you team horror or team cozy halloween movies quiz to discover your ultimate October movie marathon style. Are you spooky or sweet?",
+    "url": "/quiz/are-you-team-horror-or-team-cozy-halloween-movies-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-hotel-transylvania-monster-are-you-quiz",
+    "title": "Which Hotel Transylvania Monster Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "hotel transylvania",
+      "monster quiz",
+      "personality quiz",
+      "cartoon quiz",
+      "fun quiz"
+    ],
+    "description": "Take the which hotel transylvania monster are you quiz to discover your spooky match! Are you Drac, Murray, or Mavis? Find out now in this fun test.",
+    "url": "/quiz/which-hotel-transylvania-monster-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-ghostface-victim-or-survivor-are-you-quiz",
+    "title": "Which Ghostface Victim or Survivor Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "ghostface",
+      "horror movie",
+      "survivor",
+      "personality quiz",
+      "slasher"
+    ],
+    "description": "Take this fun personality quiz to find out if you would survive a spooky movie encounter as the final hero or become opening-scene history!",
+    "url": "/quiz/which-ghostface-victim-or-survivor-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-candy-matches-your-personality-quiz",
+    "title": "What Halloween Candy Matches Your Personality Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween candy",
+      "personality quiz",
+      "fall fun",
+      "sweet treats",
+      "quizpop"
+    ],
+    "description": "Take the what halloween candy matches your personality quiz to find out if you are chocolate, sour gummies, or sweet treats! Fun for all ages.",
+    "url": "/quiz/what-halloween-candy-matches-your-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-reeses-are-you-quiz",
+    "title": "Which Reese's Are You Quiz: Find Your Candy Match",
+    "category": "personality",
+    "tags": [
+      "chocolate",
+      "candy",
+      "food",
+      "personality",
+      "snack"
+    ],
+    "description": "Take our which reeses are you quiz to discover if you're a Classic Cup, Reese's Pieces, or a Big Cup! Find your chocolate and peanut butter personality match.",
+    "url": "/quiz/which-reeses-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-oreo-are-you-quiz",
+    "title": "Which Oreo Are You Quiz: Find Your Cookie Match!",
+    "category": "personality",
+    "tags": [
+      "oreo",
+      "snacks",
+      "food",
+      "sweets",
+      "personality"
+    ],
+    "description": "Take the which oreo are you quiz to discover if you're a Classic, Double Stuf, or Golden Oreo. Find your sweet cookie personality in this fun snack quiz!",
+    "url": "/quiz/which-oreo-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-candy-corn-lover-or-hater-quiz",
+    "title": "Are You A Candy Corn Lover Or Hater Quiz",
+    "category": "personality",
+    "tags": [
+      "candy corn",
+      "halloween",
+      "fall",
+      "personality quiz",
+      "snacks"
+    ],
+    "description": "Take this fun personality quiz to discover if you are a candy corn lover or hater. Find out where you stand on Halloween's most divisive fall treat!",
+    "url": "/quiz/are-you-a-candy-corn-lover-or-hater-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-swedish-fish-or-jelly-belly-are-you-quiz",
+    "title": "Which Swedish Fish Or Jelly Belly Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "candy quiz",
+      "swedish fish",
+      "jelly belly",
+      "personality test",
+      "food quiz"
+    ],
+    "description": "Take the which swedish fish or jelly belly are you quiz to find out if you are a classic chewy candy or a fun, flavorful jelly bean!",
+    "url": "/quiz/which-swedish-fish-or-jelly-belly-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-jack-o-lantern-face-are-you-quiz",
+    "title": "Which Jack O Lantern Face Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "jack o lantern",
+      "halloween",
+      "personality quiz",
+      "autumn",
+      "pumpkin"
+    ],
+    "description": "Take the which jack o lantern face are you quiz to discover your autumn personality! Are you a classic grinner, a silly goofball, or a spooky surprise?",
+    "url": "/quiz/which-jack-o-lantern-face-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-pumpkin-carver-or-a-pumpkin-painter-quiz",
+    "title": "Are You a Pumpkin Carver or a Pumpkin Painter Quiz",
+    "category": "personality",
+    "tags": [
+      "pumpkin carver",
+      "pumpkin painter",
+      "fall quiz",
+      "halloween quiz",
+      "personality quiz"
+    ],
+    "description": "Are you a pumpkin carver or a pumpkin painter quiz? Take this fun fall personality test to discover your ideal autumn decorating style today!",
+    "url": "/quiz/are-you-a-pumpkin-carver-or-a-pumpkin-painter-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-house-room-would-you-haunt-quiz",
+    "title": "Which Haunted House Room Would You Haunt?",
+    "category": "personality",
+    "tags": [
+      "haunted house",
+      "ghost quiz",
+      "halloween",
+      "personality quiz",
+      "spooky"
+    ],
+    "description": "Take this fun personality quiz to find out which haunted house room would you haunt! Answer six spooky questions and discover your ghostly home.",
+    "url": "/quiz/which-haunted-house-room-would-you-haunt-quiz/",
+    "questions_count": 6
   }
 ]
