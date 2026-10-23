@@ -13124,5 +13124,365 @@
     "description": "Take this fun personality quiz to find out which haunted house room would you haunt! Answer six spooky questions and discover your ghostly home.",
     "url": "/quiz/which-haunted-house-room-would-you-haunt-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-dungeon-crawler-car-character-are-you-quiz-3",
+    "title": "Which Dungeon Crawler Carl Character Are You?",
+    "category": "personality",
+    "tags": [
+      "dungeon crawler carl",
+      "litrpg",
+      "book quiz",
+      "personality quiz",
+      "scifi"
+    ],
+    "description": "Take the official personality quiz to find out which Dungeon Crawler Carl character you match! Are you Carl, Princess Donut, or Mordecai? Play now!",
+    "url": "/quiz/which-dungeon-crawler-car-character-are-you-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "would-you-survive-as-a-demon-hunter-quiz",
+    "title": "Would You Survive as a Demon Hunter Quiz?",
+    "category": "personality",
+    "tags": [
+      "demon hunter",
+      "fantasy",
+      "personality quiz",
+      "supernatural",
+      "survival"
+    ],
+    "description": "Take this would you survive as a demon hunter quiz to test your bravery, cleverness, and supernatural survival skills. Are you ready for the dark?",
+    "url": "/quiz/would-you-survive-as-a-demon-hunter-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "would-you-survive-a-haunted-house-quiz",
+    "title": "Would You Survive a Haunted House Quiz",
+    "category": "personality",
+    "tags": [
+      "haunted house",
+      "halloween",
+      "personality quiz",
+      "spooky",
+      "survival"
+    ],
+    "description": "Take this fun personality quiz to find out if you would survive a spooky haunted house adventure or hide behind your friends until it is over!",
+    "url": "/quiz/would-you-survive-a-haunted-house-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-haunted-house-monster-job-fits-you-quiz",
+    "title": "Which Haunted House Monster Job Fits You Quiz",
+    "category": "personality",
+    "tags": [
+      "haunted house",
+      "monster job",
+      "halloween quiz",
+      "personality quiz",
+      "spooky"
+    ],
+    "description": "Take the which haunted house monster job fits you quiz to discover your ideal spooky role, from jump-scare ghoul to creative prop master today!",
+    "url": "/quiz/which-haunted-house-monster-job-fits-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-trick-or-treat-style-quiz",
+    "title": "What Is Your Trick Or Treat Style Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "trick or treat",
+      "personality quiz",
+      "fall fun",
+      "candy"
+    ],
+    "description": "Take this fun personality quiz to discover your ultimate Halloween trick-or-treat style and find out what kind of candy hunter you really are!",
+    "url": "/quiz/what-is-your-trick-or-treat-style-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-party-host-are-you-quiz",
+    "title": "Which Halloween Party Host Are You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "party host",
+      "personality quiz",
+      "spooky season",
+      "fall fun"
+    ],
+    "description": "Take this fun personality quiz to discover which Halloween party host style matches your spooky vibe. Find out if you are a haunted house master or cozy host!",
+    "url": "/quiz/which-halloween-party-host-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-witches-brew-punch-are-you-quiz",
+    "title": "Which Witches Brew Punch Are You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "witches brew",
+      "punch",
+      "fall",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which witches brew punch matches your spooky style. Answer six quick questions to find your drink!",
+    "url": "/quiz/which-witches-brew-punch-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-party-snack-are-you-quiz",
+    "title": "Which Halloween Party Snack Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "party snack",
+      "personality quiz",
+      "fall treats",
+      "spooky food"
+    ],
+    "description": "Take this fun personality quiz to find out which Halloween party snack matches your spooky style. Are you a sweet treat or a salty crunch?",
+    "url": "/quiz/which-halloween-party-snack-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-the-halloween-decorator-or-the-halloween-napper-quiz",
+    "title": "Are You the Halloween Decorator or the Halloween Napper Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "quiz",
+      "personality",
+      "autumn",
+      "fun"
+    ],
+    "description": "Are you the halloween decorator or the halloween napper quiz? Take this fun personality test to find out if you love spooky yard displays or cozy autumn naps!",
+    "url": "/quiz/are-you-the-halloween-decorator-or-the-halloween-napper-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-decoration-matches-your-house-quiz",
+    "title": "Which Halloween Decoration Matches Your House Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween decor",
+      "house quiz",
+      "spooky season",
+      "fall holidays",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which Halloween decoration matches your house style. Find your ultimate spooky home aesthetic today!",
+    "url": "/quiz/which-halloween-decoration-matches-your-house-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-halloween-hero-or-villain-quiz",
+    "title": "Are You A Halloween Villain Or A Halloween Hero Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "personality quiz",
+      "spooky season",
+      "heroes and villains",
+      "fall fun"
+    ],
+    "description": "Take the Are You A Halloween Villain Or A Halloween Hero Quiz to find out if you bring spooky mischief or save the neighborhood candy bowl this season!",
+    "url": "/quiz/are-you-a-halloween-hero-or-villain-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-trick-or-treat-candy-trade-are-you-quiz",
+    "title": "Which Trick or Treat Candy Trade Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "candy trade",
+      "personality quiz",
+      "trick or treat",
+      "sweet tooth"
+    ],
+    "description": "Take the which trick or treat candy trade are you quiz to discover your Halloween negotiation style and find your ultimate sweet tooth match!",
+    "url": "/quiz/which-trick-or-treat-candy-trade-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-fear-do-secretly-have-quiz",
+    "title": "What Halloween Fear Do You Secretly Have Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "fear",
+      "personality",
+      "quiz",
+      "spooky"
+    ],
+    "description": "Curious about your spooky season phobias? Take this fun personality quiz to find out what halloween fear do you secretly have right now!",
+    "url": "/quiz/what-halloween-fear-do-secretly-have-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-urban-legend-are-you-quiz",
+    "title": "Which Halloween Urban Legend Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "urban legend",
+      "personality quiz",
+      "spooky",
+      "folklore"
+    ],
+    "description": "Take this fun personality test to find out which Halloween urban legend matches your vibe. Answer six quick questions for your spooky match!",
+    "url": "/quiz/which-halloween-urban-legend-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-sleepy-hollow-character-are-you-quiz",
+    "title": "Which Sleepy Hollow Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "sleepy hollow",
+      "personality quiz",
+      "halloween",
+      "fall",
+      "classic literature"
+    ],
+    "description": "Take the Which Sleepy Hollow Character Are You Quiz to find out if you match Ichabod, Katrina, or the Horseman. Discover your literary alter ego today!",
+    "url": "/quiz/which-sleepy-hollow-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-cat-are-you-quiz",
+    "title": "Which Halloween Cat Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween cats",
+      "personality quiz",
+      "fall fun",
+      "feline match",
+      "spooky season"
+    ],
+    "description": "Take the Which Halloween Cat Are You Quiz to discover your spooky feline personality match! Answer fun fall questions and find your autumn cat spirit animal.",
+    "url": "/quiz/which-halloween-cat-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-doors-entity-would-chase-you-quiz",
+    "title": "Which Doors Entity Would Chase You Quiz",
+    "category": "personality",
+    "tags": [
+      "doors",
+      "roblox",
+      "personality quiz",
+      "gaming",
+      "monster"
+    ],
+    "description": "Take this fun personality test to find out which famous Roblox Doors entity would chase you through the haunted hotel. Play now to see your monster match!",
+    "url": "/quiz/which-doors-entity-would-chase-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-seek-figure-or-rush-doors-quiz",
+    "title": "Are You Seek Figure or Rush Doors Quiz?",
+    "category": "personality",
+    "tags": [
+      "doors game",
+      "roblox quiz",
+      "seek vs figure",
+      "gaming personality",
+      "rush doors"
+    ],
+    "description": "Take the are you seek figure or rush doors quiz to find out which famous hotel entity matches your gaming personality and play style today!",
+    "url": "/quiz/are-you-seek-figure-or-rush-doors-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-99-nights-in-the-forest-creature-are-you-quiz",
+    "title": "Which 99 Nights in the Forest Creature Are You?",
+    "category": "personality",
+    "tags": [
+      "99 nights in the forest",
+      "creature quiz",
+      "personality quiz",
+      "forest animals",
+      "mythical beasts"
+    ],
+    "description": "Take the which 99 nights in the forest creature are you quiz to discover your mythical woodland persona! Answer fun questions and find your match today.",
+    "url": "/quiz/which-99-nights-in-the-forest-creature-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "would-you-survival-99-nights-in-the-forest-quiz",
+    "title": "Would You Survive 99 Nights in the Forest Quiz",
+    "category": "personality",
+    "tags": [
+      "survival quiz",
+      "forest challenge",
+      "outdoor adventure",
+      "wilderness",
+      "personality test"
+    ],
+    "description": "Take the would you survive 99 nights in the forest quiz to test your wilderness skills, survival instincts, and outdoor knowledge today!",
+    "url": "/quiz/would-you-survival-99-nights-in-the-forest-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-dandys-world-twisted-are-you-quiz",
+    "title": "Which Dandys World Twisted Are You?",
+    "category": "personality",
+    "tags": [
+      "dandys world",
+      "roblox",
+      "twisted characters",
+      "personality quiz",
+      "gaming"
+    ],
+    "description": "Take the official which dandys world twisted are you quiz to discover your spooky toon match based on your personality and gaming style!",
+    "url": "/quiz/which-dandys-world-twisted-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-piggy-character-are-you-quiz-roblox",
+    "title": "Which Piggy Character Are You Quiz Roblox",
+    "category": "personality",
+    "tags": [
+      "roblox",
+      "piggy",
+      "personality quiz",
+      "minitoon",
+      "gaming"
+    ],
+    "description": "Take the official which piggy character are you quiz roblox! Find out if you match Bunny, Doggy, or Piggy in this fun personality test.",
+    "url": "/quiz/which-piggy-character-are-you-quiz-roblox/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-the-mimic-chapter-monster-are-you-quiz",
+    "title": "Which The Mimic Chapter Monster Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "the mimic",
+      "roblox horror",
+      "monster quiz",
+      "gaming",
+      "personality"
+    ],
+    "description": "Take this fun quiz to find out which The Mimic chapter monster matches your personality! Discover your Roblox horror alter ego right now.",
+    "url": "/quiz/which-the-mimic-chapter-monster-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-steal-an-egg-halloween-pet-are-you-quiz",
+    "title": "Which Steal an Egg Halloween Pet Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween pets",
+      "steal an egg",
+      "personality quiz",
+      "fall gaming",
+      "quizpop"
+    ],
+    "description": "Take the Which Steal an Egg Halloween Pet Are You Quiz to find out your spooky gaming match! Fun personality test for kids and families.",
+    "url": "/quiz/which-steal-an-egg-halloween-pet-are-you-quiz/",
+    "questions_count": 6
   }
 ]
