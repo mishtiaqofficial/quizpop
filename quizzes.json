@@ -13829,5 +13829,365 @@
     "description": "Take the ultimate what is your aesthetic core quiz to discover your true style vibe. Find out which mood board and personality match you best today!",
     "url": "/quiz/what-is-your-aesthetic-core-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-halloween-villain-or-a-halloween-hero-quiz",
+    "title": "Are You a Halloween Villain or a Halloween Hero Quiz?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "personality quiz",
+      "spooky season",
+      "heroes and villains",
+      "fall fun"
+    ],
+    "description": "Take the are you a halloween villain or a halloween hero quiz to find out where you belong on spooky night. Are you a mischievous monster or a helpful hero?",
+    "url": "/quiz/are-you-a-halloween-villain-or-a-halloween-hero-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-fear-do-secretly-have-quiz-3",
+    "title": "What Halloween Fear Do You Secretly Have Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "personality quiz",
+      "spooky",
+      "phobias",
+      "fun"
+    ],
+    "description": "Take the What Halloween Fear Do You Secretly Have Quiz to discover your hidden spooky season phobia through fun, family-friendly questions today!",
+    "url": "/quiz/what-halloween-fear-do-secretly-have-quiz-3/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-career-matches-your-enneagram-type-quiz",
+    "title": "Which Career Matches Your Enneagram Type Quiz",
+    "category": "personality",
+    "tags": [
+      "enneagram",
+      "career",
+      "personality",
+      "jobs",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out which career matches your enneagram type! Discover ideal jobs that fit your unique personality and natural strengths.",
+    "url": "/quiz/which-career-matches-your-enneagram-type-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-color-is-your-aura-quiz-personality",
+    "title": "What Color Is Your Aura Quiz Personality",
+    "category": "personality",
+    "tags": [
+      "aura quiz",
+      "personality test",
+      "energy colors",
+      "vibe check",
+      "fun quiz"
+    ],
+    "description": "Take the what color is your aura quiz personality test to discover your energy shade, inner traits, and unique vibe with six fun questions.",
+    "url": "/quiz/what-color-is-your-aura-quiz-personality/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-food-truck-would-you-run-quiz",
+    "title": "Which Food Truck Would You Run Quiz",
+    "category": "personality",
+    "tags": [
+      "food truck quiz",
+      "personality test",
+      "cooking games",
+      "restaurant business",
+      "fun quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which food truck matches your vibe, favorite flavors, and dream career style. Find your mobile menu today!",
+    "url": "/quiz/which-food-truck-would-you-run-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-coffee-drink-matches-your-energy-quiz",
+    "title": "Which Coffee Drink Matches Your Energy Quiz",
+    "category": "personality",
+    "tags": [
+      "coffee quiz",
+      "personality",
+      "energy",
+      "beverage",
+      "fun"
+    ],
+    "description": "Take the which coffee drink matches your energy quiz to find out your true beverage soulmate based on your daily personality and fun habits!",
+    "url": "/quiz/which-coffee-drink-matches-your-energy-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-dessert-should-you-bake-this-weekend-quiz",
+    "title": "What Dessert Should You Bake This Weekend Quiz",
+    "category": "personality",
+    "tags": [
+      "baking",
+      "dessert",
+      "weekend",
+      "recipes",
+      "food"
+    ],
+    "description": "Take this fun personality quiz to discover what dessert you should bake this weekend based on your favorite flavors, mood, and kitchen style.",
+    "url": "/quiz/what-dessert-should-you-bake-this-weekend-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-mental-age-quiz-2026",
+    "title": "What Is Your Mental Age Quiz 2026",
+    "category": "personality",
+    "tags": [
+      "mental age",
+      "personality quiz",
+      "fun",
+      "2026 test",
+      "lifestyle"
+    ],
+    "description": "Take the what is your mental age quiz 2026 to discover your true inner age. Answer six fun lifestyle questions and find out if you are a kid at heart!",
+    "url": "/quiz/what-is-your-mental-age-quiz-2026/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-season-of-the-year-matches-your-soul-quiz",
+    "title": "Which Season of the Year Matches Your Soul Quiz",
+    "category": "personality",
+    "tags": [
+      "seasons",
+      "personality quiz",
+      "nature",
+      "soul match",
+      "fun"
+    ],
+    "description": "Take this fun personality quiz to discover which season of the year matches your soul. Answer six quick questions to find your true seasonal match today!",
+    "url": "/quiz/which-season-of-the-year-matches-your-soul-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "is-he-losing-interest-or-just-busy-quiz",
+    "title": "Is He Losing Interest Or Just Busy Quiz",
+    "category": "personality",
+    "tags": [
+      "dating",
+      "relationships",
+      "boyfriend",
+      "love",
+      "quiz"
+    ],
+    "description": "Is he losing interest or just busy? Take this quick personality quiz to decode his mixed signals, read his text habits, and find out what his behavior really me",
+    "url": "/quiz/is-he-losing-interest-or-just-busy-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-in-love-or-just-attached-quiz",
+    "title": "Am I In Love Or Just Attached Quiz",
+    "category": "personality",
+    "tags": [
+      "relationships",
+      "love",
+      "feelings",
+      "romance",
+      "quiz"
+    ],
+    "description": "Are your feelings true romance or just comfort? Take this fun personality quiz to find out if you are in love or just attached right now.",
+    "url": "/quiz/am-i-in-love-or-just-attached-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-in-love-or-just-crushing-hard-quiz",
+    "title": "Am I In Love Or Just Crushing Hard Quiz",
+    "category": "personality",
+    "tags": [
+      "crush vs love",
+      "relationship quiz",
+      "teen romance",
+      "feelings test",
+      "fun quiz"
+    ],
+    "description": "Take this fun quiz to answer am i in love or just crushing hard quiz style! Discover if you have a simple school crush or true feelings.",
+    "url": "/quiz/am-i-in-love-or-just-crushing-hard-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "is-it-love-or-limerence-quiz",
+    "title": "Is It Love or Limerence Quiz",
+    "category": "personality",
+    "tags": [
+      "relationships",
+      "crush",
+      "dating",
+      "emotions",
+      "limerence"
+    ],
+    "description": "Take this fun is it love or limerence quiz to discover if your intense feelings are true romance or a passing crush. Find out where your heart stands!",
+    "url": "/quiz/is-it-love-or-limerence-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "am-i-anxious-avoidant-or-secure-quiz",
+    "title": "Am I Anxious Avoidant or Secure Quiz",
+    "category": "personality",
+    "tags": [
+      "relationships",
+      "attachment style",
+      "personality quiz",
+      "love",
+      "emotions"
+    ],
+    "description": "Take this am i anxious avoidant or secure quiz to explore your relationship style. Fun, quick, and easy personality test for everyone!",
+    "url": "/quiz/am-i-anxious-avoidant-or-secure-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-love-language-do-i-speak-quiz",
+    "title": "Which Love Language Do I Speak Quiz",
+    "category": "personality",
+    "tags": [
+      "love language",
+      "personality quiz",
+      "relationships",
+      "family friendly",
+      "emotions"
+    ],
+    "description": "Take this fun personality quiz to find out which love language you speak and discover new ways to share kindness with your friends and family today!",
+    "url": "/quiz/which-love-language-do-i-speak-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-are-my-red-flags-in-relationships-quiz",
+    "title": "What Are My Red Flags in Relationships Quiz",
+    "category": "personality",
+    "tags": [
+      "dating",
+      "personality",
+      "relationships",
+      "self-growth",
+      "advice"
+    ],
+    "description": "Take our what are my red flags in relationships quiz to discover your dating habits and learn how to build stronger, healthier connections today!",
+    "url": "/quiz/what-are-my-red-flags-in-relationships-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-are-my-green-flags-in-dating-quiz",
+    "title": "What Are My Green Flags in Dating Quiz",
+    "category": "personality",
+    "tags": [
+      "dating quiz",
+      "green flags",
+      "relationship advice",
+      "personality test",
+      "love style"
+    ],
+    "description": "Take this what are my green flags in dating quiz to discover your best relationship traits, positive communication habits, and romantic strengths.",
+    "url": "/quiz/what-are-my-green-flags-in-dating-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "does-my-crush-like-me-back-quiz-middle-school",
+    "title": "Does My Crush Like Me Back Quiz Middle School",
+    "category": "personality",
+    "tags": [
+      "crush quiz",
+      "middle school",
+      "love test",
+      "teen quiz",
+      "personality"
+    ],
+    "description": "Wondering if your middle school crush likes you back? Take this fun personality quiz to decode their signals and see where you stand today!",
+    "url": "/quiz/does-my-crush-like-me-back-quiz-middle-school/",
+    "questions_count": 6
+  },
+  {
+    "slug": "will-my-crush-text-me-back-quiz",
+    "title": "Will My Crush Text Me Back Quiz",
+    "category": "personality",
+    "tags": [
+      "crush",
+      "texting",
+      "love",
+      "teens",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to find out if your crush is going to text you back soon. Decode the texting vibes and see what your chances are!",
+    "url": "/quiz/will-my-crush-text-me-back-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-we-just-friends-or-something-more-quiz",
+    "title": "Are We Just Friends or Something More Quiz",
+    "category": "personality",
+    "tags": [
+      "friends to lovers",
+      "crush quiz",
+      "dating quiz",
+      "relationships",
+      "teen quiz"
+    ],
+    "description": "Are we just friends or something more quiz? Take this fun personality test to decode mixed signals and find out if your friendship is turning into romance.",
+    "url": "/quiz/are-we-just-friends-or-something-more-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-dater-are-you-quiz",
+    "title": "What Kind Of Dater Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "dating style",
+      "relationship quiz",
+      "love match",
+      "personality test",
+      "romance"
+    ],
+    "description": "Take the what kind of dater are you quiz to discover your unique romantic style, dating personality, and how you approach love and relationships.",
+    "url": "/quiz/what-kind-of-dater-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-dating-app-personality-are-you-quiz",
+    "title": "Which Dating App Personality Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "dating app",
+      "personality quiz",
+      "relationships",
+      "swipe style",
+      "love"
+    ],
+    "description": "Take the which dating app personality are you quiz to discover your digital swiping style, texting habits, and ideal first date match vibe today!",
+    "url": "/quiz/which-dating-app-personality-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-soulmate-initial-quiz",
+    "title": "What Is My Soulmate Initial Quiz",
+    "category": "personality",
+    "tags": [
+      "soulmate initial",
+      "love quiz",
+      "personality test",
+      "relationship",
+      "romance"
+    ],
+    "description": "Take the what is my soulmate initial quiz to discover the first letter of your future true love. Fun, family-friendly personality test for everyone!",
+    "url": "/quiz/what-is-my-soulmate-initial-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-month-will-you-meet-your-soulmate-quiz",
+    "title": "Which Month Will You Meet Your Soulmate Quiz",
+    "category": "personality",
+    "tags": [
+      "romance",
+      "dating",
+      "love",
+      "future",
+      "personality"
+    ],
+    "description": "Wondering when love will arrive? Take our which month will you meet your soulmate quiz to discover your romantic destiny and the best season for a new spark!",
+    "url": "/quiz/which-month-will-you-meet-your-soulmate-quiz/",
+    "questions_count": 6
   }
 ]
