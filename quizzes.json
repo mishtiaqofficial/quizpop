@@ -12419,5 +12419,350 @@
     "description": "Take our fun quiz to find out what halloween costume should my dog wear quiz! Get personalized spooky outfit ideas for your furry best friend today.",
     "url": "/quiz/what-halloween-costume-should-my-dog-wear-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-slasher-villain-are-you-quiz",
+    "title": "Which Slasher Villain Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "slasher quiz",
+      "halloween quiz",
+      "horror movie quiz",
+      "personality quiz",
+      "villain quiz"
+    ],
+    "description": "Take our which slasher villain are you quiz to discover if you are a quiet shadow, a clever mastermind, or a playful nightmare this Halloween season!",
+    "url": "/quiz/which-slasher-villain-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-dungeon-crawler-car-character-are-you-quiz-2",
+    "title": "Which Dungeon Crawler Carl Character Are You?",
+    "category": "personality",
+    "tags": [
+      "dungeon crawler carl",
+      "book quiz",
+      "litrpg",
+      "personality quiz",
+      "scifi"
+    ],
+    "description": "Take this personality quiz to find out which Dungeon Crawler Carl character you are most like. Are you Carl, Donut, or Mordecai? Play now!",
+    "url": "/quiz/which-dungeon-crawler-car-character-are-you-quiz-2/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-couples-halloween-costume-are-you-quiz",
+    "title": "Which Couples Halloween Costume Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "couples halloween costume",
+      "halloween quiz",
+      "personality test",
+      "october fun",
+      "relationship quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which couples halloween costume matches your relationship vibe. Get your custom costume result now!",
+    "url": "/quiz/which-couples-halloween-costume-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-group-halloween-costume-fits-your-friend-group-quiz",
+    "title": "Which Group Halloween Costume Fits Your Friend Group Quiz",
+    "category": "personality",
+    "tags": [
+      "Halloween",
+      "friends",
+      "costume ideas",
+      "squad goals",
+      "personality quiz"
+    ],
+    "description": "Take the which group halloween costume fits your friend group quiz to find your squad's perfect look! Fun ideas for every type of October 31st crew.",
+    "url": "/quiz/which-group-halloween-costume-fits-your-friend-group-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-jinu-abby-mystery-romance-or-baby-saja-quiz",
+    "title": "Are You Jinu Abby Mystery Romance or Baby Saja Quiz",
+    "category": "personality",
+    "tags": [
+      "mystery",
+      "romance",
+      "webtoon",
+      "personality",
+      "quiz"
+    ],
+    "description": "Are you jinu abby mystery romance or baby saja quiz? Take this fun personality test to find out which character style matches your vibe today!",
+    "url": "/quiz/are-you-jinu-abby-mystery-romance-or-baby-saja-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-demon-hunters-villain-are-you-quiz",
+    "title": "Which KPop Demon Hunters Villain Are You?",
+    "category": "personality",
+    "tags": [
+      "kpop demon hunters",
+      "villain quiz",
+      "personality test",
+      "pop culture",
+      "quizpop"
+    ],
+    "description": "Take this fun personality quiz to find out which KPop Demon Hunters villain matches your vibe, style, and attitude. Are you a mastermind or a rebel?",
+    "url": "/quiz/which-kpop-demon-hunters-villain-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-a-demon-hunter-or-a-demon-quiz",
+    "title": "Are You a Demon Hunter or a Demon Quiz",
+    "category": "personality",
+    "tags": [
+      "demon hunter",
+      "demon quiz",
+      "personality quiz",
+      "supernatural",
+      "fantasy"
+    ],
+    "description": "Are you a demon hunter or a demon quiz? Take this fun personality test to discover if you are a brave protector of the light or a mischievous shadow creature!",
+    "url": "/quiz/are-you-a-demon-hunter-or-a-demon-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-derpy-tiger-are-you-quiz-kpop-demon-hunters",
+    "title": "Which Derpy Tiger Are You Quiz Kpop Demon Hunters",
+    "category": "personality",
+    "tags": [
+      "kpop demon hunters",
+      "derpy tiger quiz",
+      "personality quiz",
+      "tiger avatars",
+      "fun quiz"
+    ],
+    "description": "Take the official which derpy tiger are you quiz kpop demon hunters edition! Discover your silly big cat spirit animal with 6 fun questions.",
+    "url": "/quiz/which-derpy-tiger-are-you-quiz-kpop-demon-hunters/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-demon-hunters-character-matches-your-zodiac-quiz",
+    "title": "Which KPop Demon Hunters Character Matches Your Zodiac Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop demon hunters",
+      "zodiac quiz",
+      "personality test",
+      "astrology",
+      "kpop idols"
+    ],
+    "description": "Take the ultimate Which KPop Demon Hunters Character Matches Your Zodiac Quiz to find your idol twin based on your star sign and personality traits!",
+    "url": "/quiz/which-kpop-demon-hunters-character-matches-your-zodiac-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-saja-boys-song-is-your-anthem-quiz",
+    "title": "Which Saja Boys Song Is Your Anthem Quiz",
+    "category": "personality",
+    "tags": [
+      "saja boys",
+      "music quiz",
+      "personality quiz",
+      "pop music",
+      "song anthem"
+    ],
+    "description": "Take the official which saja boys song is your anthem quiz to find out which epic track matches your unique vibe and personality today!",
+    "url": "/quiz/which-saja-boys-song-is-your-anthem-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "are-you-more-huntr-x-or-saja-boys-quiz",
+    "title": "Are You More HUNTR/X or Saja Boys Quiz?",
+    "category": "personality",
+    "tags": [
+      "huntr/x",
+      "saja boys",
+      "personality quiz",
+      "music group",
+      "pop culture"
+    ],
+    "description": "Take the are you more huntr/x or saja boys quiz to find out which iconic fictional pop group matches your personality, style, and energy today!",
+    "url": "/quiz/are-you-more-huntr-x-or-saja-boys-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-demon-hunters-outfit-matches-your-style-quiz",
+    "title": "Which KPop Demon Hunters Outfit Matches Your Style Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop fashion",
+      "demon hunters",
+      "style quiz",
+      "personality test",
+      "kpop style"
+    ],
+    "description": "Take the which kpop demon hunters outfit matches your style quiz to find your ultimate stage and battle look based on your unique personality preferences.",
+    "url": "/quiz/which-kpop-demon-hunters-outfit-matches-your-style-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-demon-hunters-character-are-you-based-on-your-birth-month-quiz",
+    "title": "Which KPop Demon Hunters Character Are You Based On Your Birth Month Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop",
+      "demon hunters",
+      "birth month",
+      "personality",
+      "anime"
+    ],
+    "description": "Take the which kpop demon hunters character are you based on your birth month quiz to find your music hero alter ego now!",
+    "url": "/quiz/which-kpop-demon-hunters-character-are-you-based-on-your-birth-month-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "would-you-survival-as-a-demon-hunter-quiz",
+    "title": "Would You Survive As A Demon Hunter Quiz",
+    "category": "personality",
+    "tags": [
+      "demon hunter",
+      "survival",
+      "supernatural",
+      "fantasy",
+      "personality quiz"
+    ],
+    "description": "Take this fun quiz to find out if you would survive as a demon hunter! Discover your supernatural survival skills and see your hunter rank now.",
+    "url": "/quiz/would-you-survival-as-a-demon-hunter-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-saja-boy-would-date-you-quiz",
+    "title": "Which Saja Boy Would Date You Quiz",
+    "category": "personality",
+    "tags": [
+      "saja boys",
+      "virtual kpop",
+      "dating quiz",
+      "personality quiz",
+      "teen fun"
+    ],
+    "description": "Take the official which saja boy would date you quiz! Answer fun personality questions to discover your virtual K-pop soulmate today.",
+    "url": "/quiz/which-saja-boy-would-date-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-huntr-x-stage-outfit-are-you-quiz",
+    "title": "Which Huntr/X Stage Outfit Are You?",
+    "category": "personality",
+    "tags": [
+      "huntr x",
+      "stage outfit",
+      "concert style",
+      "fashion quiz",
+      "music aesthetic"
+    ],
+    "description": "Take this fun personality quiz to find out which huntr/x stage outfit matches your unique vibe. Discover your ultimate concert fashion style today!",
+    "url": "/quiz/which-huntr-x-stage-outfit-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "kpop-demon-hunters-character-sorter-quiz",
+    "title": "Kpop Demon Hunters Character Sorter Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop",
+      "demon hunters",
+      "character sorter",
+      "quiz",
+      "personality"
+    ],
+    "description": "Take the kpop demon hunters character sorter quiz to discover which fierce idol-warrior matches your vibe. Find your supernatural match today!",
+    "url": "/quiz/kpop-demon-hunters-character-sorter-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-kpop-demon-hunters-scene-defines-you-quiz",
+    "title": "Which Kpop Demon Hunters Scene Defines You Quiz",
+    "category": "personality",
+    "tags": [
+      "kpop",
+      "demon hunters",
+      "anime",
+      "personality quiz",
+      "music"
+    ],
+    "description": "Take this fun personality quiz to find out which epic music-filled moment from the Kpop demon hunters universe matches your unique vibe and style today!",
+    "url": "/quiz/which-kpop-demon-hunters-scene-defines-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-gothic-horror-movie-are-you-quiz",
+    "title": "Which Gothic Horror Movie Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "gothic horror",
+      "movie quiz",
+      "personality test",
+      "halloween",
+      "spooky"
+    ],
+    "description": "Take the which gothic horror movie are you quiz to discover your spooky cinematic match based on your favorite settings and eerie aesthetics!",
+    "url": "/quiz/which-gothic-horror-movie-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-mascot-horror-character-are-you-quiz",
+    "title": "Which Mascot Horror Character Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "mascot horror",
+      "personality quiz",
+      "horror games",
+      "spooky fun",
+      "character test"
+    ],
+    "description": "Take the Which Mascot Horror Character Are You Quiz to find out if you match a playful plush, sneaky toy, or mysterious monster!",
+    "url": "/quiz/which-mascot-horror-character-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-nostalgic-halloween-movie-defines-your-childhood-quiz",
+    "title": "Which Nostalgic Halloween Movie Defines Your Childhood Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween movies",
+      "childhood memories",
+      "nostalgia",
+      "spooky season",
+      "personality quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which nostalgic halloween movie defines your childhood! Find out your spooky film match today.",
+    "url": "/quiz/which-nostalgic-halloween-movie-defines-your-childhood-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-halloween-movie-villain-matches-your-dark-side-quiz",
+    "title": "Which Halloween Movie Villain Matches Your Dark Side Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "villain",
+      "quiz",
+      "movies",
+      "personality"
+    ],
+    "description": "Take the which halloween movie villain matches your dark side quiz to discover your horror icon alter ego with fun personality questions!",
+    "url": "/quiz/which-halloween-movie-villain-matches-your-dark-side-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-hocus-pocus-sister-are-you-quiz",
+    "title": "Which Hocus Pocus Sister Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "hocus pocus",
+      "halloween",
+      "personality quiz",
+      "disney",
+      "witches"
+    ],
+    "description": "Take the Which Hocus Pocus Sister Are You Quiz to find out if you match Winifred, Sarah, or Mary Sanderson. Fun personality test for families!",
+    "url": "/quiz/which-hocus-pocus-sister-are-you-quiz/",
+    "questions_count": 6
   }
 ]
