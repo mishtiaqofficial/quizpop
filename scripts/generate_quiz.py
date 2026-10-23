@@ -869,6 +869,72 @@ def normalize_quiz(q):
         return None
 
 
+
+# ── Discover cover images ────────────────────────────────────────────────────
+COVER_RULES = [
+    ("halloween", ["halloween", "spooky", "pumpkin", "ghost", "witch", "vampire",
+                   "horror", "monster", "skeleton", "haunted", "zombie", "werewolf"]),
+    ("christmas", ["christmas", "santa", "elf", "reindeer", "nutcracker",
+                   "gingerbread", "snowman"]),
+    ("music", ["kpop", "k-pop", "bts", "saja", "huntr", "music", "song",
+               "idol", "singer", "band"]),
+    ("movies", ["movie", "film", "disney", "marvel", "hogwarts", "harry-potter",
+                "harry potter", "wednesday", "addams", "princess", "superhero",
+                "anime", "character"]),
+    ("love", ["love", "crush", "boyfriend", "girlfriend", "date", "dating",
+              "romance", "romantic", "marry", "wedding", "soulmate", "valentine"]),
+    ("food", ["food", "pizza", "pasta", "candy", "coffee", "snack", "burger",
+              "dessert", "chocolate", "soda", "drink", "breakfast"]),
+    ("animals", ["dog", "cat", "pet", "bird", "fish", "horse", "butterfly",
+                 "shark", "dolphin", "owl", "fox", "panda", "koala", "tiger",
+                 "lion", "animal"]),
+    ("trivia", ["trivia", "knowledge", "history", "science", "geography",
+                "general-knowledge", "general knowledge"]),
+    ("riddles", ["riddle", "brain", "puzzle", "logic"]),
+]
+
+
+def cover_for(q):
+    """Pick the Discover cover theme for a quiz from its slug/title/tags."""
+    hay = " ".join([str(q.get("slug", "")), str(q.get("title", ""))]
+                   + [str(t) for t in (q.get("tags") or [])]).lower()
+    for theme, kws in COVER_RULES:
+        if any(k in hay for k in kws):
+            return f"{DOMAIN}assets/covers/cover-{theme}.jpg"
+    cat = str(q.get("category", "")).lower()
+    if "trivia" in cat:
+        return f"{DOMAIN}assets/covers/cover-trivia.jpg"
+    if "riddle" in cat:
+        return f"{DOMAIN}assets/covers/cover-riddles.jpg"
+    return f"{DOMAIN}assets/covers/cover-default.jpg"
+
+
+def write_feed(quizzes):
+    """Write/refresh feed.xml (RSS 2.0) with the latest 50 quizzes."""
+    from datetime import datetime, timezone
+    from email.utils import format_datetime
+    now = format_datetime(datetime.now(timezone.utc))
+    items = []
+    for z in reversed(quizzes[-50:]):
+        link = f"{DOMAIN}quiz/{z['slug']}/"
+        items.append(
+            "  <item>"
+            + "<title>" + html.escape(str(z["title"])) + "</title>"
+            + "<link>" + link + "</link>"
+            + "<guid>" + link + "</guid>"
+            + "<pubDate>" + now + "</pubDate>"
+            + "<description>" + html.escape(str(z.get("description", ""))) + "</description>"
+            + "</item>")
+    feed = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0"><channel>'
+            "<title>QuizPop</title>"
+            "<link>" + DOMAIN + "</link>"
+            "<description>Fun personality quizzes, trivia and riddles - new quizzes daily.</description>"
+            + "\n".join(items)
+            + "</channel></rss>\n")
+    (ROOT / "feed.xml").write_text(feed)
+
+
 # ── Rendering ───────────────────────────────────────────────────────────────
 def render_page(q, related):
     tpl = (ROOT / "scripts" / "quiz_template.html").read_text()
@@ -878,6 +944,7 @@ def render_page(q, related):
     page = tpl.replace("__SEO_TITLE__", html.escape(q["seo_title"], quote=True))
     page = page.replace("__META_DESCRIPTION__", html.escape(q["meta_description"], quote=True))
     page = page.replace("__CANONICAL_URL__", f"{DOMAIN}quiz/{q['slug']}/")
+    page = page.replace("__COVER_URL__", cover_for(q))
     page = page.replace("__H1__", html.escape(q["title"]))
     page = page.replace("__HOOK__", html.escape(q["hook"]))
     page = page.replace("__SEO_INTRO__", html.escape(q["seo_intro"]))
@@ -1043,6 +1110,7 @@ def main():
         })
     quizzes_path.write_text(json.dumps(quizzes, indent=2, ensure_ascii=False))
     write_sitemap(quizzes)
+    write_feed(quizzes)
     print(f"DONE: {len(new_quizzes)} quizzes written.")
     # notify search engines instantly (Bing/Yandex via IndexNow)
     new_urls = [f"https://popquizdaily.site/quiz/{q['slug']}/" for q in new_quizzes]
