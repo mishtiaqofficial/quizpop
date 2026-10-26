@@ -14759,5 +14759,275 @@
     "description": "Test your knowledge on brunch pastries, sweet glazes, and flaky doughs with our fun baking trivia quiz! How well do you know your morning treats?",
     "url": "/quiz/rise-and-shine-brunch-pastry-trivia/",
     "questions_count": 6
+  },
+  {
+    "slug": "what-halloween-fear-do-you-secretly-have-quiz",
+    "title": "What Halloween Fear Do You Secretly Have Quiz",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "spooky",
+      "personality quiz",
+      "halloween fear",
+      "quizpop"
+    ],
+    "description": "Take our what halloween fear do you secretly have quiz to uncover the spookiest secret fear hiding behind your festive smile this season!",
+    "url": "/quiz/what-halloween-fear-do-you-secretly-have-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-dandys-world-toon-are-you-quiz-10",
+    "title": "Which Dandy's World Toon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "dandys world",
+      "roblox",
+      "toon quiz",
+      "personality quiz",
+      "gaming"
+    ],
+    "description": "Discover your true toon mascot with our official Which Dandy's World Toon Are You Quiz! Answer 6 fun questions to find your colorful match.",
+    "url": "/quiz/which-dandys-world-toon-are-you-quiz-10/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-elf-are-you-quiz-9",
+    "title": "Which Santa's Workshop Elf Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "santa",
+      "elf",
+      "holiday",
+      "quiz"
+    ],
+    "description": "Take the which santa's workshop elf are you quiz to discover your holiday helper job! Are you a toy maker, wrapper, or cookie taster?",
+    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-9/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-7",
+    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "macys parade",
+      "thanksgiving quiz",
+      "personality test",
+      "balloon quiz",
+      "holiday fun"
+    ],
+    "description": "Take our which macy's thanksgiving parade balloon are you quiz to discover if your holiday personality matches Snoopy, Pikachu, or SpongeBob!",
+    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-7/",
+    "questions_count": 6
+  },
+  {
+    "slug": "valentines-day-love-language-quiz-6",
+    "title": "What's Your True Valentine's Day Love Language Quiz?",
+    "category": "personality",
+    "tags": [
+      "love language",
+      "valentine's day",
+      "relationship quiz",
+      "personality test",
+      "romance"
+    ],
+    "description": "Take this fun valentine's day love language quiz to discover your unique style of showing and receiving affection! Perfect for kids and families.",
+    "url": "/quiz/valentines-day-love-language-quiz-6/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-valentines-aesthetic-quiz-7",
+    "title": "What Is Your Valentine's Aesthetic Quiz?",
+    "category": "personality",
+    "tags": [
+      "valentines aesthetic",
+      "love quiz",
+      "romantic vibe",
+      "personality test",
+      "holiday fun"
+    ],
+    "description": "Take what is your valentine's aesthetic quiz to discover your unique romantic style, favorite date vibes, and cozy holiday mood today!",
+    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-7/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-valentines-candy-are-you-quiz-7",
+    "title": "Which Valentine's Candy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines candy",
+      "personality quiz",
+      "candy match",
+      "fun quiz",
+      "sweet treats"
+    ],
+    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match! Are you a chocolate truffle or a fun gummy bear? Play now!",
+    "url": "/quiz/which-valentines-candy-are-you-quiz-7/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-31",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santas workshop",
+      "christmas quiz",
+      "north pole",
+      "personality quiz",
+      "holiday fun"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole station matches your holiday personality. Fun for the whole family!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-31/",
+    "questions_count": 6
+  },
+  {
+    "slug": "nostalgic-movie-protagonist-costume-quiz",
+    "title": "Which Nostalgic Movie Protagonist Costume Are You?",
+    "category": "personality",
+    "tags": [
+      "movies",
+      "costumes",
+      "nostalgia",
+      "weekend",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out which nostalgic movie protagonist costume matches your weekend plans! Discover your cinematic alter ego today.",
+    "url": "/quiz/nostalgic-movie-protagonist-costume-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "match-fall-spice-combinations-to-desserts",
+    "title": "Can You Match These Unusual Fall Spices to Desserts?",
+    "category": "trivia",
+    "tags": [
+      "fall spices",
+      "dessert trivia",
+      "autumn baking",
+      "food quiz",
+      "flavor pairings"
+    ],
+    "description": "Can you match unusual fall spice combinations to the correct autumn dessert? Test your baking and flavor knowledge with this fun trivia quiz!",
+    "url": "/quiz/match-fall-spice-combinations-to-desserts/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-kind-of-pop-culture-carver-are-you",
+    "title": "What Kind Of Pop Culture Carver Are You?",
+    "category": "personality",
+    "tags": [
+      "carver",
+      "pop culture",
+      "personality",
+      "art",
+      "crafts"
+    ],
+    "description": "Take this fun personality quiz to discover which legendary pop culture carver matches your creative aesthetic and crafting style!",
+    "url": "/quiz/what-kind-of-pop-culture-carver-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-cozy-synth-video-game-riddles",
+    "title": "Guess the Game from Cozy Synth Background Music!",
+    "category": "riddles",
+    "tags": [
+      "video games",
+      "cozy music",
+      "synth music",
+      "game trivia",
+      "riddles"
+    ],
+    "description": "Test your classic gaming knowledge! Read our peaceful audio riddles and name the famous video game behind the cozy synth tunes.",
+    "url": "/quiz/guess-the-cozy-synth-video-game-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-mystery-trope-autumn-weekend-quiz",
+    "title": "Which Cozy Mystery Trope Dictates Your Autumn Weekend?",
+    "category": "personality",
+    "tags": [
+      "cozy",
+      "mystery",
+      "autumn",
+      "books",
+      "personality"
+    ],
+    "description": "Find out which cozy mystery book trope defines your ideal fall weekend! Take our fun autumn personality quiz to unlock your small-town sleuth vibe.",
+    "url": "/quiz/cozy-mystery-trope-autumn-weekend-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cooperative-board-game-family-style",
+    "title": "Which Cooperative Board Game Matches Your Family Style?",
+    "category": "personality",
+    "tags": [
+      "board games",
+      "family night",
+      "cooperative",
+      "tabletop",
+      "quiz"
+    ],
+    "description": "Take this fun personality quiz to discover which cooperative board game matches your family's unique play style and teamwork strategy.",
+    "url": "/quiz/cooperative-board-game-family-style/",
+    "questions_count": 6
+  },
+  {
+    "slug": "wild-autumn-survival-weird-animal-fall-tactics",
+    "title": "Wild Autumn Survival: Weird Animal Fall Tactics!",
+    "category": "trivia",
+    "tags": [
+      "wildlife",
+      "autumn",
+      "animals",
+      "trivia",
+      "nature"
+    ],
+    "description": "Test your knowledge on how animals use weird tricks, like freezing or brain-shrinking, to survive autumn!",
+    "url": "/quiz/wild-autumn-survival-weird-animal-fall-tactics/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-scenic-railway-riddles",
+    "title": "Autumn Scenic Railway Riddles: Guess the Train!",
+    "category": "riddles",
+    "tags": [
+      "railway",
+      "autumn",
+      "riddles",
+      "trains",
+      "travel"
+    ],
+    "description": "Test your knowledge of breathtaking autumn train routes with these fun riddles! Can you guess all six famous scenic railways?",
+    "url": "/quiz/autumn-scenic-railway-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fall-constellation-myths-and-meanings-quiz",
+    "title": "Fall Constellation Myths & Meanings Quiz",
+    "category": "trivia",
+    "tags": [
+      "autumn",
+      "constellations",
+      "space",
+      "mythology",
+      "stars"
+    ],
+    "description": "Test your knowledge of autumn constellations, ancient myths, and hidden stellar meanings with this fun and family-friendly trivia quiz!",
+    "url": "/quiz/fall-constellation-myths-and-meanings-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "fact-or-folklore-harvest-festival-edition",
+    "title": "Fact or Folklore: Harvest Festival Edition",
+    "category": "trivia",
+    "tags": [
+      "autumn",
+      "harvest",
+      "history",
+      "trivia",
+      "folklore"
+    ],
+    "description": "Can you separate real harvest history from clever autumn folklore myths? Take this fun trivia quiz to test your knowledge of fall traditions!",
+    "url": "/quiz/fact-or-folklore-harvest-festival-edition/",
+    "questions_count": 6
   }
 ]
