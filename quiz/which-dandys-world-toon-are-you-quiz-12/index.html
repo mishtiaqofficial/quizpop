@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#4f46e5">
+<link rel="ard" href="/.well-known/ard.json">
+<title>Which Dandy&#x27;s World Toon Are You Quiz — QuizPop</title>
+<meta name="description" content="Take the Which Dandy&#x27;s World Toon Are You Quiz to find out which fun animated character matches your unique personality today!">
+<style>
+/* QuizPop design system — mobile-first, no frameworks */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--brand:#4f46e5;--ink:#1e293b;--muted:#475569;--faint:#64748b;--line:#e2e8f0;--bg:#fff;--soft:#f8fafc}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+img{max-width:100%}
+
+/* Header / nav */
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}
+.nav{max-width:720px;margin:0 auto;padding:.8rem 1rem;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:1.25rem;color:var(--brand);text-decoration:none}
+.nav-links{display:flex;align-items:center}
+.nav-links a{margin-left:.9rem;color:var(--muted);text-decoration:none;font-size:.9rem}
+.nav-links a:hover{color:var(--brand)}
+
+/* Layout */
+main{max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem}
+.hero h1{font-size:1.7rem;line-height:1.25;margin:.5rem 0}
+.hero p{color:var(--muted);margin-bottom:1rem}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:2rem 0 .75rem}
+.section-head h2{font-size:1.25rem}
+.section-head a{font-size:.85rem;color:var(--brand);text-decoration:none}
+
+/* Quiz card grid */
+.quiz-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:.5rem 0 1rem}
+.qcard{border:1px solid var(--line);border-radius:12px;padding:1rem;text-decoration:none;color:var(--ink);display:block;background:#fff}
+.qcard:hover{border-color:var(--brand)}
+.qcard .kicker{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:700}
+.qcard h3{font-size:1rem;margin:.3rem 0;line-height:1.35}
+.qcard p{font-size:.82rem;color:var(--muted)}
+.qcard.soon{background:var(--soft);border-style:dashed;cursor:default}
+.soon-badge{display:inline-block;font-size:.7rem;font-weight:700;color:#92400e;background:#fef3c7;border-radius:99px;padding:.15rem .6rem;margin-top:.4rem}
+
+/* Quiz widget */
+.quiz-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:1.25rem;margin:1rem 0}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:1rem}
+.progress>div{height:100%;background:var(--brand);width:0;transition:width .3s}
+.q-text{font-size:1.15rem;font-weight:700;margin-bottom:.9rem}
+.opt{display:block;width:100%;text-align:left;padding:.85rem 1rem;margin:.5rem 0;border:2px solid var(--line);border-radius:10px;background:#fff;font-size:1rem;cursor:pointer;min-height:48px;font-family:inherit;color:var(--ink)}
+.opt:active{transform:scale(.98)}
+.opt.correct{border-color:#16a34a;background:#f0fdf4}
+.opt.wrong{border-color:#dc2626;background:#fef2f2}
+.opt:disabled{opacity:.85;cursor:default}
+.quiz-nav{margin-top:1rem;text-align:right}
+.next-btn{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.8rem;font-size:1rem;font-weight:700;cursor:pointer;min-height:48px;font-family:inherit}
+.result-card{display:none;background:#eef2ff;border:2px solid var(--brand);border-radius:14px;padding:1.5rem;margin:1.5rem 0;text-align:center}
+.result-card h2{color:var(--brand);margin-bottom:.5rem}
+.share-row{margin-top:1rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap}
+.share-row button{border:1px solid #cbd5e1;background:#fff;border-radius:999px;padding:.55rem 1rem;font-size:.9rem;cursor:pointer;min-height:44px;font-family:inherit}
+.entertainment-note{font-size:.78rem;color:#64748b;margin-top:1rem}
+
+/* Sponsored CTA block */
+.sponsored-block{margin:2rem 0;padding:1.25rem;border:1px dashed #cbd5e1;border-radius:12px;background:var(--soft);text-align:center}
+.sponsored-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.ftc-note{font-size:.75rem;color:var(--faint);margin:.25rem 0 .75rem}
+.cta-btn{display:inline-block;padding:.9rem 2.2rem;border-radius:999px;background:var(--brand);color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;min-height:48px}
+.cta-btn:active{transform:scale(.97)}
+
+/* Related + FAQ */
+.related{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0}
+.related a{border:1px solid var(--line);border-radius:10px;padding:.9rem;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.related div.soon{border:1px dashed var(--line);border-radius:10px;padding:.9rem;color:var(--faint);font-size:.95rem;background:var(--soft)}
+.faq{margin:2rem 0}.faq h3{margin-bottom:.5rem}.faq p{color:var(--muted);margin-bottom:1rem;font-size:.95rem}
+
+/* How it works steps */
+.steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1rem 0}
+.step{border:1px solid var(--line);border-radius:12px;padding:1rem;text-align:center;background:var(--soft)}
+.step .n{display:inline-block;width:2rem;height:2rem;line-height:2rem;border-radius:99px;background:var(--brand);color:#fff;font-weight:800;margin-bottom:.5rem}
+.step p{font-size:.88rem;color:var(--muted)}
+
+/* Email signup */
+.signup{background:#eef2ff;border:1px solid var(--brand);border-radius:14px;padding:1.5rem;margin:2rem 0;text-align:center}
+.signup h2{margin-bottom:.4rem}
+.signup p{color:var(--muted);font-size:.92rem;margin-bottom:1rem}
+.signup form{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+.signup input[type=email]{flex:1;min-width:200px;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:999px;font-size:1rem;font-family:inherit}
+.signup button{background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.8rem 1.6rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Search */
+.search-input{width:100%;padding:.9rem 1.1rem;border:2px solid var(--line);border-radius:12px;font-size:1.05rem;font-family:inherit;margin:1rem 0}
+.search-input:focus{outline:none;border-color:var(--brand)}
+
+/* Legal / prose pages */
+.prose h1{font-size:1.6rem;margin:.5rem 0 1rem}
+.prose h2{font-size:1.15rem;margin:1.5rem 0 .5rem}
+.prose p,.prose li{color:var(--muted);margin-bottom:.8rem;font-size:.96rem}
+.prose ul{padding-left:1.2rem}
+
+/* Trending list */
+.trend-row{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1rem;margin:.6rem 0;text-decoration:none;color:var(--ink)}
+.trend-row .rank{font-size:1.6rem;font-weight:800;color:var(--brand);min-width:2.2rem;text-align:center}
+.trend-row h3{font-size:1.02rem}
+.trend-row p{font-size:.82rem;color:var(--muted)}
+
+/* Contact form */
+.contact-form{max-width:480px;margin:1rem 0}
+.contact-form label{display:block;font-weight:600;margin:.9rem 0 .3rem;font-size:.92rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.8rem 1rem;border:1px solid #cbd5e1;border-radius:10px;font-size:1rem;font-family:inherit}
+.contact-form textarea{min-height:140px;resize:vertical}
+.contact-form button{margin-top:1rem;background:var(--brand);color:#fff;border:none;border-radius:999px;padding:.85rem 2rem;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:1.5rem 1rem;text-align:center;font-size:.85rem;color:var(--faint)}
+footer a{color:var(--faint);margin:0 .5rem;text-decoration:none}
+footer a:hover{color:var(--brand)}
+.seo-foot{max-width:720px;margin:0 auto;padding:0 1rem 2rem;font-size:.8rem;color:#64748b}
+
+/* Small screens */
+@media (max-width:420px){
+  .steps{grid-template-columns:1fr}
+  .nav-links a{margin-left:.6rem;font-size:.82rem}
+}
+</style>
+<link rel="canonical" href="https://popquizdaily.site/quiz/which-dandys-world-toon-are-you-quiz-12/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="Which Dandy&#x27;s World Toon Are You Quiz — QuizPop">
+<meta property="og:description" content="Take the Which Dandy&#x27;s World Toon Are You Quiz to find out which fun animated character matches your unique personality today!">
+<meta property="og:url" content="https://popquizdaily.site/quiz/which-dandys-world-toon-are-you-quiz-12/">
+<meta name="robots" content="max-image-preview:large">
+<meta property="og:image" content="https://popquizdaily.site/assets/covers/cover-movies.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:image:alt" content="Which Dandy&#x27;s World Toon Are You Quiz">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://popquizdaily.site/assets/covers/cover-movies.jpg">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3821526096974690" crossorigin="anonymous"></script>
+</head>
+<body>
+<header><nav class="nav">
+<a class="logo" href="/">QuizPop</a>
+<div class="nav-links"><a href="/">Home</a><a href="/personality/">Personality</a><a href="/trivia/">Trivia</a><a href="/riddles/">Riddles</a><a href="/trending/">Trending</a><a href="/search/" aria-label="Search">🔍</a></div>
+</nav></header>
+<main>
+<section class="hero">
+<img src="https://popquizdaily.site/assets/covers/cover-movies.jpg" alt="Which Dandy&#x27;s World Toon Are You Quiz" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:12px">
+<h1>Which Dandy&#x27;s World Toon Are You Quiz</h1>
+<p>Find out which quirky toon matches your exact vibe in this fun personality test!</p>
+</section>
+
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Quick heads-up</p>
+<p style="margin:.4rem 0 1rem;color:#475569">QuizPop is free forever thanks to our sponsor. Your quiz starts right below.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="quiz-top"
+   href="https://vidy.my/Iii-media.mp4" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+<section class="quiz-card" id="quiz">
+<div class="progress"><div id="bar"></div></div>
+<p class="q-text" id="qtext"></p>
+<div id="opts"></div>
+<div class="quiz-nav"><button class="next-btn" id="nextBtn" style="display:none">Next →</button></div>
+</section>
+
+<section class="result-card" id="result">
+<h2 id="rTitle"></h2>
+<p id="rDesc"></p>
+<div class="share-row">
+<button onclick="quizShare('x')">Share on X</button>
+<button onclick="quizShare('fb')">Facebook</button>
+<button onclick="quizShare('wa')">WhatsApp</button>
+<button onclick="quizShare('copy')">Copy link</button>
+</div>
+<p class="entertainment-note">Just for fun — for entertainment only.</p>
+</section>
+
+<!-- ══ SPONSORED CTA — the ONLY place the SmartLink fires ══ -->
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="ftc-note">We may earn a commission if you visit our sponsor. This keeps our quizzes free — it never affects your results.</p>
+<p class="sponsored-title">Want more like this?</p>
+<p style="margin:.4rem 0 1rem;color:#475569">Fresh quizzes, trivia and riddles every day.</p>
+<a class="cta-btn" data-smartlink data-cta="results-continue"
+   href="https://vidy.my/Iii-media.mp4" target="_blank" rel="noopener sponsored">Continue →</a>
+</aside>
+
+<section>
+<h3 style="margin-bottom:.5rem">Keep playing</h3>
+<div class="related">
+<a href="/quiz/which-halloween-monster-are-you/">Which Halloween Monster Are You?</a><a href="/quiz/which-decade-do-you-belong-in/">Which Decade Do You Belong In?</a><a href="/quiz/whats-your-love-language/">What&#x27;s Your Love Language?</a><a href="/quiz/what-is-my-aesthetic-quiz/">What Is My Aesthetic Quiz?</a><a href="/quiz/money-personality-quiz/">Money Personality Quiz</a><a href="/quiz/career-quiz-for-teens/">Career Quiz for Teens</a><a href="/quiz/love-language-quiz-for-couples/">Love Language Quiz for Couples: Take It Together</a><a href="/quiz/red-flag-quiz/">What Is Your Red Flag Quiz? (Fun &amp; Honest)</a><a href="/quiz/am-i-in-love-quiz/">Am I In Love? Quiz: 8 Telling Signs</a><a href="/quiz/dating-personality-quiz/">Dating Personality Quiz: Your Dating Style</a><a href="/quiz/couple-compatibility-quiz/">Couple Compatibility Quiz (Just for Fun)</a><a href="/quiz/what-career-should-i-have-quiz/">What Career Should I Have? Quiz</a>
+</div>
+</section>
+
+<section class="faq">
+<h3>About this quiz</h3>
+<p>Have you ever wondered which Dandy&#x27;s World character matches your unique personality? This exciting personality quiz is designed for fans who want to discover their true toon match! Whether you are super brave, always looking for a snack, or the clever planner of the group, there is a toon out there that represents you. By answering six fun, easy-going questions about your daily habits, favorite snacks, and how you handle surprises, you can finally reveal your cartoon alter ego. Perfect for kids and families who love playing together, this quiz brings your favorite animated world to life. Grab your friends, compare your results, and see if you match with the adventurous hero, the clever helper, or the silly prankster of the group. Take the test right now and find out which dandy&#x27;s world toon are you quiz result you get!</p>
+<p><strong>How does it work?</strong> Answer each question and your result is calculated instantly, shown right here — nothing is hidden or locked.</p>
+<p><strong>Is it accurate?</strong> It's for entertainment only, not a psychological assessment. But it's scarily fun.</p>
+<p><strong>Is it really free?</strong> Yes. We're supported by clearly-labeled sponsored links, like the one above.</p>
+<p><strong>Which dandy&#x27;s world toon are you quiz?</strong> This fun personality quiz matches your unique traits, habits, and preferences to a specific cartoon character from the popular Dandy&#x27;s World universe through six quick questions.</p><p><strong>How many questions are in this personality test?</strong> This quiz features exactly six engaging multiple-choice questions designed to easily determine your toon match without taking up too much of your time.</p><p><strong>Can I share my quiz results with my friends?</strong> Yes, absolutely! Once you discover your toon result, you can share it with your friends and family to see which characters they match with during your next hangout.</p><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which dandy's world toon are you quiz?", "acceptedAnswer": {"@type": "Answer", "text": "This fun personality quiz matches your unique traits, habits, and preferences to a specific cartoon character from the popular Dandy's World universe through six quick questions."}}, {"@type": "Question", "name": "How many questions are in this personality test?", "acceptedAnswer": {"@type": "Answer", "text": "This quiz features exactly six engaging multiple-choice questions designed to easily determine your toon match without taking up too much of your time."}}, {"@type": "Question", "name": "Can I share my quiz results with my friends?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, absolutely! Once you discover your toon result, you can share it with your friends and family to see which characters they match with during your next hangout."}}]}</script>
+</section>
+<aside class="sponsored-block" aria-label="Sponsored">
+<p class="sponsored-label">Sponsored</p>
+<p class="sponsored-title">Thanks for playing!</p>
+<p style="margin:.4rem 0 1rem;color:#475569">More quizzes, trivia and riddles — fresh every day.</p>
+<p class="ftc-note">Our sponsor keeps QuizPop free. Visiting is optional and never affects your results.</p>
+<a class="cta-btn" data-smartlink data-cta="page-bottom"
+   href="https://vidy.my/Iii-media.mp4" target="_blank" rel="noopener sponsored">Visit Sponsor &rarr;</a>
+</aside>
+
+
+</main>
+<footer>
+<a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a>
+<p style="margin-top:.75rem">© 2026 QuizPop · Quizzes for entertainment only.</p>
+</footer>
+<script>
+window.QUIZ_DATA = {"questions": [{"q": "What is your go-to way to spend a sunny Saturday afternoon?", "o": ["Exploring new places and hunting for hidden treasures.", "Helping friends build something cool in the backyard.", "Relaxing in a cozy spot with a great comic book.", "Playing fun games and making everyone around me laugh."], "s": [10, 20, 30, 40]}, {"q": "How do you usually react when a sudden surprise happens?", "o": ["I jump right in and take charge of the situation!", "I calmly think of a smart plan to help out.", "I step back for a second to figure things out safely.", "I giggle and try to turn it into a fun game!"], "s": [10, 20, 30, 40]}, {"q": "What is your absolute favorite snack during movie night?", "o": ["Super crunchy cheese crackers.", "Sweet and sticky fruit gummies.", "A warm bowl of buttery popcorn.", "A colorful ice pop with multiple flavors."], "s": [40, 30, 20, 10]}, {"q": "If you could have any superpower for one day, what would it be?", "o": ["Super speed to zoom past any obstacle.", "The power to fix anything that is broken.", "Invisibility so I can play the best hide-and-seek.", "Flying high above the clouds for amazing views."], "s": [10, 20, 30, 40]}, {"q": "What role do you usually play when working on a group school project?", "o": ["The team captain who gets everyone excited.", "The careful researcher who finds all the best facts.", "The creative designer who makes everything look awesome.", "The cheerful motivator who keeps everyone happy and smiling."], "s": [10, 20, 30, 40]}, {"q": "Which of these cheerful colors do you like the most?", "o": ["Bright fiery red", "Sunny lemon yellow", "Cool ocean blue", "Vibrant spring green"], "s": [40, 30, 20, 10]}], "results": [{"min": 0, "max": 96, "t": "The Daring Adventurer Toon", "d": "You got the Daring Adventurer! You are bold, full of energy, and always ready for an exciting new quest. You never back down from a challenge and love leading your friends into fun escapades. Your fearless spirit makes you a natural leader who inspires everyone around you to try new things and never give up."}, {"min": 97, "max": 189, "t": "The Clever Helper Toon", "d": "You got the Clever Helper! You are smart, resourceful, and always have a brilliant plan up your sleeve. Whenever your friends run into a tricky problem, they know they can count on you to figure out a smart solution. Your thoughtful and caring nature keeps the whole group safe and happy."}, {"min": 190, "max": 240, "t": "The Cheerful Prankster Toon", "d": "You got the Cheerful Prankster! You bring laughter, fun, and bright energy wherever you go. You love making people smile with your silly jokes and playful attitude. Life is just one big game to you, and your joyful personality turns ordinary days into unforgettable celebrations."}]};
+</script>
+<script src="/assets/js/quiz.js"></script>
+<script defer src="/assets/js/tracking.js"></script>
+<!-- GA4: stub queues events instantly; library lazy-loads after first paint (idle/interaction) -->
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+(function(){
+var done=false;
+function load(){if(done)return;done=true;
+var s=document.createElement('script');s.async=true;
+s.src='https://www.googletagmanager.com/gtag/js?id=G-S10CQJF8N3';
+document.head.appendChild(s);gtag('config','G-S10CQJF8N3');}
+function idle(){if('requestIdleCallback' in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3000);}}
+['scroll','click','touchstart','keydown'].forEach(function(e){window.addEventListener(e,load,{once:true,passive:true,capture:true});});
+window.addEventListener('load',idle);setTimeout(load,10000);
+})();
+</script>
+</body>
+</html>

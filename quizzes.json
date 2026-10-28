@@ -15329,5 +15329,305 @@
     "description": "Take this fun quiz to discover your ideal low-key weekend reset style! Find out the best way to relax, recharge, and enjoy your days off.",
     "url": "/quiz/ideal-low-key-weekend-reset-style/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-dandys-world-toon-are-you-quiz-12",
+    "title": "Which Dandy's World Toon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "dandys world",
+      "toon quiz",
+      "personality quiz",
+      "family friendly",
+      "cartoon characters"
+    ],
+    "description": "Take the Which Dandy's World Toon Are You Quiz to find out which fun animated character matches your unique personality today!",
+    "url": "/quiz/which-dandys-world-toon-are-you-quiz-12/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-elf-are-you-quiz-11",
+    "title": "Which Santa's Workshop Elf Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas elf",
+      "santa workshop",
+      "personality quiz",
+      "holiday quiz",
+      "north pole"
+    ],
+    "description": "Take our fun which santa's workshop elf are you quiz to discover your holiday North Pole job! Are you a master toy maker or baker?",
+    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-11/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-9",
+    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "macys parade",
+      "thanksgiving quiz",
+      "balloon quiz",
+      "personality quiz",
+      "holiday fun"
+    ],
+    "description": "Take our which macy's thanksgiving parade balloon are you quiz to discover if you are classic Snoopy, bubbly SpongeBob, or bold Pikachu!",
+    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-9/",
+    "questions_count": 6
+  },
+  {
+    "slug": "valentines-day-love-language-quiz-8",
+    "title": "Valentine's Day Love Language Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines day",
+      "love language",
+      "personality quiz",
+      "relationship quiz",
+      "quizpop"
+    ],
+    "description": "Discover your ultimate romantic style with our fun Valentine's Day love language quiz! Find out how you show and receive affection best today.",
+    "url": "/quiz/valentines-day-love-language-quiz-8/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-valentines-aesthetic-quiz-9",
+    "title": "What Is Your Valentine's Aesthetic Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines aesthetic",
+      "romantic style",
+      "quiz pop",
+      "love vibe",
+      "personality test"
+    ],
+    "description": "Take our what is your valentine's aesthetic quiz to find out your true romantic style and ideal vibe. Fun questions for a sweet holiday season!",
+    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-9/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-valentines-candy-are-you-quiz-9",
+    "title": "Which Valentine's Candy Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "valentines candy",
+      "candy quiz",
+      "personality test",
+      "sweet treats",
+      "fun quiz"
+    ],
+    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match. Are you a conversation heart, chocolate truffle, or gummy treat?",
+    "url": "/quiz/which-valentines-candy-are-you-quiz-9/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-santas-workshop-are-you-quiz-33",
+    "title": "Which Santa's Workshop Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "santa's workshop",
+      "christmas quiz",
+      "holiday personality",
+      "north pole",
+      "family fun"
+    ],
+    "description": "Take the Which Santa's Workshop Are You Quiz to find your North Pole station! Are you a toy maker, baker, or reindeer trainer? Find out now!",
+    "url": "/quiz/which-santas-workshop-are-you-quiz-33/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-halloween-movie-quotes-quiz",
+    "title": "Can You Finish These 90s Halloween Movie Quotes?",
+    "category": "trivia",
+    "tags": [
+      "halloween",
+      "90s movies",
+      "movie trivia",
+      "hocus pocus",
+      "pop culture"
+    ],
+    "description": "Think you know your spooky 90s classics? Test your knowledge on iconic quotes from Hocus Pocus, Halloweentown, and more!",
+    "url": "/quiz/90s-halloween-movie-quotes-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "lazy-last-minute-halloween-costume-quiz",
+    "title": "Which Lazy Last-Minute Costume Fits You?",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "costumes",
+      "last-minute",
+      "personality",
+      "quiz"
+    ],
+    "description": "Need a quick outfit idea? Take our lazy last-minute Halloween costume quiz to find the perfect low-effort look for your personality!",
+    "url": "/quiz/lazy-last-minute-halloween-costume-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "survive-a-2000s-horror-movie-quiz",
+    "title": "Could You Survive a 2000s Horror Movie?",
+    "category": "personality",
+    "tags": [
+      "horror",
+      "2000s",
+      "movies",
+      "survival",
+      "personality"
+    ],
+    "description": "Take this fun 2000s horror movie survival quiz to see if your instincts would keep you alive in a classic throwback spooky film!",
+    "url": "/quiz/survive-a-2000s-horror-movie-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-halloween-candy-by-slogan-quiz",
+    "title": "Can You Guess the Halloween Candy by Its Slogan?",
+    "category": "trivia",
+    "tags": [
+      "halloween",
+      "candy",
+      "slogans",
+      "trivia",
+      "pop-culture"
+    ],
+    "description": "Can you match famous Halloween candies to their classic slogans? Take this fun trivia quiz and test your sweet treat knowledge!",
+    "url": "/quiz/guess-the-halloween-candy-by-slogan-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "autumn-cafe-drink-aesthetic-quiz",
+    "title": "Which Autumn Cafe Drink Matches Your Aesthetic Profile?",
+    "category": "personality",
+    "tags": [
+      "autumn",
+      "cafe",
+      "aesthetic",
+      "quiz",
+      "coffee"
+    ],
+    "description": "Find out which trending autumn cafe drink matches your daily style, mood, and cozy vibe with this fun aesthetic quiz from QuizPop!",
+    "url": "/quiz/autumn-cafe-drink-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-fall-fast-food-riddles",
+    "title": "Can You Guess These Viral Fall Fast-Food Items?",
+    "category": "riddles",
+    "tags": [
+      "fall food",
+      "fast food",
+      "riddles",
+      "pumpkin spice",
+      "autumn"
+    ],
+    "description": "Test your knowledge of viral autumn fast-food items with this fun 6-question riddle quiz. Can you guess every seasonal treat based on ingredient clues?",
+    "url": "/quiz/viral-fall-fast-food-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-cozy-mystery-autumn-reading-quiz",
+    "title": "Which Cozy Mystery Should You Read This Autumn?",
+    "category": "personality",
+    "tags": [
+      "cozy mystery",
+      "autumn reading",
+      "book recommendations",
+      "fall books",
+      "personality quiz"
+    ],
+    "description": "Find out which viral cozy mystery book you should read this autumn! Match your sweater-weather vibes with your next favorite fall whodunit.",
+    "url": "/quiz/viral-cozy-mystery-autumn-reading-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "escape-virtual-haunted-mansion",
+    "title": "Escape the Virtual Haunted Mansion Riddle Challenge",
+    "category": "riddles",
+    "tags": [
+      "haunted mansion",
+      "riddles",
+      "logic puzzles",
+      "spooky games",
+      "family quiz"
+    ],
+    "description": "Can you escape the virtual haunted mansion? Test your logic skills with our fun family-friendly spooky riddles and brain teasers today!",
+    "url": "/quiz/escape-virtual-haunted-mansion/",
+    "questions_count": 6
+  },
+  {
+    "slug": "budget-fall-decor-style-quiz",
+    "title": "Which Budget Fall Decor Matches Your Style?",
+    "category": "personality",
+    "tags": [
+      "fall decor",
+      "budget decor",
+      "interior design",
+      "home style",
+      "quiz"
+    ],
+    "description": "Find out which affordable fall home decor item fits your aesthetic! Take our fun quiz to style your space on a budget this cozy autumn season.",
+    "url": "/quiz/budget-fall-decor-style-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-viral-pet-costume-matches-your-personality",
+    "title": "Which Viral Pet Costume Matches Your Personality?",
+    "category": "personality",
+    "tags": [
+      "pet costume",
+      "personality quiz",
+      "viral pets",
+      "cute animals",
+      "fun quiz"
+    ],
+    "description": "Take our adorable viral pet costume quiz to find out if you're a speedy dino dog, a pirate cat, or a spooky spider pup! Fun for all ages.",
+    "url": "/quiz/which-viral-pet-costume-matches-your-personality/",
+    "questions_count": 6
+  },
+  {
+    "slug": "secret-autumn-baking-ingredient-quiz",
+    "title": "Can You Guess The Secret Autumn Baking Ingredient?",
+    "category": "trivia",
+    "tags": [
+      "fall baking",
+      "secret ingredients",
+      "viral recipes",
+      "autumn desserts",
+      "food trivia"
+    ],
+    "description": "Can you guess the secret ingredients in viral autumn baking recipes? Take this fun family-friendly trivia quiz and test your fall dessert knowledge!",
+    "url": "/quiz/secret-autumn-baking-ingredient-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-classic-spooky-sound",
+    "title": "Can You Guess These Classic Spooky Sounds?",
+    "category": "riddles",
+    "tags": [
+      "spooky sounds",
+      "halloween",
+      "riddles",
+      "sound effects",
+      "family quiz"
+    ],
+    "description": "Can you guess the classic spooky sound effect from these fun riddle clues? Test your knowledge with this family-friendly quiz right now!",
+    "url": "/quiz/guess-the-classic-spooky-sound/",
+    "questions_count": 6
+  },
+  {
+    "slug": "giant-halloween-yard-decor-trivia",
+    "title": "The Giant Halloween Yard Decor Trivia Quiz",
+    "category": "trivia",
+    "tags": [
+      "halloween",
+      "decorations",
+      "trivia",
+      "skeletons",
+      "yard"
+    ],
+    "description": "Test your knowledge on the history of viral oversized Halloween decorations with this fun trivia quiz for the whole family! How well do you know big lawn props?",
+    "url": "/quiz/giant-halloween-yard-decor-trivia/",
+    "questions_count": 6
   }
 ]
