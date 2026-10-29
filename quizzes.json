@@ -13229,5 +13229,35 @@
     "description": "Test your knowledge on the history of viral oversized Halloween decorations with this fun trivia quiz for the whole family! How well do you know big lawn props?",
     "url": "/quiz/giant-halloween-yard-decor-trivia/",
     "questions_count": 6
+  },
+  {
+    "slug": "what-is-your-spooky-season-job-title-quiz",
+    "title": "What Is Your Spooky Season Job Title Quiz",
+    "category": "personality",
+    "tags": [
+      "spooky season",
+      "halloween quiz",
+      "fall personality",
+      "job title",
+      "autumn quiz"
+    ],
+    "description": "Take our what is your spooky season job title quiz to discover your official Halloween career, from Potion Brewer to Ghost Whisperer!",
+    "url": "/quiz/what-is-your-spooky-season-job-title-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-diy-pop-culture-character-costume",
+    "title": "Guess the DIY Pop Culture Character Costume",
+    "category": "trivia",
+    "tags": [
+      "diy costumes",
+      "pop culture",
+      "trivia",
+      "movies",
+      "quiz"
+    ],
+    "description": "Can you guess the iconic pop culture character behind these low-budget DIY costume mashups? Take this fun family-friendly trivia quiz now!",
+    "url": "/quiz/guess-the-diy-pop-culture-character-costume/",
+    "questions_count": 6
   }
 ]
