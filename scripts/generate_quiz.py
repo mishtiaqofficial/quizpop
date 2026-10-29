@@ -1011,6 +1011,11 @@ def pick_concepts(published_slugs, published_titles, n):
     then fall back to trend discovery. Each item: (concept, format, target_kw)."""
     concepts = []
     covered = " ".join(published_slugs + published_titles).lower()
+    # TITLE FILTER (2026-10-29 fix): the slug check alone misses targets whose
+    # title already exists under a DIFFERENT slug (e.g. "Which Slasher
+    # Villain Are You Quiz"). Without this, all 3 daily picks can be skipped
+    # later as duplicates and the run fails with nothing published.
+    published_norm_titles = {norm_title(t) for t in published_titles}
 
     # 1. seasonal override
     for start, end, target in SEASONAL_WINDOWS:
@@ -1031,6 +1036,8 @@ def pick_concepts(published_slugs, published_titles, n):
         if target["cluster"] not in TRENDING_CLUSTERS:
             continue
         if kw_already_covered(target["kw"], published_slugs):
+            continue
+        if norm_title(target["kw"]) in published_norm_titles:
             continue
         fmt = "personality"
         if target["cluster"] in ("trivia",):
