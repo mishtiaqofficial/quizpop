@@ -25,7 +25,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent  # repo root (quizpop-site contents)
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
-PER_DAY = int(os.environ.get("QUIZZES_PER_DAY", "3"))
+# USER POLICY 2026-10-29: max 3 pages/day, trending keywords only.
+# Capped here (not in the workflow file) so it holds no matter what
+# count the workflow passes.
+PER_DAY = min(int(os.environ.get("QUIZZES_PER_DAY", "3")), 3)
 DOMAIN = os.environ.get("SITE_DOMAIN", "https://popquizdaily.site/").rstrip("/") + "/"
 
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
@@ -1017,10 +1020,16 @@ def pick_concepts(published_slugs, published_titles, n):
                 covered += " " + target["kw"]
             break
 
-    # 2. keyword targets in priority order
+    # 2. keyword targets in priority order — TRENDING CLUSTERS ONLY
+    # (user policy 2026-10-29). Evergreen clusters (love/food/career/trivia/
+    # riddles/decade) are skipped; any shortfall is filled by live trend
+    # discovery in step 3, which is trending by design.
+    TRENDING_CLUSTERS = ("seasonal", "trending", "trending-oct23")
     for target in KEYWORD_TARGETS:
         if len(concepts) >= n:
             break
+        if target["cluster"] not in TRENDING_CLUSTERS:
+            continue
         if kw_already_covered(target["kw"], published_slugs):
             continue
         fmt = "personality"
