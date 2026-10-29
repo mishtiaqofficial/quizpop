@@ -1121,6 +1121,12 @@ def write_all_quizzes(quizzes):
 
 
 def main():
+    # PAUSE GUARD (2026-10-29): daily auto-publishing is paused during Google
+    # visibility recovery. The scheduled workflow still runs but exits here
+    # without generating or pushing anything. Delete the PAUSED file to resume.
+    if (ROOT / "PAUSED").exists():
+        print("PAUSED: daily publishing is disabled during recovery — nothing generated.")
+        return
     quizzes_path = ROOT / "quizzes.json"
     quizzes = json.loads(quizzes_path.read_text()) if quizzes_path.exists() else []
     existing_slugs = {z["slug"] for z in quizzes}
