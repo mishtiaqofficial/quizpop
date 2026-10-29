@@ -39,6 +39,19 @@ STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
 # Priority order: seasonal first (Halloween window), then GSC-proven love cluster, then rest.
 # The pipeline works through these in order, skipping anything already published.
 KEYWORD_TARGETS = [
+    # HALLOWEEN FINAL WAVE (2026-10-29, user instruction): fresh Halloween
+    # angles, verified non-duplicate against published titles. Prepended so
+    # they publish before the trend ends Oct 31. Cluster "trending" so the
+    # trending-only filter picks them up.
+    {"kw": "which halloween makeup look are you quiz", "cluster": "trending", "angle": "Halloween makeup look personality quiz"},
+    {"kw": "which dia de muertos element are you quiz", "cluster": "trending", "angle": "Dia de Muertos element personality quiz (Nov 1-2 trend)"},
+    {"kw": "which halloween superstition are you quiz", "cluster": "trending", "angle": "Halloween superstition personality quiz"},
+    {"kw": "which halloween party game are you quiz", "cluster": "trending", "angle": "Halloween party game personality quiz"},
+    {"kw": "which halloween mocktail are you quiz", "cluster": "trending", "angle": "Halloween mocktail personality quiz"},
+    {"kw": "which halloween horror book should you read quiz", "cluster": "trending", "angle": "Halloween horror book recommendation quiz"},
+    {"kw": "which halloween office party role are you quiz", "cluster": "trending", "angle": "Halloween office party role personality quiz"},
+    {"kw": "which halloween nail art are you quiz", "cluster": "trending", "angle": "Halloween nail art personality quiz"},
+    {"kw": "which halloween wedding theme are you quiz", "cluster": "trending", "angle": "Halloween wedding theme personality quiz"},
     {"kw": "which last minute halloween costume should i wear quiz", "cluster": "trending-oct23", "angle": "Researched 2026-10-23: high-intent, low-competition"},
     {"kw": "what halloween costume matches my personality quiz", "cluster": "trending-oct23", "angle": "Researched 2026-10-23: high-intent, low-competition"},
     {"kw": "which halloween costume are you based on your zodiac sign quiz", "cluster": "trending-oct23", "angle": "Researched 2026-10-23: high-intent, low-competition"},
