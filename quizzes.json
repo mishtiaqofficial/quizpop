@@ -34,7 +34,7 @@
   },
   {
     "category": "riddles",
-    "description": "Five classic riddles with answers revealed as you play. Only 2% score a perfect 5/5 — can you?",
+    "description": "7 Tricky Riddles Most Adults Fail — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added daily on QuizPop.",
     "questions_count": 5,
     "slug": "7-tricky-riddles",
     "tags": [
@@ -1741,21 +1741,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-cranberry-sauce-are-quiz-2",
-    "title": "Which Cranberry Sauce Are You?",
-    "category": "personality",
-    "tags": [
-      "cranberry sauce",
-      "thanksgiving",
-      "personality quiz",
-      "holiday food",
-      "fun quiz"
-    ],
-    "description": "Take this fun personality test to find out which cranberry sauce matches your holiday vibe. Are you smooth and classic or chunky and bold?",
-    "url": "/quiz/which-cranberry-sauce-are-quiz-2/",
-    "questions_count": 6
-  },
-  {
     "slug": "what-is-your-friendsgiving-role-quiz",
     "title": "What Is Your Friendsgiving Role Quiz?",
     "category": "personality",
@@ -2068,21 +2053,6 @@
     ],
     "description": "Take this fun personality quiz to discover which Thanksgiving Day parade float matches your holiday spirit! Find out your parade persona now.",
     "url": "/quiz/which-thanksgiving-float-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-cranberry-sauce-are-you-quiz",
-    "title": "Which Cranberry Sauce Are You?",
-    "category": "personality",
-    "tags": [
-      "which cranberry sauce are you quiz",
-      "thanksgiving quiz",
-      "holiday personality quiz",
-      "food quiz",
-      "family fun"
-    ],
-    "description": "Take the Which Cranberry Sauce Are You quiz to discover your holiday food personality! Are you smooth jellied or chunky whole berry?",
-    "url": "/quiz/which-cranberry-sauce-are-you-quiz/",
     "questions_count": 6
   },
   {
@@ -2416,36 +2386,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-christmas-movie-are-you-quiz",
-    "title": "Which Christmas Movie Are You?",
-    "category": "personality",
-    "tags": [
-      "christmas movies",
-      "holiday quiz",
-      "personality quiz",
-      "winter",
-      "family fun"
-    ],
-    "description": "Take this fun personality quiz to find out which Christmas movie matches your holiday style, favorite treats, and winter weekend plans!",
-    "url": "/quiz/which-christmas-movie-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whoville-or-mt-crumpit-quiz-2",
-    "title": "Whoville or Mt. Crumpit Quiz",
-    "category": "personality",
-    "tags": [
-      "grinch quiz",
-      "personality test",
-      "whoville",
-      "christmas quiz",
-      "family fun"
-    ],
-    "description": "Take this fun personality quiz to find out which Grinch character you are. Are you more like Whoville or Mt. Crumpit? Play now for free!",
-    "url": "/quiz/whoville-or-mt-crumpit-quiz-2/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-santas-reindeer-are-you-quiz",
     "title": "Which Santas Reindeer Are You Quiz",
     "category": "personality",
@@ -2776,21 +2716,6 @@
     "questions_count": 6
   },
   {
-    "slug": "whoville-or-mt-crumpit-quiz-3",
-    "title": "Whoville or Mt. Crumpit Quiz",
-    "category": "personality",
-    "tags": [
-      "whoville",
-      "mt crumpit",
-      "grinch",
-      "holiday",
-      "quiz"
-    ],
-    "description": "Take this fun personality quiz to find out which Grinch character you are. Do you belong in Whoville or up on Mt. Crumpit? Play now!",
-    "url": "/quiz/whoville-or-mt-crumpit-quiz-3/",
-    "questions_count": 6
-  },
-  {
     "slug": "what-christmas-candle-scent-are-you-quiz",
     "title": "What Christmas Candle Scent Are You?",
     "category": "personality",
@@ -2803,21 +2728,6 @@
     ],
     "description": "Take this fun holiday quiz to discover what christmas candle scent matches your personality! Are you pine, cinnamon, or vanilla?",
     "url": "/quiz/what-christmas-candle-scent-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-2",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday personality",
-      "family fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole department matches your fun holiday personality. Play now!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-2/",
     "questions_count": 6
   },
   {
@@ -3151,96 +3061,6 @@
     "questions_count": 6
   },
   {
-    "slug": "whoville-or-mt-crumpit-quiz-4",
-    "title": "Whoville or Mt. Crumpit Quiz",
-    "category": "personality",
-    "tags": [
-      "grinch quiz",
-      "whoville",
-      "holiday quiz",
-      "personality test",
-      "family fun"
-    ],
-    "description": "Take the which grinch character are you quiz! Discover if you belong in cheery Whoville or cozy Mt. Crumpit with this fun personality test for families.",
-    "url": "/quiz/whoville-or-mt-crumpit-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-3",
-    "title": "Which Santa's Workshop Are You?",
-    "category": "personality",
-    "tags": [
-      "santa's workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday",
-      "personality"
-    ],
-    "description": "Take this fun quiz to find out which santa's workshop matches your personality! Discover your North Pole station today.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-christmas-parade-are-quiz-2",
-    "title": "Which Christmas Parade Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas parade",
-      "holiday quiz",
-      "personality quiz",
-      "festive",
-      "family fun"
-    ],
-    "description": "Take the which christmas parade are you quiz to discover your ultimate holiday celebration match based on your favorite festive traditions and style.",
-    "url": "/quiz/which-christmas-parade-are-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-christmas-song-lyric-are-you-quiz",
-    "title": "What Christmas Song Lyric Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas songs",
-      "holiday quiz",
-      "personality test",
-      "festive",
-      "winter fun"
-    ],
-    "description": "Take the what christmas song lyric are you quiz! Answer 6 fun questions to find out which festive holiday phrase matches your winter personality.",
-    "url": "/quiz/what-christmas-song-lyric-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-christmas-dinner-are-you-quiz",
-    "title": "Which Christmas Dinner Are You?",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "dinner",
-      "holiday",
-      "food",
-      "quiz"
-    ],
-    "description": "Take this fun personality quiz to find out which christmas dinner matches your festive holiday style and winter personality today!",
-    "url": "/quiz/which-christmas-dinner-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-christmas-jumper-are-you-quiz",
-    "title": "Which Christmas Jumper Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "christmas sweater",
-      "holiday fashion",
-      "ugly sweater",
-      "winter fun",
-      "personality quiz"
-    ],
-    "description": "Take the which christmas jumper are you quiz to discover your ultimate holiday knit! Find out if you are a cozy reindeer or a loud light-up sweater.",
-    "url": "/quiz/which-christmas-jumper-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-december-birthstone-are-you-quiz",
     "title": "Which December Birthstone Are You Quiz",
     "category": "personality",
@@ -3523,81 +3343,6 @@
     ],
     "description": "Take the which bat are you quiz to discover your nocturnal spirit animal! Answer fun questions about your nighttime habits and find your perfect bat match.",
     "url": "/quiz/which-bat-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whoville-or-mt-crumpit-quiz-5",
-    "title": "Whoville or Mt. Crumpit Quiz",
-    "category": "personality",
-    "tags": [
-      "which grinch character are you quiz",
-      "grinch personality test",
-      "whoville quiz",
-      "christmas quiz",
-      "family friendly"
-    ],
-    "description": "Take the which grinch character are you quiz to discover if you belong in cozy Whoville or up on Mt. Crumpit. Fun personality test for the whole family!",
-    "url": "/quiz/whoville-or-mt-crumpit-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-4",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday personality",
-      "family fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole station matches your festive personality. Play now!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-christmas-parade-are-quiz-3",
-    "title": "Which Christmas Parade Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas parade",
-      "holiday quiz",
-      "personality test",
-      "festive",
-      "winter fun"
-    ],
-    "description": "Take the Which Christmas Parade Are You Quiz to discover your festive holiday match! Answer fun questions and find out which celebration fits your vibe.",
-    "url": "/quiz/which-christmas-parade-are-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-black-cat-are-you-quiz",
-    "title": "Which Black Cat Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "black cat",
-      "personality quiz",
-      "cats",
-      "spirit animal",
-      "fun quiz"
-    ],
-    "description": "Take the which black cat are you quiz to discover your feline personality! Are you a playful zoomie champion or a cozy cuddle bug? Find out now!",
-    "url": "/quiz/which-black-cat-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-full-moon-are-you",
-    "title": "What Full Moon Are You?",
-    "category": "personality",
-    "tags": [
-      "full moon",
-      "astrology",
-      "personality quiz",
-      "space",
-      "night sky"
-    ],
-    "description": "Take this fun personality quiz to find out what full moon matches your vibe! Answer six easy questions to discover your lunar phase today.",
-    "url": "/quiz/what-full-moon-are-you/",
     "questions_count": 6
   },
   {
@@ -3886,51 +3631,6 @@
     "questions_count": 6
   },
   {
-    "slug": "whoville-or-mt-crumpit-quiz-6",
-    "title": "Whoville or Mt. Crumpit Quiz",
-    "category": "personality",
-    "tags": [
-      "grinch quiz",
-      "whoville",
-      "personality test",
-      "holiday",
-      "dr seuss"
-    ],
-    "description": "Take the which grinch character are you quiz to find out if you belong in bustling Whoville or snowy Mt. Crumpit. Discover your holiday personality today!",
-    "url": "/quiz/whoville-or-mt-crumpit-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-5",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "north pole",
-      "christmas quiz",
-      "personality test",
-      "holiday fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole department matches your fun holiday personality!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-christmas-parade-are-quiz-4",
-    "title": "Which Christmas Parade Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas parade",
-      "holiday quiz",
-      "personality quiz",
-      "winter fun",
-      "family quiz"
-    ],
-    "description": "Take the Which Christmas Parade Are You Quiz to discover which famous holiday procession matches your festive personality and style today!",
-    "url": "/quiz/which-christmas-parade-are-quiz-4/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-tombstone-are-you-quiz",
     "title": "Which Tombstone Are You Quiz",
     "category": "personality",
@@ -4046,7 +3746,7 @@
       "folklore",
       "fun quiz"
     ],
-    "description": "Take the Which Omen Are You Quiz to discover your mysterious sign! Answer fun questions to find your symbol.",
+    "description": "Which Omen Are You Quiz — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added daily on QuizPop.",
     "url": "/quiz/which-omen-are-you-quiz/",
     "questions_count": 6
   },
@@ -4261,36 +3961,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-6",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "holiday",
-      "christmas",
-      "north pole",
-      "personality",
-      "elves"
-    ],
-    "description": "Find your holiday job at the North Pole! Take our festive which santa's workshop are you quiz to discover your station among Santa's busy elves.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-christmas-parade-are-you-quiz",
-    "title": "Which Christmas Parade Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "parade",
-      "holiday",
-      "personality",
-      "winter"
-    ],
-    "description": "Take our Which Christmas Parade Are You Quiz to discover if you belong in a cozy hometown march, a magical theme park, or a star-studded city parade!",
-    "url": "/quiz/which-christmas-parade-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "what-jinx-are-you-quiz",
     "title": "What Jinx Are You Quiz: Discover Your Bad Luck",
     "category": "personality",
@@ -4318,51 +3988,6 @@
     ],
     "description": "Take the which grim reaper are you quiz to discover your spooky spirit style! Find out which underworld harvester matches your personality today.",
     "url": "/quiz/which-grim-reaper-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-spooky-pet-should-you-get-quiz",
-    "title": "What Spooky Pet Should You Get Quiz",
-    "category": "personality",
-    "tags": [
-      "spooky pets",
-      "halloween",
-      "personality test",
-      "creature",
-      "fun quiz"
-    ],
-    "description": "Take the What Spooky Pet Should You Get Quiz to find out which magical, mysterious creature matches your personality! Fun and family-friendly.",
-    "url": "/quiz/what-spooky-pet-should-you-get-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-2",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movies",
-      "movie picker",
-      "family movies",
-      "fall fun",
-      "quizpop"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Get a personalized movie recommendation based on your spooky preferences.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-addams-family-member-are-you-quiz",
-    "title": "Which Addams Family Member Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "addams family",
-      "personality quiz",
-      "spooky",
-      "pop culture",
-      "halloween"
-    ],
-    "description": "Take our fun which addams family member are you quiz to find your match! Answer 6 creepy, kooky questions and uncover your inner Addams personality today.",
-    "url": "/quiz/which-addams-family-member-are-you-quiz/",
     "questions_count": 6
   },
   {
@@ -4618,36 +4243,6 @@
     ],
     "description": "Take the ultimate which stranger things monster are you quiz to discover if you match the Demogorgon, Mind Flayer, or a Demo-dog. Fun for all fans!",
     "url": "/quiz/which-stranger-things-monster-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-7",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "north pole",
-      "personality quiz",
-      "holiday fun"
-    ],
-    "description": "Take the which santa's workshop are you quiz to discover your dream North Pole job, from Toy Design to Sweet Treats and Sleigh Mechanics!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-3",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movies",
-      "movie quiz",
-      "fall fun",
-      "spooky season",
-      "family movie night"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions to get your ultimate spooky movie night recommendation.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-3/",
     "questions_count": 6
   },
   {
@@ -4966,36 +4561,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-8",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "personality quiz",
-      "north pole",
-      "holiday fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out your true North Pole job! Are you a builder, artist, or baker? Discover your festive match today.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-4",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "movies",
-      "fall",
-      "family",
-      "quiz"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch quiz style tonight! Answer six easy questions to get your spooky movie match.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-4/",
-    "questions_count": 6
-  },
-  {
     "slug": "what-kind-of-pumpkin-are-you-quiz",
     "title": "What Kind Of Pumpkin Are You Quiz",
     "category": "personality",
@@ -5296,36 +4861,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-9",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa's workshop",
-      "christmas quiz",
-      "personality quiz",
-      "north pole",
-      "holiday fun"
-    ],
-    "description": "Take the which santa's workshop are you quiz to find out which magical North Pole station matches your holiday personality and festive skills!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-5",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movies",
-      "movie night",
-      "family fun",
-      "fall quiz",
-      "spooky season"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions for your personalized family movie night pick.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-5/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-nightmare-before-christmas-character-are-you-quiz",
     "title": "Which Nightmare Before Christmas Character Are You Quiz",
     "category": "personality",
@@ -5338,21 +4873,6 @@
     ],
     "description": "Take the which nightmare before christmas character are you quiz to find out if you are Jack, Sally, or Zero. Discover your Halloween Town match now!",
     "url": "/quiz/which-nightmare-before-christmas-character-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-monster-cereal-are-quiz-2",
-    "title": "Which Monster Cereal Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "monster cereal",
-      "breakfast",
-      "halloween",
-      "retro",
-      "family quiz"
-    ],
-    "description": "Take the which monster cereal are you quiz to discover if you match Count Chocula, Franken Berry, or Boo Berry in this fun breakfast personality test!",
-    "url": "/quiz/which-monster-cereal-are-quiz-2/",
     "questions_count": 6
   },
   {
@@ -5626,36 +5146,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-10",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "personality test",
-      "north pole",
-      "holiday fun"
-    ],
-    "description": "Take the which santa's workshop are you quiz to find your North Pole job! Answer fun holiday questions and discover your festive station.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-10/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-6",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movies",
-      "movie night",
-      "fall quiz",
-      "spooky season",
-      "family film"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Get a personalized spooky film recommendation for your movie night.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-6/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-witch-familiar-are-you-quiz",
     "title": "Which Witch Familiar Are You?",
     "category": "personality",
@@ -5671,21 +5161,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-monster-cereal-are-quiz-3",
-    "title": "Which Monster Cereal Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "which monster cereal are you quiz",
-      "monster cereals",
-      "count chocula",
-      "franken berry",
-      "breakfast quiz"
-    ],
-    "description": "Take the Which Monster Cereal Are You Quiz to find out if you match Count Chocula, Franken Berry, or Boo Berry in this fun breakfast personality test!",
-    "url": "/quiz/which-monster-cereal-are-quiz-3/",
-    "questions_count": 6
-  },
-  {
     "slug": "am-i-a-witch-or-vampire-quiz",
     "title": "Am I a Witch or a Vampire Quiz",
     "category": "personality",
@@ -5698,36 +5173,6 @@
     ],
     "description": "Take the ultimate am i a witch or a vampire quiz to discover your magical destiny! Are you a spellcasting witch or a creature of the night? Find out now.",
     "url": "/quiz/am-i-a-witch-or-vampire-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-vibe-quiz-2",
-    "title": "What's Your Spooky Season Vibe?",
-    "category": "personality",
-    "tags": [
-      "spooky season",
-      "autumn quiz",
-      "fall vibe",
-      "halloween personality",
-      "quizpop"
-    ],
-    "description": "Take what is my spooky season vibe quiz to discover your autumn personality! Are you cozy cider, classic monster, or ghost hunter? Find out now.",
-    "url": "/quiz/whats-your-spooky-season-vibe-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-job-title-quiz-2",
-    "title": "What's Your Spooky Season Job Title?",
-    "category": "personality",
-    "tags": [
-      "halloween quiz",
-      "spooky season",
-      "fall personality quiz",
-      "what is your spooky season job title quiz",
-      "fun family quiz"
-    ],
-    "description": "Take this fun personality quiz to find out what is your spooky season job title! Answer six autumn questions to discover your official Halloween role.",
-    "url": "/quiz/whats-your-spooky-season-job-title-quiz-2/",
     "questions_count": 6
   },
   {
@@ -5986,36 +5431,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-11",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa workshop",
-      "christmas quiz",
-      "north pole",
-      "personality quiz",
-      "holiday fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole department matches your fun personality! Perfect for the whole family.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-11/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-7",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "movies",
-      "quiz",
-      "spooky",
-      "family"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer questions about your favorite spooky vibes for a great movie match.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-7/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-cryptid-are-you-quiz",
     "title": "Which Cryptid Are You Quiz",
     "category": "personality",
@@ -6028,81 +5443,6 @@
     ],
     "description": "Take this fun which cryptid are you quiz to find out if you are Bigfoot, Mothman, or the Chupacabra. Discover your inner legendary creature today!",
     "url": "/quiz/which-cryptid-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-monster-cereal-are-you-quiz",
-    "title": "Which Monster Cereal Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "cereal",
-      "halloween",
-      "breakfast",
-      "monsters",
-      "retro"
-    ],
-    "description": "Take our which monster cereal are you quiz to see if you are more like Count Chocula, Franken Berry, or Boo Berry! Fun for the whole family.",
-    "url": "/quiz/which-monster-cereal-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "am-i-a-witch-or-a-vampire-quiz",
-    "title": "Am I a Witch or a Vampire Quiz",
-    "category": "personality",
-    "tags": [
-      "witch or vampire",
-      "halloween quiz",
-      "personality test",
-      "supernatural",
-      "fun quiz"
-    ],
-    "description": "Take the Am I a Witch or a Vampire Quiz to find out whether your personality belongs to a spellcasting spell-weaver or a midnight creature of the night!",
-    "url": "/quiz/am-i-a-witch-or-a-vampire-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-vibe-quiz-3",
-    "title": "What's Your Spooky Season Vibe?",
-    "category": "personality",
-    "tags": [
-      "spooky season",
-      "halloween",
-      "fall",
-      "personality quiz",
-      "autumn"
-    ],
-    "description": "Take the what is my spooky season vibe quiz to discover your autumn personality! Find out if you are cozy, classic, or festive this Halloween season.",
-    "url": "/quiz/whats-your-spooky-season-vibe-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-job-title-quiz-3",
-    "title": "What's Your Spooky Season Job Title?",
-    "category": "personality",
-    "tags": [
-      "halloween quiz",
-      "spooky season",
-      "fall personality quiz",
-      "pumpkin spice",
-      "autumn fun"
-    ],
-    "description": "Take this fun personality quiz to find out what is your spooky season job title. Discover your ideal autumn role and share your results with friends!",
-    "url": "/quiz/whats-your-spooky-season-job-title-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-christmas-aesthetic",
-    "title": "What's Your Christmas Aesthetic?",
-    "category": "personality",
-    "tags": [
-      "what is my christmas aesthetic quiz",
-      "christmas quiz",
-      "holiday aesthetic",
-      "christmas decor",
-      "personality quiz"
-    ],
-    "description": "Take this fun quiz to discover what is my christmas aesthetic quiz result! Find out your unique holiday decorating style and festive vibe today.",
-    "url": "/quiz/whats-your-christmas-aesthetic/",
     "questions_count": 6
   },
   {
@@ -6343,81 +5683,6 @@
     ],
     "description": "Take this fun personality test to find out what is my spirit animal quiz result! Answer six quick questions to discover your true animal match.",
     "url": "/quiz/what-is-my-spirit-animal-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-12",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "north pole",
-      "christmas quiz",
-      "holiday personality",
-      "quizpop"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole department matches your festive personality and holiday style!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-12/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-8",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movie",
-      "movie night",
-      "fall fun",
-      "spooky season",
-      "family movie"
-    ],
-    "description": "Take this what halloween movie should you watch quiz to find the ultimate spooky film for your movie night. Get your personalized recommendation now!",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-vibe-quiz-4",
-    "title": "What's Your Spooky Season Vibe?",
-    "category": "personality",
-    "tags": [
-      "spooky season",
-      "autumn",
-      "fall vibe",
-      "personality quiz",
-      "halloween"
-    ],
-    "description": "Take this fun personality quiz to discover what is my spooky season vibe! Answer six quick questions to find your ultimate autumn style and share with friends.",
-    "url": "/quiz/whats-your-spooky-season-vibe-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-job-title-quiz-4",
-    "title": "What's Your Spooky Season Job Title?",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "fall",
-      "spooky season",
-      "personality quiz",
-      "autumn"
-    ],
-    "description": "Take this fun personality quiz to discover what is your spooky season job title quiz result! Find out your autumn alter ego and share with friends.",
-    "url": "/quiz/whats-your-spooky-season-job-title-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-christmas-aesthetic-quiz-2",
-    "title": "What's Your Christmas Aesthetic?",
-    "category": "personality",
-    "tags": [
-      "christmas aesthetic",
-      "holiday quiz",
-      "decorating style",
-      "christmas personality",
-      "festive vibe"
-    ],
-    "description": "Take the what is my christmas aesthetic quiz to discover your holiday decorating style! Find out if you are Rustic Cabin, Winter Wonderland, or Merry & Bright.",
-    "url": "/quiz/whats-your-christmas-aesthetic-quiz-2/",
     "questions_count": 6
   },
   {
@@ -6691,51 +5956,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-13",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "north pole",
-      "personality quiz",
-      "holidays"
-    ],
-    "description": "Take the which santa's workshop are you quiz to find out which magical North Pole department matches your personality. Fun holiday quiz for kids and families!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-13/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-9",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "movies",
-      "quiz",
-      "family",
-      "fall"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer simple questions about your fall favorites to get your perfect match.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-vibe-quiz-5",
-    "title": "What's Your Spooky Season Vibe?",
-    "category": "personality",
-    "tags": [
-      "fall",
-      "halloween",
-      "spooky season",
-      "autumn",
-      "personality quiz"
-    ],
-    "description": "Take this fun personality quiz to discover what is my spooky season vibe quiz result! Are you a cozy ghost, pumpkin king, or midnight spellcaster?",
-    "url": "/quiz/whats-your-spooky-season-vibe-quiz-5/",
-    "questions_count": 6
-  },
-  {
     "slug": "whats-your-spooky-season-job-title-quiz-5",
     "title": "Spooky Season Job Title Quiz",
     "category": "personality",
@@ -6748,21 +5968,6 @@
     ],
     "description": "Take this fun personality quiz to discover your official spooky season job title! Are you a master of haunts or chief pumpkin carver? Find out now.",
     "url": "/quiz/whats-your-spooky-season-job-title-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-christmas-aesthetic-quiz-3",
-    "title": "What's Your Christmas Aesthetic?",
-    "category": "personality",
-    "tags": [
-      "christmas aesthetic",
-      "holiday quiz",
-      "christmas decor",
-      "personality quiz",
-      "winter style"
-    ],
-    "description": "Take this fun quiz to discover your holiday style! Find out if your vibe is rustic, classic, or pastel. What is my christmas aesthetic quiz awaits you!",
-    "url": "/quiz/whats-your-christmas-aesthetic-quiz-3/",
     "questions_count": 6
   },
   {
@@ -7021,81 +6226,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-14",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa's workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday fun",
-      "personality quiz"
-    ],
-    "description": "Take this fun personality quiz to discover which Santa's workshop department matches your holiday style. Are you a toy builder or candy maker?",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-14/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-10",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movie",
-      "movie picker",
-      "fall movie night",
-      "family friendly",
-      "spooky season"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer 6 quick questions and get your personalized spooky movie night match.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-10/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-vibe-quiz-6",
-    "title": "What's Your Spooky Season Vibe?",
-    "category": "personality",
-    "tags": [
-      "spooky season",
-      "autumn",
-      "fall vibe",
-      "personality quiz",
-      "halloween"
-    ],
-    "description": "Take this fun personality quiz to find out what is my spooky season vibe quiz result! Discover your autumn aesthetic and share with friends.",
-    "url": "/quiz/whats-your-spooky-season-vibe-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-job-title-quiz-6",
-    "title": "What's Your Spooky Season Job Title?",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "fall",
-      "spooky season",
-      "personality quiz",
-      "autumn"
-    ],
-    "description": "Take this fun personality quiz to discover what is your spooky season job title! Find out if you are a candy inspector or a master pumpkin carver.",
-    "url": "/quiz/whats-your-spooky-season-job-title-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-christmas-aesthetic-quiz-4",
-    "title": "What's Your Christmas Aesthetic?",
-    "category": "personality",
-    "tags": [
-      "christmas aesthetic",
-      "holiday decor",
-      "personality quiz",
-      "christmas style",
-      "winter fun"
-    ],
-    "description": "Take this fun personality quiz to find out what is my christmas aesthetic quiz result! Discover your ideal holiday style and decor vibe today.",
-    "url": "/quiz/whats-your-christmas-aesthetic-quiz-4/",
-    "questions_count": 6
-  },
-  {
     "slug": "whats-my-dream-job-based-on-my-personality-quiz",
     "title": "What's My Dream Job Based on My Personality?",
     "category": "personality",
@@ -7346,83 +6476,8 @@
       "food",
       "trivia"
     ],
-    "description": "Can you separate fact from fiction in this autumn spice trivia challenge? Test your knowledge of fall ingredients now!",
+    "description": "Fall Spice Fact or Fiction — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added daily on QuizPop.",
     "url": "/quiz/fall-spice-fact-or-fiction/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-15",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "personality quiz",
-      "north pole",
-      "holiday fun"
-    ],
-    "description": "Take this fun quiz to find out which Santa's workshop matches your personality! Discover your North Pole station today.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-15/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-11",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "movies",
-      "fall",
-      "family",
-      "quiz"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions to get your ultimate spooky movie recommendation.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-11/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-vibe-quiz-7",
-    "title": "What's Your Spooky Season Vibe?",
-    "category": "personality",
-    "tags": [
-      "spooky season",
-      "halloween",
-      "autumn",
-      "personality",
-      "fall vibe"
-    ],
-    "description": "Take this fun personality quiz to discover what is my spooky season vibe quiz result. Find out your true autumn aesthetic and Halloween style today!",
-    "url": "/quiz/whats-your-spooky-season-vibe-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-spooky-season-job-title-quiz-7",
-    "title": "What's Your Spooky Season Job Title?",
-    "category": "personality",
-    "tags": [
-      "halloween quiz",
-      "fall personality quiz",
-      "spooky season",
-      "family friendly",
-      "fun quiz"
-    ],
-    "description": "Take this fun personality quiz to discover what is your spooky season job title quiz result! Find out your autumn role today.",
-    "url": "/quiz/whats-your-spooky-season-job-title-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "whats-your-christmas-aesthetic-2",
-    "title": "What's Your Christmas Aesthetic?",
-    "category": "personality",
-    "tags": [
-      "christmas aesthetic",
-      "holiday quiz",
-      "christmas decor",
-      "personality quiz",
-      "winter style"
-    ],
-    "description": "Take this fun holiday personality quiz to find out what is my christmas aesthetic. Discover your ideal winter decor style and holiday vibe today!",
-    "url": "/quiz/whats-your-christmas-aesthetic-2/",
     "questions_count": 6
   },
   {
@@ -7591,36 +6646,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-16",
-    "title": "Which Santa's Workshop Are You?",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "north pole",
-      "holidays",
-      "personality"
-    ],
-    "description": "Wondering which Santa's workshop are you? Take our fun North Pole personality quiz to discover which magical department fits your festive personality!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-16/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-12",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movie",
-      "what halloween movie should you watch quiz",
-      "movie night",
-      "spooky",
-      "family friendly"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch quiz style! Pick your favorite treats and vibes for the ultimate movie night.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-12/",
-    "questions_count": 6
-  },
-  {
     "slug": "what-is-my-spooky-season-vibe-quiz",
     "title": "What Is My Spooky Season Vibe Quiz: Discover Your Mood",
     "category": "personality",
@@ -7633,36 +6658,6 @@
     ],
     "description": "Take our 'what is my spooky season vibe quiz' to find your perfect autumn aesthetic. Are you a cozy pumpkin, a haunted shadow, or a mystical moon?",
     "url": "/quiz/what-is-my-spooky-season-vibe-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-spooky-season-job-title-quiz",
-    "title": "What's Your Spooky Season Job Title?",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "spooky season",
-      "personality quiz",
-      "autumn",
-      "fall fun"
-    ],
-    "description": "Curious what is your spooky season job title quiz? Take this personality test to see if you are a pumpkin architect, candy connoisseur, or ghost storyteller.",
-    "url": "/quiz/what-is-your-spooky-season-job-title-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-my-christmas-aesthetic-quiz",
-    "title": "What's Your Christmas Aesthetic?",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "holiday",
-      "quiz",
-      "aesthetic",
-      "decor"
-    ],
-    "description": "Take the 'What Is My Christmas Aesthetic' quiz to discover your perfect holiday decorating style. Are you a Cozy Cabin, Classic, or Glitzy decorator?",
-    "url": "/quiz/what-is-my-christmas-aesthetic-quiz/",
     "questions_count": 6
   },
   {
@@ -7831,36 +6826,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-17",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "personality test",
-      "north pole",
-      "holiday fun"
-    ],
-    "description": "Take this fun quiz to find out which Santa's workshop station you belong in at the North Pole! Are you a toy maker, baker, or stable helper?",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-17/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-13",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movies",
-      "movie night",
-      "fall quiz",
-      "family friendly",
-      "spooky season"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer a few questions about your vibe and get your perfect spooky film match.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-13/",
-    "questions_count": 6
-  },
-  {
     "slug": "viral-ghost-dog-alter-ego-quiz",
     "title": "Which Viral Ghost Dog Is Your Pup's Alter-Ego?",
     "category": "personality",
@@ -7993,36 +6958,6 @@
     ],
     "description": "Test your knowledge of weird baseball lucky charms and historic fan superstitions with this fun family-friendly trivia quiz.",
     "url": "/quiz/bizarre-baseball-superstitions-trivia/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-18",
-    "title": "Which Santa's Workshop Are You?",
-    "category": "personality",
-    "tags": [
-      "santa workshop quiz",
-      "christmas quiz",
-      "north pole",
-      "holiday personality",
-      "family friendly"
-    ],
-    "description": "Take this fun holiday quiz to find out which santa's workshop matches your personality! Discover your North Pole job and share your result with friends.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-18/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-14",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movie",
-      "movie picker",
-      "family movie night",
-      "fall quiz",
-      "personality quiz"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer a few quick questions for the ultimate family-friendly movie match.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-14/",
     "questions_count": 6
   },
   {
@@ -8161,36 +7096,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-19",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "north pole",
-      "holiday quiz",
-      "personality"
-    ],
-    "description": "Take the official which Santa's workshop are you quiz to discover if you belong in toy invention, reindeer care, or sweet treat baking at the North Pole!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-19/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-15",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "movies",
-      "quiz",
-      "family",
-      "spooky"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Discover your spooky movie match based on your favorite fall treats and style.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-15/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-fake-spirit-hallowen-costume-are-you",
     "title": "Which Fake Spirit Halloween Costume Are You?",
     "category": "personality",
@@ -8246,7 +7151,7 @@
       "foodie",
       "quiz"
     ],
-    "description": "Test your knowledge of viral autumn drinks with our fun family-friendly quiz. Match secret syrups and foams now!",
+    "description": "Can You Match These Viral Fall Coffee Hacks? — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added daily o...",
     "url": "/quiz/viral-fall-coffee-hacks-quiz/",
     "questions_count": 6
   },
@@ -8341,36 +7246,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-20",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "santa workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday personality",
-      "family fun"
-    ],
-    "description": "Take the which santa's workshop are you quiz to find out which magical North Pole station matches your personality and hobbies. Perfect for kids and families!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-20/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-watch-quiz-16",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movie",
-      "movie night",
-      "spooky season",
-      "fall movies",
-      "personality quiz"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions for your personalized spooky film recommendation.",
-    "url": "/quiz/what-halloween-movie-should-watch-quiz-16/",
-    "questions_count": 6
-  },
-  {
     "slug": "signature-autumn-diy-style",
     "title": "What's Your Signature Autumn DIY Style?",
     "category": "personality",
@@ -8401,36 +7276,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-21",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "elves",
-      "north pole",
-      "holiday quiz"
-    ],
-    "description": "Take our which santa's workshop are you quiz to find your dream North Pole job, from building toys to flying Santa's sleigh!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-21/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-movie-should-you-watch-quiz",
-    "title": "What Halloween Movie Should You Watch Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween movie",
-      "family movie night",
-      "spooky season",
-      "movie picker",
-      "fall fun"
-    ],
-    "description": "Take this fun quiz to find out what halloween movie should you watch tonight! Answer six quick questions for the ultimate family movie night match.",
-    "url": "/quiz/what-halloween-movie-should-you-watch-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "90s-fall-tv-commercial-quiz",
     "title": "Which 90s Fall TV Commercial Are You?",
     "category": "personality",
@@ -8441,7 +7286,7 @@
       "autumn vibes",
       "pop culture"
     ],
-    "description": "Discover which nostalgic 90s fall TV commercial matches your cozy autumn energy with this fun, quick personality quiz!",
+    "description": "Which 90s Fall TV Commercial Are You? — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added daily on QuizPop.",
     "url": "/quiz/90s-fall-tv-commercial-quiz/",
     "questions_count": 6
   },
@@ -8581,21 +7426,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-22",
-    "title": "Which Santa's Workshop Are You?",
-    "category": "personality",
-    "tags": [
-      "santa",
-      "workshop",
-      "christmas",
-      "north pole",
-      "personality quiz"
-    ],
-    "description": "Take this fun personality quiz to find out which santa's workshop are you! Discover your North Pole station and share your holiday result with friends.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-22/",
-    "questions_count": 6
-  },
-  {
     "slug": "secret-ingredients-viral-fall-desserts",
     "title": "Guess the Secret Ingredient in Viral Fall Desserts!",
     "category": "trivia",
@@ -8666,7 +7496,7 @@
       "cozy",
       "books"
     ],
-    "description": "Solve these cozy fall riddles to test your detective skills and discover your ultimate autumn book recommendation!",
+    "description": "Solve the Autumn Mystery to Find Your Cozy Read — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added dail...",
     "url": "/quiz/solve-autumn-mystery-cozy-read/",
     "questions_count": 6
   },
@@ -9106,21 +7936,6 @@
     "questions_count": 6
   },
   {
-    "slug": "guess-the-us-state-fall-foliage-2",
-    "title": "Can You Guess The State By Its Fall Foliage?",
-    "category": "trivia",
-    "tags": [
-      "fall foliage",
-      "us states",
-      "autumn trees",
-      "geography trivia",
-      "leaf peeping"
-    ],
-    "description": "Can you guess the US state based on its autumn trees? Take this fun fall foliage trivia quiz and test your knowledge of American nature.",
-    "url": "/quiz/guess-the-us-state-fall-foliage-2/",
-    "questions_count": 6
-  },
-  {
     "slug": "viral-pet-halloween-costume-quiz",
     "title": "Which Viral Pet Halloween Costume Are You?",
     "category": "personality",
@@ -9181,21 +7996,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-24",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop quiz",
-      "north pole quiz",
-      "christmas personality quiz",
-      "holiday quiz",
-      "elf workshop quiz"
-    ],
-    "description": "Take the which santa's workshop are you quiz to discover your North Pole station! Find your holiday match from toy design to reindeer care today.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-24/",
-    "questions_count": 6
-  },
-  {
     "slug": "name-iconic-90s-tv-living-rooms",
     "title": "Can You Name These Iconic 90s TV Living Rooms?",
     "category": "trivia",
@@ -9236,7 +8036,7 @@
       "vibes",
       "fall"
     ],
-    "description": "Discover which trending viral fall pastry matches your cozy weekend personality with this quick, fun 6-question quiz!",
+    "description": "Which Viral Autumn Pastry Is Your Weekend Vibe? — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added dail...",
     "url": "/quiz/viral-autumn-pastry-weekend-vibe/",
     "questions_count": 6
   },
@@ -9721,36 +8521,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-demon-hunter-weapon-are-quiz-2",
-    "title": "Which Demon Hunter Weapon Are You?",
-    "category": "personality",
-    "tags": [
-      "demon hunter",
-      "weapon quiz",
-      "fantasy",
-      "personality test",
-      "quizpop"
-    ],
-    "description": "Take this fun personality quiz to discover which demon hunter weapon matches your style. Are you a blade, a bow, or a charm? Find out today!",
-    "url": "/quiz/which-demon-hunter-weapon-are-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-hunger-games-district-are-you-from-quiz",
-    "title": "What Hunger Games District Are You From?",
-    "category": "personality",
-    "tags": [
-      "hunger games",
-      "panem",
-      "district",
-      "book quiz",
-      "personality test"
-    ],
-    "description": "Take this fun personality quiz to discover what hunger games district are you from based on your favorite hobbies, skills, and daily preferences!",
-    "url": "/quiz/what-hunger-games-district-are-you-from-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-quarter-quell-tribute-are-you-quiz",
     "title": "Which Quarter Quell Tribute Are You Quiz",
     "category": "personality",
@@ -9946,36 +8716,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-christmas-character-are-you-quiz",
-    "title": "Which Christmas Character Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas quiz",
-      "holiday character",
-      "personality test",
-      "festive fun",
-      "family quiz"
-    ],
-    "description": "Take the Which Christmas Character Are You Quiz to find out your holiday personality match! Are you an elf, a snowman, or a rebel? Play now!",
-    "url": "/quiz/which-christmas-character-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-demon-hunter-weapon-are-you-quiz",
-    "title": "Which Demon Hunter Weapon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "demon hunter",
-      "weapon quiz",
-      "fantasy weapons",
-      "personality quiz",
-      "monster slayer"
-    ],
-    "description": "Take our which demon hunter weapon are you quiz to find out if you wield a swift blade, a precise bow, or a powerful charm!",
-    "url": "/quiz/which-demon-hunter-weapon-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-dandys-world-toon-are-you-quiz-2",
     "title": "Which Dandy's World Toon Are You Quiz? Pick Your Toon!",
     "category": "personality",
@@ -10091,7 +8831,7 @@
       "doctor doom",
       "which avenger are you"
     ],
-    "description": "Take our which avengers doomsday character are you quiz to discover your hero match in the epic Doomsday lineup!",
+    "description": "Which Avengers Doomsday Character Are You Quiz — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added daily...",
     "url": "/quiz/which-avengers-doomsday-character-are-you-quiz/",
     "questions_count": 6
   },
@@ -10258,36 +8998,6 @@
     ],
     "description": "Ready for an adventure? Take the which jumanji avatar are you quiz to see if you are a brave leader, a martial artist, or a brilliant map reader!",
     "url": "/quiz/which-jumanji-avatar-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dandys-world-toon-are-you-quiz-3",
-    "title": "Which Dandy's World Toon Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "toon quiz",
-      "personality quiz",
-      "gaming",
-      "kids"
-    ],
-    "description": "Take the official Which Dandy's World Toon Are You Quiz! Answer fun questions to discover which game character matches your unique personality today.",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-2",
-    "title": "Which Santa's Workshop Elf Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa elf",
-      "personality quiz",
-      "holiday fun",
-      "north pole"
-    ],
-    "description": "Take our fun which santa's workshop elf are you quiz to discover your holiday role at the North Pole! Are you a toy maker, baker, or sleigh tuner?",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-2/",
     "questions_count": 6
   },
   {
@@ -10636,66 +9346,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-dandys-world-toon-are-you-quiz-4",
-    "title": "Which Dandy's World Toon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox quiz",
-      "toon personality",
-      "gaming quiz",
-      "character test"
-    ],
-    "description": "Take the ultimate which dandy's world toon are you quiz to discover if you're helpful like Boxten, bright like Poppy, or brave like Astro!",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-3",
-    "title": "Which Santa's Workshop Elf Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "christmas quiz",
-      "santa workshop",
-      "elf personality",
-      "holiday fun",
-      "north pole"
-    ],
-    "description": "Take the Which Santa's Workshop Elf Are You Quiz to find out your true North Pole job! Are you a toy maker, baker, or planner? Play this fun holiday quiz.",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-2",
-    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "macys parade",
-      "thanksgiving",
-      "holiday quiz",
-      "personality quiz",
-      "balloons"
-    ],
-    "description": "Take the Which Macy's Thanksgiving Parade Balloon Are You Quiz to discover which giant holiday inflatable matches your fun personality today!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-thanksgiving-dish-matches-your-personality-quiz",
-    "title": "Which Thanksgiving Dish Matches Your Personality Quiz",
-    "category": "personality",
-    "tags": [
-      "thanksgiving",
-      "personality",
-      "food",
-      "quiz",
-      "holiday"
-    ],
-    "description": "Take our which thanksgiving dish matches your personality quiz to see if you are golden turkey, sweet cranberry sauce, or cozy mashed potatoes!",
-    "url": "/quiz/which-thanksgiving-dish-matches-your-personality-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-fantasy-book-world-do-you-belong-in-quiz",
     "title": "Which Fantasy Book World Do You Belong In Quiz",
     "category": "personality",
@@ -10906,21 +9556,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-are-you-quiz-25",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday personality",
-      "family fun"
-    ],
-    "description": "Take the which santa's workshop are you quiz to find your North Pole station. Discover your holiday personality and share the festive fun today!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-25/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-autumn-soundscape-is-your-vibe",
     "title": "Which Autumn Soundscape Is Your Vibe?",
     "category": "personality",
@@ -10981,21 +9616,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-santas-workshop-elf-are-you-quiz-4",
-    "title": "Which Santa's Workshop Elf Are You?",
-    "category": "personality",
-    "tags": [
-      "elf",
-      "christmas",
-      "santa",
-      "holiday",
-      "personality"
-    ],
-    "description": "Take this fun quiz to find out which santa's workshop elf you are! Discover your North Pole job by answering questions about your holiday style.",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-4/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-3",
     "title": "Which Macy's Parade Balloon Are You?",
     "category": "personality",
@@ -11008,21 +9628,6 @@
     ],
     "description": "Take this fun personality quiz to find out which iconic Macy's Thanksgiving parade balloon matches your holiday spirit! Answer 6 quick questions now.",
     "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-football-position-are-quiz-2",
-    "title": "Which Football Position Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "football",
-      "sports",
-      "nfl",
-      "personality",
-      "quiz"
-    ],
-    "description": "Take this fun sports quiz to find out which football position matches your personality! Are you a star quarterback, speedy receiver, or tough linebacker?",
-    "url": "/quiz/which-football-position-are-quiz-2/",
     "questions_count": 6
   },
   {
@@ -11041,21 +9646,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-super-bowl-snack-are-you-quiz",
-    "title": "Which Super Bowl Snack Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "super bowl snacks",
-      "game day food",
-      "personality quiz",
-      "football party",
-      "fun food quiz"
-    ],
-    "description": "Take the which super bowl snack are you quiz to find your game day food match. Are you nachos, wings, or brownies? Find out now in this fun quiz!",
-    "url": "/quiz/which-super-bowl-snack-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "valentines-day-love-language-quiz-2",
     "title": "Valentine's Day Love Language Quiz",
     "category": "personality",
@@ -11071,36 +9661,6 @@
     "questions_count": 6
   },
   {
-    "slug": "what-is-your-valentines-aesthetic-quiz-2",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines aesthetic",
-      "love quiz",
-      "personality test",
-      "romantic style",
-      "holiday fun"
-    ],
-    "description": "Take what is your valentine's aesthetic quiz to discover your romantic style! Find out if you are a classic sweetheart, moody romantic, or cozy soul.",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-2",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "personality quiz",
-      "sweet treats",
-      "candy quiz",
-      "fun quizzes"
-    ],
-    "description": "Take the Which Valentine's Candy Are You Quiz to find out which sweet treat matches your personality. Fun, quick, and family-friendly!",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-2/",
-    "questions_count": 6
-  },
-  {
     "slug": "are-you-a-valentine-or-galentine-quiz",
     "title": "Are You A Valentine Or Galentine Quiz",
     "category": "personality",
@@ -11113,21 +9673,6 @@
     ],
     "description": "Take the are you a valentine or galentine quiz to find out if your February style is classic romantic or squad-focused. Discover your result now!",
     "url": "/quiz/are-you-a-valentine-or-galentine-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-26",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "holiday personality",
-      "north pole",
-      "family fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which festive North Pole station matches your holiday personality. Fun for the whole family!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-26/",
     "questions_count": 6
   },
   {
@@ -11246,7 +9791,7 @@
       "gadgets",
       "kids quiz"
     ],
-    "description": "Can you solve these fun riddles about runaway robotic gadgets and smart home quirks? Test your brain and find out now!",
+    "description": "Can You Solve These Runaway Robot Gadget Riddles? — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added da...",
     "url": "/quiz/runaway-robot-gadget-riddles/",
     "questions_count": 6
   },
@@ -11281,81 +9826,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-dandys-world-toon-are-you-quiz-5",
-    "title": "Which Dandy's World Toon Are You?",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox",
-      "toon",
-      "personality quiz",
-      "gaming"
-    ],
-    "description": "Take the which dandy's world toon are you quiz to find out which game character matches your personality! Fun, fast, and family-friendly questions inside.",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-5",
-    "title": "Which Santa's Workshop Elf Are You?",
-    "category": "personality",
-    "tags": [
-      "christmas quiz",
-      "santa elf",
-      "holiday fun",
-      "personality test",
-      "north pole"
-    ],
-    "description": "Take the Which Santa's Workshop Elf Are You? quiz to discover your North Pole job. Are you a toy maker, baker, or wrapper? Find out now!",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-football-position-are-quiz-3",
-    "title": "Which Football Position Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "football",
-      "sports",
-      "personality quiz",
-      "nfl",
-      "gridiron"
-    ],
-    "description": "Take the which football position are you quiz to discover your gridiron alter ego. Are you a quarterback, receiver, or linebacker? Find out now!",
-    "url": "/quiz/which-football-position-are-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-3",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines aesthetic",
-      "romance quiz",
-      "love style",
-      "holiday personality",
-      "quizpop"
-    ],
-    "description": "Take this fun personality quiz to discover your true Valentine's aesthetic! Find out your romantic style, ideal date, and perfect holiday vibe.",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-3",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "personality quiz",
-      "candy match",
-      "fun quiz",
-      "sweet treats"
-    ],
-    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match! Are you a chocolate truffle or conversation heart? Find out now.",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-3/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-taylor-swift-era-are-you-quiz",
     "title": "Which Taylor Swift Era Are You Quiz",
     "category": "personality",
@@ -11368,21 +9838,6 @@
     ],
     "description": "Take the which taylor swift era are you quiz to discover your true musical vibe! Find out if you belong in the 1989, Folklore, or Fearless era today.",
     "url": "/quiz/which-taylor-swift-era-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-27",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "north pole",
-      "personality quiz",
-      "holiday fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole station matches your personality and holiday style. Play now!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-27/",
     "questions_count": 6
   },
   {
@@ -11536,66 +9991,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-dandys-world-toon-are-you-quiz-6",
-    "title": "Which Dandy's World Toon Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox toons",
-      "toon quiz",
-      "personality quiz",
-      "gaming"
-    ],
-    "description": "Take this fun which Dandy's World toon are you quiz to discover your cartoon match! Are you friendly Goob, cheerful Poppy, or the dazzling star Dandy?",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-6",
-    "title": "Which Santa's Workshop Elf Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "elf quiz",
-      "santa workshop",
-      "christmas quiz",
-      "holiday personality",
-      "family fun"
-    ],
-    "description": "Take the Which Santa's Workshop Elf Are You Quiz to find out your true North Pole job! Are you a toy maker, baker, or wrapper? Play now!",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-4",
-    "title": "Which Macy's Thanksgiving Parade Balloon Are You?",
-    "category": "personality",
-    "tags": [
-      "macys parade",
-      "thanksgiving quiz",
-      "holiday fun",
-      "balloon match",
-      "personality test"
-    ],
-    "description": "Take this fun quiz to find out which iconic Macy's Thanksgiving Parade balloon matches your personality. Answer questions about the holidays to see your result!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-football-position-are-you-quiz",
-    "title": "Which Football Position Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "football",
-      "sports",
-      "nfl",
-      "personality",
-      "gridiron"
-    ],
-    "description": "Take the which football position are you quiz to discover your gridiron alter ego. Are you a quarterback, receiver, or linebacker? Find out now!",
-    "url": "/quiz/which-football-position-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "valentines-day-love-language-quiz-3",
     "title": "What Is Your Valentine's Day Love Language?",
     "category": "personality",
@@ -11608,51 +10003,6 @@
     ],
     "description": "Take our valentine's day love language quiz to discover how you give and receive affection. Fun, quick, and perfect for celebrating with loved ones!",
     "url": "/quiz/valentines-day-love-language-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-4",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines aesthetic quiz",
-      "romantic style",
-      "love vibe",
-      "personality test",
-      "date ideas"
-    ],
-    "description": "Take this fun quiz to find your romantic style! Discover your ideal date, favorite treats, and love vibe with our what is your valentine's aesthetic quiz.",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-4",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "personality quiz",
-      "candy match",
-      "sweet treats",
-      "fun quiz"
-    ],
-    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match! Are you a chocolate truffle, a conversation heart, or sour gummies?",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-28",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "santa workshop",
-      "christmas quiz",
-      "north pole",
-      "holiday personality",
-      "family fun"
-    ],
-    "description": "Take the which santa's workshop are you quiz to discover your official North Pole job! Find out if you belong in the toy factory, bakery, or wrapping station.",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-28/",
     "questions_count": 6
   },
   {
@@ -11803,111 +10153,6 @@
     ],
     "description": "Can you guess the quirky monsters hiding in our homemade haunted house? Take this fun family-friendly riddle quiz and test your spooky smarts today!",
     "url": "/quiz/monster-haunted-house-riddles/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dandys-world-toon-are-you-quiz-7",
-    "title": "Which Dandy's World Toon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox",
-      "toon quiz",
-      "personality test",
-      "gaming"
-    ],
-    "description": "Take the ultimate which dandy's world toon are you quiz! Discover if you are helpful like Poppy, sleepy like Astro, or sneaky like Dandy.",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-7",
-    "title": "Which Santa's Workshop Elf Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "elf",
-      "holiday",
-      "personality",
-      "quiz"
-    ],
-    "description": "Take our fun which santa's workshop elf are you quiz to discover your holiday role at the North Pole!",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-5",
-    "title": "Which Macy's Thanksgiving Parade Balloon Are You? Quiz",
-    "category": "personality",
-    "tags": [
-      "thanksgiving",
-      "macys-parade",
-      "balloons",
-      "personality-quiz",
-      "holiday-fun"
-    ],
-    "description": "Take our fun which macy's thanksgiving parade balloon are you quiz to discover if you float like Snoopy, Pikachu, or SpongeBob this holiday season!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "valentines-day-love-language-quiz-4",
-    "title": "What Is Your Valentine's Day Love Language Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines day",
-      "love language",
-      "relationship quiz",
-      "personality test",
-      "family fun"
-    ],
-    "description": "Take our fun valentine's day love language quiz to discover how you give and receive affection! Perfect for kids, families, and friends.",
-    "url": "/quiz/valentines-day-love-language-quiz-4/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-5",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines day",
-      "aesthetic quiz",
-      "romance",
-      "personality test",
-      "love style"
-    ],
-    "description": "Take our fun what is your valentine's aesthetic quiz to discover your romantic vibe this holiday! Are you Vintage Coquette, Dark Romance, or Soft Love?",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-5",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "candy quiz",
-      "personality test",
-      "holiday sweets",
-      "fun quiz"
-    ],
-    "description": "Take our fun which valentine's candy are you quiz to discover if you are sweet conversation hearts, rich truffles, or fiery cinnamon drops!",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-29",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa",
-      "christmas",
-      "holiday",
-      "personality",
-      "quiz"
-    ],
-    "description": "Take our Which Santa's Workshop Are You Quiz to discover your ideal North Pole station, from toy making to reindeer care!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-29/",
     "questions_count": 6
   },
   {
@@ -12421,36 +10666,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-slasher-villain-are-you-quiz",
-    "title": "Which Slasher Villain Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "slasher quiz",
-      "halloween quiz",
-      "horror movie quiz",
-      "personality quiz",
-      "villain quiz"
-    ],
-    "description": "Take our which slasher villain are you quiz to discover if you are a quiet shadow, a clever mastermind, or a playful nightmare this Halloween season!",
-    "url": "/quiz/which-slasher-villain-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dungeon-crawler-car-character-are-you-quiz-2",
-    "title": "Which Dungeon Crawler Carl Character Are You?",
-    "category": "personality",
-    "tags": [
-      "dungeon crawler carl",
-      "book quiz",
-      "litrpg",
-      "personality quiz",
-      "scifi"
-    ],
-    "description": "Take this personality quiz to find out which Dungeon Crawler Carl character you are most like. Are you Carl, Donut, or Mordecai? Play now!",
-    "url": "/quiz/which-dungeon-crawler-car-character-are-you-quiz-2/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-couples-halloween-costume-are-you-quiz",
     "title": "Which Couples Halloween Costume Are You Quiz",
     "category": "personality",
@@ -12796,21 +11011,6 @@
     "questions_count": 6
   },
   {
-    "slug": "would-you-survive-as-demon-hunter-quiz",
-    "title": "Would You Survive as a Demon Hunter Quiz",
-    "category": "personality",
-    "tags": [
-      "demon hunter",
-      "personality quiz",
-      "supernatural",
-      "survival",
-      "fantasy"
-    ],
-    "description": "Take the would you survive as a demon hunter quiz to discover your monster-slaying style and test your supernatural survival skills today!",
-    "url": "/quiz/would-you-survive-as-demon-hunter-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-sam-from-trick-r-treat-are-you-quiz",
     "title": "Which Sam From Trick R Treat Are You?",
     "category": "personality",
@@ -13123,36 +11323,6 @@
     ],
     "description": "Take this fun personality quiz to find out which haunted house room would you haunt! Answer six spooky questions and discover your ghostly home.",
     "url": "/quiz/which-haunted-house-room-would-you-haunt-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dungeon-crawler-car-character-are-you-quiz-3",
-    "title": "Which Dungeon Crawler Carl Character Are You?",
-    "category": "personality",
-    "tags": [
-      "dungeon crawler carl",
-      "litrpg",
-      "book quiz",
-      "personality quiz",
-      "scifi"
-    ],
-    "description": "Take the official personality quiz to find out which Dungeon Crawler Carl character you match! Are you Carl, Princess Donut, or Mordecai? Play now!",
-    "url": "/quiz/which-dungeon-crawler-car-character-are-you-quiz-3/",
-    "questions_count": 6
-  },
-  {
-    "slug": "would-you-survive-as-a-demon-hunter-quiz",
-    "title": "Would You Survive as a Demon Hunter Quiz?",
-    "category": "personality",
-    "tags": [
-      "demon hunter",
-      "fantasy",
-      "personality quiz",
-      "supernatural",
-      "survival"
-    ],
-    "description": "Take this would you survive as a demon hunter quiz to test your bravery, cleverness, and supernatural survival skills. Are you ready for the dark?",
-    "url": "/quiz/would-you-survive-as-a-demon-hunter-quiz/",
     "questions_count": 6
   },
   {
@@ -13486,21 +11656,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-dungeon-crawler-carl-character-are-you-quiz",
-    "title": "Which Dungeon Crawler Carl Character Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dungeon crawler carl",
-      "litrpg",
-      "personality quiz",
-      "book quiz",
-      "fantasy"
-    ],
-    "description": "Discover your inner litRPG hero! Take our which dungeon crawler carl character are you quiz to see if you match Carl, Donut, or Zev!",
-    "url": "/quiz/which-dungeon-crawler-carl-character-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-halloween-emoji-combo-are-you-quiz",
     "title": "Which Halloween Emoji Combo Are You Quiz",
     "category": "personality",
@@ -13513,51 +11668,6 @@
     ],
     "description": "Take the Which Halloween Emoji Combo Are You Quiz to find your spooky season personality match. Answer fun questions and discover your emoji twin today!",
     "url": "/quiz/which-halloween-emoji-combo-are-you-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "are-you-a-halloween-hero-or-villain",
-    "title": "Are You A Halloween Villain Or A Halloween Hero Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween quiz",
-      "personality test",
-      "villain or hero",
-      "fall fun",
-      "spooky season"
-    ],
-    "description": "Are you a halloween villain or a halloween hero quiz? Take this fun personality test to discover if you are a spooky mastermind or a brave holiday savior.",
-    "url": "/quiz/are-you-a-halloween-hero-or-villain/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-fear-do-secretly-have-quiz-2",
-    "title": "What Halloween Fear Do You Secretly Have Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "quiz",
-      "fear",
-      "personality",
-      "spooky"
-    ],
-    "description": "Take this fun personality quiz to discover what halloween fear do you secretly have. Uncover your hidden spooky season phobia and share with friends!",
-    "url": "/quiz/what-halloween-fear-do-secretly-have-quiz-2/",
-    "questions_count": 6
-  },
-  {
-    "slug": "would-you-survive-99-nights-in-the-forest-quiz",
-    "title": "Would You Survive 99 Nights in the Forest Quiz",
-    "category": "personality",
-    "tags": [
-      "survival",
-      "forest",
-      "wilderness",
-      "camping",
-      "personality"
-    ],
-    "description": "Take the would you survive 99 nights in the forest quiz to test your wilderness skills, find out how you would handle nature, and see your survival rank.",
-    "url": "/quiz/would-you-survive-99-nights-in-the-forest-quiz/",
     "questions_count": 6
   },
   {
@@ -13828,36 +11938,6 @@
     ],
     "description": "Take the ultimate what is your aesthetic core quiz to discover your true style vibe. Find out which mood board and personality match you best today!",
     "url": "/quiz/what-is-your-aesthetic-core-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "are-you-a-halloween-villain-or-a-halloween-hero-quiz",
-    "title": "Are You a Halloween Villain or a Halloween Hero Quiz?",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "personality quiz",
-      "spooky season",
-      "heroes and villains",
-      "fall fun"
-    ],
-    "description": "Take the are you a halloween villain or a halloween hero quiz to find out where you belong on spooky night. Are you a mischievous monster or a helpful hero?",
-    "url": "/quiz/are-you-a-halloween-villain-or-a-halloween-hero-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-fear-do-secretly-have-quiz-3",
-    "title": "What Halloween Fear Do You Secretly Have Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "personality quiz",
-      "spooky",
-      "phobias",
-      "fun"
-    ],
-    "description": "Take the What Halloween Fear Do You Secretly Have Quiz to discover your hidden spooky season phobia through fun, family-friendly questions today!",
-    "url": "/quiz/what-halloween-fear-do-secretly-have-quiz-3/",
     "questions_count": 6
   },
   {
@@ -14191,21 +12271,6 @@
     "questions_count": 6
   },
   {
-    "slug": "what-halloween-fear-do-secretly-have-quiz-4",
-    "title": "What Halloween Fear Do You Secretly Have Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "fear",
-      "phobia",
-      "spooky",
-      "personality"
-    ],
-    "description": "Take this fun personality quiz to find out what halloween fear do you secretly have quiz results reveal about your spooky season personality today!",
-    "url": "/quiz/what-halloween-fear-do-secretly-have-quiz-4/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-dark-academia-or-cottagecore-aesthetic-are-you-quiz",
     "title": "Which Dark Academia or Cottagecore Aesthetic Are You Quiz",
     "category": "personality",
@@ -14446,36 +12511,6 @@
     "questions_count": 6
   },
   {
-    "slug": "which-dandys-world-toon-are-you-quiz-8",
-    "title": "Which Dandy's World Toon Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox",
-      "personality quiz",
-      "toon",
-      "gamer"
-    ],
-    "description": "Take the which dandy's world toon are you quiz to discover your character match! Answer fun questions and find out which colorful personality you share.",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-fear-do-secretly-have-quiz-5",
-    "title": "What Halloween Fear Do You Secretly Have Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "fear",
-      "personality",
-      "spooky",
-      "quiz"
-    ],
-    "description": "Take this fun personality quiz to discover what halloween fear do you secretly have quiz results reveal about your spooky season style!",
-    "url": "/quiz/what-halloween-fear-do-secretly-have-quiz-5/",
-    "questions_count": 6
-  },
-  {
     "slug": "which-macys-parade-balloon-are-you-quiz-100th",
     "title": "Which Macys Parade Balloon Are You Quiz 100th",
     "category": "personality",
@@ -14503,111 +12538,6 @@
     ],
     "description": "Wondering which holiday dessert matches your vibe? Take our are you team pumpkin pie or pecan pie quiz to settle the feast debate!",
     "url": "/quiz/are-you-team-pumpkin-pie-or-pecan-pie-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dandys-world-toon-are-you-quiz-9",
-    "title": "Which Dandy's World Toon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "toon quiz",
-      "personality test",
-      "gaming",
-      "kids games"
-    ],
-    "description": "Take the Which Dandy's World Toon Are You Quiz to find out which cute character matches your personality. Answer fun questions and discover your toon match toda",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-8",
-    "title": "Which Santa's Workshop Elf Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa's workshop",
-      "christmas quiz",
-      "elf personality",
-      "holiday fun",
-      "north pole"
-    ],
-    "description": "Take the Which Santa's Workshop Elf Are You Quiz to discover your true North Pole job. Are you a toy maker, baker, or wrapper? Find out now!",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-6",
-    "title": "Which Macy's Parade Balloon Are You?",
-    "category": "personality",
-    "tags": [
-      "macys parade",
-      "thanksgiving quiz",
-      "holiday fun",
-      "balloon match",
-      "personality quiz"
-    ],
-    "description": "Take this fun quiz to discover which macy's thanksgiving parade balloon matches your personality. Answer 6 quick questions and find your floating alter ego!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "valentines-day-love-language-quiz-5",
-    "title": "Valentine's Day Love Language Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines day",
-      "love language",
-      "personality quiz",
-      "romance",
-      "quizpop"
-    ],
-    "description": "Take our Valentine's Day love language quiz to discover your affection style! Find out what makes your heart flutter this holiday.",
-    "url": "/quiz/valentines-day-love-language-quiz-5/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-6",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines day",
-      "aesthetic quiz",
-      "romance",
-      "personality quiz",
-      "love style"
-    ],
-    "description": "Take our what is your valentine's aesthetic quiz to discover your romantic style, from classic roses to retro vibes!",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-6",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "personality quiz",
-      "candy quiz",
-      "fun quiz",
-      "valentines day"
-    ],
-    "description": "Take the Which Valentine's Candy Are You Quiz to discover your sweet personality match! Answer six fun questions and share your delicious results.",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-30",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "north-pole",
-      "holiday",
-      "personality-quiz"
-    ],
-    "description": "Take our fun Which Santa's Workshop Are You Quiz to discover your true North Pole department, from toy building to the cozy holiday bakery!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-30/",
     "questions_count": 6
   },
   {
@@ -14711,7 +12641,7 @@
       "aesthetic",
       "quiz"
     ],
-    "description": "Find out which viral spooky home decor trend fits your craft style! Take our fun DIY Halloween aesthetic quiz now.",
+    "description": "Which Viral DIY Halloween Decor Trend Matches You? — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added d...",
     "url": "/quiz/viral-diy-halloween-decor-quiz/",
     "questions_count": 6
   },
@@ -14758,126 +12688,6 @@
     ],
     "description": "Test your knowledge on brunch pastries, sweet glazes, and flaky doughs with our fun baking trivia quiz! How well do you know your morning treats?",
     "url": "/quiz/rise-and-shine-brunch-pastry-trivia/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-halloween-fear-do-you-secretly-have-quiz",
-    "title": "What Halloween Fear Do You Secretly Have Quiz",
-    "category": "personality",
-    "tags": [
-      "halloween",
-      "spooky",
-      "personality quiz",
-      "halloween fear",
-      "quizpop"
-    ],
-    "description": "Take our what halloween fear do you secretly have quiz to uncover the spookiest secret fear hiding behind your festive smile this season!",
-    "url": "/quiz/what-halloween-fear-do-you-secretly-have-quiz/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dandys-world-toon-are-you-quiz-10",
-    "title": "Which Dandy's World Toon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox",
-      "toon quiz",
-      "personality quiz",
-      "gaming"
-    ],
-    "description": "Discover your true toon mascot with our official Which Dandy's World Toon Are You Quiz! Answer 6 fun questions to find your colorful match.",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-10/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-9",
-    "title": "Which Santa's Workshop Elf Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "santa",
-      "elf",
-      "holiday",
-      "quiz"
-    ],
-    "description": "Take the which santa's workshop elf are you quiz to discover your holiday helper job! Are you a toy maker, wrapper, or cookie taster?",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-7",
-    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "macys parade",
-      "thanksgiving quiz",
-      "personality test",
-      "balloon quiz",
-      "holiday fun"
-    ],
-    "description": "Take our which macy's thanksgiving parade balloon are you quiz to discover if your holiday personality matches Snoopy, Pikachu, or SpongeBob!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "valentines-day-love-language-quiz-6",
-    "title": "What's Your True Valentine's Day Love Language Quiz?",
-    "category": "personality",
-    "tags": [
-      "love language",
-      "valentine's day",
-      "relationship quiz",
-      "personality test",
-      "romance"
-    ],
-    "description": "Take this fun valentine's day love language quiz to discover your unique style of showing and receiving affection! Perfect for kids and families.",
-    "url": "/quiz/valentines-day-love-language-quiz-6/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-7",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines aesthetic",
-      "love quiz",
-      "romantic vibe",
-      "personality test",
-      "holiday fun"
-    ],
-    "description": "Take what is your valentine's aesthetic quiz to discover your unique romantic style, favorite date vibes, and cozy holiday mood today!",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-7",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "personality quiz",
-      "candy match",
-      "fun quiz",
-      "sweet treats"
-    ],
-    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match! Are you a chocolate truffle or a fun gummy bear? Play now!",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-31",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santas workshop",
-      "christmas quiz",
-      "north pole",
-      "personality quiz",
-      "holiday fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find out which magical North Pole station matches your holiday personality. Fun for the whole family!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-31/",
     "questions_count": 6
   },
   {
@@ -14981,7 +12791,7 @@
       "trivia",
       "nature"
     ],
-    "description": "Test your knowledge on how animals use weird tricks, like freezing or brain-shrinking, to survive autumn!",
+    "description": "Wild Autumn Survival: Weird Animal Fall Tactics! — take this free quiz and get your instant result. Fun, quick and no sign-up needed. New quizzes added dai...",
     "url": "/quiz/wild-autumn-survival-weird-animal-fall-tactics/",
     "questions_count": 6
   },
@@ -15028,111 +12838,6 @@
     ],
     "description": "Can you separate real harvest history from clever autumn folklore myths? Take this fun trivia quiz to test your knowledge of fall traditions!",
     "url": "/quiz/fact-or-folklore-harvest-festival-edition/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dandys-world-toon-are-you-quiz-11",
-    "title": "Which Dandy's World Toon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "roblox",
-      "toon quiz",
-      "personality quiz",
-      "gaming"
-    ],
-    "description": "Take this official style which dandy's world toon are you quiz to discover your matching cartoon personality from Gardenview!",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-11/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-10",
-    "title": "Which Santa's Workshop Elf Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas",
-      "elf",
-      "holiday",
-      "personality",
-      "quiz"
-    ],
-    "description": "Discover your holiday role with our fun which santa's workshop elf are you quiz! Answer 6 quick questions to find your North Pole job.",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-10/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-8",
-    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "thanksgiving",
-      "parade",
-      "personality",
-      "macys",
-      "quiz"
-    ],
-    "description": "Take our which Macy's Thanksgiving Parade balloon are you quiz to discover if you are a playful classic, a bold hero, or a cheerful icon!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "valentines-day-love-language-quiz-7",
-    "title": "Valentine's Day Love Language Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines day",
-      "love language",
-      "personality quiz",
-      "relationships",
-      "fun quiz"
-    ],
-    "description": "Take this fun Valentine's Day love language quiz to discover how you best give and receive affection with friends, family, and crushes!",
-    "url": "/quiz/valentines-day-love-language-quiz-7/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-8",
-    "title": "What Is Your Valentine's Aesthetic Quiz?",
-    "category": "personality",
-    "tags": [
-      "valentines",
-      "aesthetic",
-      "personality quiz",
-      "romance",
-      "valentines day"
-    ],
-    "description": "Take this what is your valentine's aesthetic quiz to discover your romantic mood, style, and perfect February vibe in six easy questions!",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-8",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines",
-      "candy",
-      "personality",
-      "quiz",
-      "holiday"
-    ],
-    "description": "Take the ultimate which valentine's candy are you quiz! Discover if you are a classic chocolate truffle, conversation heart, or cute gummy bear.",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-32",
-    "title": "Which Santa's Workshop Are You Quiz?",
-    "category": "personality",
-    "tags": [
-      "santa quiz",
-      "holiday personality",
-      "north pole quiz",
-      "christmas quiz",
-      "which santas workshop are you quiz"
-    ],
-    "description": "Take our fun which santa's workshop are you quiz to discover your North Pole station, job personality, and holiday role today!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-32/",
     "questions_count": 6
   },
   {
@@ -15328,111 +13033,6 @@
     ],
     "description": "Take this fun quiz to discover your ideal low-key weekend reset style! Find out the best way to relax, recharge, and enjoy your days off.",
     "url": "/quiz/ideal-low-key-weekend-reset-style/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-dandys-world-toon-are-you-quiz-12",
-    "title": "Which Dandy's World Toon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "dandys world",
-      "toon quiz",
-      "personality quiz",
-      "family friendly",
-      "cartoon characters"
-    ],
-    "description": "Take the Which Dandy's World Toon Are You Quiz to find out which fun animated character matches your unique personality today!",
-    "url": "/quiz/which-dandys-world-toon-are-you-quiz-12/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-elf-are-you-quiz-11",
-    "title": "Which Santa's Workshop Elf Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "christmas elf",
-      "santa workshop",
-      "personality quiz",
-      "holiday quiz",
-      "north pole"
-    ],
-    "description": "Take our fun which santa's workshop elf are you quiz to discover your holiday North Pole job! Are you a master toy maker or baker?",
-    "url": "/quiz/which-santas-workshop-elf-are-you-quiz-11/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-macys-thanksgiving-parade-balloon-are-you-quiz-9",
-    "title": "Which Macy's Thanksgiving Parade Balloon Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "macys parade",
-      "thanksgiving quiz",
-      "balloon quiz",
-      "personality quiz",
-      "holiday fun"
-    ],
-    "description": "Take our which macy's thanksgiving parade balloon are you quiz to discover if you are classic Snoopy, bubbly SpongeBob, or bold Pikachu!",
-    "url": "/quiz/which-macys-thanksgiving-parade-balloon-are-you-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "valentines-day-love-language-quiz-8",
-    "title": "Valentine's Day Love Language Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines day",
-      "love language",
-      "personality quiz",
-      "relationship quiz",
-      "quizpop"
-    ],
-    "description": "Discover your ultimate romantic style with our fun Valentine's Day love language quiz! Find out how you show and receive affection best today.",
-    "url": "/quiz/valentines-day-love-language-quiz-8/",
-    "questions_count": 6
-  },
-  {
-    "slug": "what-is-your-valentines-aesthetic-quiz-9",
-    "title": "What Is Your Valentine's Aesthetic Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines aesthetic",
-      "romantic style",
-      "quiz pop",
-      "love vibe",
-      "personality test"
-    ],
-    "description": "Take our what is your valentine's aesthetic quiz to find out your true romantic style and ideal vibe. Fun questions for a sweet holiday season!",
-    "url": "/quiz/what-is-your-valentines-aesthetic-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-valentines-candy-are-you-quiz-9",
-    "title": "Which Valentine's Candy Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "valentines candy",
-      "candy quiz",
-      "personality test",
-      "sweet treats",
-      "fun quiz"
-    ],
-    "description": "Take the which valentine's candy are you quiz to discover your sweet personality match. Are you a conversation heart, chocolate truffle, or gummy treat?",
-    "url": "/quiz/which-valentines-candy-are-you-quiz-9/",
-    "questions_count": 6
-  },
-  {
-    "slug": "which-santas-workshop-are-you-quiz-33",
-    "title": "Which Santa's Workshop Are You Quiz",
-    "category": "personality",
-    "tags": [
-      "santa's workshop",
-      "christmas quiz",
-      "holiday personality",
-      "north pole",
-      "family fun"
-    ],
-    "description": "Take the Which Santa's Workshop Are You Quiz to find your North Pole station! Are you a toy maker, baker, or reindeer trainer? Find out now!",
-    "url": "/quiz/which-santas-workshop-are-you-quiz-33/",
     "questions_count": 6
   },
   {

@@ -29,7 +29,8 @@ PER_DAY = int(os.environ.get("QUIZZES_PER_DAY", "3"))
 DOMAIN = os.environ.get("SITE_DOMAIN", "https://popquizdaily.site/").rstrip("/") + "/"
 
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
-                "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/"]
+                "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/",
+                "all-quizzes/"]
 
 # ── SEO keyword targets (research 2026-10-13, 100 low-competition long-tails).
 # Priority order: seasonal first (Halloween window), then GSC-proven love cluster, then rest.
@@ -1065,10 +1066,65 @@ def indexnow_ping(urls):
         print(f"WARN: IndexNow ping failed: {e}", flush=True)
 
 
+def norm_title(t):
+    """Normalized title for duplicate detection (trailing 'quiz' ignored)."""
+    t = re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    return re.sub(r"\s+quiz$", "", t)
+
+
+def write_all_quizzes(quizzes):
+    """Regenerate /all-quizzes/ hub so every quiz page has >=1 incoming link."""
+    by_cat = {}
+    for q in quizzes:
+        by_cat.setdefault(q.get("category", "personality"), []).append(q)
+    cards = []
+    for cat in ["personality", "trivia", "riddles"]:
+        items = by_cat.get(cat, [])
+        if not items:
+            continue
+        lis = "\n".join(
+            f'<li><a href="/quiz/{q["slug"]}/">{html.escape(q["title"])}</a></li>'
+            for q in items)
+        cards.append(f"<h2>{cat.title()} quizzes ({len(items)})</h2>\n<ul>\n{lis}\n</ul>")
+    hub = f"""<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Quizzes — QuizPop</title>
+<meta name="description" content="Browse every free QuizPop quiz: personality quizzes, trivia and riddles, all in one place. New quizzes added daily.">
+<meta name="robots" content="max-image-preview:large">
+<link rel="canonical" href="https://popquizdaily.site/all-quizzes/">
+<meta property="og:title" content="All Quizzes — QuizPop">
+<meta property="og:description" content="Browse every free QuizPop quiz in one place.">
+<meta property="og:image" content="https://popquizdaily.site/assets/covers/cover-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://popquizdaily.site/assets/covers/cover-default.jpg">
+<style>body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:#1e293b;max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem;line-height:1.6}}h1{{font-size:1.7rem}}a{{color:#4f46e5;text-decoration:none}}a:hover{{text-decoration:underline}}li{{margin:.3rem 0}}</style>
+</head>
+<body>
+<header><a href="/" style="font-weight:800;font-size:1.25rem">QuizPop</a></header>
+<main>
+<h1>All quizzes ({len(quizzes)})</h1>
+<p>Every free personality quiz, trivia set and riddle collection on QuizPop — updated daily.</p>
+{''.join(cards)}
+</main>
+<footer><p><a href="/">Home</a> · <a href="/trending/">Trending</a> · <a href="/about/">About</a></p></footer>
+</body>
+</html>
+"""
+    out = ROOT / "all-quizzes"
+    out.mkdir(exist_ok=True)
+    (out / "index.html").write_text(hub)
+
+
 def main():
     quizzes_path = ROOT / "quizzes.json"
     quizzes = json.loads(quizzes_path.read_text()) if quizzes_path.exists() else []
     existing_slugs = {z["slug"] for z in quizzes}
+    existing_titles = {norm_title(z["title"]) for z in quizzes}
     published = [z["title"] for z in quizzes]
     published_slugs = [z["slug"] for z in quizzes]
 
@@ -1082,11 +1138,14 @@ def main():
         if not q:
             print(f"  SKIP (failed validation): {concept[:60]}")
             continue
-        base, i = q["slug"], 2
-        while q["slug"] in existing_slugs:
-            q["slug"] = f"{base}-{i}"
-            i += 1
+        # GUARD (2026-10-26): never publish a duplicate. Previously the
+        # renumber loop (slug-2, slug-3, ...) created 160 duplicate-title
+        # pages that Google refused to index. Skip instead of numbering.
+        if q["slug"] in existing_slugs or norm_title(q["title"]) in existing_titles:
+            print(f"  SKIP (duplicate already published): {q['title'][:60]}")
+            continue
         existing_slugs.add(q["slug"])
+        existing_titles.add(norm_title(q["title"]))
         new_quizzes.append(q)
         print(f"  OK: {q['title']}  (/quiz/{q['slug']}/)")
 
@@ -1096,9 +1155,12 @@ def main():
     # ── write phase (only reached if everything validated) ──
     for q in new_quizzes:
         pool = [z for z in quizzes if z["slug"] != q["slug"]]
-        same = [z for z in pool if z.get("category") == q.get("category")]
-        rest = [z for z in pool if z.get("category") != q.get("category")]
-        related = (same + rest)[:12]
+        # ROTATION (2026-10-26): related links used to always point at the
+        # OLDEST pages, orphaning every new batch. New pages now link to the
+        # NEWEST same-category pages first, so each batch gets incoming links.
+        same = [z for z in pool if z.get("category") == q.get("category")][::-1]
+        rest = [z for z in pool if z.get("category") != q.get("category")][::-1]
+        related = (same[:8] + rest[:4])[:12]
         page = render_page(q, related)
         outdir = ROOT / "quiz" / q["slug"]
         outdir.mkdir(parents=True, exist_ok=True)
@@ -1111,6 +1173,7 @@ def main():
     quizzes_path.write_text(json.dumps(quizzes, indent=2, ensure_ascii=False))
     write_sitemap(quizzes)
     write_feed(quizzes)
+    write_all_quizzes(quizzes)
     print(f"DONE: {len(new_quizzes)} quizzes written.")
     # notify search engines instantly (Bing/Yandex via IndexNow)
     new_urls = [f"https://popquizdaily.site/quiz/{q['slug']}/" for q in new_quizzes]
