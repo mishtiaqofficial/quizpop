@@ -13259,5 +13259,20 @@
     "description": "Can you guess the iconic pop culture character behind these low-budget DIY costume mashups? Take this fun family-friendly trivia quiz now!",
     "url": "/quiz/guess-the-diy-pop-culture-character-costume/",
     "questions_count": 6
+  },
+  {
+    "slug": "spooky-snack-board-halloween-hosting-vibe",
+    "title": "Build a Spooky Snack Board to Find Your Halloween Vibe",
+    "category": "personality",
+    "tags": [
+      "halloween",
+      "snack board",
+      "charcuterie",
+      "hosting vibe",
+      "party quiz"
+    ],
+    "description": "Build your ultimate spooky snack board with creepy treats to discover your Halloween hosting style! Take this fun quiz to reveal your party vibe.",
+    "url": "/quiz/spooky-snack-board-halloween-hosting-vibe/",
+    "questions_count": 6
   }
 ]
