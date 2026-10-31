@@ -13274,5 +13274,35 @@
     "description": "Build your ultimate spooky snack board with creepy treats to discover your Halloween hosting style! Take this fun quiz to reveal your party vibe.",
     "url": "/quiz/spooky-snack-board-halloween-hosting-vibe/",
     "questions_count": 6
+  },
+  {
+    "slug": "guess-the-celebrity-halloween-prosthetics",
+    "title": "Can You Guess the Star Behind the Halloween Prosthetics?",
+    "category": "trivia",
+    "tags": [
+      "celebrity",
+      "halloween",
+      "costumes",
+      "trivia",
+      "pop culture"
+    ],
+    "description": "Can you guess the celebrity hiding under crazy Halloween prosthetics? Take this fun trivia quiz and test your pop culture knowledge today!",
+    "url": "/quiz/guess-the-celebrity-halloween-prosthetics/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-viral-halloween-pet-costume-is-your-pet",
+    "title": "Which Viral Halloween Pet Costume Is Your Pet?",
+    "category": "personality",
+    "tags": [
+      "halloween pets",
+      "dog costumes",
+      "cat costumes",
+      "viral pets",
+      "funny quiz"
+    ],
+    "description": "Take this fun quiz to discover which hilarious viral Halloween pet costume matches your furry friend's mischievous energy today!",
+    "url": "/quiz/which-viral-halloween-pet-costume-is-your-pet/",
+    "questions_count": 6
   }
 ]
