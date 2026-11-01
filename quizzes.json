@@ -13349,5 +13349,50 @@
     "description": "Take this fun which thanksgiving family role are you quiz to discover if you are the Master Chef, the Entertainer, or the Couch Captain!",
     "url": "/quiz/which-thanksgiving-family-role-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-leftover-recipe-are-you-quiz",
+    "title": "Which Thanksgiving Leftover Recipe Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "leftovers",
+      "food",
+      "personality",
+      "quiz"
+    ],
+    "description": "Take our fun which thanksgiving leftover recipe are you quiz to discover if you are a turkey sandwich, a crispy waffle, or a cozy shepherd's pie!",
+    "url": "/quiz/which-thanksgiving-leftover-recipe-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-gift-giver-are-you-quiz",
+    "title": "Which Christmas Gift Giver Are You Quiz: Find Your Style",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "holiday",
+      "gifts",
+      "personality",
+      "us"
+    ],
+    "description": "Take the which christmas gift giver are you quiz to find out if you are a master planner, a last-minute shopper, or a creative DIY gift-giving expert!",
+    "url": "/quiz/which-christmas-gift-giver-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-holiday-movie-marathon-are-you-quiz",
+    "title": "Which Holiday Movie Marathon Are You?",
+    "category": "personality",
+    "tags": [
+      "holiday movies",
+      "christmas",
+      "movie marathon",
+      "family",
+      "quiz"
+    ],
+    "description": "Take this fun quiz to find out which holiday movie marathon matches your personality! Discover your ultimate winter watchlist today.",
+    "url": "/quiz/which-holiday-movie-marathon-are-you-quiz/",
+    "questions_count": 6
   }
 ]
