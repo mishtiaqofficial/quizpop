@@ -13304,5 +13304,50 @@
     "description": "Take this fun quiz to discover which hilarious viral Halloween pet costume matches your furry friend's mischievous energy today!",
     "url": "/quiz/which-viral-halloween-pet-costume-is-your-pet/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-movie-are-you-quiz",
+    "title": "Which Thanksgiving Movie Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "movies",
+      "personality",
+      "holiday",
+      "quiz"
+    ],
+    "description": "Take our fun which thanksgiving movie are you quiz to discover if you are a classic animated favorite, a chaotic comedy, or a wild holiday adventure!",
+    "url": "/quiz/which-thanksgiving-movie-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-dessert-are-you-quiz",
+    "title": "Which Thanksgiving Dessert Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "dessert",
+      "personality quiz",
+      "fall",
+      "holiday"
+    ],
+    "description": "Take our fun which thanksgiving dessert are you quiz to discover if you are classic pumpkin pie, warm apple pie, or rich pecan pie!",
+    "url": "/quiz/which-thanksgiving-dessert-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-family-role-are-you-quiz",
+    "title": "Which Thanksgiving Family Role Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "family quiz",
+      "holiday role",
+      "personality quiz",
+      "thanksgiving test"
+    ],
+    "description": "Take this fun which thanksgiving family role are you quiz to discover if you are the Master Chef, the Entertainer, or the Couch Captain!",
+    "url": "/quiz/which-thanksgiving-family-role-are-you-quiz/",
+    "questions_count": 6
   }
 ]
