@@ -50,6 +50,18 @@ KEYWORD_TARGETS = [
     {"kw": "which christmas market are you quiz", "cluster": "trending", "angle": "Christmas market personality quiz"},
     {"kw": "which winter holiday destination are you quiz", "cluster": "trending", "angle": "Winter holiday destination personality quiz"},
     {"kw": "which new year resolution are you quiz", "cluster": "trending", "angle": "New Year resolution personality quiz"},
+    {"kw": "which thanksgiving drink are you quiz", "cluster": "trending", "angle": "Thanksgiving drink personality quiz"},
+    {"kw": "which thanksgiving host are you quiz", "cluster": "trending", "angle": "Thanksgiving host personality quiz"},
+    {"kw": "which christmas dessert are you quiz", "cluster": "trending", "angle": "Christmas dessert personality quiz"},
+    {"kw": "which christmas sweater are you quiz", "cluster": "trending", "angle": "Christmas sweater personality quiz"},
+    {"kw": "which holiday tradition are you quiz", "cluster": "trending", "angle": "Holiday tradition personality quiz"},
+    {"kw": "which winter activity are you quiz", "cluster": "trending", "angle": "Winter activity personality quiz"},
+    {"kw": "which holiday baking recipe are you quiz", "cluster": "trending", "angle": "Holiday baking recipe personality quiz"},
+    {"kw": "thanksgiving trivia questions for adults quiz", "cluster": "trending", "angle": "Thanksgiving Trivia Questions for Adults"},
+    {"kw": "christmas movie trivia questions quiz", "cluster": "trending", "angle": "Christmas Movie Trivia Questions"},
+    {"kw": "thanksgiving trivia questions for kids quiz", "cluster": "trending", "angle": "Thanksgiving Trivia Questions for Kids"},
+    {"kw": "christmas song trivia questions quiz", "cluster": "trending", "angle": "Christmas Song Trivia Questions"},
+    {"kw": "new year trivia questions quiz", "cluster": "trending", "angle": "New Year Trivia Questions"},
     {"kw": "which last minute halloween costume should i wear quiz", "cluster": "trending-oct23", "angle": "Researched 2026-10-23: high-intent, low-competition"},
     {"kw": "what halloween costume matches my personality quiz", "cluster": "trending-oct23", "angle": "Researched 2026-10-23: high-intent, low-competition"},
     {"kw": "which halloween costume are you based on your zodiac sign quiz", "cluster": "trending-oct23", "angle": "Researched 2026-10-23: high-intent, low-competition"},
@@ -683,8 +695,8 @@ KEYWORD_TARGETS = [
 SEASONAL_WINDOWS = [
     ("08-15", "10-31", {"kw": "halloween personality quiz", "cluster": "seasonal",
         "angle": "which halloween monster/character are you"}),
-    ("09-15", "11-30", {"kw": "thanksgiving quiz", "cluster": "seasonal",
-        "angle": "which thanksgiving food are you"}),
+    ("09-15", "11-30", {"kw": "which thanksgiving movie are you quiz", "cluster": "seasonal",
+        "angle": "Which Thanksgiving Movie Are You"}),
     ("10-15", "12-28", {"kw": "christmas personality quiz", "cluster": "seasonal",
         "angle": "which christmas movie character are you"}),
     ("11-15", "01-10", {"kw": "new year quiz", "cluster": "seasonal",
@@ -1051,7 +1063,11 @@ def pick_concepts(published_slugs, published_titles, n):
         if norm_title(target["kw"]) in published_norm_titles:
             continue
         fmt = "personality"
-        if target["cluster"] in ("trivia",):
+        if "trivia" in target["kw"]:
+            fmt = "trivia"
+        elif "riddle" in target["kw"]:
+            fmt = "riddle"
+        elif target["cluster"] in ("trivia",):
             fmt = "trivia"
         elif target["cluster"] in ("riddles",):
             fmt = "riddle"
