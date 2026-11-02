@@ -13394,5 +13394,50 @@
     "description": "Take this fun quiz to find out which holiday movie marathon matches your personality! Discover your ultimate winter watchlist today.",
     "url": "/quiz/which-holiday-movie-marathon-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-market-are-you-quiz",
+    "title": "Which Christmas Market Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas market",
+      "holiday quiz",
+      "personality quiz",
+      "winter quiz",
+      "festive"
+    ],
+    "description": "Take our fun which christmas market are you quiz to discover if your holiday vibe matches NYC, Germany, or Quebec!",
+    "url": "/quiz/which-christmas-market-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-winter-holiday-destination-are-quiz",
+    "title": "Which Winter Holiday Destination Are You?",
+    "category": "personality",
+    "tags": [
+      "winter travel",
+      "holiday quiz",
+      "vacation personality",
+      "seasonal getaways",
+      "travel quiz"
+    ],
+    "description": "Take this fun personality quiz to find out which winter holiday destination matches your travel style, from cozy cabins to sunny beaches!",
+    "url": "/quiz/which-winter-holiday-destination-are-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-new-year-resolution-are-you-quiz",
+    "title": "Which New Year Resolution Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "new year",
+      "resolutions",
+      "quiz",
+      "personality",
+      "goals"
+    ],
+    "description": "Take our Which New Year Resolution Are You Quiz to discover the perfect goal for your fresh start this coming year! Fast, fun, and family-friendly.",
+    "url": "/quiz/which-new-year-resolution-are-you-quiz/",
+    "questions_count": 6
   }
 ]
