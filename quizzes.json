@@ -13439,5 +13439,50 @@
     "description": "Take our Which New Year Resolution Are You Quiz to discover the perfect goal for your fresh start this coming year! Fast, fun, and family-friendly.",
     "url": "/quiz/which-new-year-resolution-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-drink-are-you-quiz",
+    "title": "Which Thanksgiving Drink Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "drink",
+      "personality",
+      "quiz",
+      "holiday"
+    ],
+    "description": "Take the ultimate which thanksgiving drink are you quiz to discover if you are apple cider, cranberry punch, or cocoa!",
+    "url": "/quiz/which-thanksgiving-drink-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-thanksgiving-host-are-you-quiz",
+    "title": "Which Thanksgiving Host Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality",
+      "quiz",
+      "holiday",
+      "host"
+    ],
+    "description": "Take our which thanksgiving host are you quiz to discover your holiday hosting style! Are you a master chef, chill host, or party planner?",
+    "url": "/quiz/which-thanksgiving-host-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-dessert-are-you-quiz",
+    "title": "Which Christmas Dessert Are You Quiz",
+    "category": "personality",
+    "tags": [
+      "christmas dessert",
+      "holiday quiz",
+      "personality quiz",
+      "christmas treats",
+      "family fun"
+    ],
+    "description": "Take the which christmas dessert are you quiz to discover your holiday treat match! A fun, family-friendly personality test for the winter season.",
+    "url": "/quiz/which-christmas-dessert-are-you-quiz/",
+    "questions_count": 6
   }
 ]
