@@ -13484,5 +13484,50 @@
     "description": "Take the which christmas dessert are you quiz to discover your holiday treat match! A fun, family-friendly personality test for the winter season.",
     "url": "/quiz/which-christmas-dessert-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-christmas-sweater-are-you-quiz",
+    "title": "Which Christmas Sweater Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "christmas sweater",
+      "holiday quiz",
+      "winter style",
+      "personality test",
+      "festive fashion"
+    ],
+    "description": "Take this fun personality test to find out which Christmas sweater matches your holiday style. Answer six quick questions for your cozy winter result!",
+    "url": "/quiz/which-christmas-sweater-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-holiday-tradition-are-you-quiz",
+    "title": "Which Holiday Tradition Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "holidays",
+      "traditions",
+      "personality quiz",
+      "christmas",
+      "festive"
+    ],
+    "description": "Discover your festive personality! Take our which holiday tradition are you quiz to see if you are caroling, cookie baking, or decorating light displays.",
+    "url": "/quiz/which-holiday-tradition-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-winter-activity-are-you-quiz",
+    "title": "Which Winter Activity Are You Quiz: Discover Your Vibe",
+    "category": "personality",
+    "tags": [
+      "winter",
+      "quiz",
+      "personality",
+      "snow",
+      "activities"
+    ],
+    "description": "Take our which winter activity are you quiz to discover your ideal cold-weather pastime! Are you skiing, sipping cocoa, or ice skating? Find out now!",
+    "url": "/quiz/which-winter-activity-are-you-quiz/",
+    "questions_count": 6
   }
 ]
