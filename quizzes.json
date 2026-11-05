@@ -13529,5 +13529,50 @@
     "description": "Take our which winter activity are you quiz to discover your ideal cold-weather pastime! Are you skiing, sipping cocoa, or ice skating? Find out now!",
     "url": "/quiz/which-winter-activity-are-you-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-holiday-baking-recipe-are-you-quiz",
+    "title": "Which Holiday Baking Recipe Are You Quiz?",
+    "category": "personality",
+    "tags": [
+      "holiday",
+      "baking",
+      "desserts",
+      "christmas",
+      "cookies"
+    ],
+    "description": "Take the which holiday baking recipe are you quiz to find your festive dessert match! Are you a classic gingerbread man or a colorful sugar cookie?",
+    "url": "/quiz/which-holiday-baking-recipe-are-you-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "thanksgiving-trivia-questions-for-adults-quiz",
+    "title": "Thanksgiving Trivia Questions for Adults Quiz",
+    "category": "trivia",
+    "tags": [
+      "holiday",
+      "thanksgiving",
+      "adults",
+      "trivia",
+      "facts"
+    ],
+    "description": "Think you know everything about Turkey Day? Take our thanksgiving trivia questions for adults quiz to test your knowledge of history and traditions!",
+    "url": "/quiz/thanksgiving-trivia-questions-for-adults-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "thanksgiving-trivia-questions-for-kids-quiz",
+    "title": "Thanksgiving Trivia Questions for Kids Quiz",
+    "category": "trivia",
+    "tags": [
+      "thanksgiving",
+      "kids trivia",
+      "holiday quiz",
+      "family trivia",
+      "thanksgiving quiz"
+    ],
+    "description": "Test your holiday knowledge with our thanksgiving trivia questions for kids quiz! Discover fun turkey facts, history, and traditions.",
+    "url": "/quiz/thanksgiving-trivia-questions-for-kids-quiz/",
+    "questions_count": 6
   }
 ]
