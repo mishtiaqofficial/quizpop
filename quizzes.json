@@ -13574,5 +13574,50 @@
     "description": "Test your holiday knowledge with our thanksgiving trivia questions for kids quiz! Discover fun turkey facts, history, and traditions.",
     "url": "/quiz/thanksgiving-trivia-questions-for-kids-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "christmas-song-trivia-questions-quiz",
+    "title": "Christmas Song Trivia Questions Quiz",
+    "category": "trivia",
+    "tags": [
+      "christmas",
+      "songs",
+      "trivia",
+      "holiday",
+      "music"
+    ],
+    "description": "Take our fun Christmas song trivia questions quiz! Test your holiday music knowledge with family-friendly questions about classic festive tunes.",
+    "url": "/quiz/christmas-song-trivia-questions-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "new-year-trivia-questions-quiz",
+    "title": "New Year Trivia Questions Quiz",
+    "category": "trivia",
+    "tags": [
+      "new year",
+      "trivia",
+      "holiday",
+      "family",
+      "quiz"
+    ],
+    "description": "Take our fun new year trivia questions quiz to test your holiday knowledge with family and friends. Discover cool global customs and see if you can score high!",
+    "url": "/quiz/new-year-trivia-questions-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "what-is-my-christmas-aesthetic-quiz",
+    "title": "What Is My Christmas Aesthetic Quiz? Find Your Style!",
+    "category": "personality",
+    "tags": [
+      "christmas",
+      "holiday",
+      "aesthetic",
+      "personality quiz",
+      "winter"
+    ],
+    "description": "Take our what is my christmas aesthetic quiz to discover your unique holiday style! Are you cozy classic, sleek glam, or merry and whimsical?",
+    "url": "/quiz/what-is-my-christmas-aesthetic-quiz/",
+    "questions_count": 6
   }
 ]
