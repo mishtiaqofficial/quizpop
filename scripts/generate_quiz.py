@@ -58,7 +58,7 @@ KEYWORD_TARGETS = [
     {"kw": "which winter activity are you quiz", "cluster": "trending", "angle": "Winter activity personality quiz"},
     {"kw": "which holiday baking recipe are you quiz", "cluster": "trending", "angle": "Holiday baking recipe personality quiz"},
     {"kw": "thanksgiving trivia questions for adults quiz", "cluster": "trending", "angle": "Thanksgiving Trivia Questions for Adults"},
-    {"kw": "christmas movie trivia questions quiz", "cluster": "trending", "angle": "Christmas Movie Trivia Questions"},
+    {"kw": "christmas film trivia questions quiz", "cluster": "trending", "angle": "Christmas Film Trivia Questions"},
     {"kw": "thanksgiving trivia questions for kids quiz", "cluster": "trending", "angle": "Thanksgiving Trivia Questions for Kids"},
     {"kw": "christmas song trivia questions quiz", "cluster": "trending", "angle": "Christmas Song Trivia Questions"},
     {"kw": "new year trivia questions quiz", "cluster": "trending", "angle": "New Year Trivia Questions"},
