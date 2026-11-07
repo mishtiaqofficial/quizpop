@@ -997,8 +997,26 @@ def render_page(q, related):
 
 
 def write_sitemap(quizzes):
+    # FIX 2026-11-07 (Ahrefs Nov 7 crawl: "3XX redirect in sitemap" = 2):
+    # quizzes.json still holds old slugs that _redirects 301s to a new slug
+    # (e.g. what-is-my-christmas-aesthetic-quiz -> whats-your-christmas-aesthetic-quiz).
+    # A sitemap must list only 200 URLs, so skip any slug that is a redirect
+    # source. Slugs stay in quizzes.json so kw coverage / duplicate guards
+    # still see them; only the sitemap drops them.
+    redirected = set()
+    try:
+        for line in (ROOT / "_redirects").read_text().splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = line.split()
+            if len(parts) >= 2:
+                redirected.add(parts[0])
+    except FileNotFoundError:
+        pass
     urls = [DOMAIN + p for p in STATIC_PAGES]
-    urls += [DOMAIN + f"quiz/{z['slug']}/" for z in quizzes]
+    urls += [DOMAIN + f"quiz/{z['slug']}/" for z in quizzes
+             if f"/quiz/{z['slug']}/" not in redirected]
     items = "\n".join(f'  <url><loc>{u}</loc><changefreq>weekly</changefreq></url>'
                       for u in urls)
     (ROOT / "sitemap.xml").write_text(
