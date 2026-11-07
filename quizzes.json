@@ -13619,5 +13619,50 @@
     "description": "Take our what is my christmas aesthetic quiz to discover your unique holiday style! Are you cozy classic, sleek glam, or merry and whimsical?",
     "url": "/quiz/what-is-my-christmas-aesthetic-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "name-that-pop-album-lyric-quiz",
+    "title": "Name That Pop Album from the Lyric!",
+    "category": "trivia",
+    "tags": [
+      "pop music",
+      "lyrics",
+      "album trivia",
+      "music quiz",
+      "pop culture"
+    ],
+    "description": "Can you match famous mystery lyrics to their iconic pop albums? Test your pop music knowledge with this fun 6-question trivia quiz!",
+    "url": "/quiz/name-that-pop-album-lyric-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "secret-room-giant-maze-quiz",
+    "title": "Which Secret Room in the Giant Maze Would You Unlock?",
+    "category": "personality",
+    "tags": [
+      "maze quiz",
+      "personality test",
+      "adventure",
+      "secret room",
+      "fun quiz"
+    ],
+    "description": "Which secret room in the giant maze challenge would you unlock first? Answer 6 fun questions to reveal your hidden labyrinth chamber!",
+    "url": "/quiz/secret-room-giant-maze-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "whats-your-holiday-movie-plot",
+    "title": "What's Your Holiday Movie Plot?",
+    "category": "personality",
+    "tags": [
+      "holiday movie",
+      "winter quiz",
+      "personality quiz",
+      "christmas movies",
+      "family fun"
+    ],
+    "description": "Take this fun winter personality quiz to discover your very own holiday movie storyline based on your favorite seasonal preferences and treats.",
+    "url": "/quiz/whats-your-holiday-movie-plot/",
+    "questions_count": 6
   }
 ]
