@@ -13664,5 +13664,50 @@
     "description": "Take this fun winter personality quiz to discover your very own holiday movie storyline based on your favorite seasonal preferences and treats.",
     "url": "/quiz/whats-your-holiday-movie-plot/",
     "questions_count": 6
+  },
+  {
+    "slug": "optical-riddles-detail-spotting-quiz",
+    "title": "Optical Riddles: Can You Spot the Hidden Details?",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "optical illusions",
+      "eyesight test",
+      "puzzles",
+      "brain teasers"
+    ],
+    "description": "Put your eagle eyes to the test! Solve these sneaky optical riddles and see if you can spot every hidden detail. Take the optical riddle challenge now!",
+    "url": "/quiz/optical-riddles-detail-spotting-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-2000s-snack-by-catchphrase",
+    "title": "Can You Guess the 2000s Snack by Its Catchphrase?",
+    "category": "trivia",
+    "tags": [
+      "2000s",
+      "snack",
+      "nostalgia",
+      "trivia",
+      "commercials"
+    ],
+    "description": "How well do you remember iconic 2000s commercial catchphrases? Test your nostalgic snack knowledge with this fun 2000s snack trivia quiz!",
+    "url": "/quiz/guess-2000s-snack-by-catchphrase/",
+    "questions_count": 6
+  },
+  {
+    "slug": "tiny-household-object-riddles",
+    "title": "Can You Solve These Tiny Object Riddles?",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "household objects",
+      "brain teasers",
+      "fun quiz",
+      "family riddles"
+    ],
+    "description": "Challenge your mind with fun, family-friendly riddles about small household items. Can you guess every tiny object hidden in these clever clues?",
+    "url": "/quiz/tiny-household-object-riddles/",
+    "questions_count": 6
   }
 ]
