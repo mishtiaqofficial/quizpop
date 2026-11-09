@@ -13709,5 +13709,50 @@
     "description": "Challenge your mind with fun, family-friendly riddles about small household items. Can you guess every tiny object hidden in these clever clues?",
     "url": "/quiz/tiny-household-object-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "funny-housepet-riddles-quiz",
+    "title": "Can You Solve These Funny Housepet Riddles?",
+    "category": "riddles",
+    "tags": [
+      "pet riddles",
+      "funny riddles",
+      "animal trivia",
+      "brain teasers",
+      "riddles for kids"
+    ],
+    "description": "Solve these hilarious funny housepet riddles written from a pet's point of view! Test your brain with fun animal clues and see if you can get 100%.",
+    "url": "/quiz/funny-housepet-riddles-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-autumn-video-game-world-quiz",
+    "title": "Which Cozy Video Game World Matches Your Autumn Mood?",
+    "category": "personality",
+    "tags": [
+      "cozy games",
+      "autumn quiz",
+      "gaming mood",
+      "fall vibes",
+      "video games"
+    ],
+    "description": "Discover which cozy video game world matches your autumn mood! Take our fun fall gaming quiz to find your ultimate cozy digital getaway.",
+    "url": "/quiz/cozy-autumn-video-game-world-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "early-holiday-elf-or-thanksgiving-traditionalist",
+    "title": "Are You An Early Holiday Elf Or Thanksgiving Fan?",
+    "category": "personality",
+    "tags": [
+      "holidays",
+      "thanksgiving",
+      "christmas",
+      "personality",
+      "family"
+    ],
+    "description": "Take this fun personality quiz to find out if you are an eager early holiday elf or a dedicated Thanksgiving traditionalist this season!",
+    "url": "/quiz/early-holiday-elf-or-thanksgiving-traditionalist/",
+    "questions_count": 6
   }
 ]
