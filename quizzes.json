@@ -13754,5 +13754,50 @@
     "description": "Take this fun personality quiz to find out if you are an eager early holiday elf or a dedicated Thanksgiving traditionalist this season!",
     "url": "/quiz/early-holiday-elf-or-thanksgiving-traditionalist/",
     "questions_count": 6
+  },
+  {
+    "slug": "holiday-transition-aesthetic-quiz",
+    "title": "Which Cozy Holiday Transition Aesthetic Are You?",
+    "category": "personality",
+    "tags": [
+      "winter",
+      "holiday",
+      "aesthetic",
+      "cozy",
+      "style"
+    ],
+    "description": "Discover your holiday transition aesthetic! Take our fun quiz to see if you are a Frosted Minimalist, Rustic Dreamer, or Festive Maximalist this winter.",
+    "url": "/quiz/holiday-transition-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "coffee-shop-and-seasonal-beverage-trivia",
+    "title": "Can You Ace This Coffee Shop Beverage Challenge?",
+    "category": "trivia",
+    "tags": [
+      "coffee",
+      "trivia",
+      "seasonal",
+      "drinks",
+      "food"
+    ],
+    "description": "Test your knowledge of coffee shop favorites and cozy seasonal drinks with this fun, family-friendly trivia challenge. Can you get a perfect score?",
+    "url": "/quiz/coffee-shop-and-seasonal-beverage-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-iconic-2000s-toy-riddles",
+    "title": "Guess the Iconic 2000s Toy from These Riddles!",
+    "category": "riddles",
+    "tags": [
+      "2000s",
+      "toys",
+      "nostalgia",
+      "riddles",
+      "pop-culture"
+    ],
+    "description": "Test your nostalgia with these fun clue riddles! Can you guess all six iconic 2000s toys from the clues? Take the quiz now to test your memory!",
+    "url": "/quiz/guess-iconic-2000s-toy-riddles/",
+    "questions_count": 6
   }
 ]
