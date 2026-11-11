@@ -13799,5 +13799,50 @@
     "description": "Test your nostalgia with these fun clue riddles! Can you guess all six iconic 2000s toys from the clues? Take the quiz now to test your memory!",
     "url": "/quiz/guess-iconic-2000s-toy-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "20-second-detective-micro-mysteries",
+    "title": "20-Second Detective: Can You Solve These Micro-Mysteries?",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "mysteries",
+      "whodunit",
+      "brainteasers",
+      "detective"
+    ],
+    "description": "Can you solve these fast whodunit micro-mysteries? Test your logic and detective skills with quick riddle clues before time runs out!",
+    "url": "/quiz/20-second-detective-micro-mysteries/",
+    "questions_count": 6
+  },
+  {
+    "slug": "original-moana-movie-trivia-quiz",
+    "title": "Original Moana Movie Trivia Quiz",
+    "category": "trivia",
+    "tags": [
+      "moana",
+      "disney trivia",
+      "animated movies",
+      "disney quiz",
+      "kids movies"
+    ],
+    "description": "Think you remember the original Moana? Test your Disney movie knowledge with our fun family trivia quiz before the sequel hits theaters!",
+    "url": "/quiz/original-moana-movie-trivia-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "finish-wicked-musical-lyric-quiz",
+    "title": "Finish the Iconic Wicked Musical Lyric Quiz",
+    "category": "trivia",
+    "tags": [
+      "wicked",
+      "broadway",
+      "musical-theatre",
+      "lyrics",
+      "trivia"
+    ],
+    "description": "Can you finish the iconic Wicked musical lyrics and name the characters who sang them? Test your Broadway trivia knowledge with this fun musical quiz!",
+    "url": "/quiz/finish-wicked-musical-lyric-quiz/",
+    "questions_count": 6
   }
 ]
