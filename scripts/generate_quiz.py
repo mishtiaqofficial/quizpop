@@ -262,7 +262,6 @@ KEYWORD_TARGETS = [
     {"kw": "which christmas character are you quiz", "cluster": "trending", "angle": "Classic character match"},
     {"kw": "which reindeer are you quiz", "cluster": "trending", "angle": "Santa's team sorting"},
     {"kw": "christmas trivia quiz", "cluster": "trending", "angle": "Holiday knowledge test"},
-    {"kw": "what is your christmas aesthetic quiz", "cluster": "trending", "angle": "Your festive vibe"},
     {"kw": "which santa's workshop elf are you quiz", "cluster": "trending", "angle": "Elf role reveal"},
     {"kw": "which christmas song are you quiz", "cluster": "trending", "angle": "Your carol match"},
     {"kw": "which netflix christmas movie are you quiz", "cluster": "trending", "angle": "2026 Netflix slate"},
@@ -374,7 +373,6 @@ KEYWORD_TARGETS = [
     {"kw": "what kind of elf are you quiz", "cluster": "seasonal", "angle": "Your North Pole job"},
     {"kw": "which home alone character are you quiz", "cluster": "seasonal", "angle": "Your McCallister role"},
     {"kw": "which christmas song are you quiz", "cluster": "seasonal", "angle": "Your carol identity"},
-    {"kw": "what is your christmas aesthetic quiz", "cluster": "seasonal", "angle": "Your holiday vibe"},
     {"kw": "which santas reindeer are you quiz", "cluster": "seasonal", "angle": "Dasher, Dancer, or Rudolph"},
     {"kw": "what christmas gift are you quiz", "cluster": "seasonal", "angle": "Your present personality"},
     {"kw": "which elf on the shelf are you quiz", "cluster": "seasonal", "angle": "Your shelf mischief level"},
@@ -1128,9 +1126,31 @@ def indexnow_ping(urls):
 
 
 def norm_title(t):
-    """Normalized title for duplicate detection (trailing 'quiz' ignored)."""
-    t = re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    """Normalized title for duplicate detection (trailing 'quiz' ignored).
+    Folds contractions first: "What's Your X" and "What Is Your X" are the
+    same title (2026-11-12: 2 live pairs differed only by what's/what-is)."""
+    t = t.lower().replace("\u2019", "'").replace("\u2018", "'")
+    t = re.sub(r"what's\b|whats\b", "what is", t)
+    t = re.sub(r"[^a-z0-9]+", " ", t).strip()
     return re.sub(r"\s+quiz$", "", t)
+
+
+def load_redirected_slugs():
+    """Slugs that _redirects 301s elsewhere (never link to / list them)."""
+    out = set()
+    try:
+        for line in (ROOT / "_redirects").read_text().splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = line.split()
+            if len(parts) >= 2:
+                m = re.match(r"/quiz/([^/]+)/", parts[0])
+                if m:
+                    out.add(m.group(1))
+    except FileNotFoundError:
+        pass
+    return out
 
 
 def write_all_quizzes(quizzes):
@@ -1220,8 +1240,9 @@ def main():
         sys.exit("ERROR: no valid quizzes generated — nothing written.")
 
     # ── write phase (only reached if everything validated) ──
+    redirected_slugs = load_redirected_slugs()
     for q in new_quizzes:
-        pool = [z for z in quizzes if z["slug"] != q["slug"]]
+        pool = [z for z in quizzes if z["slug"] != q["slug"] and z["slug"] not in redirected_slugs]
         # ROTATION (2026-10-26): related links used to always point at the
         # OLDEST pages, orphaning every new batch. New pages now link to the
         # NEWEST same-category pages first, so each batch gets incoming links.
