@@ -13844,5 +13844,50 @@
     "description": "Can you finish the iconic Wicked musical lyrics and name the characters who sang them? Test your Broadway trivia knowledge with this fun musical quiz!",
     "url": "/quiz/finish-wicked-musical-lyric-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "pet-maze-problem-solving-quiz",
+    "title": "What Does Your Pet's Maze Style Say About You?",
+    "category": "personality",
+    "tags": [
+      "pets",
+      "personality",
+      "quiz",
+      "animals",
+      "puzzles"
+    ],
+    "description": "Find out what your pet's maze navigation strategy says about your own problem-solving personality in this fun, family-friendly quiz!",
+    "url": "/quiz/pet-maze-problem-solving-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "cozy-sunday-soup-personality-quiz",
+    "title": "Which Cozy Sunday Soup Matches Your Weekend Vibe?",
+    "category": "personality",
+    "tags": [
+      "soup",
+      "cozy",
+      "personality",
+      "autumn",
+      "quiz"
+    ],
+    "description": "Discover your cozy Sunday soup personality! Take our quick, fun quiz to see which warm weekend soup best matches your relaxing vibe.",
+    "url": "/quiz/cozy-sunday-soup-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "team-turkey-or-team-christmas-tree-quiz",
+    "title": "Are You Team Turkey or Team Christmas Tree?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "christmas",
+      "holiday quiz",
+      "fall vibes",
+      "personality test"
+    ],
+    "description": "Discover if your inner seasonal clock leans Team Turkey or Team Christmas Tree with this fun, quick 6-question holiday habits quiz!",
+    "url": "/quiz/team-turkey-or-team-christmas-tree-quiz/",
+    "questions_count": 6
   }
 ]
