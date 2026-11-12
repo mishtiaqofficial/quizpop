@@ -33,7 +33,62 @@ DOMAIN = os.environ.get("SITE_DOMAIN", "https://popquizdaily.site/").rstrip("/")
 
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
                 "search/", "about/", "contact/", "privacy/", "terms/", "disclosure/",
-                "all-quizzes/"]
+                "all-quizzes/", "christmas/", "halloween/", "thanksgiving/"]
+
+# ── Seasonal topic hubs (2026-11-12 SEO batch) ──────────────────────────────
+# 3 hub pages group the site's seasonal clusters so Google sees topical depth
+# instead of 900+ flat quiz pages. Matching is slug + title ONLY: tags are
+# Gemini-generated and noisy (Thanksgiving pages tagged "holiday" leaked into
+# Christmas when tags were included). Priority: thanksgiving first (its
+# keywords are the most specific), then halloween, then christmas.
+# Measured 2026-11-12 on live pages: christmas 82, halloween 219,
+# thanksgiving 52 (only 2 pages match more than one topic).
+TOPIC_HUBS = {
+    "christmas": {
+        "path": "christmas/",
+        "emoji": "🎄",
+        "title": "Christmas Quizzes",
+        "meta": "Free Christmas quizzes: which Christmas character, movie, elf or Grinch moment are you? Fun holiday personality quizzes, trivia and riddles — instant results, no sign-up.",
+        "cover": "cover-christmas.jpg",
+        "intro": [
+            "Christmas is QuizPop's biggest holiday season — from \"Which Christmas Character Are You?\" to Elf on the Shelf, the Grinch, Santa's workshop and Christmas movie quizzes. Every quiz takes about 90 seconds and shows your result instantly: free, no sign-up, no app. Whether you're counting down to December 25th, planning a family game night, or just want to find your elf name, pick a quiz below and share your result with friends.",
+            "New Christmas quizzes are added through the holiday season, including Christmas trivia, riddles and personality quizzes about movies, music, food and traditions. Start with a favorite below — and see whether you land in Whoville or on Mt. Crumpit.",
+        ],
+        "keywords": ["christmas", "santa", "elf", "reindeer", "nutcracker",
+                     "gingerbread", "snowman", "grinch", "whoville", "xmas",
+                     "crumpit", "mistletoe", "eggnog", "stocking", "north-pole",
+                     "candy-cane", "christmas-tree", "winter-holiday", "holiday"],
+    },
+    "halloween": {
+        "path": "halloween/",
+        "emoji": "🎃",
+        "title": "Halloween Quizzes",
+        "meta": "Free Halloween quizzes: costumes, monsters, witches, vampires, ghosts and horror movies. Find your spooky season vibe — instant results, no sign-up.",
+        "cover": "cover-halloween.jpg",
+        "intro": [
+            "Halloween is QuizPop's biggest season — hundreds of spooky quizzes about costumes, monsters, witches, vampires, ghosts, haunted houses and horror movies. Find your spooky season vibe, your pumpkin carving style, or which classic movie monster you are. Every quiz takes about 90 seconds with instant results: free and no sign-up.",
+            "From trick-or-treat fun for kids to horror trivia for grown-ups, new Halloween quizzes drop every October — and the spooky favorites stay up all year, because spooky season never really ends.",
+        ],
+        "keywords": ["halloween", "spooky", "pumpkin", "ghost", "witch", "vampire",
+                     "horror", "monster", "skeleton", "haunted", "zombie",
+                     "werewolf", "trick-or-treat", "jack-o-lantern", "slasher",
+                     "michael-myers", "freddy", "pennywise"],
+    },
+    "thanksgiving": {
+        "path": "thanksgiving/",
+        "emoji": "🦃",
+        "title": "Thanksgiving Quizzes",
+        "meta": "Free Thanksgiving quizzes: which dish, parade balloon, host role or leftover are you? Fun turkey-day personality quizzes and trivia — instant results, no sign-up.",
+        "cover": "cover-food.jpg",
+        "intro": [
+            "Thanksgiving quizzes for turkey day — which Thanksgiving dish, parade balloon, host role or leftover are you? These quick personality quizzes and trivia sets are perfect for the family table, a Friendsgiving game, or the long drive home. Every quiz takes about 90 seconds and shows your result instantly: free, no sign-up, no app.",
+            "New Thanksgiving quizzes arrive every November, from Macy's parade balloons to cranberry sauce debates. Pick one below, answer honestly, and see where you land at the table.",
+        ],
+        "keywords": ["thanksgiving", "turkey", "pilgrim", "cranberry", "macy"],
+    },
+}
+TOPIC_PRIORITY = ("thanksgiving", "halloween", "christmas")  # matching order
+TOPIC_DISPLAY = ("christmas", "halloween", "thanksgiving")   # display order
 
 # ── SEO keyword targets (research 2026-10-13, 100 low-competition long-tails).
 # Priority order: seasonal first (Halloween window), then GSC-proven love cluster, then rest.
@@ -966,6 +1021,13 @@ def render_page(q, related):
     rel_html = "".join(
         f'<a href="/quiz/{r["slug"]}/">{html.escape(r["title"])}</a>' for r in related[:12]
     ) or '<div class="soon">More quizzes dropping daily<br><span class="soon-badge">Stay tuned</span></div>'
+    # SEASONAL HUB BACKLINK (2026-11-12): a quiz in a seasonal cluster links
+    # back to its hub, so each hub gets incoming links from every member page.
+    topic = topic_for_quiz(q)
+    if topic:
+        cfg = TOPIC_HUBS[topic]
+        rel_html = (f'<a href="/{cfg["path"]}">{cfg["emoji"]} More {cfg["title"]} →</a>'
+                    + rel_html)
     page = tpl.replace("__SEO_TITLE__", html.escape(q["seo_title"], quote=True))
     page = page.replace("__META_DESCRIPTION__", html.escape(q["meta_description"], quote=True))
     page = page.replace("__CANONICAL_URL__", f"{DOMAIN}quiz/{q['slug']}/")
@@ -1153,8 +1215,46 @@ def load_redirected_slugs():
     return out
 
 
+def load_existing_seo_titles():
+    """Normalized <title> tags of all LIVE quiz pages (redirect sources
+    excluded — their titles are invisible behind the 301).
+    The <title> tag comes from seo_title, not the H1, so the H1 guard in
+    main() cannot catch title-tag duplicates (2026-11-12: 10 live groups
+    shared a title tag with distinct H1s)."""
+    redirected = load_redirected_slugs()
+    out = set()
+    quiz_dir = ROOT / "quiz"
+    if not quiz_dir.is_dir():
+        return out
+    for path in quiz_dir.glob("*/index.html"):
+        if path.parent.name in redirected:
+            continue
+        try:
+            text = path.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        m = re.search(r"<title>(.*?)</title>", text, re.S)
+        if not m:
+            continue
+        core = re.sub(r"\s+", " ", m.group(1)).strip()
+        core = re.sub(r"\s*[—\-]\s*QuizPop\s*$", "", core)
+        core = (core.replace("&#x27;", "'").replace("&quot;", '"')
+                .replace("&amp;", "&"))
+        out.add(norm_title(core))
+    return out
+
+
 def write_all_quizzes(quizzes):
     """Regenerate /all-quizzes/ hub so every quiz page has >=1 incoming link."""
+    # Never list redirect sources (their URLs 301 elsewhere; listing them is
+    # the Ahrefs "page has links to redirect" issue).
+    redirected = load_redirected_slugs()
+    quizzes = [q for q in quizzes if q.get("slug") not in redirected]
+    counts = hub_counts(quizzes)
+    topics_row = " · ".join(
+        f'{TOPIC_HUBS[t]["emoji"]} <a href="/{TOPIC_HUBS[t]["path"]}">'
+        f'{TOPIC_HUBS[t]["title"]} ({counts[t]})</a>'
+        for t in TOPIC_DISPLAY)
     by_cat = {}
     for q in quizzes:
         by_cat.setdefault(q.get("category", "personality"), []).append(q)
@@ -1190,6 +1290,7 @@ def write_all_quizzes(quizzes):
 <main>
 <h1>All quizzes ({len(quizzes)})</h1>
 <p>Every free personality quiz, trivia set and riddle collection on QuizPop — updated daily.</p>
+<p>Browse by season: {topics_row}</p>
 {''.join(cards)}
 </main>
 <footer><p><a href="/">Home</a> · <a href="/trending/">Trending</a> · <a href="/about/">About</a></p></footer>
@@ -1199,6 +1300,102 @@ def write_all_quizzes(quizzes):
     out = ROOT / "all-quizzes"
     out.mkdir(exist_ok=True)
     (out / "index.html").write_text(hub)
+
+
+def topic_for_quiz(q):
+    """Seasonal hub topic for a quiz dict (slug + title only), or None.
+    Priority: thanksgiving -> halloween -> christmas (see TOPIC_HUBS)."""
+    hay = " ".join([str(q.get("slug", "")), str(q.get("title", ""))]).lower()
+    for topic in TOPIC_PRIORITY:
+        if any(k in hay for k in TOPIC_HUBS[topic]["keywords"]):
+            return topic
+    return None
+
+
+def hub_counts(quizzes):
+    """Live (non-redirected) quiz counts per seasonal hub topic."""
+    redirected = load_redirected_slugs()
+    counts = {t: 0 for t in TOPIC_HUBS}
+    for q in quizzes:
+        if q.get("slug") in redirected:
+            continue
+        t = topic_for_quiz(q)
+        if t:
+            counts[t] += 1
+    return counts
+
+
+def write_topic_hubs(quizzes):
+    """Regenerate the 3 seasonal hub pages (/christmas/, /halloween/,
+    /thanksgiving/) from quizzes.json. Live pages only, newest first,
+    grouped by category like /all-quizzes/. Each hub carries ItemList
+    JSON-LD so Google sees the cluster as one topical unit."""
+    redirected = load_redirected_slugs()
+    for topic in TOPIC_DISPLAY:
+        cfg = TOPIC_HUBS[topic]
+        items = [q for q in quizzes
+                 if q.get("slug") not in redirected
+                 and topic_for_quiz(q) == topic]
+        by_cat = {}
+        for q in items:
+            by_cat.setdefault(q.get("category", "personality"), []).append(q)
+        cards = []
+        for cat in ["personality", "trivia", "riddles"]:
+            cat_items = by_cat.get(cat, [])
+            if not cat_items:
+                continue
+            lis = "\n".join(
+                f'<li><a href="/quiz/{q["slug"]}/">{html.escape(q["title"])}</a></li>'
+                for q in reversed(cat_items))
+            cards.append(f"<h2>{cat.title()} ({len(cat_items)})</h2>\n<ul>\n{lis}\n</ul>")
+        others = " · ".join(
+            f'{TOPIC_HUBS[t]["emoji"]} <a href="/{TOPIC_HUBS[t]["path"]}">{TOPIC_HUBS[t]["title"]}</a>'
+            for t in TOPIC_DISPLAY if t != topic)
+        intro = "".join(f"<p>{html.escape(p)}</p>" for p in cfg["intro"])
+        item_list = {"@context": "https://schema.org", "@type": "ItemList",
+                     "name": cfg["title"] + " — QuizPop",
+                     "itemListElement": [
+                         {"@type": "ListItem", "position": i + 1,
+                          "url": f"{DOMAIN}quiz/{q['slug']}/",
+                          "name": q["title"]}
+                         for i, q in enumerate(reversed(items))]}
+        hub = f"""<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{cfg["title"]} — QuizPop</title>
+<meta name="description" content="{html.escape(cfg["meta"], quote=True)}">
+<meta name="robots" content="max-image-preview:large">
+<link rel="canonical" href="{DOMAIN}{cfg["path"]}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="QuizPop">
+<meta property="og:title" content="{html.escape(cfg["title"], quote=True)} — QuizPop">
+<meta property="og:description" content="{html.escape(cfg["meta"], quote=True)}">
+<meta property="og:url" content="{DOMAIN}{cfg["path"]}">
+<meta property="og:image" content="{DOMAIN}assets/covers/{cfg["cover"]}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{DOMAIN}assets/covers/{cfg["cover"]}">
+<style>body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:#1e293b;max-width:720px;margin:0 auto;padding:1.25rem 1rem 3rem;line-height:1.6}}h1{{font-size:1.7rem}}a{{color:#4f46e5;text-decoration:none}}a:hover{{text-decoration:underline}}li{{margin:.3rem 0}}</style>
+</head>
+<body>
+<header><a href="/" style="font-weight:800;font-size:1.25rem">QuizPop</a></header>
+<main>
+<h1>{cfg["emoji"]} {cfg["title"]} ({len(items)})</h1>
+{intro}
+<p>More seasons: {others} · <a href="/all-quizzes/">All quizzes</a></p>
+{''.join(cards)}
+</main>
+<footer><p><a href="/">Home</a> · <a href="/trending/">Trending</a> · <a href="/about/">About</a></p></footer>
+<script type="application/ld+json">{json.dumps(item_list, ensure_ascii=False)}</script>
+</body>
+</html>
+"""
+        out = ROOT / topic
+        out.mkdir(exist_ok=True)
+        (out / "index.html").write_text(hub)
 
 
 def main():
@@ -1212,6 +1409,7 @@ def main():
     quizzes = json.loads(quizzes_path.read_text()) if quizzes_path.exists() else []
     existing_slugs = {z["slug"] for z in quizzes}
     existing_titles = {norm_title(z["title"]) for z in quizzes}
+    existing_seo_titles = load_existing_seo_titles()
     published = [z["title"] for z in quizzes]
     published_slugs = [z["slug"] for z in quizzes]
 
@@ -1231,8 +1429,15 @@ def main():
         if q["slug"] in existing_slugs or norm_title(q["title"]) in existing_titles:
             print(f"  SKIP (duplicate already published): {q['title'][:60]}")
             continue
+        # GUARD (2026-11-12): the <title> tag comes from seo_title, not the
+        # H1 — 10 live pairs shared a title tag with distinct H1s. Skip a
+        # new quiz whose seo_title collides with any live page's title tag.
+        if norm_title(q["seo_title"]) in existing_seo_titles:
+            print(f"  SKIP (duplicate seo_title already published): {q['seo_title'][:60]}")
+            continue
         existing_slugs.add(q["slug"])
         existing_titles.add(norm_title(q["title"]))
+        existing_seo_titles.add(norm_title(q["seo_title"]))
         new_quizzes.append(q)
         print(f"  OK: {q['title']}  (/quiz/{q['slug']}/)")
 
@@ -1262,6 +1467,7 @@ def main():
     write_sitemap(quizzes)
     write_feed(quizzes)
     write_all_quizzes(quizzes)
+    write_topic_hubs(quizzes)
     print(f"DONE: {len(new_quizzes)} quizzes written.")
     # notify search engines instantly (Bing/Yandex via IndexNow)
     new_urls = [f"https://popquizdaily.site/quiz/{q['slug']}/" for q in new_quizzes]
