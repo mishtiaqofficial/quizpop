@@ -10,7 +10,7 @@ anything is written, so a failure never leaves a half-built site.
 Env:
   GEMINI_API_KEY   required (GitHub repo secret)
   GEMINI_MODEL     default: gemini-3.5-flash
-  QUIZZES_PER_DAY  default: 3
+  QUIZZES_PER_DAY  default: 1 (policy 2026-11-12)
   SITE_DOMAIN      default: https://popquizdaily.site/
 """
 import html
@@ -28,7 +28,7 @@ API_KEY = os.environ.get("GEMINI_API_KEY", "")
 # USER POLICY 2026-10-29: max 3 pages/day, trending keywords only.
 # Capped here (not in the workflow file) so it holds no matter what
 # count the workflow passes.
-PER_DAY = min(int(os.environ.get("QUIZZES_PER_DAY", "3")), 3)
+PER_DAY = min(int(os.environ.get("QUIZZES_PER_DAY", "1")), 1)  # user policy 2026-11-12: 1 page/day (was 3/day)
 DOMAIN = os.environ.get("SITE_DOMAIN", "https://popquizdaily.site/").rstrip("/") + "/"
 
 STATIC_PAGES = ["", "personality/", "trivia/", "riddles/", "trending/",
