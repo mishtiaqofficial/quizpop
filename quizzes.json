@@ -13889,5 +13889,50 @@
     "description": "Discover if your inner seasonal clock leans Team Turkey or Team Christmas Tree with this fun, quick 6-question holiday habits quiz!",
     "url": "/quiz/team-turkey-or-team-christmas-tree-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "which-holiday-movie-archetype-are-you",
+    "title": "Which Holiday Movie Archetype Are You?",
+    "category": "personality",
+    "tags": [
+      "holiday movies",
+      "christmas quiz",
+      "personality quiz",
+      "festive",
+      "family fun"
+    ],
+    "description": "Take this fun personality quiz to discover which classic holiday movie archetype matches your festive spirit, from cozy homebody to joyful decorator.",
+    "url": "/quiz/which-holiday-movie-archetype-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "real-object-or-illusion-cake-quiz",
+    "title": "Is It Real or Is It Cake? The Illusion Cake Quiz",
+    "category": "trivia",
+    "tags": [
+      "illusion cake",
+      "real or cake",
+      "baking trivia",
+      "hyperrealistic cakes",
+      "food quiz"
+    ],
+    "description": "Can you tell everyday objects apart from realistic illusion cakes? Test your visual perception skills with this fun visual trivia quiz!",
+    "url": "/quiz/real-object-or-illusion-cake-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-cozy-soup-weekend-mood-quiz",
+    "title": "Which Viral Cozy Soup Is Your Weekend Mood?",
+    "category": "personality",
+    "tags": [
+      "cozy soup",
+      "personality quiz",
+      "comfort food",
+      "viral recipes",
+      "weekend vibes"
+    ],
+    "description": "Discover which viral cozy soup matches your ultimate weekend comfort mood! Take our fun, fast personality quiz to reveal your tasty soup match.",
+    "url": "/quiz/viral-cozy-soup-weekend-mood-quiz/",
+    "questions_count": 6
   }
 ]
