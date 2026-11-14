@@ -13934,5 +13934,50 @@
     "description": "Discover which viral cozy soup matches your ultimate weekend comfort mood! Take our fun, fast personality quiz to reveal your tasty soup match.",
     "url": "/quiz/viral-cozy-soup-weekend-mood-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "name-these-classic-retro-snacks",
+    "title": "Can You Name These Classic Retro Snacks?",
+    "category": "trivia",
+    "tags": [
+      "retro snacks",
+      "90s nostalgia",
+      "classic candy",
+      "snack trivia",
+      "food quiz"
+    ],
+    "description": "Can you identify classic retro snacks from nostalgic clues? Take this fun quiz to test your memory of 80s, 90s, and 2000s lunchbox treats!",
+    "url": "/quiz/name-these-classic-retro-snacks/",
+    "questions_count": 6
+  },
+  {
+    "slug": "mischievous-holiday-pet-quiz",
+    "title": "What Kind of Mischievous Holiday Pet Are You?",
+    "category": "personality",
+    "tags": [
+      "holiday pet",
+      "personality quiz",
+      "christmas fun",
+      "festive quiz",
+      "mischievous pet"
+    ],
+    "description": "Take our fun personality quiz to find out which mischievous holiday pet matches your festive energy this holiday season!",
+    "url": "/quiz/mischievous-holiday-pet-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-thanksgiving-side-dish-personality-quiz",
+    "title": "Which Viral Thanksgiving Side Dish Are You?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "quiz",
+      "food",
+      "personality",
+      "holiday"
+    ],
+    "description": "Find out which viral Thanksgiving side dish matches your holiday personality! Are you gooey mac and cheese or crispy sprouts?",
+    "url": "/quiz/viral-thanksgiving-side-dish-personality-quiz/",
+    "questions_count": 6
   }
 ]
