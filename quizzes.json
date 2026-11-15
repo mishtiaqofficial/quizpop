@@ -13979,5 +13979,50 @@
     "description": "Find out which viral Thanksgiving side dish matches your holiday personality! Are you gooey mac and cheese or crispy sprouts?",
     "url": "/quiz/viral-thanksgiving-side-dish-personality-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "build-hot-cocoa-bar-winter-vibe",
+    "title": "Build a Hot Cocoa Bar to Reveal Your Winter Vibe",
+    "category": "personality",
+    "tags": [
+      "hot cocoa bar",
+      "winter vibe",
+      "personality quiz",
+      "hot chocolate",
+      "winter personality"
+    ],
+    "description": "Design your ultimate gourmet hot chocolate mug and discover your secret winter vibe with this fun personality quiz!",
+    "url": "/quiz/build-hot-cocoa-bar-winter-vibe/",
+    "questions_count": 6
+  },
+  {
+    "slug": "retro-board-game-squad-vibe-quiz",
+    "title": "Which Retro Board Game Matches Your Squad's Vibe?",
+    "category": "personality",
+    "tags": [
+      "boardgames",
+      "retrogaming",
+      "squadvibes",
+      "personalityquiz",
+      "popculture"
+    ],
+    "description": "Which classic retro board game matches your squad's inner vibe? Take this fun personality quiz to find out if your group is Clue, Monopoly, or Candy Land!",
+    "url": "/quiz/retro-board-game-squad-vibe-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-90s-thanksgiving-tv-episodes-quiz",
+    "title": "Name These Classic 90s Thanksgiving TV Episodes!",
+    "category": "trivia",
+    "tags": [
+      "90s",
+      "television",
+      "thanksgiving",
+      "sitcoms",
+      "trivia"
+    ],
+    "description": "Can you recognize these iconic 90s Thanksgiving TV episodes? Test your holiday sitcom knowledge with our fun trivia quiz!",
+    "url": "/quiz/classic-90s-thanksgiving-tv-episodes-quiz/",
+    "questions_count": 6
   }
 ]
