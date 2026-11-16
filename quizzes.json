@@ -14024,5 +14024,50 @@
     "description": "Can you recognize these iconic 90s Thanksgiving TV episodes? Test your holiday sitcom knowledge with our fun trivia quiz!",
     "url": "/quiz/classic-90s-thanksgiving-tv-episodes-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "match-viral-nfl-mascots-to-their-teams",
+    "title": "Can You Match These Viral NFL Mascots to Their Teams?",
+    "category": "trivia",
+    "tags": [
+      "nfl",
+      "football",
+      "mascots",
+      "sports",
+      "trivia"
+    ],
+    "description": "Can you match hilarious viral NFL mascots like Blue and Sir Purr to their correct pro football teams? Take this fun trivia quiz to test your sports knowledge!",
+    "url": "/quiz/match-viral-nfl-mascots-to-their-teams/",
+    "questions_count": 6
+  },
+  {
+    "slug": "musical-instrument-riddles",
+    "title": "Can You Solve These Musical Instrument Riddles?",
+    "category": "riddles",
+    "tags": [
+      "musical instruments",
+      "riddles",
+      "music quiz",
+      "rhyming riddles",
+      "brain teasers"
+    ],
+    "description": "Test your brain with our fun musical instrument riddles! Solve rhyming clues about classic instruments and see if you can score a perfect score.",
+    "url": "/quiz/musical-instrument-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "viral-kitchen-hacks-quiz",
+    "title": "Internet Cooking Hacks: Test Your Viral Kitchen Skills!",
+    "category": "trivia",
+    "tags": [
+      "kitchen",
+      "hacks",
+      "cooking",
+      "viral",
+      "trivia"
+    ],
+    "description": "Test your knowledge on famous internet cooking shortcuts and viral food trends with this fun 6-question trivia quiz!",
+    "url": "/quiz/viral-kitchen-hacks-quiz/",
+    "questions_count": 6
   }
 ]
