@@ -14069,5 +14069,35 @@
     "description": "Test your knowledge on famous internet cooking shortcuts and viral food trends with this fun 6-question trivia quiz!",
     "url": "/quiz/viral-kitchen-hacks-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "booktok-kingdoms-lore-riddles",
+    "title": "Can You Solve These Viral BookTok Kingdom Riddles?",
+    "category": "riddles",
+    "tags": [
+      "booktok",
+      "ya books",
+      "fantasy",
+      "riddles",
+      "reading"
+    ],
+    "description": "Can you solve these cryptic riddles about viral BookTok kingdoms? Test your knowledge of ACOTAR, Fourth Wing, and more in this fun literary challenge.",
+    "url": "/quiz/booktok-kingdoms-lore-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "8-bit-speedrun-reflex-quiz",
+    "title": "Can You Name These 8-Bit Speedruns?",
+    "category": "trivia",
+    "tags": [
+      "retro games",
+      "8 bit",
+      "speedrun",
+      "nintendo",
+      "arcade"
+    ],
+    "description": "Test your retro gaming reflexes! Can you identify these famous 8-bit classic games from just one second of world-record speedrun gameplay? Take the quiz now!",
+    "url": "/quiz/8-bit-speedrun-reflex-quiz/",
+    "questions_count": 6
   }
 ]
