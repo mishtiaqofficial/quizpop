@@ -14099,5 +14099,50 @@
     "description": "Test your retro gaming reflexes! Can you identify these famous 8-bit classic games from just one second of world-record speedrun gameplay? Take the quiz now!",
     "url": "/quiz/8-bit-speedrun-reflex-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "misheard-lyrics-hit-songs-trivia",
+    "title": "Guess the Hit Song From the Hilarious Misheard Lyrics!",
+    "category": "trivia",
+    "tags": [
+      "music",
+      "lyrics",
+      "pop-culture",
+      "trivia",
+      "funny"
+    ],
+    "description": "Think you know your music? See if you can identify these famous hit songs based on the hilarious ways people mishear their lyrics in this fun trivia quiz!",
+    "url": "/quiz/misheard-lyrics-hit-songs-trivia/",
+    "questions_count": 6
+  },
+  {
+    "slug": "mythical-forest-creature-spirit-animal-quiz",
+    "title": "Which Mythical Forest Creature Is Your Spirit Animal?",
+    "category": "personality",
+    "tags": [
+      "mythical",
+      "creatures",
+      "personality",
+      "spirit",
+      "quiz"
+    ],
+    "description": "Take this magical quiz to discover which mythical forest creature matches your inner emotional spirit animal! Fun and easy for all ages.",
+    "url": "/quiz/mythical-forest-creature-spirit-animal-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-90s-arcade-games-clues",
+    "title": "Guess The 90s Arcade Game From 3 Clues!",
+    "category": "riddles",
+    "tags": [
+      "90s",
+      "arcade games",
+      "retro gaming",
+      "riddles",
+      "trivia"
+    ],
+    "description": "Test your retro gaming knowledge! Can you guess these famous 90s arcade games using just three vague clues? Step up to the cabinet!",
+    "url": "/quiz/guess-90s-arcade-games-clues/",
+    "questions_count": 6
   }
 ]
