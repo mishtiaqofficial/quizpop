@@ -14144,5 +14144,50 @@
     "description": "Test your retro gaming knowledge! Can you guess these famous 90s arcade games using just three vague clues? Step up to the cabinet!",
     "url": "/quiz/guess-90s-arcade-games-clues/",
     "questions_count": 6
+  },
+  {
+    "slug": "viral-pet-audio-energy-quiz",
+    "title": "Which Viral Pet Sound Matches Your Daily Energy?",
+    "category": "personality",
+    "tags": [
+      "viral pets",
+      "pet sounds",
+      "personality quiz",
+      "funny pets",
+      "quizpop"
+    ],
+    "description": "Are you sassy, chatty, or super cozy? Take this fun quiz to discover which iconic viral pet sound byte matches your daily vibe!",
+    "url": "/quiz/viral-pet-audio-energy-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "which-2000s-pocket-gadget-are-you",
+    "title": "Which 2000s Pocket Gadget Are You?",
+    "category": "personality",
+    "tags": [
+      "2000s tech",
+      "retro gadgets",
+      "personality quiz",
+      "y2k nostalgia",
+      "pocket devices"
+    ],
+    "description": "Take this fun quiz to discover which iconic Y2K pocket gadget matches your retro tech aesthetic! Find out if you are an MP3 player, flip phone, or gamer.",
+    "url": "/quiz/which-2000s-pocket-gadget-are-you/",
+    "questions_count": 6
+  },
+  {
+    "slug": "mystery-toy-box-riddles",
+    "title": "Solve the Cryptic Riddles to Unbox the Mystery Toy!",
+    "category": "riddles",
+    "tags": [
+      "riddles",
+      "toys",
+      "brainteasers",
+      "family",
+      "puzzles"
+    ],
+    "description": "Can you crack these cryptic toy riddles? Solve each clever clue to open the mystery box and uncover the hidden treasure inside!",
+    "url": "/quiz/mystery-toy-box-riddles/",
+    "questions_count": 6
   }
 ]
