@@ -14189,5 +14189,50 @@
     "description": "Can you crack these cryptic toy riddles? Solve each clever clue to open the mystery box and uncover the hidden treasure inside!",
     "url": "/quiz/mystery-toy-box-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "elphaba-or-glinda-personality-quiz",
+    "title": "Are You Elphaba or Glinda? Magical Musical Quiz",
+    "category": "personality",
+    "tags": [
+      "wicked",
+      "elphaba",
+      "glinda",
+      "musical",
+      "quiz"
+    ],
+    "description": "Take this fun Wicked-inspired personality quiz to discover if you are more like Elphaba or Glinda!",
+    "url": "/quiz/elphaba-or-glinda-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "90s-virtual-pet-quiz",
+    "title": "90s Virtual Pet Quiz: Can You Keep It Alive?",
+    "category": "trivia",
+    "tags": [
+      "90s",
+      "tamagotchi",
+      "retro",
+      "nostalgia",
+      "toys"
+    ],
+    "description": "Test your 90s digital parenting skills with this fun retro trivia quiz! Can you remember Tamagotchis, Giga Pets, and virtual pet care?",
+    "url": "/quiz/90s-virtual-pet-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "deep-sea-creature-adaptation-riddles",
+    "title": "Deep Sea Creature Riddles: Guess the Adaptation!",
+    "category": "riddles",
+    "tags": [
+      "deep ocean",
+      "animal riddles",
+      "sea creatures",
+      "trivia quiz",
+      "marine life"
+    ],
+    "description": "Test your knowledge of strange ocean animals with these fun deep-sea creature riddles about amazing biological survival tricks!",
+    "url": "/quiz/deep-sea-creature-adaptation-riddles/",
+    "questions_count": 6
   }
 ]
