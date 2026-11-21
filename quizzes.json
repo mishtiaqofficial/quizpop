@@ -14234,5 +14234,50 @@
     "description": "Test your knowledge of strange ocean animals with these fun deep-sea creature riddles about amazing biological survival tricks!",
     "url": "/quiz/deep-sea-creature-adaptation-riddles/",
     "questions_count": 6
+  },
+  {
+    "slug": "legendary-wayfinder-spirit-quiz",
+    "title": "Which Legendary Wayfinder Spirit Are You?",
+    "category": "personality",
+    "tags": [
+      "wayfinder",
+      "adventure",
+      "leadership",
+      "personality",
+      "quiz"
+    ],
+    "description": "Find out which ancient navigator spirit matches your personality! Take our wayfinder leadership quiz to discover your inner explorer style and intuition.",
+    "url": "/quiz/legendary-wayfinder-spirit-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "dog-puffer-jacket-bootie-aesthetic-quiz",
+    "title": "What Dog Puffer Jacket & Booties Match Your Vibe?",
+    "category": "personality",
+    "tags": [
+      "dog fashion",
+      "pup booties",
+      "puffer jackets",
+      "style quiz",
+      "winter aesthetic"
+    ],
+    "description": "Find out which trendy winter dog puffer jacket and tiny booties match your personal aesthetic with this fun 6-question quiz!",
+    "url": "/quiz/dog-puffer-jacket-bootie-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "holiday-treat-baking-disaster-quiz",
+    "title": "Which Holiday Treat Matches Your Kitchen Energy?",
+    "category": "personality",
+    "tags": [
+      "holiday baking",
+      "baking quiz",
+      "personality quiz",
+      "christmas treats",
+      "kitchen fail"
+    ],
+    "description": "Take this fun quiz to discover which iconic holiday dessert matches your personality based on your funniest baking disasters!",
+    "url": "/quiz/holiday-treat-baking-disaster-quiz/",
+    "questions_count": 6
   }
 ]
