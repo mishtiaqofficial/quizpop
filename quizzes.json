@@ -14279,5 +14279,50 @@
     "description": "Take this fun quiz to discover which iconic holiday dessert matches your personality based on your funniest baking disasters!",
     "url": "/quiz/holiday-treat-baking-disaster-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "guess-the-90s-holiday-toy-riddles",
+    "title": "Guess the 90s Holiday Toy Mystery Quiz",
+    "category": "riddles",
+    "tags": [
+      "90s toys",
+      "holiday quiz",
+      "retro riddles",
+      "nostalgia",
+      "quizpop"
+    ],
+    "description": "Can you guess the hottest 90s holiday toys from mystery clues? Test your retro toy knowledge with this fun riddle quiz!",
+    "url": "/quiz/guess-the-90s-holiday-toy-riddles/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-holiday-comedy-quotes-quiz",
+    "title": "Can You Name These Classic Holiday Comedy Quotes?",
+    "category": "trivia",
+    "tags": [
+      "holiday",
+      "movies",
+      "quotes",
+      "trivia",
+      "christmas"
+    ],
+    "description": "Test your memory with this fun trivia quiz on iconic quotes from classic holiday comedy movies like Elf, Home Alone, and Christmas Vacation!",
+    "url": "/quiz/classic-holiday-comedy-quotes-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "thanksgiving-parade-balloon-silhouettes-quiz",
+    "title": "Guess the Thanksgiving Parade Balloon Silhouettes!",
+    "category": "riddles",
+    "tags": [
+      "thanksgiving",
+      "parade",
+      "riddles",
+      "trivia",
+      "holidays"
+    ],
+    "description": "Can you guess the giant Thanksgiving parade balloon from its mystery silhouette? Test your holiday character knowledge with these fun riddles!",
+    "url": "/quiz/thanksgiving-parade-balloon-silhouettes-quiz/",
+    "questions_count": 6
   }
 ]
