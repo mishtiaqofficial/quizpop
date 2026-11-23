@@ -14324,5 +14324,50 @@
     "description": "Can you guess the giant Thanksgiving parade balloon from its mystery silhouette? Test your holiday character knowledge with these fun riddles!",
     "url": "/quiz/thanksgiving-parade-balloon-silhouettes-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "signature-fall-comfort-bake-quiz",
+    "title": "What Is Your Signature Fall Comfort Bake?",
+    "category": "personality",
+    "tags": [
+      "fall baking",
+      "autumn desserts",
+      "comfort food quiz",
+      "personality quiz",
+      "cozy bakes"
+    ],
+    "description": "Discover your signature fall comfort bake with this fun personality quiz! Find out if you are a warm apple pie, spiced cinnamon roll, or pecan tart.",
+    "url": "/quiz/signature-fall-comfort-bake-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "guess-the-decade-gadget-sounds",
+    "title": "Can You Guess the Decade by the Gadget's Sound?",
+    "category": "trivia",
+    "tags": [
+      "technology",
+      "nostalgia",
+      "retro",
+      "history",
+      "trivia"
+    ],
+    "description": "Can you identify these obsolete gadgets just by the noises they make? Test your tech history knowledge with our fun sound-based trivia quiz!",
+    "url": "/quiz/guess-the-decade-gadget-sounds/",
+    "questions_count": 6
+  },
+  {
+    "slug": "broadway-lyrics-movie-characters-quiz",
+    "title": "Match the Broadway Lyrics to the Movie Character!",
+    "category": "trivia",
+    "tags": [
+      "broadway",
+      "musicals",
+      "movie trivia",
+      "lyrics",
+      "theater"
+    ],
+    "description": "Test your musical trivia skills! Can you match these iconic Broadway lyrics to the correct movie characters? Take the quiz now!",
+    "url": "/quiz/broadway-lyrics-movie-characters-quiz/",
+    "questions_count": 6
   }
 ]
