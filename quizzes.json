@@ -14369,5 +14369,50 @@
     "description": "Test your musical trivia skills! Can you match these iconic Broadway lyrics to the correct movie characters? Take the quiz now!",
     "url": "/quiz/broadway-lyrics-movie-characters-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "thanksgiving-plate-personality-quiz",
+    "title": "What Does Your Thanksgiving Plate Say About You?",
+    "category": "personality",
+    "tags": [
+      "thanksgiving",
+      "personality",
+      "food",
+      "quiz",
+      "holiday"
+    ],
+    "description": "Discover what your holiday dinner plate layout reveals about your personality with this fun, simple 6-question Thanksgiving quiz!",
+    "url": "/quiz/thanksgiving-plate-personality-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "hot-chocolate-flavor-winter-vibe-quiz",
+    "title": "What Hot Chocolate Flavor Is Your Winter Vibe?",
+    "category": "personality",
+    "tags": [
+      "hot chocolate",
+      "winter quiz",
+      "personality quiz",
+      "cozy vibes",
+      "food quiz"
+    ],
+    "description": "Discover which decadent hot chocolate flavor matches your ultimate winter vibe! Take our fun 6-question quiz to find your cozy cocoa match.",
+    "url": "/quiz/hot-chocolate-flavor-winter-vibe-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "classic-90s-christmas-decoration-quiz",
+    "title": "Can You Pass This 90s Christmas Decoration Quiz?",
+    "category": "trivia",
+    "tags": [
+      "90s",
+      "christmas",
+      "decorations",
+      "holiday",
+      "trivia"
+    ],
+    "description": "Can you identify these nostalgic 90s Christmas decorations? Test your holiday memory with our fun 90s Christmas decor trivia quiz!",
+    "url": "/quiz/classic-90s-christmas-decoration-quiz/",
+    "questions_count": 6
   }
 ]
