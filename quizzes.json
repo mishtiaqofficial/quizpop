@@ -14414,5 +14414,50 @@
     "description": "Can you identify these nostalgic 90s Christmas decorations? Test your holiday memory with our fun 90s Christmas decor trivia quiz!",
     "url": "/quiz/classic-90s-christmas-decoration-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "cozy-winter-fashion-aesthetic-quiz",
+    "title": "What Is Your Cozy Winter Fashion Aesthetic?",
+    "category": "personality",
+    "tags": [
+      "winter",
+      "fashion",
+      "aesthetic",
+      "style",
+      "quiz"
+    ],
+    "description": "Find your signature cold-weather style! Take our cozy winter fashion aesthetic quiz to discover if you are Cabin Core, Frosty Glam, or Retro Sport.",
+    "url": "/quiz/cozy-winter-fashion-aesthetic-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "gingerbread-house-design-style-quiz",
+    "title": "What Is Your Gingerbread House Design Style?",
+    "category": "personality",
+    "tags": [
+      "gingerbread house",
+      "holiday quiz",
+      "christmas aesthetic",
+      "holiday decor",
+      "baking fun"
+    ],
+    "description": "Take our fun holiday quiz to discover which gingerbread house design style best matches your festive personality and Christmas aesthetic!",
+    "url": "/quiz/gingerbread-house-design-style-quiz/",
+    "questions_count": 6
+  },
+  {
+    "slug": "where-is-the-elf-hiding-holiday-riddle-quiz",
+    "title": "Where Is the Elf Hiding? Holiday Riddle Quiz",
+    "category": "riddles",
+    "tags": [
+      "elf riddles",
+      "holiday quiz",
+      "christmas riddles",
+      "elf hiding spots",
+      "family riddles"
+    ],
+    "description": "Can you solve these whimsical riddles to find where the sneaky elf is hiding today? Test your holiday detective skills with this fun quiz!",
+    "url": "/quiz/where-is-the-elf-hiding-holiday-riddle-quiz/",
+    "questions_count": 6
   }
 ]
