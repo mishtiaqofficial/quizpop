@@ -14429,5 +14429,20 @@
     "description": "Can you solve these whimsical riddles to find where the sneaky elf is hiding today? Test your holiday detective skills with this fun quiz!",
     "url": "/quiz/where-is-the-elf-hiding-holiday-riddle-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "christmas-film-trivia-questions-quiz",
+    "title": "Christmas Film Trivia Questions Quiz",
+    "category": "trivia",
+    "tags": [
+      "christmas movies",
+      "holiday trivia",
+      "family quiz",
+      "christmas film trivia",
+      "movie night"
+    ],
+    "description": "Test your holiday movie knowledge with this fun christmas film trivia questions quiz! Perfect for family movie nights and winter game days.",
+    "url": "/quiz/christmas-film-trivia-questions-quiz/",
+    "questions_count": 6
   }
 ]
