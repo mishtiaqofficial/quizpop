@@ -14444,5 +14444,20 @@
     "description": "Test your holiday movie knowledge with this fun christmas film trivia questions quiz! Perfect for family movie nights and winter game days.",
     "url": "/quiz/christmas-film-trivia-questions-quiz/",
     "questions_count": 6
+  },
+  {
+    "slug": "cozy-game-winter-escape-quiz",
+    "title": "Which Cozy Game Is Your Ultimate Winter Escape?",
+    "category": "personality",
+    "tags": [
+      "cozy games",
+      "winter games",
+      "gaming quiz",
+      "video games",
+      "relaxing games"
+    ],
+    "description": "Find out which cozy, relaxing video game is your perfect winter escape with this fun personality quiz! Get your ideal game recommendation today.",
+    "url": "/quiz/cozy-game-winter-escape-quiz/",
+    "questions_count": 6
   }
 ]
